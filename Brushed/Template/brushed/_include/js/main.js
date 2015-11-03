@@ -78,14 +78,21 @@ jQuery(function ($) {
             thumbnail_navigation: 0,			// Thumbnail navigation
             slides: [			// Slideshow Images
                 {
-                    image: '_include/img/slider-images/522410.jpg',
-                    title: '<div class="slide-content">Test</div>',
+                    image: '_include/img/slider-images/OFA_1200.png',
+                    //title: '<div class="slide-content">Test</div>',
+                    title: '',
                     thumb: '',
                     url: ''
                 },
                 {
-                    image: '_include/img/slider-images/1268257863_marieclaireuk-april2010_005.jpg',
-                    title: '<div class="slide-content">Test</div>',
+                    image: '_include/img/slider-images/OFD_1200.png',
+                    title: '',
+                    thumb: '',
+                    url: ''
+                },
+                {
+                    image: '_include/img/slider-images/OFPA_1200.png',
+                    title: '',
                     thumb: '',
                     url: ''
                 }

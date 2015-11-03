@@ -911,16 +911,16 @@ nav#menu #menu-nav li a:hover {
     text-align: center;
 }
 
-#contact-form {
+#registration-form {
     margin-bottom: 0;
 }
 
-#contact-form p {
+#registration-form p {
     margin-bottom: 1px;
 }
 
-#contact-form input,
-#contact-form textarea {
+#registration-form input,
+#registration-form textarea {
     border: none;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -940,14 +940,14 @@ nav#menu #menu-nav li a:hover {
     resize: none;
 }
 
-#contact-form input {
+#registration-form input {
     width: 100%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
-#contact-form textarea {
+#registration-form textarea {
     width: 100%;
     resize: vertical;
     -webkit-box-sizing: border-box;
@@ -955,7 +955,7 @@ nav#menu #menu-nav li a:hover {
     box-sizing: border-box;
 }
 
-#contact-form .submit {
+#registration-form .submit {
     background: #3C3F45;
     color: #23262C;
     cursor: pointer;
@@ -974,7 +974,7 @@ nav#menu #menu-nav li a:hover {
     transition: background 0.1s linear 0s, color 0.1s linear 0s;
 }
 
-#contact-form .submit:hover {
+#registration-form .submit:hover {
     background: #DE5E60;
     color: #FFFFFF;
 }
