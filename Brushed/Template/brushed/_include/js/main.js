@@ -78,7 +78,13 @@ jQuery(function ($) {
             thumbnail_navigation: 0,			// Thumbnail navigation
             slides: [			// Slideshow Images
                 {
-                    image: '/home/dmitry/projects/frontend/Brushed/Template/brushed/_include/img/slider-images/522410.jpg',
+                    image: '_include/img/slider-images/522410.jpg',
+                    title: '<div class="slide-content">Test</div>',
+                    thumb: '',
+                    url: ''
+                },
+                {
+                    image: '_include/img/slider-images/1268257863_marieclaireuk-april2010_005.jpg',
                     title: '<div class="slide-content">Test</div>',
                     thumb: '',
                     url: ''
