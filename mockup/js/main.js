@@ -28,6 +28,8 @@ jQuery(function ($) {
     /* ==================================================
      My scripts
      ================================================== */
+    $("#registration_phone_number").mask("+9(999) 999-99-99");
+
     $('#invite-button').click(
         function () {
             var that = $('#invite');
