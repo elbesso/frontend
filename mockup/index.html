@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/supersized.3.2.7.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/form.validation.js"></script>
+</head>
+<body>
+    <label for="invite">Invite</label>
+    <input type="text" id="invite" class="invite">
+    <button type="button" title="button" id = "invite-button" class="invite-button">Start</button>
+
+    <div id="registration" class="page">
+        <div class="container">
+            <form id="registration-form" class="registration-form" action="#">
+                <div class="row">
+                    <div class="span6">
+                        <p class="registration-name">
+                            <label for="registration_name">Name</label>
+                            <input id="registration_name" name="registration_name" type="text" placeholder="Name">
+                        </p>
+                        <p class="registration-surname">
+                            <label for="registration_surname">Surname</label>
+                            <input id="registration_surname" name="registration_surname" type="text" placeholder="Surname">
+                        </p>
+                        <p class="registration-organization">
+                            <label for="registration_organization">Organization</label>
+                            <input id="registration_organization" name="registration_organization" type="text" placeholder="Organization">
+                        </p>
+                        <p class="registration-position">
+                            <label for="registration_position">Position</label>
+                            <input id="registration_position" name="registration_position" type="text" placeholder="Position">
+                        </p>
+                        <p class="registration-email">
+                            <label for="registration_email">Email</label>
+                            <input id="registration_email" name="registration_email" type="email" placeholder="someone@something.com">
+                        </p>
+                        <p class="registration-country">
+                            <label for="registration_country">Country</label>
+                            <select id="registration_country" name="registration_country">
+                                <option>Russian Federation</option>
+                                <option>United States</option>
+                            </select>
+                        </p>
+                        <p class="registration-state">
+                            <label for="registration_state">State</label>
+                            <input id="registration_state" name="registration_state" type="text" placeholder="State">
+                        </p>
+                    </div>
+                    <div class="span6">
+                        <p class="registration-city">
+                            <label for="registration_city">City</label>
+                            <input id="registration_city" name="registration_city" type="text" placeholder="City">
+                        </p>
+                        <p class="registration-postcode">
+                            <label for="registration_postcode">Postcode</label>
+                            <input id="registration_postcode" name="registration_postcode" type="text" placeholder="Postcode">
+                        </p>
+                        <p class="registration-address-line-1">
+                            <label for="registration_address_line_1">Address Line 1</label>
+                            <input id="registration_address_line_1" name="registration_address_line_1" type="text" placeholder="Address Line 1">
+                        </p>
+                        <p class="registration-address-line-2">
+                            <label for="registration_address_line_2">Address Line 2</label>
+                            <input id="registration_address_line_2" name="registration_address_line_2" type="text" placeholder="Address Line 2">
+                        </p>
+                        <p class="registration-address-line-3">
+                            <label for="registration_address_line_3">Address Line 3</label>
+                            <input id="registration_address_line_3" name="registration_address_line_3" type="text" placeholder="Address Line 3">
+                        </p>
+                        <p class="registration-phone-number">
+                            <label for="registration_phone_number">Phone Number</label>
+                            <input id="registration_phone_number" name="registration_phone_number" type="text" placeholder="Phone Number">
+                        </p>
+                        <p class="registration-invite">
+                            <label for="registration_invite">Invite</label>
+                            <input id="registration_invite" name="registration_invite" type="text" placeholder="Invite">
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span12">
+                        <p class="registration-submit">
+                            <a id="registration-submit" class="submit" href="#">Submit</a>
+                        </p>
+                        <div id="response"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End Registration Section -->
+
+
+</body>
+</html>

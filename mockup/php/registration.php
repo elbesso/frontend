@@ -6,12 +6,11 @@
  * Time: 18:09
  */
 
-$response = array();
-
 class Registration_Form{
     function __construct($details)
     {
         $this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice");
+
         $this->name = $_POST['name'];
         $this->surname = $_POST['surname'];
         $this->organization = $_POST['organization'];
@@ -36,6 +35,9 @@ class Registration_Form{
     {
         if ($_POST) {
             $response = array();
+            if (mysqli_error($this->connection)) {
+                $response['html'] .= '<p>Connection failed!</p>';
+        }
             $res = mysqli_query($this->connection, "SELECT * FROM invite WHERE invite = '$this->invite'");
             if (mysqli_num_rows($res) > 1) {
                 $response['html'] = '<p>The invite is not unique</p>';
