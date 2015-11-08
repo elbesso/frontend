@@ -10,8 +10,7 @@ ini_set('display_errors',1);
 error_reporting(E_ALL);
 
 class Registration_Form{
-    function __construct($details)
-    {
+    function __construct($details) {
         $this->email_admin = $admin_email = 'your@yourdomain.com';
         $this->response_status = 0;
         $this->response_html = '';
@@ -32,8 +31,8 @@ class Registration_Form{
         $this->invite = $_POST['registration_invite'];
     }
 
-    private function sendEmail(){
-        $to = $this->email;;
+    private function sendEmail() {
+        $to = $this->email;
         $subject = $this->subject;
         $message = $this->message;
         $headers = 'From: ' . $this->email_admin . "\r\n" .
@@ -45,11 +44,11 @@ class Registration_Form{
             $this->response_html .= '<p>The email has been sent to the provided address</p>';
         } else {
             $this->response_html .= '<p>Unable to sent an email to the provided address</p>';
+            error_log("Unable to sent an email to the provided address");
         }
     }
 
-    function sendResponse()
-    {
+    function sendResponse() {
         if ($_POST) {
             if (!$connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
                 $this->response_html = '<p>Internal error</p>';
