@@ -2,40 +2,43 @@ jQuery(function ($) {
     /* ==================================================
      Registration Form
      ================================================== */
-
     $("#registration-submit").on('click', function () {
-        $registration_form = $('#registration-form');
-
-        var fields = $registration_form.serialize();
-
-        $.ajax({
-            type: "POST",
-            url: "php/registration.php",
-            data: fields,
-            dataType: 'json',
-            success: function (response) {
-
-                if (response.status) {
-                    $('#registration-form input').val('');
+        var $registration_form = $('#registration-form');
+        if ($registration_form.valid()) {
+            var fields = $registration_form.serialize();
+            $.ajax({
+                type: "POST",
+                url: "php/registration.php",
+                data: fields,
+                dataType: 'json',
+                success: function (response) {
+                    console.debug(response.status);
+                    if (response.status) {
+                        $(location).attr('href', 'thankyou.html');
+                    }
+                    $('#response').empty().html(response.html);
                 }
-
-                $('#response').empty().html(response.html);
-            }
-        });
-        return false;
+            });
+            return false;
+        }
     });
+
+
+    /* ==================================================
+     Masks
+     ================================================== */
+    maskInvites($("#invite-main"), $("#registration_invite"));
+    $("#registration_phone_number").mask("+9(999) 999-99-99");
+
 
     /* ==================================================
      My scripts
      ================================================== */
-    $("#registration_phone_number").mask("+9(999) 999-99-99");
-
     $('#invite-button').click(
         function () {
-            var that = $('#invite');
+            var that = $('#invite-main');
             $('#registration_invite').val(that.val());
         });
-
 
     $(document).ready((function() {
         $(".registration-state").hide();
@@ -47,4 +50,14 @@ jQuery(function ($) {
             }
         });
     }));
+
+    function maskInvites() {
+        for (var i = 0; i < arguments.length; i++) {
+            arguments[i].mask("****-****-****-****");
+            arguments[i].focusout(function () {
+                $(this).val($(this).val().toUpperCase());
+            })
+        }
+    }
 });
+
