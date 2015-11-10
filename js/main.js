@@ -13,7 +13,7 @@ jQuery(function ($) {
         if (windowWidth <= 979) {
             if ($('#mobile-nav').length > 0) {
                 mobileMenuClone.insertAfter('#menu');
-                $('#navigation-mobile #menu-nav').attr('id', 'menu-nav-mobile');
+                $('#navigation-mobile').find('#menu-nav').attr('id', 'menu-nav-mobile');
             }
         } else {
             $('#navigation-mobile').css('display', 'none');
@@ -21,7 +21,7 @@ jQuery(function ($) {
                 $('#mobile-nav').removeClass('open');
             }
         }
-    }
+    };
 
     BRUSHED.listenerMenu = function () {
         $('#mobile-nav').on('click', function (e) {
@@ -35,11 +35,11 @@ jQuery(function ($) {
             e.preventDefault();
         });
 
-        $('#menu-nav-mobile a').on('click', function () {
+        $('#menu-nav-mobile').find('a').on('click', function () {
             $('#mobile-nav').removeClass('open');
             $('#navigation-mobile').slideUp(350, 'easeOutExpo');
         });
-    }
+    };
 
 
     /* ==================================================
@@ -104,7 +104,7 @@ jQuery(function ($) {
 
         });
 
-    }
+    };
 
 
     /* ==================================================
@@ -113,7 +113,7 @@ jQuery(function ($) {
 
     BRUSHED.nav = function () {
         $('.sticky-nav').waypoint('sticky');
-    }
+    };
 
     /* ==================================================
      Registration Form
@@ -153,8 +153,8 @@ jQuery(function ($) {
     $('#invite-button').click(
         function () {
             var that = $('#invite-main');
-            $('body, html').animate(that, 300, 'easeOutExpo');
             $('#registration_invite').val(that.val());
+            $('body, html').animate({scrollTop: $('#registration').offset().top}, 750, 'easeOutExpo');
         });
 
     $(document).ready((function() {
@@ -191,7 +191,7 @@ jQuery(function ($) {
             easing: 'easeOutExpo',
             filter: ':not(.external)'
         });
-    }
+    };
 
     /* ==================================================
      Next Section
@@ -204,7 +204,7 @@ jQuery(function ($) {
             $('body, html').animate({scrollTop: $target}, 750, 'easeOutExpo');
             return false;
         });
-    }
+    };
 
     /* ==================================================
      GoUp
@@ -217,7 +217,7 @@ jQuery(function ($) {
             $('body, html').animate({scrollTop: $target}, 750, 'easeOutExpo');
             return false;
         });
-    }
+    };
 
 
     /* ==================================================
@@ -233,7 +233,7 @@ jQuery(function ($) {
         $arrow.click(function (e) {
             $('body,html').animate({scrollTop: "0"}, 750, 'easeOutExpo');
             e.preventDefault();
-        })
+        });
 
         $(window).scroll(function () {
             didScroll = true;
@@ -250,7 +250,7 @@ jQuery(function ($) {
                 }
             }
         }, 250);
-    }
+    };
 
     /* ==================================================
      Thumbs / Social Effects
@@ -268,12 +268,12 @@ jQuery(function ($) {
             $(this).addClass('active');
         });
 
-        $('#social ul li').bind('touchstart', function () {
+        $('#social').find('ul li').bind('touchstart', function () {
             $(".active").removeClass("active");
             $(this).addClass('active');
         });
 
-    }
+    };
 
     /* ==================================================
      Accordion
@@ -295,7 +295,7 @@ jQuery(function ($) {
             }
             event.preventDefault();
         });
-    }
+    };
 
     /* ==================================================
      Toggle
@@ -315,7 +315,7 @@ jQuery(function ($) {
             }
             event.preventDefault();
         });
-    }
+    };
 
     /* ==================================================
      Tooltip
@@ -323,7 +323,7 @@ jQuery(function ($) {
 
     BRUSHED.toolTip = function () {
         $('a[data-toggle=tooltip]').tooltip();
-    }
+    };
 
 
     /* ==================================================
@@ -367,9 +367,6 @@ jQuery(function ($) {
         BRUSHED.menu();
         BRUSHED.goSection();
         BRUSHED.goUp();
-        BRUSHED.filter();
-        BRUSHED.fancyBox();
-        BRUSHED.tweetFeed();
         BRUSHED.scrollToTop();
         BRUSHED.utils();
         BRUSHED.accordion();
@@ -380,5 +377,4 @@ jQuery(function ($) {
     $(window).resize(function () {
         BRUSHED.mobileNav();
     });
-
 });
