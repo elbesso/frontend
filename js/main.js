@@ -144,7 +144,7 @@ jQuery(function ($) {
      Masks
      ================================================== */
     maskInvites($("#invite-main"), $("#registration_invite"));
-    $("#registration_phone_number").mask("+9(999) 999-99-99");
+    $("#registration_phone_number").mask("+9 999 99 99");
 
 
     /* ==================================================
