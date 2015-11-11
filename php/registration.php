@@ -6,10 +6,6 @@
  * Time: 18:09
  */
 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-mysqli_report(MYSQLI_REPORT_ALL);
-
 class Registration_Form {
     private $connection;
     private $stmt_select_inv;
