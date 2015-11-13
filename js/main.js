@@ -128,7 +128,6 @@ jQuery(function ($) {
                 data: fields,
                 dataType: 'json',
                 success: function (response) {
-                    console.debug(response.status);
                     if (response.status) {
                         $(location).attr('href', 'thankyou.html');
                     }
@@ -160,7 +159,7 @@ jQuery(function ($) {
     $(document).ready((function() {
         $(".registration-state").hide();
         $("#registration_country").change(function() {
-            if ($(this).val() == 'United States') {
+            if ($(this).find(":selected").attr("id") == 'UNITED_STATES') {
                 $(".registration-state").show();
             } else {
                 $(".registration-state").hide();
@@ -176,6 +175,14 @@ jQuery(function ($) {
             })
         }
     }
+
+    $(document).ready(function () {
+        $.get("php/country.php", function (response) {
+            if (response.status) {
+                $('#registration_country').empty().html(response.html);
+            }
+        }, "json");
+    });
 
     /* ==================================================
      Menu Highlight
@@ -330,8 +337,8 @@ jQuery(function ($) {
      Localization
      ================================================== */
     $('.language').click(function() {
-        var lang = $(this).attr('id');
-        $.cookie("lang", lang);
+        var locale = $(this).attr('id');
+        $.cookie("locale", locale);
         location.reload();
     });
 
