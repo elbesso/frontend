@@ -10,13 +10,27 @@ $response = array();
 $response['html'] = '';
 $response['status'] = 0;
 $connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice");
-if (!$connection) {
-    error_log("Connection failed: " . error_get_last());
-} else {
-    $res = $connection->query("SELECT * FROM country");
-    while ($row = $res->fetch_assoc()) {
-        $response['html'] .= '<option id="' . $row['id'] . '" class="country">' . gettext($row['id']) . '</option>\n';
+
+if ($_GET) {
+    if (!$connection) {
+        error_log("Connection failed: " . error_get_last());
+    } else {
+        $country = $_GET['param'];
+        if ($country == 'UNITED_STATES' || $country == 'CANADA') {
+            $res = $connection->query("SELECT * FROM state WHERE country_id = '$country'");
+            while ($row = $res->fetch_assoc()) {
+                $response['html'] .= '<option id="' . $row['id'] . '" class="country">' . gettext($row['id']) . '</option>\n';
+            }
+            $response['status'] = 1;
+        } else if ($country == 'country') {
+            $res = $connection->query("SELECT * FROM country");
+            while ($row = $res->fetch_assoc()) {
+                $response['html'] .= '<option id="' . $row['id'] . '" class="state">' . gettext($row['id']) . '</option>\n';
+            }
+            $response['status'] = 1;
+        }
     }
-    $response['status'] = 1;
 }
+
 echo json_encode($response);
+$connection->close();

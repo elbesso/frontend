@@ -94,122 +94,42 @@ require("php/setup.php")
                 <a id="nextsection" href="#invite_main"><i class="font-icon-arrow-simple-down"></i></a>
             </div>
         </div>
-            <header>
-                <div class="sticky-nav">
-                    <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-                    <div id="logo">
-                        <a id="goUp" href="#home-slider" title="Brushed | Responsive One Page Template">Brushed Template</a>
-                    </div>
-                    <div>
-                        <p class="credits">
-                            Language: <a id="en_US" class="language">English</a> <a id="ru_RU" class="language">Russian</a>
-                        </p>
-                    </div>
-                    <nav id="menu">
-                        <ul id="menu-nav">
-                            <li class="current"><a href="#home-slider">Home</a></li>
-                            <li><a href="#invite_main">Invite</a></li>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#registration">Register</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </nav>
+        <header>
+            <div class="sticky-nav">
+                <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+                <div id="logo">
+                    <a id="goUp" href="#home-slider" title=<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>><?php echo gettext("STICKY_NAV_GO_UP")?></a>
                 </div>
-            </header>
+                <div id="language">
+                    <?php echo gettext("STICKY_NAV_LANGUAGE")?>:
+                    <a id="en_US" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></a>
+                    <a id="ru_RU" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></a>
+                    <a id="es_ES" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></a>
+                </div>
+                <nav id="menu">
+                    <ul id="menu-nav">
+                        <li class="current"><a href="#home-slider"><?php echo gettext("MENU_HOME")?></a></li>
+                        <li><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
+                        <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
+                        <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
+                        <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <div id="invite_main" class="page">
             <div class="container">
                 <div class="row">
                     <div class="span12">
                         <h2 class="title"><?php echo gettext("INVITE_MAIN_TITLE")?></h2>
-                        <h3 class="title-description">To start</h3>
-                        <input type="text" id="invite-main" class="invite-main" placeholder="AAAA-AAAA-AAAA-AAAA">
+                        <h3 class="title-description"><?php echo gettext("INVITE_MAIN_TITLE_DESCRIPTION ")?></h3>
+                        <input type="text" id="invite-main" class="invite-main" placeholder="<?php echo gettext("INVITE_MAIN_PLACEHOLDER_INVITE")?>">
                         <div class="row">
                             <div class="span12">
                                 <p class="invite-button">
-                                    <a id="invite-button" class="submit" href="#registration">Start</a>
+                                    <a id="invite-button" class="submit" href="#registration"><?php echo gettext("INVITE_MAIN_INVITE_BUTTON")?></a>
                                 </p>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="about" class="page-alternate">
-            <div class="container">
-                <!-- Title Page -->
-                <div class="row">
-                    <div class="span12">
-                        <div class="title-page">
-                            <h2 class="title">About Us</h2>
-                            <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span4 profile">
-                        <div class="image-wrap">
-                            <div class="hover-wrap">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-text-thumb">CTO/Founder</span>
-                            </div>
-                            <img src="img/profile/profile-01.jpg" alt="John Doe">
-                        </div>
-                        <h3 class="profile-name">John Doe</h3>
-                        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac
-                            augue at erat <a href="#">hendrerit dictum</a>.
-                            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam
-                            vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                            himenaeos.</p>
-                        <div class="social">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span4 profile">
-                        <div class="image-wrap">
-                            <div class="hover-wrap">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-text-thumb">Creative Director</span>
-                            </div>
-                            <img src="img/profile/profile-02.jpg" alt="Jane Helf">
-                        </div>
-                        <h3 class="profile-name">Jane Helf</h3>
-                        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac
-                            augue at erat <a href="#">hendrerit dictum</a>.
-                            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam
-                            vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                            himenaeos.</p>
-                        <div class="social">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-email"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="span4 profile">
-                        <div class="image-wrap">
-                            <div class="hover-wrap">
-                                <span class="overlay-img"></span>
-                                <span class="overlay-text-thumb">Lead Designer</span>
-                            </div>
-                            <img src="img/profile/profile-03.jpg" alt="Joshua Insanus">
-                        </div>
-                        <h3 class="profile-name">Joshua Insanus</h3>
-                        <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac
-                            augue at erat <a href="#">hendrerit dictum</a>.
-                            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam
-                            vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-                            himenaeos.</p>
-                        <div class="social">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
-                                <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
-                            </ul>
                         </div>
                     </div>
                 </div>
@@ -221,62 +141,65 @@ require("php/setup.php")
                     <div class="row">
                         <div class="span6">
                             <p class="registration-name">
-                                <label for="registration_name">Name</label>
-                                <input id="registration_name" name="registration_name" type="text" placeholder="Your name">
+                                <label for="registration_name"><?php echo gettext("REGISTRATION_LABEL_NAME")?></label>
+                                <input id="registration_name" name="registration_name" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_NAME")?>">
                             </p>
                             <p class="registration-surname">
-                                <label for="registration_surname">Surname</label>
-                                <input id="registration_surname" name="registration_surname" type="text" placeholder="Your second name">
+                                <label for="registration_surname"><?php echo gettext("REGISTRATION_LABEL_SURNAME")?></label>
+                                <input id="registration_surname" name="registration_surname" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_SURNAME")?>">
                             </p>
                             <p class="registration-organization">
-                                <label for="registration_organization">Organization</label>
-                                <input id="registration_organization" name="registration_organization" type="text" placeholder="Your organization">
+                                <label for="registration_organization"><?php echo gettext("REGISTRATION_LABEL_ORGANIZATION")?></label>
+                                <input id="registration_organization" name="registration_organization" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_ORGANIZATION")?>">
                             </p>
                             <p class="registration-position">
-                                <label for="registration_position">Position</label>
-                                <input id="registration_position" name="registration_position" type="text" placeholder="Your job position">
+                                <label for="registration_position"><?php echo gettext("REGISTRATION_LABEL_POSITION")?></label>
+                                <input id="registration_position" name="registration_position" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_POSITION")?>">
                             </p>
                             <p class="registration-email">
-                                <label for="registration_email">Email</label>
-                                <input id="registration_email" name="registration_email" type="email" placeholder="someone@something.com">
+                                <label for="registration_email"><?php echo gettext("REGISTRATION_LABEL_EMAIL")?></label>
+                                <input id="registration_email" name="registration_email" type="email" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_EMAIL")?>">
                             </p>
                             <p class="registration-phone-number">
-                                <label for="registration_phone_number">Phone Number</label>
-                                <input id="registration_phone_number" name="registration_phone_number" type="text" placeholder="+9(999) 999-99-99">
+                                <label for="registration_phone_number"><?php echo gettext("REGISTRATION_LABEL_PHONE")?></label>
+                                <input id="registration_phone_number" name="registration_phone_number" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_PHONE")?>">
                             </p>
                         </div>
                         <div class="span6">
-                            <p class="registration-address">
-                                <label for="registration_address">Address</label>
-                                <textarea id="registration_address" name="registration_address" placeholder="Address"></textarea>
+                            <p class="registration-address-line-1">
+                                <label for="registration_address"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_1")?></label>
+                                <input id="registration_address_line_1" name="registration_address_line_1" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1")?>">
+                            </p>
+                            <p class="registration-address-line-2">
+                                <label for="registration_address"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_2")?></label>
+                                <input id="registration_address_line_2" name="registration_address_line_2" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2")?>">
                             </p>
                             <p class="registration-city">
-                                <label for="registration_city">City</label>
-                                <input id="registration_city" name="registration_city" type="text" placeholder="The city you live in">
+                                <label for="registration_city"><?php echo gettext("REGISTRATION_LABEL_CITY")?></label>
+                                <input id="registration_city" name="registration_city" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_CITY")?>">
                             </p>
                             <p class="registration-postcode">
-                                <label for="registration_postcode">Postcode</label>
-                                <input id="registration_postcode" name="registration_postcode" type="text" placeholder="Postal code">
+                                <label for="registration_postcode"><?php echo gettext("REGISTRATION_LABEL_POSTCODE")?></label>
+                                <input id="registration_postcode" name="registration_postcode" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_POSTCODE")?>">
                             </p>
                             <p class="registration-country">
-                                <label for="registration_country">Country</label>
-                                <select id="registration_country" name="registration_country">
-                                </select>
+                                <label for="registration_country"><?php echo gettext("REGISTRATION_LABEL_COUNTRY")?></label>
+                                <select id="registration_country" name="registration_country"></select>
                             </p>
                             <p class="registration-state">
-                                <label for="registration_state">State</label>
-                                <input id="registration_state" name="registration_state" type="text" placeholder="Which state you live in?">
+                                <label for="registration_state"><?php echo gettext("REGISTRATION_LABEL_STATE")?></label>
+                                <select id="registration_state" name="registration_state"></select>
                             </p>
                             <p class="registration-invite">
-                                <label for="registration_invite">Invite</label>
-                                <input id="registration_invite" name="registration_invite" type="text" placeholder="AAAA-AAAA-AAAA-AAAA">
+                                <label for="registration_invite"><?php echo gettext("REGISTRATION_LABEL_INVITE")?></label>
+                                <input id="registration_invite" name="registration_invite" type="text" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_INVITE")?>">
                             </p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="span12">
                             <p class="registration-submit">
-                                <a id="registration-submit" class="submit" href="#registration">Submit</a>
+                                <a id="registration-submit" class="submit" href="#registration"><?php echo gettext("REGISTRATION_SUBMIT")?></a>
                             </p>
                             <div id="response"></div>
                         </div>
@@ -284,14 +207,62 @@ require("php/setup.php")
                 </form>
             </div>
         </div>
-        <div id="contact" class="page-alternate">
+        <div id="about" class="page-alternate">
             <div class="container">
                 <!-- Title Page -->
                 <div class="row">
                     <div class="span12">
                         <div class="title-page">
-                            <h2 class="title">Contact us</h2>
-                            <h3 class="title-description">If you have anything to talk about</h3>
+                            <h2 class="title"><?php echo gettext("ABOUT_TITLE")?></h2>
+                            <h3 class="title-description"><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FIRST_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-01.jpg" alt=<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>>
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_FIRST_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_FIRST_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_SECOND_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-02.jpg" alt=<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>>
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_SECOND_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_SECOND_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_THIRD_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-03.jpg" alt=<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>>
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_THIRD_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="page">
+            <div class="container">
+                <!-- Title Page -->
+                <div class="row">
+                    <div class="span12">
+                        <div class="title-page">
+                            <h2 class="title"><?php echo gettext("CONTACT_TITLE")?></h2>
+                            <h3 class="title-description"><?php echo gettext("CONTACT_TITLE_DESCRIPTION")?></h3>
                         </div>
                     </div>
                 </div>
@@ -300,14 +271,14 @@ require("php/setup.php")
                         <div class="contact-details">
                             <h3>Contact Details</h3>
                             <ul>
-                                <li><a href="#">hello@brushed.com</a></li>
-                                <li>(916) 375-2525</li>
+                                <li><a href="#"><?php echo gettext("CONTACT_DETAIL_EMAIL")?></a></li>
+                                <li><?php echo gettext("CONTACT_DETAIL_PHONE")?></li>
                                 <li>
-                                    Brushed Studio
+                                    <?php echo gettext("CONTACT_DETAIL_ADDRESS_LINE_1")?>
                                     <br>
-                                    5240 Vanish Island. 105
+                                    <?php echo gettext("CONTACT_DETAIL_ADDRESS_LINE_2")?>
                                     <br>
-                                    Unknow
+                                    <?php echo gettext("CONTACT_DETAIL_ADDRESS_LINE_3")?>
                                 </li>
                             </ul>
                         </div>
@@ -316,10 +287,9 @@ require("php/setup.php")
             </div>
         </div>
         <footer>
-            <p class="credits">&copy;2013 Brushed. <a href="http://themes.alessioatzeni.com/html/brushed/"
-                                                      title="Brushed | Responsive One Page Template">Brushed Template</a> by <a
-                    href="http://www.alessioatzeni.com/" title="Alessio Atzeni | Web Designer &amp; Front-end Developer">Alessio
-                    Atzeni</a></p>
+            <p class="credits"><?php echo gettext("FOOTER_FIRST")?> <a href="http://themes.alessioatzeni.com/html/brushed/"
+                                                      title=<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>><?php echo gettext("FOOTER_SECOND")?> </a><?php echo gettext("FOOTER_THIRD")?> <a
+                    href="http://www.alessioatzeni.com/" title=<?php echo gettext("FOOTER_SECOND_LINK_TITLE")?> ><?php echo gettext("FOOTER_FORTH")?></a></p>
         </footer>
         <a id="back-to-top" href="#">
             <i class="font-icon-arrow-simple-up"></i>

@@ -34,9 +34,12 @@ $(document).ready((function() {
                 required: true,
                 maxlength: 255
             },
-            registration_address: {
+            registration_address_line_1: {
                 required: true,
-                maxlength: 1024
+                maxlength: 512
+            },
+            registration_address_line_2: {
+                maxlength: 512
             },
             registration_phone_number: {
                 required: true,
@@ -78,9 +81,12 @@ $(document).ready((function() {
                 required: "Please enter you postal code",
                 maxlength: "Postal code should not be longer than 255 characters"
             },
-            registration_address: {
+            registration_address_line_1: {
                 required: "Please enter you address",
-                maxlength: "Address should not be longer than 1024 characters"
+                maxlength: "Address line one should not be longer than 5012 characters"
+            },
+            registration_address_line_2: {
+                maxlength: "Address line one should not be longer than 5012 characters"
             },
             registration_phone_number: {
                 required: "Please enter your phone number",

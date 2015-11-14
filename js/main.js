@@ -157,12 +157,19 @@ jQuery(function ($) {
         });
 
     $(document).ready((function() {
-        $(".registration-state").hide();
+        var state = $(".registration-state");
+        state.hide();
         $("#registration_country").change(function() {
-            if ($(this).find(":selected").attr("id") == 'UNITED_STATES') {
-                $(".registration-state").show();
+            var id = $(this).find(":selected").attr("id");
+            if (id == 'UNITED_STATES' || id == 'CANADA') {
+                $.get("php/country.php", {param: id}, function (response) {
+                    if (response.status) {
+                        $('#registration_state').empty().html(response.html);
+                    }
+                }, "json");
+                state.show();
             } else {
-                $(".registration-state").hide();
+                state.hide();
             }
         });
     }));
@@ -177,7 +184,7 @@ jQuery(function ($) {
     }
 
     $(document).ready(function () {
-        $.get("php/country.php", function (response) {
+        $.get("php/country.php", {param: 'country'}, function (response) {
             if (response.status) {
                 $('#registration_country').empty().html(response.html);
             }

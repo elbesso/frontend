@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-13 18:11+0300\n"
-"PO-Revision-Date: 2015-11-13 18:12+0300\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2015-11-14 18:37+0300\n"
+"PO-Revision-Date: 2015-11-14 18:37+0300\n"
+"Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: en_US\n"
 "MIME-Version: 1.0\n"
@@ -11,10 +11,278 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: /home/raguzin/projects/frontend\n"
+"X-Poedit-Basepath: /home/dmitry/projects/frontend\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: index.php:201
+#: index.php:101
+msgid "STICKY_NAV_GO_UP_LINK_TITLE"
+msgstr ""
+
+#: index.php:101
+msgid "STICKY_NAV_GO_UP"
+msgstr ""
+
+#: index.php:104
+msgid "STICKY_NAV_LANGUAGE"
+msgstr ""
+
+#: index.php:105
+msgid "STICKY_NAV_LANGUAGE_ENGLISH"
+msgstr ""
+
+#: index.php:106
+msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
+msgstr ""
+
+#: index.php:107
+msgid "STICKY_NAV_LANGUAGE_SPANISH"
+msgstr ""
+
+#: index.php:111
+msgid "MENU_HOME"
+msgstr ""
+
+#: index.php:112
+msgid "MENU_INVITE"
+msgstr ""
+
+#: index.php:113
+msgid "MENU_REGISTRATION"
+msgstr ""
+
+#: index.php:114
+msgid "MENU_ABOUT"
+msgstr ""
+
+#: index.php:115
+msgid "MENU_CONTACT"
+msgstr ""
+
+#: index.php:124
 msgid "INVITE_MAIN_TITLE"
 msgstr "Enter your invite"
+
+#: index.php:125
+msgid "INVITE_MAIN_TITLE_DESCRIPTION "
+msgstr ""
+
+#: index.php:126
+#, fuzzy
+msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
+msgstr "Start"
+
+#: index.php:130
+msgid "INVITE_MAIN_INVITE_BUTTON"
+msgstr "Start"
+
+#: index.php:144
+msgid "REGISTRATION_LABEL_NAME"
+msgstr ""
+
+#: index.php:145
+msgid "REGISTRATION_PLACEHOLDER_NAME"
+msgstr ""
+
+#: index.php:148
+msgid "REGISTRATION_LABEL_SURNAME"
+msgstr ""
+
+#: index.php:149
+msgid "REGISTRATION_PLACEHOLDER_SURNAME"
+msgstr ""
+
+#: index.php:152
+msgid "REGISTRATION_LABEL_ORGANIZATION"
+msgstr ""
+
+#: index.php:153
+msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
+msgstr ""
+
+#: index.php:156
+msgid "REGISTRATION_LABEL_POSITION"
+msgstr ""
+
+#: index.php:157
+msgid "REGISTRATION_PLACEHOLDER_POSITION"
+msgstr ""
+
+#: index.php:160
+msgid "REGISTRATION_LABEL_EMAIL"
+msgstr ""
+
+#: index.php:161
+msgid "REGISTRATION_PLACEHOLDER_EMAIL"
+msgstr ""
+
+#: index.php:164
+msgid "REGISTRATION_LABEL_PHONE"
+msgstr ""
+
+#: index.php:165
+msgid "REGISTRATION_PLACEHOLDER_PHONE"
+msgstr ""
+
+#: index.php:170
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
+msgstr ""
+
+#: index.php:171
+#, fuzzy
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
+msgstr "Start"
+
+#: index.php:174
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
+msgstr ""
+
+#: index.php:175
+#, fuzzy
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
+msgstr "Start"
+
+#: index.php:178
+msgid "REGISTRATION_LABEL_CITY"
+msgstr ""
+
+#: index.php:179
+msgid "REGISTRATION_PLACEHOLDER_CITY"
+msgstr ""
+
+#: index.php:182
+msgid "REGISTRATION_LABEL_POSTCODE"
+msgstr ""
+
+#: index.php:183
+msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
+msgstr ""
+
+#: index.php:186
+msgid "REGISTRATION_LABEL_COUNTRY"
+msgstr ""
+
+#: index.php:190
+msgid "REGISTRATION_LABEL_STATE"
+msgstr ""
+
+#: index.php:194
+msgid "REGISTRATION_LABEL_INVITE"
+msgstr ""
+
+#: index.php:195
+msgid "REGISTRATION_PLACEHOLDER_INVITE"
+msgstr ""
+
+#: index.php:202
+msgid "REGISTRATION_SUBMIT"
+msgstr ""
+
+#: index.php:216
+msgid "ABOUT_TITLE"
+msgstr ""
+
+#: index.php:217
+msgid "ABOUT_TITLE_DESCRIPTION"
+msgstr ""
+
+#: index.php:226
+msgid "ABOUT_FIRST_OVERLAY_THUMB"
+msgstr ""
+
+#: index.php:228
+msgid "ABOUT_FIRST_IMG_ALT"
+msgstr ""
+
+#: index.php:230
+msgid "ABOUT_FIRST_PROFILE_NAME"
+msgstr ""
+
+#: index.php:231
+msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: index.php:237
+msgid "ABOUT_SECOND_OVERLAY_THUMB"
+msgstr ""
+
+#: index.php:239
+msgid "ABOUT_SECOND_IMG_ALT"
+msgstr ""
+
+#: index.php:241
+msgid "ABOUT_SECOND_PROFILE_NAME"
+msgstr ""
+
+#: index.php:242
+msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: index.php:248
+msgid "ABOUT_THIRD_OVERLAY_THUMB"
+msgstr ""
+
+#: index.php:250
+msgid "ABOUT_THIRD_IMG_ALT"
+msgstr ""
+
+#: index.php:252
+msgid "ABOUT_THIRD_PROFILE_NAME"
+msgstr ""
+
+#: index.php:253
+msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: index.php:264
+#, fuzzy
+msgid "CONTACT_TITLE"
+msgstr "Enter your invite"
+
+#: index.php:265
+msgid "CONTACT_TITLE_DESCRIPTION"
+msgstr ""
+
+#: index.php:274
+msgid "CONTACT_DETAIL_EMAIL"
+msgstr ""
+
+#: index.php:275
+msgid "CONTACT_DETAIL_PHONE"
+msgstr ""
+
+#: index.php:277
+msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
+msgstr ""
+
+#: index.php:279
+msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
+msgstr ""
+
+#: index.php:281
+msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
+msgstr ""
+
+#: index.php:290
+msgid "FOOTER_FIRST"
+msgstr ""
+
+#: index.php:291
+msgid "FOOTER_FIRST_LINK_TITLE"
+msgstr ""
+
+#: index.php:291
+msgid "FOOTER_SECOND"
+msgstr ""
+
+#: index.php:291
+msgid "FOOTER_THIRD"
+msgstr ""
+
+#: index.php:292
+msgid "FOOTER_SECOND_LINK_TITLE"
+msgstr ""
+
+#: index.php:292
+msgid "FOOTER_FORTH"
+msgstr ""

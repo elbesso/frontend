@@ -41,16 +41,17 @@ class Registration_Form {
         $this->position = $_POST['registration_position'];
         $this->email = $_POST['registration_email'];
         $this->country = $_POST['registration_country'];
-        $this->state = $_POST['registration_state'];
+        $this->state = array_key_exists('registration_state', $_POST) ? $_POST['registration_state'] : null;
         $this->city = $_POST['registration_city'];
         $this->postcode = $_POST['registration_postcode'];
-        $this->address = $_POST['registration_address'];
+        $this->address = $_POST['registration_address_line_1'].'\n'.$_POST['registration_address_line_2'];
         $this->phone_number = $_POST['registration_phone_number'];
         $this->invite = $_POST['registration_invite'];
 
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
-            error_log("Connection failed: " . error_get_last());
+            error_log("Connection failed: " . $this->connection->error);
         } else {
+            $this->connection->set_charset("utf8");
             if (!$this->stmt_select_inv = $this->connection->prepare("SELECT * FROM invite WHERE invite = ?")) {
                 error_log("Prepare failed(select invite): " . error_get_last());
             } else {
@@ -58,15 +59,15 @@ class Registration_Form {
             }
             if (!$this->stmt_select_usr = $this->connection->prepare("SELECT * FROM user WHERE name = ?
                     AND surname = ? AND email = ?")) {
-                error_log("Prepare failed(select user): " . error_get_last());
+                error_log("Prepare failed(select user): " . $this->connection->error);
             } else {
                 $this->stmt_select_usr->bind_param('sss', $this->name, $this->surname, $this->email);
             }
             if (!$this->stmt_insert = $this->connection->prepare('INSERT INTO user (name, surname, organization,
-                    position, email, country, state, city, postcode, address, phone_number)
+                    position, email, country_id, state_id, city, postcode, address, phone_number)
                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)')
             ) {
-                error_log("Prepare failed(insert): " . error_get_last());
+                error_log("Prepare failed(insert): " . $this->connection->error);
             } else {
                 $this->stmt_insert->bind_param('sssssssssss', $this->name, $this->surname, $this->organization,
                     $this->position, $this->email, $this->country, $this->state, $this->city, $this->postcode,
@@ -75,7 +76,7 @@ class Registration_Form {
             if (!$this->stmt_update = $this->connection->prepare('UPDATE invite SET user_id = ?, date_activated = now()
                     WHERE invite = ?')
             ) {
-                error_log("Prepare failed(update): " . error_get_last());
+                error_log("Prepare failed(update): " . $this->connection->error);
             } else {
                 $this->stmt_update->bind_param('ss', $this->user_id, $this->invite);
             }
@@ -119,7 +120,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 600;
+                $lockout_time = 10;
                 $first_failed_invite_time = 0;
                 $failed_count = 0;
                 $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
@@ -135,10 +136,10 @@ class Registration_Form {
                         . ($lockout_time - (time() - $first_failed_invite_time)) . ' seconds</p>';
                 } else {
                     if (!$this->stmt_select_inv->execute()) {
-                        error_log("Execute failed(select invite): " . error_get_last());
+                        error_log("Execute failed(select invite): " . $this->connection->error);
                     } else {
                         if (!$res = $this->stmt_select_inv->get_result()) {
-                            error_log("Get result failed(select invite): " . error_get_last());
+                            error_log("Get result failed(select invite): " . $this->connection->error);
                         } else {
                             if ($res->num_rows == 0) {
                                 $this->response_html = '<p>Incorrect invite</p>';
@@ -164,14 +165,14 @@ class Registration_Form {
                                     }
                                 } else {
                                     if (!$this->stmt_select_usr->execute()) {
-                                        error_log("Execute failed(select user): " . error_get_last());
+                                        error_log("Execute failed(select user): " . $this->connection->error);
                                     } else {
                                         if (!$res = $this->stmt_select_usr->get_result()) {
-                                            error_log("Get result failed(select user): " . error_get_last());
+                                            error_log("Get result failed(select user): " . $this->connection->error);
                                         } else {
                                             if ($res->num_rows == 0) {
                                                 if (!$this->stmt_insert->execute()) {
-                                                    error_log("Execute failed(insert): " . error_get_last());
+                                                    error_log("Execute failed(insert): " . $this->connection->error);
                                                 } else {
                                                     $this->user_id = $this->stmt_insert->insert_id;
                                                 }
@@ -180,7 +181,7 @@ class Registration_Form {
                                                 $this->user_id = $row['id'];
                                             }
                                             if (!$this->stmt_update->execute()) {
-                                                error_log("Execute failed(update): " . error_get_last());
+                                                error_log("Execute failed(update): " . $this->connection->error);
                                             } else {
                                                 $this->response_html = '<p>Welcome!</p>';
                                                 $this->response_status = 1;
@@ -202,6 +203,6 @@ class Registration_Form {
 }
 $registration_form = new Registration_Form($_POST);
 $registration_form->send_response();
-if ($registration_form->response_status) {
-    $registration_form->send_email();
-}
+//if ($registration_form->response_status) {
+//    $registration_form->send_email();
+//}

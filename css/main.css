@@ -937,6 +937,10 @@ nav#menu #menu-nav li a:hover {
     padding: 15px;
     margin: 0;
 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
     resize: none;
 }
 
@@ -1261,4 +1265,14 @@ footer .credits {
     -ms-transition: none;
     -o-transition: none;
     transition: none;
+}
+
+#language {
+    display: inline-block;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+#registration-form select {
+    -moz-appearance: none;
 }
