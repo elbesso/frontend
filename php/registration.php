@@ -120,7 +120,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 10;
+                $lockout_time = 600;
                 $first_failed_invite_time = 0;
                 $failed_count = 0;
                 $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
@@ -153,8 +153,12 @@ class Registration_Form {
                                 }
                             } else {
                                 $row = $res->fetch_assoc();
-                                if ($row["date_activated"] != null or $row["user_id"] != null) {
-                                    $this->response_html = '<p>The invite is already used</p>';
+                                if ($row["date_activated"] != null or $row["user_id"] != null or (strtotime($row["date_expire"]) < time())) {
+                                    if ($row["date_activated"] != null or $row["user_id"] != null) {
+                                        $this->response_html = '<p>The invite is already used</p>';
+                                    } else if (strtotime($row["date_expire"]) < time()) {
+                                        $this->response_html = '<p>The invite is expired</p>';
+                                    }
                                     $failed_count++;
                                     if (time() - $first_failed_invite_time > $lockout_time) {
                                         $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
