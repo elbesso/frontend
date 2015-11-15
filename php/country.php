@@ -1,36 +1,238 @@
-<?php
-/**
- * Created by IntelliJ IDEA.
- * User: raguzin
- * Date: 13.11.15
- * Time: 14:56
- */
-require("setup.php");
-$response = array();
-$response['html'] = '';
-$response['status'] = 0;
-$connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice");
-
-if ($_GET) {
-    if (!$connection) {
-        error_log("Connection failed: " . error_get_last());
-    } else {
-        $country = $_GET['param'];
-        if ($country == 'UNITED_STATES' || $country == 'CANADA') {
-            $res = $connection->query("SELECT * FROM state WHERE country_id = '$country'");
-            while ($row = $res->fetch_assoc()) {
-                $response['html'] .= '<option id="' . $row['id'] . '" class="country">' . gettext($row['id']) . '</option>\n';
-            }
-            $response['status'] = 1;
-        } else if ($country == 'country') {
-            $res = $connection->query("SELECT * FROM country");
-            while ($row = $res->fetch_assoc()) {
-                $response['html'] .= '<option id="' . $row['id'] . '" class="state">' . gettext($row['id']) . '</option>\n';
-            }
-            $response['status'] = 1;
-        }
-    }
-}
-
-echo json_encode($response);
-$connection->close();
+<option id="AALAND_ISLANDS" class="country" value="AALAND_ISLANDS"><?php echo gettext("AALAND_ISLANDS")?></option>
+<option id="AFGHANISTAN" class="country" value="AFGHANISTAN"><?php echo gettext("AFGHANISTAN")?></option>
+<option id="ALBANIA" class="country" value="ALBANIA"><?php echo gettext("ALBANIA")?></option>
+<option id="ALGERIA" class="country" value="ALGERIA"><?php echo gettext("ALGERIA")?></option>
+<option id="AMERICAN_SAMOA" class="country" value="AMERICAN_SAMOA"><?php echo gettext("AMERICAN_SAMOA")?></option>
+<option id="ANDORRA" class="country" value="ANDORRA"><?php echo gettext("ANDORRA")?></option>
+<option id="ANGOLA" class="country" value="ANGOLA"><?php echo gettext("ANGOLA")?></option>
+<option id="ANGUILLA" class="country" value="ANGUILLA"><?php echo gettext("ANGUILLA")?></option>
+<option id="ANTARCTICA" class="country" value="ANTARCTICA"><?php echo gettext("ANTARCTICA")?></option>
+<option id="ANTIGUA_AND_BARBUDA" class="country" value="ANTIGUA_AND_BARBUDA"><?php echo gettext("ANTIGUA_AND_BARBUDA")?></option>
+<option id="ARGENTINA" class="country" value="ARGENTINA"><?php echo gettext("ARGENTINA")?></option>
+<option id="ARMENIA" class="country" value="ARMENIA"><?php echo gettext("ARMENIA")?></option>
+<option id="ARUBA" class="country" value="ARUBA"><?php echo gettext("ARUBA")?></option>
+<option id="AUSTRALIA" class="country" value="AUSTRALIA"><?php echo gettext("AUSTRALIA")?></option>
+<option id="AUSTRIA" class="country" value="AUSTRIA"><?php echo gettext("AUSTRIA")?></option>
+<option id="AZERBAIJAN" class="country" value="AZERBAIJAN"><?php echo gettext("AZERBAIJAN")?></option>
+<option id="BAHAMAS" class="country" value="BAHAMAS"><?php echo gettext("BAHAMAS")?></option>
+<option id="BAHRAIN" class="country" value="BAHRAIN"><?php echo gettext("BAHRAIN")?></option>
+<option id="BANGLADESH" class="country" value="BANGLADESH"><?php echo gettext("BANGLADESH")?></option>
+<option id="BARBADOS" class="country" value="BARBADOS"><?php echo gettext("BARBADOS")?></option>
+<option id="BELARUS" class="country" value="BELARUS"><?php echo gettext("BELARUS")?></option>
+<option id="BELGIUM" class="country" value="BELGIUM"><?php echo gettext("BELGIUM")?></option>
+<option id="BELIZE" class="country" value="BELIZE"><?php echo gettext("BELIZE")?></option>
+<option id="BENIN" class="country" value="BENIN"><?php echo gettext("BENIN")?></option>
+<option id="BERMUDA" class="country" value="BERMUDA"><?php echo gettext("BERMUDA")?></option>
+<option id="BHUTAN" class="country" value="BHUTAN"><?php echo gettext("BHUTAN")?></option>
+<option id="BOLIVIA" class="country" value="BOLIVIA"><?php echo gettext("BOLIVIA")?></option>
+<option id="BOSNIA_AND_HERZEGOWINA" class="country" value="BOSNIA_AND_HERZEGOWINA"><?php echo gettext("BOSNIA_AND_HERZEGOWINA")?></option>
+<option id="BOTSWANA" class="country" value="BOTSWANA"><?php echo gettext("BOTSWANA")?></option>
+<option id="BOUVET_ISLAND" class="country" value="BOUVET_ISLAND"><?php echo gettext("BOUVET_ISLAND")?></option>
+<option id="BRAZIL" class="country" value="BRAZIL"><?php echo gettext("BRAZIL")?></option>
+<option id="BRITISH_INDIAN_OCEAN_TERRITORY" class="country" value="BRITISH_INDIAN_OCEAN_TERRITORY"><?php echo gettext("BRITISH_INDIAN_OCEAN_TERRITORY")?></option>
+<option id="BRUNEI_DARUSSALAM" class="country" value="BRUNEI_DARUSSALAM"><?php echo gettext("BRUNEI_DARUSSALAM")?></option>
+<option id="BULGARIA" class="country" value="BULGARIA"><?php echo gettext("BULGARIA")?></option>
+<option id="BURKINA_FASO" class="country" value="BURKINA_FASO"><?php echo gettext("BURKINA_FASO")?></option>
+<option id="BURUNDI" class="country" value="BURUNDI"><?php echo gettext("BURUNDI")?></option>
+<option id="CAMBODIA" class="country" value="CAMBODIA"><?php echo gettext("CAMBODIA")?></option>
+<option id="CAMEROON" class="country" value="CAMEROON"><?php echo gettext("CAMEROON")?></option>
+<option id="CANADA" class="country" value="CANADA"><?php echo gettext("CANADA")?></option>
+<option id="CAPE_VERDE" class="country" value="CAPE_VERDE"><?php echo gettext("CAPE_VERDE")?></option>
+<option id="CAYMAN_ISLANDS" class="country" value="CAYMAN_ISLANDS"><?php echo gettext("CAYMAN_ISLANDS")?></option>
+<option id="CENTRAL_AFRICAN_REPUBLIC" class="country" value="CENTRAL_AFRICAN_REPUBLIC"><?php echo gettext("CENTRAL_AFRICAN_REPUBLIC")?></option>
+<option id="CHAD" class="country" value="CHAD"><?php echo gettext("CHAD")?></option>
+<option id="CHILE" class="country" value="CHILE"><?php echo gettext("CHILE")?></option>
+<option id="CHINA" class="country" value="CHINA"><?php echo gettext("CHINA")?></option>
+<option id="CHRISTMAS_ISLAND" class="country" value="CHRISTMAS_ISLAND"><?php echo gettext("CHRISTMAS_ISLAND")?></option>
+<option id="COCOS_KEELING_ISLANDS" class="country" value="COCOS_KEELING_ISLANDS"><?php echo gettext("COCOS_KEELING_ISLANDS")?></option>
+<option id="COLOMBIA" class="country" value="COLOMBIA"><?php echo gettext("COLOMBIA")?></option>
+<option id="COMOROS" class="country" value="COMOROS"><?php echo gettext("COMOROS")?></option>
+<option id="CONGO" class="country" value="CONGO"><?php echo gettext("CONGO")?></option>
+<option id="COOK_ISLANDS" class="country" value="COOK_ISLANDS"><?php echo gettext("COOK_ISLANDS")?></option>
+<option id="COSTA_RICA" class="country" value="COSTA_RICA"><?php echo gettext("COSTA_RICA")?></option>
+<option id="COTE_DIVOIRE" class="country" value="COTE_DIVOIRE"><?php echo gettext("COTE_DIVOIRE")?></option>
+<option id="CROATIA" class="country" value="CROATIA"><?php echo gettext("CROATIA")?></option>
+<option id="CUBA" class="country" value="CUBA"><?php echo gettext("CUBA")?></option>
+<option id="CYPRUS" class="country" value="CYPRUS"><?php echo gettext("CYPRUS")?></option>
+<option id="CZECH_REPUBLIC" class="country" value="CZECH_REPUBLIC"><?php echo gettext("CZECH_REPUBLIC")?></option>
+<option id="DENMARK" class="country" value="DENMARK"><?php echo gettext("DENMARK")?></option>
+<option id="DJIBOUTI" class="country" value="DJIBOUTI"><?php echo gettext("DJIBOUTI")?></option>
+<option id="DOMINICA" class="country" value="DOMINICA"><?php echo gettext("DOMINICA")?></option>
+<option id="DOMINICAN_REPUBLIC" class="country" value="DOMINICAN_REPUBLIC"><?php echo gettext("DOMINICAN_REPUBLIC")?></option>
+<option id="EAST_TIMOR" class="country" value="EAST_TIMOR"><?php echo gettext("EAST_TIMOR")?></option>
+<option id="ECUADOR" class="country" value="ECUADOR"><?php echo gettext("ECUADOR")?></option>
+<option id="EGYPT" class="country" value="EGYPT"><?php echo gettext("EGYPT")?></option>
+<option id="EL_SALVADOR" class="country" value="EL_SALVADOR"><?php echo gettext("EL_SALVADOR")?></option>
+<option id="EQUATORIAL_GUINEA" class="country" value="EQUATORIAL_GUINEA"><?php echo gettext("EQUATORIAL_GUINEA")?></option>
+<option id="ERITREA" class="country" value="ERITREA"><?php echo gettext("ERITREA")?></option>
+<option id="ESTONIA" class="country" value="ESTONIA"><?php echo gettext("ESTONIA")?></option>
+<option id="ETHIOPIA" class="country" value="ETHIOPIA"><?php echo gettext("ETHIOPIA")?></option>
+<option id="FALKLAND_ISLANDS" class="country" value="FALKLAND_ISLANDS"><?php echo gettext("FALKLAND_ISLANDS")?></option>
+<option id="FAROE_ISLANDS" class="country" value="FAROE_ISLANDS"><?php echo gettext("FAROE_ISLANDS")?></option>
+<option id="FIJI" class="country" value="FIJI"><?php echo gettext("FIJI")?></option>
+<option id="FINLAND" class="country" value="FINLAND"><?php echo gettext("FINLAND")?></option>
+<option id="FRANCE" class="country" value="FRANCE"><?php echo gettext("FRANCE")?></option>
+<option id="FRANCE_METROPOLITAN" class="country" value="FRANCE_METROPOLITAN"><?php echo gettext("FRANCE_METROPOLITAN")?></option>
+<option id="FRENCH_GUIANA" class="country" value="FRENCH_GUIANA"><?php echo gettext("FRENCH_GUIANA")?></option>
+<option id="FRENCH_POLYNESIA" class="country" value="FRENCH_POLYNESIA"><?php echo gettext("FRENCH_POLYNESIA")?></option>
+<option id="FRENCH_SOUTHERN_TERRITORIES" class="country" value="FRENCH_SOUTHERN_TERRITORIES"><?php echo gettext("FRENCH_SOUTHERN_TERRITORIES")?></option>
+<option id="GABON" class="country" value="GABON"><?php echo gettext("GABON")?></option>
+<option id="GAMBIA" class="country" value="GAMBIA"><?php echo gettext("GAMBIA")?></option>
+<option id="GEORGIA" class="country" value="GEORGIA"><?php echo gettext("GEORGIA")?></option>
+<option id="GERMANY" class="country" value="GERMANY"><?php echo gettext("GERMANY")?></option>
+<option id="GHANA" class="country" value="GHANA"><?php echo gettext("GHANA")?></option>
+<option id="GIBRALTAR" class="country" value="GIBRALTAR"><?php echo gettext("GIBRALTAR")?></option>
+<option id="GREECE" class="country" value="GREECE"><?php echo gettext("GREECE")?></option>
+<option id="GREENLAND" class="country" value="GREENLAND"><?php echo gettext("GREENLAND")?></option>
+<option id="GRENADA" class="country" value="GRENADA"><?php echo gettext("GRENADA")?></option>
+<option id="GUADELOUPE" class="country" value="GUADELOUPE"><?php echo gettext("GUADELOUPE")?></option>
+<option id="GUAM" class="country" value="GUAM"><?php echo gettext("GUAM")?></option>
+<option id="GUATEMALA" class="country" value="GUATEMALA"><?php echo gettext("GUATEMALA")?></option>
+<option id="GUINEA" class="country" value="GUINEA"><?php echo gettext("GUINEA")?></option>
+<option id="GUINEA_BISSAU" class="country" value="GUINEA_BISSAU"><?php echo gettext("GUINEA_BISSAU")?></option>
+<option id="GUYANA" class="country" value="GUYANA"><?php echo gettext("GUYANA")?></option>
+<option id="HAITI" class="country" value="HAITI"><?php echo gettext("HAITI")?></option>
+<option id="HEARD_AND_MC_DONALD_ISLANDS" class="country" value="HEARD_AND_MC_DONALD_ISLANDS"><?php echo gettext("HEARD_AND_MC_DONALD_ISLANDS")?></option>
+<option id="HONDURAS" class="country" value="HONDURAS"><?php echo gettext("HONDURAS")?></option>
+<option id="HONG_KONG" class="country" value="HONG_KONG"><?php echo gettext("HONG_KONG")?></option>
+<option id="HUNGARY" class="country" value="HUNGARY"><?php echo gettext("HUNGARY")?></option>
+<option id="ICELAND" class="country" value="ICELAND"><?php echo gettext("ICELAND")?></option>
+<option id="INDIA" class="country" value="INDIA"><?php echo gettext("INDIA")?></option>
+<option id="INDONESIA" class="country" value="INDONESIA"><?php echo gettext("INDONESIA")?></option>
+<option id="IRAN_ISLAMIC_REPUBLIC_OF" class="country" value="IRAN_ISLAMIC_REPUBLIC_OF"><?php echo gettext("IRAN_ISLAMIC_REPUBLIC_OF")?></option>
+<option id="IRAQ" class="country" value="IRAQ"><?php echo gettext("IRAQ")?></option>
+<option id="IRELAND" class="country" value="IRELAND"><?php echo gettext("IRELAND")?></option>
+<option id="ITALY" class="country" value="ITALY"><?php echo gettext("ITALY")?></option>
+<option id="JAMAICA" class="country" value="JAMAICA"><?php echo gettext("JAMAICA")?></option>
+<option id="JAPAN" class="country" value="JAPAN"><?php echo gettext("JAPAN")?></option>
+<option id="JORDAN" class="country" value="JORDAN"><?php echo gettext("JORDAN")?></option>
+<option id="KAZAKHSTAN" class="country" value="KAZAKHSTAN"><?php echo gettext("KAZAKHSTAN")?></option>
+<option id="KENYA" class="country" value="KENYA"><?php echo gettext("KENYA")?></option>
+<option id="KIRIBATI" class="country" value="KIRIBATI"><?php echo gettext("KIRIBATI")?></option>
+<option id="KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF" class="country" value="KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF"><?php echo gettext("KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF")?></option>
+<option id="KOREA_REPUBLIC_OF" class="country" value="KOREA_REPUBLIC_OF"><?php echo gettext("KOREA_REPUBLIC_OF")?></option>
+<option id="KUWAIT" class="country" value="KUWAIT"><?php echo gettext("KUWAIT")?></option>
+<option id="KYRGYZSTAN" class="country" value="KYRGYZSTAN"><?php echo gettext("KYRGYZSTAN")?></option>
+<option id="LAO_PEOPLES_DEMOCRATIC_REPUBLIC" class="country" value="LAO_PEOPLES_DEMOCRATIC_REPUBLIC"><?php echo gettext("LAO_PEOPLES_DEMOCRATIC_REPUBLIC")?></option>
+<option id="LATVIA" class="country" value="LATVIA"><?php echo gettext("LATVIA")?></option>
+<option id="LEBANON" class="country" value="LEBANON"><?php echo gettext("LEBANON")?></option>
+<option id="LESOTHO" class="country" value="LESOTHO"><?php echo gettext("LESOTHO")?></option>
+<option id="LIBERIA" class="country" value="LIBERIA"><?php echo gettext("LIBERIA")?></option>
+<option id="LIBYAN_ARAB_JAMAHIRIYA" class="country" value="LIBYAN_ARAB_JAMAHIRIYA"><?php echo gettext("LIBYAN_ARAB_JAMAHIRIYA")?></option>
+<option id="LIECHTENSTEIN" class="country" value="LIECHTENSTEIN"><?php echo gettext("LIECHTENSTEIN")?></option>
+<option id="LITHUANIA" class="country" value="LITHUANIA"><?php echo gettext("LITHUANIA")?></option>
+<option id="LUXEMBOURG" class="country" value="LUXEMBOURG"><?php echo gettext("LUXEMBOURG")?></option>
+<option id="MACAU" class="country" value="MACAU"><?php echo gettext("MACAU")?></option>
+<option id="MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF" class="country" value="MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF"><?php echo gettext("MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF")?></option>
+<option id="MADAGASCAR" class="country" value="MADAGASCAR"><?php echo gettext("MADAGASCAR")?></option>
+<option id="MALAWI" class="country" value="MALAWI"><?php echo gettext("MALAWI")?></option>
+<option id="MALAYSIA" class="country" value="MALAYSIA"><?php echo gettext("MALAYSIA")?></option>
+<option id="MALDIVES" class="country" value="MALDIVES"><?php echo gettext("MALDIVES")?></option>
+<option id="MALI" class="country" value="MALI"><?php echo gettext("MALI")?></option>
+<option id="MALTA" class="country" value="MALTA"><?php echo gettext("MALTA")?></option>
+<option id="MARSHALL_ISLANDS" class="country" value="MARSHALL_ISLANDS"><?php echo gettext("MARSHALL_ISLANDS")?></option>
+<option id="MARTINIQUE" class="country" value="MARTINIQUE"><?php echo gettext("MARTINIQUE")?></option>
+<option id="MAURITANIA" class="country" value="MAURITANIA"><?php echo gettext("MAURITANIA")?></option>
+<option id="MAURITIUS" class="country" value="MAURITIUS"><?php echo gettext("MAURITIUS")?></option>
+<option id="MAYOTTE" class="country" value="MAYOTTE"><?php echo gettext("MAYOTTE")?></option>
+<option id="MEXICO" class="country" value="MEXICO"><?php echo gettext("MEXICO")?></option>
+<option id="MICRONESIA_FEDERATED_STATES_OF" class="country" value="MICRONESIA_FEDERATED_STATES_OF"><?php echo gettext("MICRONESIA_FEDERATED_STATES_OF")?></option>
+<option id="MOLDOVA_REPUBLIC_OF" class="country" value="MOLDOVA_REPUBLIC_OF"><?php echo gettext("MOLDOVA_REPUBLIC_OF")?></option>
+<option id="MONACO" class="country" value="MONACO"><?php echo gettext("MONACO")?></option>
+<option id="MONGOLIA" class="country" value="MONGOLIA"><?php echo gettext("MONGOLIA")?></option>
+<option id="MONTSERRAT" class="country" value="MONTSERRAT"><?php echo gettext("MONTSERRAT")?></option>
+<option id="MOROCCO" class="country" value="MOROCCO"><?php echo gettext("MOROCCO")?></option>
+<option id="MOZAMBIQUE" class="country" value="MOZAMBIQUE"><?php echo gettext("MOZAMBIQUE")?></option>
+<option id="MYANMAR" class="country" value="MYANMAR"><?php echo gettext("MYANMAR")?></option>
+<option id="NAMIBIA" class="country" value="NAMIBIA"><?php echo gettext("NAMIBIA")?></option>
+<option id="NAURU" class="country" value="NAURU"><?php echo gettext("NAURU")?></option>
+<option id="NEPAL" class="country" value="NEPAL"><?php echo gettext("NEPAL")?></option>
+<option id="NETHERLANDS" class="country" value="NETHERLANDS"><?php echo gettext("NETHERLANDS")?></option>
+<option id="NETHERLANDS_ANTILLES" class="country" value="NETHERLANDS_ANTILLES"><?php echo gettext("NETHERLANDS_ANTILLES")?></option>
+<option id="NEW_CALEDONIA" class="country" value="NEW_CALEDONIA"><?php echo gettext("NEW_CALEDONIA")?></option>
+<option id="NEW_ZEALAND" class="country" value="NEW_ZEALAND"><?php echo gettext("NEW_ZEALAND")?></option>
+<option id="NICARAGUA" class="country" value="NICARAGUA"><?php echo gettext("NICARAGUA")?></option>
+<option id="NIGER" class="country" value="NIGER"><?php echo gettext("NIGER")?></option>
+<option id="NIGERIA" class="country" value="NIGERIA"><?php echo gettext("NIGERIA")?></option>
+<option id="NIUE" class="country" value="NIUE"><?php echo gettext("NIUE")?></option>
+<option id="NORFOLK_ISLAND" class="country" value="NORFOLK_ISLAND"><?php echo gettext("NORFOLK_ISLAND")?></option>
+<option id="NORTHERN_MARIANA_ISLANDS" class="country" value="NORTHERN_MARIANA_ISLANDS"><?php echo gettext("NORTHERN_MARIANA_ISLANDS")?></option>
+<option id="NORWAY" class="country" value="NORWAY"><?php echo gettext("NORWAY")?></option>
+<option id="OMAN" class="country" value="OMAN"><?php echo gettext("OMAN")?></option>
+<option id="PAKISTAN" class="country" value="PAKISTAN"><?php echo gettext("PAKISTAN")?></option>
+<option id="PALAU" class="country" value="PALAU"><?php echo gettext("PALAU")?></option>
+<option id="PANAMA" class="country" value="PANAMA"><?php echo gettext("PANAMA")?></option>
+<option id="PAPUA_NEW_GUINEA" class="country" value="PAPUA_NEW_GUINEA"><?php echo gettext("PAPUA_NEW_GUINEA")?></option>
+<option id="PARAGUAY" class="country" value="PARAGUAY"><?php echo gettext("PARAGUAY")?></option>
+<option id="PERU" class="country" value="PERU"><?php echo gettext("PERU")?></option>
+<option id="PHILIPPINES" class="country" value="PHILIPPINES"><?php echo gettext("PHILIPPINES")?></option>
+<option id="PITCAIRN" class="country" value="PITCAIRN"><?php echo gettext("PITCAIRN")?></option>
+<option id="POLAND" class="country" value="POLAND"><?php echo gettext("POLAND")?></option>
+<option id="PORTUGAL" class="country" value="PORTUGAL"><?php echo gettext("PORTUGAL")?></option>
+<option id="PUERTO_RICO" class="country" value="PUERTO_RICO"><?php echo gettext("PUERTO_RICO")?></option>
+<option id="QATAR" class="country" value="QATAR"><?php echo gettext("QATAR")?></option>
+<option id="REUNION" class="country" value="REUNION"><?php echo gettext("REUNION")?></option>
+<option id="ROMANIA" class="country" value="ROMANIA"><?php echo gettext("ROMANIA")?></option>
+<option id="RUSSIAN_FEDERATION" class="country" value="RUSSIAN_FEDERATION"><?php echo gettext("RUSSIAN_FEDERATION")?></option>
+<option id="RWANDA" class="country" value="RWANDA"><?php echo gettext("RWANDA")?></option>
+<option id="SAINT_KITTS_AND_NEVIS" class="country" value="SAINT_KITTS_AND_NEVIS"><?php echo gettext("SAINT_KITTS_AND_NEVIS")?></option>
+<option id="SAINT_LUCIA" class="country" value="SAINT_LUCIA"><?php echo gettext("SAINT_LUCIA")?></option>
+<option id="SAINT_VINCENT_AND_THE_GRENADINES" class="country" value="SAINT_VINCENT_AND_THE_GRENADINES"><?php echo gettext("SAINT_VINCENT_AND_THE_GRENADINES")?></option>
+<option id="SAMOA" class="country" value="SAMOA"><?php echo gettext("SAMOA")?></option>
+<option id="SAN_MARINO" class="country" value="SAN_MARINO"><?php echo gettext("SAN_MARINO")?></option>
+<option id="SAO_TOME_AND_PRINCIPE" class="country" value="SAO_TOME_AND_PRINCIPE"><?php echo gettext("SAO_TOME_AND_PRINCIPE")?></option>
+<option id="SAUDI_ARABIA" class="country" value="SAUDI_ARABIA"><?php echo gettext("SAUDI_ARABIA")?></option>
+<option id="SENEGAL" class="country" value="SENEGAL"><?php echo gettext("SENEGAL")?></option>
+<option id="SEYCHELLES" class="country" value="SEYCHELLES"><?php echo gettext("SEYCHELLES")?></option>
+<option id="SIERRA_LEONE" class="country" value="SIERRA_LEONE"><?php echo gettext("SIERRA_LEONE")?></option>
+<option id="SINGAPORE" class="country" value="SINGAPORE"><?php echo gettext("SINGAPORE")?></option>
+<option id="SLOVAKIA" class="country" value="SLOVAKIA"><?php echo gettext("SLOVAKIA")?></option>
+<option id="SLOVENIA" class="country" value="SLOVENIA"><?php echo gettext("SLOVENIA")?></option>
+<option id="SOLOMON_ISLANDS" class="country" value="SOLOMON_ISLANDS"><?php echo gettext("SOLOMON_ISLANDS")?></option>
+<option id="SOMALIA" class="country" value="SOMALIA"><?php echo gettext("SOMALIA")?></option>
+<option id="SOUTH_AFRICA" class="country" value="SOUTH_AFRICA"><?php echo gettext("SOUTH_AFRICA")?></option>
+<option id="SPAIN" class="country" value="SPAIN"><?php echo gettext("SPAIN")?></option>
+<option id="SRI_LANKA" class="country" value="SRI_LANKA"><?php echo gettext("SRI_LANKA")?></option>
+<option id="ST_HELENA" class="country" value="ST_HELENA"><?php echo gettext("ST_HELENA")?></option>
+<option id="ST_PIERRE_AND_MIQUELON" class="country" value="ST_PIERRE_AND_MIQUELON"><?php echo gettext("ST_PIERRE_AND_MIQUELON")?></option>
+<option id="SUDAN" class="country" value="SUDAN"><?php echo gettext("SUDAN")?></option>
+<option id="SURINAME" class="country" value="SURINAME"><?php echo gettext("SURINAME")?></option>
+<option id="SVALBARD_AND_JAN_MAYEN_ISLANDS" class="country" value="SVALBARD_AND_JAN_MAYEN_ISLANDS"><?php echo gettext("SVALBARD_AND_JAN_MAYEN_ISLANDS")?></option>
+<option id="SWAZILAND" class="country" value="SWAZILAND"><?php echo gettext("SWAZILAND")?></option>
+<option id="SWEDEN" class="country" value="SWEDEN"><?php echo gettext("SWEDEN")?></option>
+<option id="SWITZERLAND" class="country" value="SWITZERLAND"><?php echo gettext("SWITZERLAND")?></option>
+<option id="SYRIAN_ARAB_REPUBLIC" class="country" value="SYRIAN_ARAB_REPUBLIC"><?php echo gettext("SYRIAN_ARAB_REPUBLIC")?></option>
+<option id="TAIWAN_PROVINCE_OF_CHINA" class="country" value="TAIWAN_PROVINCE_OF_CHINA"><?php echo gettext("TAIWAN_PROVINCE_OF_CHINA")?></option>
+<option id="TAJIKISTAN" class="country" value="TAJIKISTAN"><?php echo gettext("TAJIKISTAN")?></option>
+<option id="TANZANIA_UNITED_REPUBLIC_OF" class="country" value="TANZANIA_UNITED_REPUBLIC_OF"><?php echo gettext("TANZANIA_UNITED_REPUBLIC_OF")?></option>
+<option id="THAILAND" class="country" value="THAILAND"><?php echo gettext("THAILAND")?></option>
+<option id="TOGO" class="country" value="TOGO"><?php echo gettext("TOGO")?></option>
+<option id="TOKELAU" class="country" value="TOKELAU"><?php echo gettext("TOKELAU")?></option>
+<option id="TONGA" class="country" value="TONGA"><?php echo gettext("TONGA")?></option>
+<option id="TRINIDAD_AND_TOBAGO" class="country" value="TRINIDAD_AND_TOBAGO"><?php echo gettext("TRINIDAD_AND_TOBAGO")?></option>
+<option id="TUNISIA" class="country" value="TUNISIA"><?php echo gettext("TUNISIA")?></option>
+<option id="TURKEY" class="country" value="TURKEY"><?php echo gettext("TURKEY")?></option>
+<option id="TURKMENISTAN" class="country" value="TURKMENISTAN"><?php echo gettext("TURKMENISTAN")?></option>
+<option id="TURKS_AND_CAICOS_ISLANDS" class="country" value="TURKS_AND_CAICOS_ISLANDS"><?php echo gettext("TURKS_AND_CAICOS_ISLANDS")?></option>
+<option id="TUVALU" class="country" value="TUVALU"><?php echo gettext("TUVALU")?></option>
+<option id="UGANDA" class="country" value="UGANDA"><?php echo gettext("UGANDA")?></option>
+<option id="UKRAINE" class="country" value="UKRAINE"><?php echo gettext("UKRAINE")?></option>
+<option id="UNITED_ARAB_EMIRATES" class="country" value="UNITED_ARAB_EMIRATES"><?php echo gettext("UNITED_ARAB_EMIRATES")?></option>
+<option id="UNITED_KINGDOM" class="country" value="UNITED_KINGDOM"><?php echo gettext("UNITED_KINGDOM")?></option>
+<option id="UNITED_STATES" class="country" value="UNITED_STATES"><?php echo gettext("UNITED_STATES")?></option>
+<option id="UNITED_STATES_MINOR_OUTLYING_ISLANDS" class="country" value="UNITED_STATES_MINOR_OUTLYING_ISLANDS"><?php echo gettext("UNITED_STATES_MINOR_OUTLYING_ISLANDS")?></option>
+<option id="URUGUAY" class="country" value="URUGUAY"><?php echo gettext("URUGUAY")?></option>
+<option id="UZBEKISTAN" class="country" value="UZBEKISTAN"><?php echo gettext("UZBEKISTAN")?></option>
+<option id="VANUATU" class="country" value="VANUATU"><?php echo gettext("VANUATU")?></option>
+<option id="VATICAN_CITY_STATE" class="country" value="VATICAN_CITY_STATE"><?php echo gettext("VATICAN_CITY_STATE")?></option>
+<option id="VENEZUELA" class="country" value="VENEZUELA"><?php echo gettext("VENEZUELA")?></option>
+<option id="VIETNAM" class="country" value="VIETNAM"><?php echo gettext("VIETNAM")?></option>
+<option id="VIRGIN_ISLANDS_BRITISH" class="country" value="VIRGIN_ISLANDS_BRITISH"><?php echo gettext("VIRGIN_ISLANDS_BRITISH")?></option>
+<option id="VIRGIN_ISLANDS_US" class="country" value="VIRGIN_ISLANDS_US"><?php echo gettext("VIRGIN_ISLANDS_US")?></option>
+<option id="WALLIS_AND_FUTUNA_ISLANDS" class="country" value="WALLIS_AND_FUTUNA_ISLANDS"><?php echo gettext("WALLIS_AND_FUTUNA_ISLANDS")?></option>
+<option id="WESTERN_SAHARA" class="country" value="WESTERN_SAHARA"><?php echo gettext("WESTERN_SAHARA")?></option>
+<option id="YEMEN" class="country" value="YEMEN"><?php echo gettext("YEMEN")?></option>
+<option id="YUGOSLAVIA" class="country" value="YUGOSLAVIA"><?php echo gettext("YUGOSLAVIA")?></option>
+<option id="ZAIRE" class="country" value="ZAIRE"><?php echo gettext("ZAIRE")?></option>
+<option id="ZAMBIA" class="country" value="ZAMBIA"><?php echo gettext("ZAMBIA")?></option>
+<option id="ZIMBABWE" class="country" value="ZIMBABWE"><?php echo gettext("ZIMBABWE")?></option>

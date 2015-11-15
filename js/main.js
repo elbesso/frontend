@@ -121,7 +121,7 @@ jQuery(function ($) {
     $("#registration-submit").on('click', function () {
         var $registration_form = $('#registration-form');
         if ($registration_form.valid()) {
-            var fields = $registration_form.serialize();
+            var fields = $registration_form.find(":not(:hidden)").serialize();
             $.ajax({
                 type: "POST",
                 url: "php/registration.php",
@@ -156,20 +156,36 @@ jQuery(function ($) {
             $('body, html').animate({scrollTop: $('#registration').offset().top}, 750, 'easeOutExpo');
         });
 
+    $(document).ready(function() {
+        sortOptions($("#registration_country"));
+        sortOptions($("#registration_state"));
+        sortOptions($("#registration_province"));
+    });
+
+    function sortOptions(select) {
+        var opt = select.find("option").sort(function (a,b) {
+            return a.text.toUpperCase().localeCompare(b.text.toUpperCase())
+        });
+        select.append(opt);
+        select.val(select.find("option:first").val());
+    }
+
     $(document).ready((function() {
         var state = $(".registration-state");
+        var province = $(".registration-province");
         state.hide();
+        province.hide();
         $("#registration_country").change(function() {
             var id = $(this).find(":selected").attr("id");
-            if (id == 'UNITED_STATES' || id == 'CANADA') {
-                $.get("php/country.php", {param: id}, function (response) {
-                    if (response.status) {
-                        $('#registration_state').empty().html(response.html);
-                    }
-                }, "json");
+            if (id == 'UNITED_STATES') {
                 state.show();
+                province.hide();
+            } else if (id == 'CANADA') {
+                state.hide();
+                province.show();
             } else {
                 state.hide();
+                province.hide();
             }
         });
     }));
@@ -182,14 +198,6 @@ jQuery(function ($) {
             })
         }
     }
-
-    $(document).ready(function () {
-        $.get("php/country.php", {param: 'country'}, function (response) {
-            if (response.status) {
-                $('#registration_country').empty().html(response.html);
-            }
-        }, "json");
-    });
 
     /* ==================================================
      Menu Highlight

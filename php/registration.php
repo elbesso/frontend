@@ -41,7 +41,13 @@ class Registration_Form {
         $this->position = $_POST['registration_position'];
         $this->email = $_POST['registration_email'];
         $this->country = $_POST['registration_country'];
-        $this->state = array_key_exists('registration_state', $_POST) ? $_POST['registration_state'] : null;
+        if (array_key_exists('registration_state', $_POST) && $this->country == 'UNITED_STATES') {
+            $this->state = $_POST['registration_state'];
+        } else if (array_key_exists('registration_province', $_POST) && $this->country == 'CANADA') {
+            $this->state = $_POST['registration_province'];
+        } else {
+            $this->state = null;
+        }
         $this->city = $_POST['registration_city'];
         $this->postcode = $_POST['registration_postcode'];
         $this->address = $_POST['registration_address_line_1'].'\n'.$_POST['registration_address_line_2'];
@@ -120,7 +126,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 600;
+                $lockout_time = 1;
                 $first_failed_invite_time = 0;
                 $failed_count = 0;
                 $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");

@@ -20,8 +20,8 @@ require("php/setup.php")
 <!--[if gt IE 8]><!-->
 <html> <!--<![endif]-->
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-        <title>Brushed | Responsive One Page Template</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+        <title><?php echo gettext("TITLE")?></title>
         <meta name="description" content="Insert Your Site Description"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="HandheldFriendly" content="true"/>
@@ -184,11 +184,21 @@ require("php/setup.php")
                             </p>
                             <p class="registration-country">
                                 <label for="registration_country"><?php echo gettext("REGISTRATION_LABEL_COUNTRY")?></label>
-                                <select id="registration_country" name="registration_country"></select>
+                                <select id="registration_country" name="registration_country">
+                                    <?php include("php/country.php"); ?>
+                                </select>
                             </p>
                             <p class="registration-state">
                                 <label for="registration_state"><?php echo gettext("REGISTRATION_LABEL_STATE")?></label>
-                                <select id="registration_state" name="registration_state"></select>
+                                <select id="registration_state" name="registration_state">
+                                    <?php include("php/state.php"); ?>
+                                </select>
+                            </p>
+                            <p class="registration-province">
+                                <label for="registration_province"><?php echo gettext("REGISTRATION_LABEL_PROVINCE")?></label>
+                                <select id="registration_province" name="registration_province">
+                                    <?php include("php/province.php"); ?>
+                                </select>
                             </p>
                             <p class="registration-invite">
                                 <label for="registration_invite"><?php echo gettext("REGISTRATION_LABEL_INVITE")?></label>
