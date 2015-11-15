@@ -82,18 +82,18 @@ require("php/setup.php")
                 <div id="circle"></div>
             </section>
         </div>
-        <div id="home-slider">
-            <div class="overlay"></div>
-            <div class="slider-text">
-                <div id="slidecaption"></div>
-            </div>
-            <div class="control-nav">
-                <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
-                <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
-                <ul id="slide-list"></ul>
-                <a id="nextsection" href="#invite_main"><i class="font-icon-arrow-simple-down"></i></a>
-            </div>
-        </div>
+<!--        <div id="home-slider">-->
+<!--            <div class="overlay"></div>-->
+<!--            <div class="slider-text">-->
+<!--                <div id="slidecaption"></div>-->
+<!--            </div>-->
+<!--            <div class="control-nav">-->
+<!--                <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>-->
+<!--                <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>-->
+<!--                <ul id="slide-list"></ul>-->
+<!--                <a id="nextsection" href="#invite_main"><i class="font-icon-arrow-simple-down"></i></a>-->
+<!--            </div>-->
+<!--        </div>-->
         <header>
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
