@@ -83,10 +83,10 @@ $(document).ready((function() {
             },
             registration_address_line_1: {
                 required: "Please enter you address",
-                maxlength: "Address line one should not be longer than 5012 characters"
+                maxlength: "Address line one should not be longer than 512 characters"
             },
             registration_address_line_2: {
-                maxlength: "Address line one should not be longer than 5012 characters"
+                maxlength: "Address line one should not be longer than 512 characters"
             },
             registration_phone_number: {
                 required: "Please enter your phone number",

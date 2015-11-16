@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 21:26+0300\n"
-"PO-Revision-Date: 2015-11-16 21:26+0300\n"
+"POT-Creation-Date: 2015-11-16 23:12+0300\n"
+"PO-Revision-Date: 2015-11-16 23:12+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -175,119 +175,119 @@ msgstr "Инвайт"
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
 msgstr "AAAA-AAAA-AAAA-AAAA"
 
-#: ../../../index.php:198
+#: ../../../index.php:199
 msgid "REGISTRATION_SUBMIT"
 msgstr "Отправить"
 
-#: ../../../index.php:212
+#: ../../../index.php:214
 msgid "ABOUT_TITLE"
 msgstr "О нас"
 
-#: ../../../index.php:213
+#: ../../../index.php:215
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr "Спешите узнать"
 
-#: ../../../index.php:222
+#: ../../../index.php:224
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr "Thumbnails первого продукта"
 
-#: ../../../index.php:224
+#: ../../../index.php:226
 msgid "ABOUT_FIRST_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:226
+#: ../../../index.php:228
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr "Название первого продукта"
 
-#: ../../../index.php:227
+#: ../../../index.php:229
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr "Описание первого продукта"
 
-#: ../../../index.php:233
+#: ../../../index.php:235
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr "Thumbnails второго продукта"
 
-#: ../../../index.php:235
+#: ../../../index.php:237
 msgid "ABOUT_SECOND_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:237
+#: ../../../index.php:239
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr "Название второго продукта"
 
-#: ../../../index.php:238
+#: ../../../index.php:240
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr "Описание второго продукта"
 
-#: ../../../index.php:244
+#: ../../../index.php:246
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr "Thumbnails третьего продукта"
 
-#: ../../../index.php:246
+#: ../../../index.php:248
 msgid "ABOUT_THIRD_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:248
+#: ../../../index.php:250
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr "Название третьего продукта"
 
-#: ../../../index.php:249
+#: ../../../index.php:251
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr "Описание третьего продукта"
 
-#: ../../../index.php:259
+#: ../../../index.php:261
 msgid "CONTACT_TITLE"
 msgstr "Контакты"
 
-#: ../../../index.php:260
+#: ../../../index.php:262
 msgid "CONTACT_TITLE_DESCRIPTION"
 msgstr "Описание контактов"
 
-#: ../../../index.php:267
+#: ../../../index.php:269
 msgid "CONTACT_DETAILS"
 msgstr "Детали контактов"
 
-#: ../../../index.php:269
+#: ../../../index.php:271
 msgid "CONTACT_DETAIL_EMAIL"
 msgstr "email@forcontact.com"
 
-#: ../../../index.php:270
+#: ../../../index.php:272
 msgid "CONTACT_DETAIL_PHONE"
 msgstr "+7(999)999-99-99"
 
-#: ../../../index.php:272
+#: ../../../index.php:274
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr "Адрес - первая линия"
 
-#: ../../../index.php:274
+#: ../../../index.php:276
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr "Адрес - вторая линия"
 
-#: ../../../index.php:276
+#: ../../../index.php:278
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr "Адрес - третья линия"
 
-#: ../../../index.php:286
+#: ../../../index.php:288
 msgid "FOOTER_FIRST"
 msgstr "Первая часть футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:289
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr "Заголовок первой ссылки футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:289
 msgid "FOOTER_SECOND"
 msgstr "вторая часть футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:289
 msgid "FOOTER_THIRD"
 msgstr "третья часть футера"
 
-#: ../../../index.php:288
+#: ../../../index.php:290
 msgid "FOOTER_SECOND_LINK_TITLE"
 msgstr "Заголовок второй ссылки футера"
 
-#: ../../../index.php:288
+#: ../../../index.php:290
 msgid "FOOTER_FORTH"
 msgstr "четвертая часть футера"
 
