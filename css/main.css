@@ -15,7 +15,7 @@ html, body {
     height: 100%;
 }
 
-html, hmtl a {
+html, html a {
     width: 100%;
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
@@ -25,10 +25,10 @@ html, hmtl a {
 body {
     background: #2F3238;
     color: #7F8289;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
     font-size: 16px;
-    font-family: 'Titillium Web', sans-serif;
-    line-height: 28px;
+    line-height: 2em;
 }
 
 a {
@@ -111,7 +111,7 @@ hr {
 
 input, button, select, textarea {
     font-weight: 300;
-    font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     outline: 0;
 }
 
@@ -149,7 +149,7 @@ pre {
     border-radius: 3px;
     color: #232527;
     font-size: 12px;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 
 code {
@@ -204,7 +204,7 @@ h6 {
     margin: 0 0 20px 0;
     color: #FFFFFF;
     font-weight: 300;
-    font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     line-height: 1.5em;
 }
 
@@ -477,7 +477,10 @@ header .sticky-nav {
     position: relative;
     width: 100%;
     height: 60px;
-    background: #26292E;
+    /*background: #0B333F;*/
+    background: #312A1E;
+    border-bottom: 1px solid;
+    border-color: #F0BF00;
     z-index: 1001;
 
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -623,17 +626,21 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-    /*background: #6666ff;*/
+    background: url("../img/overlay.png");
     padding: 100px 0;
     position: relative;
     z-index: 99;
 }
 
 .page-alternate {
-    /*background: #26292E;*/
+    background: rgba(0, 0, 0, 0.48);
+    background-image: url("../img/overlay.png");
     padding: 100px 0;
     position: relative;
     z-index: 99;
+    /*background: lightgoldenrodyellow ;*/
+    /*background: navajowhite;*/
+    background: aliceblue;
 }
 
 .title-page {
@@ -922,18 +929,19 @@ nav#menu #menu-nav li a:hover {
 
 #registration-form input, #registration-form textarea, #invite-main, #registration-form select {
     border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
 
-    background: #26292E;
-    color: #FFFFFF;
-    font-size: 16px;
-    height: auto;
+    /*background: #26292E;*/
+    background: #E3E7E4;
+    color: #312A1E;
+    font-size: 1.5em;
+    height: 2.75em;
     padding: 15px;
     margin: 0;
 
@@ -952,7 +960,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #invite-main {
-    width: 27%;
+    width: 13.25em;
 }
 
 #invite_main {
@@ -969,8 +977,10 @@ nav#menu #menu-nav li a:hover {
 }
 
 #registration-form .submit, #invite-button {
-    background: #3C3F45;
-    color: #23262C;
+    /*background: #3C3F45;*/
+    background: #F0BF00;
+    /*color: #23262C;*/
+    color: #312A1E;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
@@ -980,6 +990,7 @@ nav#menu #menu-nav li a:hover {
     vertical-align: middle;
     width: auto;
     margin-top: 30px;
+    border-radius: 3px;
 
     -webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
     -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
@@ -987,9 +998,20 @@ nav#menu #menu-nav li a:hover {
     transition: background 0.1s linear 0s, color 0.1s linear 0s;
 }
 
-#registration-form .submit:hover, #invite-button:hover {
-    background: #DE5E60;
+#registration-form .submit {
+    background: #312A1E;
     color: #FFFFFF;
+}
+
+#registration-form .submit:hover, #invite-button:hover {
+    /*background: #DE5E60;*/
+    background: #312A1E;
+    color: #FFFFFF;
+}
+
+#registration-form .submit:hover {
+    background: #E3E7E4;
+    color: #312A1E;
 }
 
 #response {
@@ -1005,7 +1027,8 @@ footer {
     position: relative;
     width: 100%;
     height: auto;
-    background: #26292E;
+    /*background: #26292E;*/
+    background: #312A1E;
     text-align: center;
     z-index: 99;
 }
@@ -1275,4 +1298,43 @@ footer .credits {
 
 #registration-form select {
     -moz-appearance: none;
+}
+
+#registration {
+    background: transparent url("../img/yellow.png") repeat-x scroll 0 0;
+    background-size: 100% 100%;
+    color: #312A1E;
+    font-weight: 600;
+}
+
+#registration label {
+    font-size: 1.5em;
+    line-height: 1.75em;
+    padding: 0.25em;
+}
+
+#contact {
+    background: transparent url("../img/yellow_testimonial.png") repeat-x scroll 0 0;
+    background-size: 100% 100%;
+}
+
+#about h2, #about h3 {
+    color: #312A1E;
+    font-weight: 600;
+}
+
+#contact, #contact h2, #contact h3 {
+    color: #312A1E;
+}
+
+.profile-description {
+    color: #312A1E;
+}
+
+#registration-form input, #invite_main input {
+    line-height: 1.5em;
+}
+
+.error {
+    color: #DE5E60;
 }

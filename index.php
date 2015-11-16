@@ -39,8 +39,7 @@ require("php/setup.php")
         <link href="css/responsive.css" rel="stylesheet">
         <link href="css/supersized.css" rel="stylesheet">
         <link href="css/supersized.shutter.css" rel="stylesheet">
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900'
-              rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,800,800italic,300,300italic,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
         <link rel="shortcut icon" href="#">
         <link rel="apple-touch-icon" href="#">
         <link rel="apple-touch-icon" sizes="114x114" href="#">
@@ -82,23 +81,11 @@ require("php/setup.php")
                 <div id="circle"></div>
             </section>
         </div>
-<!--        <div id="home-slider">-->
-<!--            <div class="overlay"></div>-->
-<!--            <div class="slider-text">-->
-<!--                <div id="slidecaption"></div>-->
-<!--            </div>-->
-<!--            <div class="control-nav">-->
-<!--                <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>-->
-<!--                <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>-->
-<!--                <ul id="slide-list"></ul>-->
-<!--                <a id="nextsection" href="#invite_main"><i class="font-icon-arrow-simple-down"></i></a>-->
-<!--            </div>-->
-<!--        </div>-->
         <header>
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">
-                    <a id="goUp" href="#home-slider" title=<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>><?php echo gettext("STICKY_NAV_GO_UP")?></a>
+                    <a id="goUp" href="#invite_main" title=<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>><?php echo gettext("STICKY_NAV_GO_UP")?></a>
                 </div>
                 <div id="language">
                     <?php echo gettext("STICKY_NAV_LANGUAGE")?>:
@@ -108,8 +95,7 @@ require("php/setup.php")
                 </div>
                 <nav id="menu">
                     <ul id="menu-nav">
-                        <li class="current"><a href="#home-slider"><?php echo gettext("MENU_HOME")?></a></li>
-                        <li><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
+                        <li class="current"><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
                         <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
                         <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
                         <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
@@ -223,7 +209,7 @@ require("php/setup.php")
                 <div class="row">
                     <div class="span12">
                         <div class="title-page">
-                            <h2 class="title"><?php echo gettext("ABOUT_TITLE")?></h2>
+                            <h2 id="title-h2" class="title"><?php echo gettext("ABOUT_TITLE")?></h2>
                             <h3 class="title-description"><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
                         </div>
                     </div>
@@ -235,7 +221,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FIRST_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-01.jpg" alt=<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>>
+                            <img src="img/profile/profile-01.jpg" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_FIRST_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_FIRST_PROFILE_DESCRIPTION")?></p>
@@ -246,7 +232,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_SECOND_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-02.jpg" alt=<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>>
+                            <img src="img/profile/profile-02.jpg" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_SECOND_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_SECOND_PROFILE_DESCRIPTION")?></p>
@@ -257,7 +243,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_THIRD_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-03.jpg" alt=<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>>
+                            <img src="img/profile/profile-03.jpg" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_THIRD_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
@@ -267,7 +253,6 @@ require("php/setup.php")
         </div>
         <div id="contact" class="page">
             <div class="container">
-                <!-- Title Page -->
                 <div class="row">
                     <div class="span12">
                         <div class="title-page">
@@ -279,7 +264,7 @@ require("php/setup.php")
                 <div class="row">
                     <div class="span12">
                         <div class="contact-details">
-                            <h3>Contact Details</h3>
+                            <h3><?php echo gettext("CONTACT_DETAILS")?></h3>
                             <ul>
                                 <li><a href="#"><?php echo gettext("CONTACT_DETAIL_EMAIL")?></a></li>
                                 <li><?php echo gettext("CONTACT_DETAIL_PHONE")?></li>
@@ -297,12 +282,10 @@ require("php/setup.php")
             </div>
         </div>
         <footer>
+            <!-- TODO add actual link -->
             <p class="credits"><?php echo gettext("FOOTER_FIRST")?> <a href="http://themes.alessioatzeni.com/html/brushed/"
-                                                      title=<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>><?php echo gettext("FOOTER_SECOND")?> </a><?php echo gettext("FOOTER_THIRD")?> <a
-                    href="http://www.alessioatzeni.com/" title=<?php echo gettext("FOOTER_SECOND_LINK_TITLE")?> ><?php echo gettext("FOOTER_FORTH")?></a></p>
+                                                      title="<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>"><?php echo gettext("FOOTER_SECOND")?> </a><?php echo gettext("FOOTER_THIRD")?> <a
+                    href="http://www.alessioatzeni.com/" title="<?php echo gettext("FOOTER_SECOND_LINK_TITLE")?>"><?php echo gettext("FOOTER_FORTH")?></a></p>
         </footer>
-        <a id="back-to-top" href="#">
-            <i class="font-icon-arrow-simple-up"></i>
-        </a>
     </body>
 </html>

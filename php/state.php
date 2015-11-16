@@ -8,7 +8,7 @@
 <option id="DELAWARE" class="state" value="DELAWARE"><?php echo gettext("DELAWARE")?></option>
 <option id="DISTRICT_OF_COLUMBIA" class="state" value="DISTRICT_OF_COLUMBIA"><?php echo gettext("DISTRICT_OF_COLUMBIA")?></option>
 <option id="FLORIDA" class="state" value="FLORIDA"><?php echo gettext("FLORIDA")?></option>
-<option id="GEORGIA" class="state" value="GEORGIA"><?php echo gettext("GEORGIA")?></option>
+<option id="GEORGIA_STATE" class="state" value="GEORGIA_STATE"><?php echo gettext("GEORGIA_STATE")?></option>
 <option id="HAWAII" class="state" value="HAWAII"><?php echo gettext("HAWAII")?></option>
 <option id="IDAHO" class="state" value="IDAHO"><?php echo gettext("IDAHO")?></option>
 <option id="ILLINOIS" class="state" value="ILLINOIS"><?php echo gettext("ILLINOIS")?></option>
