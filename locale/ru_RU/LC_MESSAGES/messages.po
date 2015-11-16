@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
 "POT-Creation-Date: 2015-11-16 18:32+0300\n"
-"PO-Revision-Date: 2015-11-16 18:35+0300\n"
+"PO-Revision-Date: 2015-11-16 19:33+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -1509,7 +1509,7 @@ msgstr "Вы заблокированы на"
 
 #: ../../../php/registration.php:142
 msgid "SECONDS"
-msgstr "секунд"
+msgstr "с."
 
 #: ../../../php/registration.php:151
 msgid "INVITE_INCORRECT"
