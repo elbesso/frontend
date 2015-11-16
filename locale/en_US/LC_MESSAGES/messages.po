@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 18:34+0300\n"
-"PO-Revision-Date: 2015-11-16 18:34+0300\n"
+"POT-Creation-Date: 2015-11-16 21:28+0300\n"
+"PO-Revision-Date: 2015-11-16 21:28+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: en_US\n"
@@ -347,6 +347,214 @@ msgstr ""
 
 #: ../../../php/province.php:13
 msgid "YUKON"
+msgstr ""
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr ""
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr ""
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr ""
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr ""
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr ""
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr ""
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr ""
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr ""
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr ""
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr ""
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr ""
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr ""
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr ""
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr ""
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr ""
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr ""
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr ""
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr ""
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr ""
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr ""
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr ""
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr ""
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr ""
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr ""
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr ""
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr ""
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr ""
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr ""
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr ""
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr ""
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr ""
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr ""
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr ""
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr ""
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr ""
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr ""
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr ""
+
+#: ../../../php/state.php:40 ../../../php/country.php:172
+msgid "PUERTO_RICO"
+msgstr ""
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr ""
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr ""
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr ""
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr ""
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr ""
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr ""
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr ""
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
 msgstr ""
 
 #: ../../../php/country.php:1
@@ -1033,10 +1241,6 @@ msgstr ""
 msgid "PORTUGAL"
 msgstr ""
 
-#: ../../../php/country.php:172 ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr ""
-
 #: ../../../php/country.php:173
 msgid "QATAR"
 msgstr ""
@@ -1301,235 +1505,31 @@ msgstr ""
 msgid "ZIMBABWE"
 msgstr ""
 
-#: ../../../php/state.php:1
-msgid "ALABAMA"
-msgstr ""
-
-#: ../../../php/state.php:2
-msgid "ALASKA"
-msgstr ""
-
-#: ../../../php/state.php:3
-msgid "ARIZONA"
-msgstr ""
-
-#: ../../../php/state.php:4
-msgid "ARKANSAS"
-msgstr ""
-
-#: ../../../php/state.php:5
-msgid "CALIFORNIA"
-msgstr ""
-
-#: ../../../php/state.php:6
-msgid "COLORADO"
-msgstr ""
-
-#: ../../../php/state.php:7
-msgid "CONNECTICUT"
-msgstr ""
-
-#: ../../../php/state.php:8
-msgid "DELAWARE"
-msgstr ""
-
-#: ../../../php/state.php:9
-msgid "DISTRICT_OF_COLUMBIA"
-msgstr ""
-
-#: ../../../php/state.php:10
-msgid "FLORIDA"
-msgstr ""
-
-#: ../../../php/state.php:11
-msgid "GEORGIA_STATE"
-msgstr ""
-
-#: ../../../php/state.php:12
-msgid "HAWAII"
-msgstr ""
-
-#: ../../../php/state.php:13
-msgid "IDAHO"
-msgstr ""
-
-#: ../../../php/state.php:14
-msgid "ILLINOIS"
-msgstr ""
-
-#: ../../../php/state.php:15
-msgid "INDIANA"
-msgstr ""
-
-#: ../../../php/state.php:16
-msgid "IOWA"
-msgstr ""
-
-#: ../../../php/state.php:17
-msgid "KANSAS"
-msgstr ""
-
-#: ../../../php/state.php:18
-msgid "KENTUCKY"
-msgstr ""
-
-#: ../../../php/state.php:19
-msgid "LOUISIANA"
-msgstr ""
-
-#: ../../../php/state.php:20
-msgid "MAINE"
-msgstr ""
-
-#: ../../../php/state.php:21
-msgid "MARYLAND"
-msgstr ""
-
-#: ../../../php/state.php:22
-msgid "MASSACHUSETTS"
-msgstr ""
-
-#: ../../../php/state.php:23
-msgid "MICHIGAN"
-msgstr ""
-
-#: ../../../php/state.php:24
-msgid "MINNESOTA"
-msgstr ""
-
-#: ../../../php/state.php:25
-msgid "MISSISSIPPI"
-msgstr ""
-
-#: ../../../php/state.php:26
-msgid "MISSOURI"
-msgstr ""
-
-#: ../../../php/state.php:27
-msgid "MONTANA"
-msgstr ""
-
-#: ../../../php/state.php:28
-msgid "NEBRASKA"
-msgstr ""
-
-#: ../../../php/state.php:29
-msgid "NEVADA"
-msgstr ""
-
-#: ../../../php/state.php:30
-msgid "NEW_HAMPSHIRE"
-msgstr ""
-
-#: ../../../php/state.php:31
-msgid "NEW_JERSEY"
-msgstr ""
-
-#: ../../../php/state.php:32
-msgid "NEW_MEXICO"
-msgstr ""
-
-#: ../../../php/state.php:33
-msgid "NEW_YORK"
-msgstr ""
-
-#: ../../../php/state.php:34
-msgid "NORTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:35
-msgid "NORTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:36
-msgid "OHIO"
-msgstr ""
-
-#: ../../../php/state.php:37
-msgid "OKLAHOMA"
-msgstr ""
-
-#: ../../../php/state.php:38
-msgid "OREGON"
-msgstr ""
-
-#: ../../../php/state.php:39
-msgid "PENNSYLVANIA"
-msgstr ""
-
-#: ../../../php/state.php:41
-msgid "RHODE_ISLAND"
-msgstr ""
-
-#: ../../../php/state.php:42
-msgid "SOUTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:43
-msgid "SOUTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:44
-msgid "TENNESSEE"
-msgstr ""
-
-#: ../../../php/state.php:45
-msgid "TEXAS"
-msgstr ""
-
-#: ../../../php/state.php:46
-msgid "UTAH"
-msgstr ""
-
-#: ../../../php/state.php:47
-msgid "VERMONT"
-msgstr ""
-
-#: ../../../php/state.php:48
-msgid "VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:49
-msgid "WASHINGTON"
-msgstr ""
-
-#: ../../../php/state.php:50
-msgid "WEST_VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:51
-msgid "WISCONSIN"
-msgstr ""
-
-#: ../../../php/state.php:52
-msgid "WYOMING"
-msgstr ""
-
-#: ../../../php/registration.php:36
+#: ../../../php/registration.php:37
 msgid "INTERNAL_ERROR"
 msgstr ""
 
-#: ../../../php/registration.php:141
+#: ../../../php/registration.php:142
 msgid "YOU_ARE_LOCKED_OUT"
 msgstr ""
 
-#: ../../../php/registration.php:142
+#: ../../../php/registration.php:143
 msgid "SECONDS"
 msgstr ""
 
-#: ../../../php/registration.php:151
+#: ../../../php/registration.php:152
 #, fuzzy
 msgid "INVITE_INCORRECT"
 msgstr "Enter your invite"
 
-#: ../../../php/registration.php:164
+#: ../../../php/registration.php:165
 msgid "INVITE_USED"
 msgstr ""
 
-#: ../../../php/registration.php:166
+#: ../../../php/registration.php:167
 msgid "INVITE_EXPIRED"
 msgstr ""
 
-#: ../../../php/registration.php:196
+#: ../../../php/registration.php:197
 msgid "WELCOME"
 msgstr ""

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 18:32+0300\n"
-"PO-Revision-Date: 2015-11-16 19:33+0300\n"
+"POT-Creation-Date: 2015-11-16 21:26+0300\n"
+"PO-Revision-Date: 2015-11-16 21:26+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -342,6 +342,214 @@ msgstr "Саскачеван"
 #: ../../../php/province.php:13
 msgid "YUKON"
 msgstr "Юкон"
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr "Алабама"
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr "Аляска"
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr "Аризона"
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr "Арканзас"
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr "Калифорния"
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr "Колорадо"
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr "Коннектикут"
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr "Делавэр"
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr "Округ Колумбия"
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr "Флорида"
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr "Джорджия"
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr "Гавайи"
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr "Айдахо"
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr "Иллинойс"
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr "Индиана"
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr "Айова"
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr "Канзас"
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr "Кентукки"
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr "Луизиана"
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr "Мэн"
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr "Мэриленд"
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr "Массачусетс"
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr "Мичиган"
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr "Миннесота"
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr "Миссисипи"
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr "Миссури"
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr "Монтана"
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr "Небраска"
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr "Невада"
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr "Нью-Гэмпшир"
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr "Нью-Джерси"
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr "Нью-Мексико"
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr "Нью-Йорк"
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr "Северная Каролина"
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr "Северная Дакота"
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr "Огайо"
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr "Оклахома"
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr "Орегон"
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr "Пенсильвания"
+
+#: ../../../php/state.php:40 ../../../php/country.php:172
+msgid "PUERTO_RICO"
+msgstr "Пуэрто-Рико"
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr "Род-Айленд"
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr "Южная Каролина"
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr "Южная Дакота"
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr "Теннесси"
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr "Техас"
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr "Юта"
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr "Вермонт"
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr "Виргиния"
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr "Вашингтон"
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr "Западная Виргиния"
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr "Висконсин"
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
+msgstr "Вайоминг"
 
 #: ../../../php/country.php:1
 msgid "AALAND_ISLANDS"
@@ -1027,10 +1235,6 @@ msgstr "Польша"
 msgid "PORTUGAL"
 msgstr "Португалия"
 
-#: ../../../php/country.php:172 ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr "Пуэрто-Рико"
-
 #: ../../../php/country.php:173
 msgid "QATAR"
 msgstr "Катар"
@@ -1295,235 +1499,31 @@ msgstr "Замбия"
 msgid "ZIMBABWE"
 msgstr "Зимбабве"
 
-#: ../../../php/state.php:1
-msgid "ALABAMA"
-msgstr "Алабама"
-
-#: ../../../php/state.php:2
-msgid "ALASKA"
-msgstr "Аляска"
-
-#: ../../../php/state.php:3
-msgid "ARIZONA"
-msgstr "Аризона"
-
-#: ../../../php/state.php:4
-msgid "ARKANSAS"
-msgstr "Арканзас"
-
-#: ../../../php/state.php:5
-msgid "CALIFORNIA"
-msgstr "Калифорния"
-
-#: ../../../php/state.php:6
-msgid "COLORADO"
-msgstr "Колорадо"
-
-#: ../../../php/state.php:7
-msgid "CONNECTICUT"
-msgstr "Коннектикут"
-
-#: ../../../php/state.php:8
-msgid "DELAWARE"
-msgstr "Делавэр"
-
-#: ../../../php/state.php:9
-msgid "DISTRICT_OF_COLUMBIA"
-msgstr "Округ Колумбия"
-
-#: ../../../php/state.php:10
-msgid "FLORIDA"
-msgstr "Флорида"
-
-#: ../../../php/state.php:11
-msgid "GEORGIA_STATE"
-msgstr "Джорджия"
-
-#: ../../../php/state.php:12
-msgid "HAWAII"
-msgstr "Гавайи"
-
-#: ../../../php/state.php:13
-msgid "IDAHO"
-msgstr "Айдахо"
-
-#: ../../../php/state.php:14
-msgid "ILLINOIS"
-msgstr "Иллинойс"
-
-#: ../../../php/state.php:15
-msgid "INDIANA"
-msgstr "Индиана"
-
-#: ../../../php/state.php:16
-msgid "IOWA"
-msgstr "Айова"
-
-#: ../../../php/state.php:17
-msgid "KANSAS"
-msgstr "Канзас"
-
-#: ../../../php/state.php:18
-msgid "KENTUCKY"
-msgstr "Кентукки"
-
-#: ../../../php/state.php:19
-msgid "LOUISIANA"
-msgstr "Луизиана"
-
-#: ../../../php/state.php:20
-msgid "MAINE"
-msgstr "Мэн"
-
-#: ../../../php/state.php:21
-msgid "MARYLAND"
-msgstr "Мэриленд"
-
-#: ../../../php/state.php:22
-msgid "MASSACHUSETTS"
-msgstr "Массачусетс"
-
-#: ../../../php/state.php:23
-msgid "MICHIGAN"
-msgstr "Мичиган"
-
-#: ../../../php/state.php:24
-msgid "MINNESOTA"
-msgstr "Миннесота"
-
-#: ../../../php/state.php:25
-msgid "MISSISSIPPI"
-msgstr "Миссисипи"
-
-#: ../../../php/state.php:26
-msgid "MISSOURI"
-msgstr "Миссури"
-
-#: ../../../php/state.php:27
-msgid "MONTANA"
-msgstr "Монтана"
-
-#: ../../../php/state.php:28
-msgid "NEBRASKA"
-msgstr "Небраска"
-
-#: ../../../php/state.php:29
-msgid "NEVADA"
-msgstr "Невада"
-
-#: ../../../php/state.php:30
-msgid "NEW_HAMPSHIRE"
-msgstr "Нью-Гэмпшир"
-
-#: ../../../php/state.php:31
-msgid "NEW_JERSEY"
-msgstr "Нью-Джерси"
-
-#: ../../../php/state.php:32
-msgid "NEW_MEXICO"
-msgstr "Нью-Мексико"
-
-#: ../../../php/state.php:33
-msgid "NEW_YORK"
-msgstr "Нью-Йорк"
-
-#: ../../../php/state.php:34
-msgid "NORTH_CAROLINA"
-msgstr "Северная Каролина"
-
-#: ../../../php/state.php:35
-msgid "NORTH_DAKOTA"
-msgstr "Северная Дакота"
-
-#: ../../../php/state.php:36
-msgid "OHIO"
-msgstr "Огайо"
-
-#: ../../../php/state.php:37
-msgid "OKLAHOMA"
-msgstr "Оклахома"
-
-#: ../../../php/state.php:38
-msgid "OREGON"
-msgstr "Орегон"
-
-#: ../../../php/state.php:39
-msgid "PENNSYLVANIA"
-msgstr "Пенсильвания"
-
-#: ../../../php/state.php:41
-msgid "RHODE_ISLAND"
-msgstr "Род-Айленд"
-
-#: ../../../php/state.php:42
-msgid "SOUTH_CAROLINA"
-msgstr "Южная Каролина"
-
-#: ../../../php/state.php:43
-msgid "SOUTH_DAKOTA"
-msgstr "Южная Дакота"
-
-#: ../../../php/state.php:44
-msgid "TENNESSEE"
-msgstr "Теннесси"
-
-#: ../../../php/state.php:45
-msgid "TEXAS"
-msgstr "Техас"
-
-#: ../../../php/state.php:46
-msgid "UTAH"
-msgstr "Юта"
-
-#: ../../../php/state.php:47
-msgid "VERMONT"
-msgstr "Вермонт"
-
-#: ../../../php/state.php:48
-msgid "VIRGINIA"
-msgstr "Виргиния"
-
-#: ../../../php/state.php:49
-msgid "WASHINGTON"
-msgstr "Вашингтон"
-
-#: ../../../php/state.php:50
-msgid "WEST_VIRGINIA"
-msgstr "Западная Виргиния"
-
-#: ../../../php/state.php:51
-msgid "WISCONSIN"
-msgstr "Висконсин"
-
-#: ../../../php/state.php:52
-msgid "WYOMING"
-msgstr "Вайоминг"
-
-#: ../../../php/registration.php:36
+#: ../../../php/registration.php:37
 msgid "INTERNAL_ERROR"
 msgstr "Внутренняя ошибка"
 
-#: ../../../php/registration.php:141
+#: ../../../php/registration.php:142
 msgid "YOU_ARE_LOCKED_OUT"
 msgstr "Вы заблокированы на"
 
-#: ../../../php/registration.php:142
+#: ../../../php/registration.php:143
 msgid "SECONDS"
 msgstr "с."
 
-#: ../../../php/registration.php:151
+#: ../../../php/registration.php:152
 msgid "INVITE_INCORRECT"
 msgstr "Неверный инвайт"
 
-#: ../../../php/registration.php:164
+#: ../../../php/registration.php:165
 msgid "INVITE_USED"
 msgstr "Ивайт уже был использован"
 
-#: ../../../php/registration.php:166
+#: ../../../php/registration.php:167
 msgid "INVITE_EXPIRED"
 msgstr "Срок действия инвайта истек"
 
-#: ../../../php/registration.php:196
+#: ../../../php/registration.php:197
 msgid "WELCOME"
 msgstr "Добро пожаловать!"
 
