@@ -194,10 +194,12 @@ require("php/setup.php")
                     </div>
                     <div class="row">
                         <div class="span12">
-                            <p class="registration-submit">
-                                <a id="registration-submit" class="submit" href="#registration"><?php echo gettext("REGISTRATION_SUBMIT")?></a>
-                            </p>
-                            <div id="response"></div>
+                            <div class="registration-submit-wrapper">
+                                <p class="registration-submit">
+                                    <a id="registration-submit" class="submit" href="#registration"><?php echo gettext("REGISTRATION_SUBMIT")?></a>
+                                </p>
+                                <div id="response"></div>
+                            </div>
                         </div>
                     </div>
                 </form>

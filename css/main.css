@@ -925,7 +925,7 @@ nav#menu #menu-nav li a:hover {
 
 #registration-form p {
     margin-bottom: 1px;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 #registration-form input, #registration-form textarea, #invite-main, #registration-form select {
@@ -1340,4 +1340,8 @@ footer .credits {
 
 .error {
     color: #DE5E60;
+}
+
+.registration-submit-wrapper {
+    text-align: center;
 }
