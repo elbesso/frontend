@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 17:36+0300\n"
-"PO-Revision-Date: 2015-11-16 17:41+0300\n"
+"POT-Creation-Date: 2015-11-16 18:32+0300\n"
+"PO-Revision-Date: 2015-11-16 18:35+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -1498,6 +1498,34 @@ msgstr "Висконсин"
 #: ../../../php/state.php:52
 msgid "WYOMING"
 msgstr "Вайоминг"
+
+#: ../../../php/registration.php:36
+msgid "INTERNAL_ERROR"
+msgstr "Внутренняя ошибка"
+
+#: ../../../php/registration.php:141
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr "Вы заблокированы на"
+
+#: ../../../php/registration.php:142
+msgid "SECONDS"
+msgstr "секунд"
+
+#: ../../../php/registration.php:151
+msgid "INVITE_INCORRECT"
+msgstr "Неверный инвайт"
+
+#: ../../../php/registration.php:164
+msgid "INVITE_USED"
+msgstr "Ивайт уже был использован"
+
+#: ../../../php/registration.php:166
+msgid "INVITE_EXPIRED"
+msgstr "Срок действия инвайта истек"
+
+#: ../../../php/registration.php:196
+msgid "WELCOME"
+msgstr "Добро пожаловать!"
 
 #~ msgid "MENU_HOME"
 #~ msgstr "Главная"

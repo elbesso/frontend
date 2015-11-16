@@ -71,7 +71,7 @@ require("php/setup.php")
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jquery.validate.js"></script>
-        <script src="js/form.validation.js"></script>
+        <script src="<?php echo $localized_validation?>"></script>
         <script src="js/jquery.masked.input.js"></script>
         <script src="js/jquery.cookie.js"></script>
     </head>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 17:36+0300\n"
-"PO-Revision-Date: 2015-11-16 17:36+0300\n"
+"POT-Creation-Date: 2015-11-16 18:34+0300\n"
+"PO-Revision-Date: 2015-11-16 18:34+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: en_US\n"
@@ -1503,4 +1503,33 @@ msgstr ""
 
 #: ../../../php/state.php:52
 msgid "WYOMING"
+msgstr ""
+
+#: ../../../php/registration.php:36
+msgid "INTERNAL_ERROR"
+msgstr ""
+
+#: ../../../php/registration.php:141
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr ""
+
+#: ../../../php/registration.php:142
+msgid "SECONDS"
+msgstr ""
+
+#: ../../../php/registration.php:151
+#, fuzzy
+msgid "INVITE_INCORRECT"
+msgstr "Enter your invite"
+
+#: ../../../php/registration.php:164
+msgid "INVITE_USED"
+msgstr ""
+
+#: ../../../php/registration.php:166
+msgid "INVITE_EXPIRED"
+msgstr ""
+
+#: ../../../php/registration.php:196
+msgid "WELCOME"
 msgstr ""

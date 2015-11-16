@@ -5,6 +5,7 @@
  * Date: 05.11.15
  * Time: 18:09
  */
+require('setup.php');
 
 class Registration_Form {
     private $connection;
@@ -33,7 +34,7 @@ class Registration_Form {
 
     function __construct($details) {
         $this->response_status = 0;
-        $this->response_html = '<p>Internal error</p>';
+        $this->response_html = '<p>' . gettext("INTERNAL_ERROR") . '</p>';
         $this->client_ip = $_SERVER['REMOTE_ADDR'];
         $this->name = $_POST['registration_name'];
         $this->surname = $_POST['registration_surname'];
@@ -50,7 +51,7 @@ class Registration_Form {
         }
         $this->city = $_POST['registration_city'];
         $this->postcode = $_POST['registration_postcode'];
-        $this->address = $_POST['registration_address_line_1'].'\n'.$_POST['registration_address_line_2'];
+        $this->address = $_POST['registration_address_line_1'].' '.$_POST['registration_address_line_2'];
         $this->phone_number = $_POST['registration_phone_number'];
         $this->invite = $_POST['registration_invite'];
 
@@ -138,8 +139,8 @@ class Registration_Form {
                     $failed_count = $row['failed_count'];
                 }
                 if (($failed_count >= $bad_invite_limit) && (time() - $first_failed_invite_time < $lockout_time)) {
-                    $this->response_html = '<p>Your are locked out for '
-                        . ($lockout_time - (time() - $first_failed_invite_time)) . ' seconds</p>';
+                    $this->response_html = '<p>' . gettext("YOU_ARE_LOCKED_OUT") . ' '
+                        . ($lockout_time - (time() - $first_failed_invite_time)) . ' ' . gettext("SECONDS") . '</p>';
                 } else {
                     if (!$this->stmt_select_inv->execute()) {
                         error_log("Execute failed(select invite): " . $this->connection->error);
@@ -148,7 +149,7 @@ class Registration_Form {
                             error_log("Get result failed(select invite): " . $this->connection->error);
                         } else {
                             if ($res->num_rows == 0) {
-                                $this->response_html = '<p>Incorrect invite</p>';
+                                $this->response_html = '<p>' . gettext("INVITE_INCORRECT") . '</p>';
                                 $failed_count++;
                                 if (time() - $first_failed_invite_time > $lockout_time) {
                                     $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
@@ -161,9 +162,9 @@ class Registration_Form {
                                 $row = $res->fetch_assoc();
                                 if ($row["date_activated"] != null or $row["user_id"] != null or (strtotime($row["date_expire"]) < time())) {
                                     if ($row["date_activated"] != null or $row["user_id"] != null) {
-                                        $this->response_html = '<p>The invite is already used</p>';
+                                        $this->response_html = '<p>' . gettext("INVITE_USED") . '</p>';
                                     } else if (strtotime($row["date_expire"]) < time()) {
-                                        $this->response_html = '<p>The invite is expired</p>';
+                                        $this->response_html = '<p>' . gettext("INVITE_EXPIRED") . '</p>';
                                     }
                                     $failed_count++;
                                     if (time() - $first_failed_invite_time > $lockout_time) {
@@ -193,7 +194,7 @@ class Registration_Form {
                                             if (!$this->stmt_update->execute()) {
                                                 error_log("Execute failed(update): " . $this->connection->error);
                                             } else {
-                                                $this->response_html = '<p>Welcome!</p>';
+                                                $this->response_html = '<p>' . gettext("WELCOME") . '</p>';
                                                 $this->response_status = 1;
                                             }
                                         }
