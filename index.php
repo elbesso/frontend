@@ -85,7 +85,7 @@ require("php/setup.php")
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">
-                    <a id="goUp" href="#invite_main" title=<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>><?php echo gettext("STICKY_NAV_GO_UP")?></a>
+                    <a id="goUp" href="#invite_main" title="<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>"><?php echo gettext("STICKY_NAV_GO_UP")?></a>
                 </div>
                 <div class="select">
                     <input type="checkbox" id="toggle" class="toggle">
