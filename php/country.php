@@ -232,7 +232,6 @@
 <option id="WALLIS_AND_FUTUNA_ISLANDS" class="country" value="WALLIS_AND_FUTUNA_ISLANDS"><?php echo gettext("WALLIS_AND_FUTUNA_ISLANDS")?></option>
 <option id="WESTERN_SAHARA" class="country" value="WESTERN_SAHARA"><?php echo gettext("WESTERN_SAHARA")?></option>
 <option id="YEMEN" class="country" value="YEMEN"><?php echo gettext("YEMEN")?></option>
-<option id="YUGOSLAVIA" class="country" value="YUGOSLAVIA"><?php echo gettext("YUGOSLAVIA")?></option>
 <option id="ZAIRE" class="country" value="ZAIRE"><?php echo gettext("ZAIRE")?></option>
 <option id="ZAMBIA" class="country" value="ZAMBIA"><?php echo gettext("ZAMBIA")?></option>
 <option id="ZIMBABWE" class="country" value="ZIMBABWE"><?php echo gettext("ZIMBABWE")?></option>

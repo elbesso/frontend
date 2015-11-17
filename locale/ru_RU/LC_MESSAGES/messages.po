@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 18:32+0300\n"
-"PO-Revision-Date: 2015-11-16 19:33+0300\n"
+"POT-Creation-Date: 2015-11-17 18:29+0300\n"
+"PO-Revision-Date: 2015-11-17 18:30+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -27,267 +27,287 @@ msgstr "Заголовок наверх"
 msgid "STICKY_NAV_GO_UP"
 msgstr "Наверх"
 
-#: ../../../index.php:91
+#: ../../../index.php:92
 msgid "STICKY_NAV_LANGUAGE"
 msgstr "Язык"
 
-#: ../../../index.php:92
+#: ../../../index.php:96
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
 msgstr "Английский"
 
-#: ../../../index.php:93
+#: ../../../index.php:100
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
 msgstr "Русский"
 
-#: ../../../index.php:94
+#: ../../../index.php:104
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
 msgstr "Испанский"
 
-#: ../../../index.php:98
+#: ../../../index.php:110
 msgid "MENU_INVITE"
 msgstr "Инвайт"
 
-#: ../../../index.php:99
+#: ../../../index.php:111
 msgid "MENU_REGISTRATION"
 msgstr "Регистрация"
 
-#: ../../../index.php:100
+#: ../../../index.php:112
 msgid "MENU_ABOUT"
 msgstr "О нас"
 
-#: ../../../index.php:101
+#: ../../../index.php:113
 msgid "MENU_CONTACT"
 msgstr "Контакты"
 
-#: ../../../index.php:110
+#: ../../../index.php:122
 msgid "INVITE_MAIN_TITLE"
 msgstr "Для регистрации"
 
-#: ../../../index.php:111
+#: ../../../index.php:123
 msgid "INVITE_MAIN_TITLE_DESCRIPTION "
 msgstr "Введите ваш инвайт"
 
-#: ../../../index.php:112
+#: ../../../index.php:124
 msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
 msgstr "АААА-АААА-АААА-АААА"
 
-#: ../../../index.php:116
+#: ../../../index.php:128
 msgid "INVITE_MAIN_INVITE_BUTTON"
 msgstr " Начать"
 
-#: ../../../index.php:130
+#: ../../../index.php:142
 msgid "REGISTRATION_LABEL_NAME"
 msgstr "Имя"
 
-#: ../../../index.php:131
+#: ../../../index.php:143
 msgid "REGISTRATION_PLACEHOLDER_NAME"
 msgstr "Ваше имя"
 
-#: ../../../index.php:134
+#: ../../../index.php:146
 msgid "REGISTRATION_LABEL_SURNAME"
 msgstr "Фамилия"
 
-#: ../../../index.php:135
+#: ../../../index.php:147
 msgid "REGISTRATION_PLACEHOLDER_SURNAME"
 msgstr "Ваша фамилия"
 
-#: ../../../index.php:138
+#: ../../../index.php:150
 msgid "REGISTRATION_LABEL_ORGANIZATION"
 msgstr "Организация"
 
-#: ../../../index.php:139
+#: ../../../index.php:151
 msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
 msgstr "Ваша организация"
 
-#: ../../../index.php:142
+#: ../../../index.php:154
 msgid "REGISTRATION_LABEL_POSITION"
 msgstr "Должность"
 
-#: ../../../index.php:143
+#: ../../../index.php:155
 msgid "REGISTRATION_PLACEHOLDER_POSITION"
 msgstr "Ваша должность"
 
-#: ../../../index.php:146
+#: ../../../index.php:158
 msgid "REGISTRATION_LABEL_EMAIL"
 msgstr "Email"
 
-#: ../../../index.php:147
+#: ../../../index.php:159
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
 msgstr "someone@something.com"
 
-#: ../../../index.php:150
+#: ../../../index.php:162
 msgid "REGISTRATION_LABEL_PHONE"
 msgstr "Телефон"
 
-#: ../../../index.php:151
+#: ../../../index.php:163
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
-msgstr "+7 999 99 99"
+msgstr "+7 999 999 99 99"
 
-#: ../../../index.php:156
+#: ../../../index.php:168
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
 msgstr "Адрес 1"
 
-#: ../../../index.php:157
+#: ../../../index.php:169
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
 msgstr "Ваш адрес"
 
-#: ../../../index.php:160
+#: ../../../index.php:172
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
 msgstr "Адрес 2"
 
-#: ../../../index.php:161
+#: ../../../index.php:173
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
 msgstr "Ваш адрес"
 
-#: ../../../index.php:164
+#: ../../../index.php:176
 msgid "REGISTRATION_LABEL_CITY"
 msgstr "Город"
 
-#: ../../../index.php:165
+#: ../../../index.php:177
 msgid "REGISTRATION_PLACEHOLDER_CITY"
 msgstr "Ваш город"
 
-#: ../../../index.php:168
+#: ../../../index.php:180
 msgid "REGISTRATION_LABEL_POSTCODE"
 msgstr "Почтовый индекс"
 
-#: ../../../index.php:169
+#: ../../../index.php:181
 msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
 msgstr "Ваш почтовый индекс"
 
-#: ../../../index.php:172
+#: ../../../index.php:184
 msgid "REGISTRATION_LABEL_COUNTRY"
 msgstr "Страна"
 
-#: ../../../index.php:178
+#: ../../../index.php:190
 msgid "REGISTRATION_LABEL_STATE"
 msgstr "Штат"
 
-#: ../../../index.php:184
+#: ../../../index.php:196
 msgid "REGISTRATION_LABEL_PROVINCE"
 msgstr "Провинция"
 
-#: ../../../index.php:190
+#: ../../../index.php:202
 msgid "REGISTRATION_LABEL_INVITE"
 msgstr "Инвайт"
 
-#: ../../../index.php:191
+#: ../../../index.php:203
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
 msgstr "AAAA-AAAA-AAAA-AAAA"
 
-#: ../../../index.php:198
+#: ../../../index.php:210
 msgid "REGISTRATION_SUBMIT"
 msgstr "Отправить"
 
-#: ../../../index.php:212
+#: ../../../index.php:213
+msgid "INTERNAL_ERROR"
+msgstr "Внутренняя ошибка"
+
+#: ../../../index.php:214
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr "Вы заблокированы на 5 минут"
+
+#: ../../../index.php:215
+msgid "INVITE_INCORRECT"
+msgstr "Неверный инвайт"
+
+#: ../../../index.php:216
+msgid "INVITE_USED"
+msgstr "Ивайт уже был использован"
+
+#: ../../../index.php:217
+msgid "INVITE_EXPIRED"
+msgstr "Срок действия инвайта истек"
+
+#: ../../../index.php:230
 msgid "ABOUT_TITLE"
 msgstr "О нас"
 
-#: ../../../index.php:213
+#: ../../../index.php:231
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr "Спешите узнать"
 
-#: ../../../index.php:222
+#: ../../../index.php:240
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr "Thumbnails первого продукта"
 
-#: ../../../index.php:224
+#: ../../../index.php:242
 msgid "ABOUT_FIRST_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:226
+#: ../../../index.php:244
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr "Название первого продукта"
 
-#: ../../../index.php:227
+#: ../../../index.php:245
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr "Описание первого продукта"
 
-#: ../../../index.php:233
+#: ../../../index.php:251
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr "Thumbnails второго продукта"
 
-#: ../../../index.php:235
+#: ../../../index.php:253
 msgid "ABOUT_SECOND_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:237
+#: ../../../index.php:255
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr "Название второго продукта"
 
-#: ../../../index.php:238
+#: ../../../index.php:256
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr "Описание второго продукта"
 
-#: ../../../index.php:244
+#: ../../../index.php:262
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr "Thumbnails третьего продукта"
 
-#: ../../../index.php:246
+#: ../../../index.php:264
 msgid "ABOUT_THIRD_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:248
+#: ../../../index.php:266
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr "Название третьего продукта"
 
-#: ../../../index.php:249
+#: ../../../index.php:267
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr "Описание третьего продукта"
 
-#: ../../../index.php:259
+#: ../../../index.php:277
 msgid "CONTACT_TITLE"
 msgstr "Контакты"
 
-#: ../../../index.php:260
+#: ../../../index.php:278
 msgid "CONTACT_TITLE_DESCRIPTION"
 msgstr "Описание контактов"
 
-#: ../../../index.php:267
+#: ../../../index.php:285
 msgid "CONTACT_DETAILS"
 msgstr "Детали контактов"
 
-#: ../../../index.php:269
+#: ../../../index.php:287
 msgid "CONTACT_DETAIL_EMAIL"
 msgstr "email@forcontact.com"
 
-#: ../../../index.php:270
+#: ../../../index.php:288
 msgid "CONTACT_DETAIL_PHONE"
 msgstr "+7(999)999-99-99"
 
-#: ../../../index.php:272
+#: ../../../index.php:290
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr "Адрес - первая линия"
 
-#: ../../../index.php:274
+#: ../../../index.php:292
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr "Адрес - вторая линия"
 
-#: ../../../index.php:276
+#: ../../../index.php:294
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr "Адрес - третья линия"
 
-#: ../../../index.php:286
+#: ../../../index.php:304
 msgid "FOOTER_FIRST"
 msgstr "Первая часть футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr "Заголовок первой ссылки футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_SECOND"
 msgstr "вторая часть футера"
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_THIRD"
 msgstr "третья часть футера"
 
-#: ../../../index.php:288
+#: ../../../index.php:306
 msgid "FOOTER_SECOND_LINK_TITLE"
 msgstr "Заголовок второй ссылки футера"
 
-#: ../../../index.php:288
+#: ../../../index.php:306
 msgid "FOOTER_FORTH"
 msgstr "четвертая часть футера"
 
@@ -1280,18 +1300,14 @@ msgid "YEMEN"
 msgstr "Йемен"
 
 #: ../../../php/country.php:235
-msgid "YUGOSLAVIA"
-msgstr "Югославия"
-
-#: ../../../php/country.php:236
 msgid "ZAIRE"
 msgstr "Заир"
 
-#: ../../../php/country.php:237
+#: ../../../php/country.php:236
 msgid "ZAMBIA"
 msgstr "Замбия"
 
-#: ../../../php/country.php:238
+#: ../../../php/country.php:237
 msgid "ZIMBABWE"
 msgstr "Зимбабве"
 
@@ -1499,33 +1515,14 @@ msgstr "Висконсин"
 msgid "WYOMING"
 msgstr "Вайоминг"
 
-#: ../../../php/registration.php:36
-msgid "INTERNAL_ERROR"
-msgstr "Внутренняя ошибка"
+#~ msgid "YUGOSLAVIA"
+#~ msgstr "Югославия"
 
-#: ../../../php/registration.php:141
-msgid "YOU_ARE_LOCKED_OUT"
-msgstr "Вы заблокированы на"
+#~ msgid "SECONDS"
+#~ msgstr "с."
 
-#: ../../../php/registration.php:142
-msgid "SECONDS"
-msgstr "с."
-
-#: ../../../php/registration.php:151
-msgid "INVITE_INCORRECT"
-msgstr "Неверный инвайт"
-
-#: ../../../php/registration.php:164
-msgid "INVITE_USED"
-msgstr "Ивайт уже был использован"
-
-#: ../../../php/registration.php:166
-msgid "INVITE_EXPIRED"
-msgstr "Срок действия инвайта истек"
-
-#: ../../../php/registration.php:196
-msgid "WELCOME"
-msgstr "Добро пожаловать!"
+#~ msgid "WELCOME"
+#~ msgstr "Добро пожаловать!"
 
 #~ msgid "MENU_HOME"
 #~ msgstr "Главная"

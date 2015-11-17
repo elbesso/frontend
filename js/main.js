@@ -131,19 +131,24 @@ jQuery(function ($) {
                     if (response.status) {
                         $(location).attr('href', 'thankyou.html');
                     }
-                    $('#response').empty().html(response.html);
+                    //$('#response').empty().html(response.html);
+                    $("#response").find("p").hide();
+                    $("#response_".concat(response.html)).show();
                 }
             });
             return false;
         }
     });
 
+    $(document).ready(function() {
+       $("#response").find("p").hide();
+    });
 
     /* ==================================================
      Masks
      ================================================== */
     maskInvites($("#invite-main"), $("#registration_invite"));
-    $("#registration_phone_number").mask("+9 999 99 99");
+    $("#registration_phone_number").mask("+9 999 999 99 99");
 
 
     /* ==================================================
@@ -351,8 +356,8 @@ jQuery(function ($) {
     /* ==================================================
      Localization
      ================================================== */
-    $('.language').click(function() {
-        var locale = $(this).attr('id');
+    $('.select-option').click(function() {
+        var locale = $(this).find('input').attr('id');
         $.cookie("locale", locale);
         location.reload();
     });

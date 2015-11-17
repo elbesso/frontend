@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-16 18:33+0300\n"
-"PO-Revision-Date: 2015-11-16 18:34+0300\n"
+"POT-Creation-Date: 2015-11-17 18:30+0300\n"
+"PO-Revision-Date: 2015-11-17 18:30+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: es_ES\n"
@@ -27,273 +27,294 @@ msgstr ""
 msgid "STICKY_NAV_GO_UP"
 msgstr ""
 
-#: ../../../index.php:91
+#: ../../../index.php:92
 msgid "STICKY_NAV_LANGUAGE"
 msgstr ""
 
-#: ../../../index.php:92
+#: ../../../index.php:96
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
 msgstr ""
 
-#: ../../../index.php:93
+#: ../../../index.php:100
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
 msgstr ""
 
-#: ../../../index.php:94
+#: ../../../index.php:104
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
 msgstr ""
 
-#: ../../../index.php:98
+#: ../../../index.php:110
 msgid "MENU_INVITE"
 msgstr ""
 
-#: ../../../index.php:99
+#: ../../../index.php:111
 msgid "MENU_REGISTRATION"
 msgstr ""
 
-#: ../../../index.php:100
+#: ../../../index.php:112
 msgid "MENU_ABOUT"
 msgstr ""
 
-#: ../../../index.php:101
+#: ../../../index.php:113
 msgid "MENU_CONTACT"
 msgstr ""
 
-#: ../../../index.php:110
+#: ../../../index.php:122
 msgid "INVITE_MAIN_TITLE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:111
+#: ../../../index.php:123
 msgid "INVITE_MAIN_TITLE_DESCRIPTION "
 msgstr ""
 
-#: ../../../index.php:112
+#: ../../../index.php:124
 #, fuzzy
 msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:116
+#: ../../../index.php:128
 msgid "INVITE_MAIN_INVITE_BUTTON"
 msgstr ""
 
-#: ../../../index.php:130
+#: ../../../index.php:142
 msgid "REGISTRATION_LABEL_NAME"
 msgstr ""
 
-#: ../../../index.php:131
+#: ../../../index.php:143
 msgid "REGISTRATION_PLACEHOLDER_NAME"
 msgstr ""
 
-#: ../../../index.php:134
+#: ../../../index.php:146
 msgid "REGISTRATION_LABEL_SURNAME"
 msgstr ""
 
-#: ../../../index.php:135
+#: ../../../index.php:147
 msgid "REGISTRATION_PLACEHOLDER_SURNAME"
 msgstr ""
 
-#: ../../../index.php:138
+#: ../../../index.php:150
 msgid "REGISTRATION_LABEL_ORGANIZATION"
 msgstr ""
 
-#: ../../../index.php:139
+#: ../../../index.php:151
 msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
 msgstr ""
 
-#: ../../../index.php:142
+#: ../../../index.php:154
 msgid "REGISTRATION_LABEL_POSITION"
 msgstr ""
 
-#: ../../../index.php:143
+#: ../../../index.php:155
 msgid "REGISTRATION_PLACEHOLDER_POSITION"
 msgstr ""
 
-#: ../../../index.php:146
+#: ../../../index.php:158
 msgid "REGISTRATION_LABEL_EMAIL"
 msgstr ""
 
-#: ../../../index.php:147
+#: ../../../index.php:159
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
 msgstr ""
 
-#: ../../../index.php:150
+#: ../../../index.php:162
 msgid "REGISTRATION_LABEL_PHONE"
 msgstr ""
 
-#: ../../../index.php:151
+#: ../../../index.php:163
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
 msgstr ""
 
-#: ../../../index.php:156
+#: ../../../index.php:168
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
 msgstr ""
 
-#: ../../../index.php:157
+#: ../../../index.php:169
 #, fuzzy
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:160
+#: ../../../index.php:172
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
 msgstr ""
 
-#: ../../../index.php:161
+#: ../../../index.php:173
 #, fuzzy
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:164
+#: ../../../index.php:176
 msgid "REGISTRATION_LABEL_CITY"
 msgstr ""
 
-#: ../../../index.php:165
+#: ../../../index.php:177
 msgid "REGISTRATION_PLACEHOLDER_CITY"
 msgstr ""
 
-#: ../../../index.php:168
+#: ../../../index.php:180
 msgid "REGISTRATION_LABEL_POSTCODE"
 msgstr ""
 
-#: ../../../index.php:169
+#: ../../../index.php:181
 msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
 msgstr ""
 
-#: ../../../index.php:172
+#: ../../../index.php:184
 msgid "REGISTRATION_LABEL_COUNTRY"
 msgstr ""
 
-#: ../../../index.php:178
+#: ../../../index.php:190
 msgid "REGISTRATION_LABEL_STATE"
 msgstr ""
 
-#: ../../../index.php:184
+#: ../../../index.php:196
 #, fuzzy
 msgid "REGISTRATION_LABEL_PROVINCE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:190
+#: ../../../index.php:202
 msgid "REGISTRATION_LABEL_INVITE"
 msgstr ""
 
-#: ../../../index.php:191
+#: ../../../index.php:203
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
 msgstr ""
 
-#: ../../../index.php:198
+#: ../../../index.php:210
 msgid "REGISTRATION_SUBMIT"
 msgstr ""
 
-#: ../../../index.php:212
+#: ../../../index.php:213
+msgid "INTERNAL_ERROR"
+msgstr ""
+
+#: ../../../index.php:214
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr ""
+
+#: ../../../index.php:215
+#, fuzzy
+msgid "INVITE_INCORRECT"
+msgstr "SPANHISH TEXT"
+
+#: ../../../index.php:216
+msgid "INVITE_USED"
+msgstr ""
+
+#: ../../../index.php:217
+msgid "INVITE_EXPIRED"
+msgstr ""
+
+#: ../../../index.php:230
 msgid "ABOUT_TITLE"
 msgstr ""
 
-#: ../../../index.php:213
+#: ../../../index.php:231
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:222
+#: ../../../index.php:240
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:224
+#: ../../../index.php:242
 msgid "ABOUT_FIRST_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:226
+#: ../../../index.php:244
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:227
+#: ../../../index.php:245
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:233
+#: ../../../index.php:251
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:235
+#: ../../../index.php:253
 msgid "ABOUT_SECOND_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:237
+#: ../../../index.php:255
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:238
+#: ../../../index.php:256
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:244
+#: ../../../index.php:262
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:246
+#: ../../../index.php:264
 msgid "ABOUT_THIRD_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:248
+#: ../../../index.php:266
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:249
+#: ../../../index.php:267
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:259
+#: ../../../index.php:277
 #, fuzzy
 msgid "CONTACT_TITLE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:260
+#: ../../../index.php:278
 msgid "CONTACT_TITLE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:267
+#: ../../../index.php:285
 #, fuzzy
 msgid "CONTACT_DETAILS"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:269
+#: ../../../index.php:287
 msgid "CONTACT_DETAIL_EMAIL"
 msgstr ""
 
-#: ../../../index.php:270
+#: ../../../index.php:288
 msgid "CONTACT_DETAIL_PHONE"
 msgstr ""
 
-#: ../../../index.php:272
+#: ../../../index.php:290
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr ""
 
-#: ../../../index.php:274
+#: ../../../index.php:292
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr ""
 
-#: ../../../index.php:276
+#: ../../../index.php:294
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr ""
 
-#: ../../../index.php:286
+#: ../../../index.php:304
 msgid "FOOTER_FIRST"
 msgstr ""
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr ""
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_SECOND"
 msgstr ""
 
-#: ../../../index.php:287
+#: ../../../index.php:305
 msgid "FOOTER_THIRD"
 msgstr ""
 
-#: ../../../index.php:288
+#: ../../../index.php:306
 msgid "FOOTER_SECOND_LINK_TITLE"
 msgstr ""
 
-#: ../../../index.php:288
+#: ../../../index.php:306
 msgid "FOOTER_FORTH"
 msgstr ""
 
@@ -1286,18 +1307,14 @@ msgid "YEMEN"
 msgstr ""
 
 #: ../../../php/country.php:235
-msgid "YUGOSLAVIA"
-msgstr ""
-
-#: ../../../php/country.php:236
 msgid "ZAIRE"
 msgstr ""
 
-#: ../../../php/country.php:237
+#: ../../../php/country.php:236
 msgid "ZAMBIA"
 msgstr ""
 
-#: ../../../php/country.php:238
+#: ../../../php/country.php:237
 msgid "ZIMBABWE"
 msgstr ""
 
@@ -1503,33 +1520,4 @@ msgstr ""
 
 #: ../../../php/state.php:52
 msgid "WYOMING"
-msgstr ""
-
-#: ../../../php/registration.php:36
-msgid "INTERNAL_ERROR"
-msgstr ""
-
-#: ../../../php/registration.php:141
-msgid "YOU_ARE_LOCKED_OUT"
-msgstr ""
-
-#: ../../../php/registration.php:142
-msgid "SECONDS"
-msgstr ""
-
-#: ../../../php/registration.php:151
-#, fuzzy
-msgid "INVITE_INCORRECT"
-msgstr "SPANHISH TEXT"
-
-#: ../../../php/registration.php:164
-msgid "INVITE_USED"
-msgstr ""
-
-#: ../../../php/registration.php:166
-msgid "INVITE_EXPIRED"
-msgstr ""
-
-#: ../../../php/registration.php:196
-msgid "WELCOME"
 msgstr ""

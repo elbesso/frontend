@@ -87,11 +87,23 @@ require("php/setup.php")
                 <div id="logo">
                     <a id="goUp" href="#invite_main" title=<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>><?php echo gettext("STICKY_NAV_GO_UP")?></a>
                 </div>
-                <div id="language">
-                    <?php echo gettext("STICKY_NAV_LANGUAGE")?>:
-                    <a id="en_US" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></a>
-                    <a id="ru_RU" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></a>
-                    <a id="es_ES" class="language"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></a>
+                <div class="select">
+                    <input type="checkbox" id="toggle" class="toggle">
+                    <label for="toggle"><?php echo gettext("STICKY_NAV_LANGUAGE")?></label>
+                    <ul>
+                        <li class="select-option">
+                            <input type="radio" id="en_US" class="language">
+                            <label for="en_US"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></label>
+                        </li>
+                        <li class="select-option">
+                            <input type="radio" id="ru_RU" class="language">
+                            <label for="ru_RU"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></label>
+                        </li>
+                        <li class="select-option">
+                            <input type="radio" id="es_ES" class="language">
+                            <label for="es_ES"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></label>
+                        </li>
+                    </ul>
                 </div>
                 <nav id="menu">
                     <ul id="menu-nav">
@@ -153,11 +165,11 @@ require("php/setup.php")
                         </div>
                         <div class="span6">
                             <p class="registration-address-line-1">
-                                <label for="registration_address"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_1")?></label>
+                                <label for="registration_address_line_1"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_1")?></label>
                                 <input id="registration_address_line_1" name="registration_address_line_1" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1")?>">
                             </p>
                             <p class="registration-address-line-2">
-                                <label for="registration_address"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_2")?></label>
+                                <label for="registration_address_line_2"><?php echo gettext("REGISTRATION_LABEL_ADDRESS_LINE_2")?></label>
                                 <input id="registration_address_line_2" name="registration_address_line_2" placeholder="<?php echo gettext("REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2")?>">
                             </p>
                             <p class="registration-city">
@@ -197,7 +209,13 @@ require("php/setup.php")
                             <p class="registration-submit">
                                 <a id="registration-submit" class="submit" href="#registration"><?php echo gettext("REGISTRATION_SUBMIT")?></a>
                             </p>
-                            <div id="response"></div>
+                            <div id="response">
+                                <p id="response_internal_error"><?php echo gettext("INTERNAL_ERROR")?></p>
+                                <p id="response_locked"><?php echo gettext("YOU_ARE_LOCKED_OUT")?></p>
+                                <p id="response_invite_incorrect"><?php echo gettext("INVITE_INCORRECT")?></p>
+                                <p id="response_invite_used"><?php echo gettext("INVITE_USED")?></p>
+                                <p id="response_invite_expired"><?php echo gettext("INVITE_EXPIRED")?></p>
+                            </div>
                         </div>
                     </div>
                 </form>
@@ -283,9 +301,8 @@ require("php/setup.php")
         </div>
         <footer>
             <!-- TODO add actual link -->
-            <p class="credits"><?php echo gettext("FOOTER_FIRST")?> <a href="http://themes.alessioatzeni.com/html/brushed/"
-                                                      title="<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>"><?php echo gettext("FOOTER_SECOND")?> </a><?php echo gettext("FOOTER_THIRD")?> <a
-                    href="http://www.alessioatzeni.com/" title="<?php echo gettext("FOOTER_SECOND_LINK_TITLE")?>"><?php echo gettext("FOOTER_FORTH")?></a></p>
+            <p class="credits"><?php echo gettext("FOOTER_FIRST")?> <a href="<?php echo gettext("FOOTER_FIRST_LINK")?>"
+                                                      title="<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>"><?php echo gettext("FOOTER_SECOND")?></a></p>
         </footer>
     </body>
 </html>

@@ -16,7 +16,7 @@ $locale .= '.'.$encoding;
 putenv("LC_ALL=$locale");
 setlocale(LC_ALL, $locale);
 bindtextdomain($domain, "locale");
-bind_textdomain_codeset($domain, 'UTF-8');
+bind_textdomain_codeset($domain, $encoding);
 textdomain($domain);
 $js_validate_name = preg_split('/\./', $locale);
 $localized_validation = "js/form_validation_" . $js_validate_name[0] . ".js";
