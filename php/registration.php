@@ -56,9 +56,7 @@ class Registration_Form {
         $this->invite = $_POST['registration_invite'];
 
         $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
-        $reCaptcha = new \ReCaptcha\ReCaptcha($secret);
-        $this->captcha_resp = $reCaptcha->verify($this->client_ip, $_POST['g-recaptcha-response']);
-//        var_dump($this->captcha_resp);
+        $this->captcha_resp = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $_POST['g-recaptcha-response']), true);
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
         } else {
@@ -131,7 +129,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 600;
+                $lockout_time = 1;
                 $first_failed_invite_time = 0;
                 $first_failed_captcha_time = 0;
                 $failed_invite_count = 0;
@@ -148,7 +146,7 @@ class Registration_Form {
                 if (($failed_captcha_count >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
                     $this->response_html = "locked";
                 } else {
-                    if ($this->captcha_resp == null || !$this->captcha_resp->isSuccess()) {
+                    if ($this->captcha_resp == null || $this->captcha_resp['success'] != 'true') {
                         $failed_captcha_count++;
                         $this->response_html = "bad_captcha";
                         if (time() - $first_failed_captcha_time > $lockout_time) {
