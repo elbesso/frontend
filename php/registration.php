@@ -58,7 +58,7 @@ class Registration_Form {
         $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
         $reCaptcha = new \ReCaptcha\ReCaptcha($secret);
         $this->captcha_resp = $reCaptcha->verify($this->client_ip, $_POST['g-recaptcha-response']);
-        var_dump($this->captcha_resp);
+//        var_dump($this->captcha_resp);
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
         } else {
