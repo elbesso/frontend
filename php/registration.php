@@ -41,9 +41,9 @@ class Registration_Form {
         $this->position = $_POST['registration_position'];
         $this->email = $_POST['registration_email'];
         $this->country = $_POST['registration_country'];
-        if (array_key_exists('registration_state', $_POST) && $this->country == 'UNITED_STATES') {
+        if (array_key_exists('registration_state', $_POST) && $this->country == 'US') {
             $this->state = $_POST['registration_state'];
-        } else if (array_key_exists('registration_province', $_POST) && $this->country == 'CANADA') {
+        } else if (array_key_exists('registration_province', $_POST) && $this->country == 'CA') {
             $this->state = $_POST['registration_province'];
         } else {
             $this->state = null;
@@ -126,7 +126,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 600;
+                $lockout_time = 1;
                 $first_failed_invite_time = 0;
                 $failed_count = 0;
                 $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
@@ -206,6 +206,7 @@ class Registration_Form {
             $response = array();
             $response['status'] = $this->response_status;
             $response['html'] = $this->response_html;
+            echo json_encode($response);
         }
     }
 }

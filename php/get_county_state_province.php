@@ -18,7 +18,7 @@ file_put_contents($file, $current);
 
 $file = "./state.php";
 $current = '';
-$res = $connection->query("SELECT * FROM state WHERE country_id = 'UNITED_STATES'");
+$res = $connection->query("SELECT * FROM state WHERE country_id = 'US'");
 while ($row = $res->fetch_assoc()) {
     $current .= "<option id=\"" . $row['id'] . "\" class=\"state\" value=\"" . $row['id'] . "\"><?php echo gettext(\"" . $row['id'] . "\")?></option>\n";
 }
@@ -26,7 +26,7 @@ file_put_contents($file, $current);
 
 $file = "./province.php";
 $current = '';
-$res = $connection->query("SELECT * FROM state WHERE country_id = 'CANADA'");
+$res = $connection->query("SELECT * FROM state WHERE country_id = 'CA'");
 while ($row = $res->fetch_assoc()) {
     $current .= "<option id=\"" . $row['id'] . "\" class=\"province\" value=\"" . $row['id'] . "\"><?php echo gettext(\"" . $row['id'] . "\")?></option>\n";
 }

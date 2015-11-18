@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-17 18:30+0300\n"
-"PO-Revision-Date: 2015-11-17 18:30+0300\n"
+"POT-Creation-Date: 2015-11-18 15:57+0300\n"
+"PO-Revision-Date: 2015-11-18 15:57+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: en_US\n"
@@ -260,62 +260,104 @@ msgstr ""
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr ""
 
+#: ../../../index.php:275
+msgid "ABOUT_FORTH_OVERLAY_THUMB"
+msgstr ""
+
 #: ../../../index.php:277
+msgid "ABOUT_FORTH_IMG_ALT"
+msgstr ""
+
+#: ../../../index.php:279
+msgid "ABOUT_FORTH_PROFILE_NAME"
+msgstr ""
+
+#: ../../../index.php:280
+msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: ../../../index.php:286
+msgid "ABOUT_FIFTH_OVERLAY_THUMB"
+msgstr ""
+
+#: ../../../index.php:288
+msgid "ABOUT_FIFTH_IMG_ALT"
+msgstr ""
+
+#: ../../../index.php:290
+msgid "ABOUT_FIFTH_PROFILE_NAME"
+msgstr ""
+
+#: ../../../index.php:291
+msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: ../../../index.php:297
+msgid "ABOUT_SIXTH_OVERLAY_THUMB"
+msgstr ""
+
+#: ../../../index.php:299
+msgid "ABOUT_SIXTH_IMG_ALT"
+msgstr ""
+
+#: ../../../index.php:301
+msgid "ABOUT_SIXTH_PROFILE_NAME"
+msgstr ""
+
+#: ../../../index.php:302
+msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
+msgstr ""
+
+#: ../../../index.php:312
 #, fuzzy
 msgid "CONTACT_TITLE"
 msgstr "Enter your invite"
 
-#: ../../../index.php:278
-msgid "CONTACT_TITLE_DESCRIPTION"
+#: ../../../index.php:313
+#, fuzzy
+msgid "CONTACT_TITLE_DESCRIPTION_1"
+msgstr "Enter your invite"
+
+#: ../../../index.php:314
+#, fuzzy
+msgid "CONTACT_TITLE_DESCRIPTION_2"
+msgstr "Enter your invite"
+
+#: ../../../index.php:315
+msgid "CONTACT_DETAIL_EMAIL"
 msgstr ""
 
-#: ../../../index.php:285
+#: ../../../index.php:318
 #, fuzzy
 msgid "CONTACT_DETAILS"
 msgstr "Enter your invite"
 
-#: ../../../index.php:287
-msgid "CONTACT_DETAIL_EMAIL"
-msgstr ""
-
-#: ../../../index.php:288
-msgid "CONTACT_DETAIL_PHONE"
-msgstr ""
-
-#: ../../../index.php:290
+#: ../../../index.php:321
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr ""
 
-#: ../../../index.php:292
+#: ../../../index.php:323
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr ""
 
-#: ../../../index.php:294
+#: ../../../index.php:325
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr ""
 
-#: ../../../index.php:304
+#: ../../../index.php:335
 msgid "FOOTER_FIRST"
 msgstr ""
 
-#: ../../../index.php:305
+#: ../../../index.php:336
+msgid "FOOTER_FIRST_LINK"
+msgstr ""
+
+#: ../../../index.php:337
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr ""
 
-#: ../../../index.php:305
+#: ../../../index.php:338
 msgid "FOOTER_SECOND"
-msgstr ""
-
-#: ../../../index.php:305
-msgid "FOOTER_THIRD"
-msgstr ""
-
-#: ../../../index.php:306
-msgid "FOOTER_SECOND_LINK_TITLE"
-msgstr ""
-
-#: ../../../index.php:306
-msgid "FOOTER_FORTH"
 msgstr ""
 
 #: ../../../php/province.php:1
@@ -371,951 +413,987 @@ msgid "YUKON"
 msgstr ""
 
 #: ../../../php/country.php:1
-msgid "AALAND_ISLANDS"
+msgid "AD"
 msgstr ""
 
 #: ../../../php/country.php:2
-msgid "AFGHANISTAN"
-msgstr "asdf"
+msgid "AE"
+msgstr ""
 
 #: ../../../php/country.php:3
-msgid "ALBANIA"
+msgid "AF"
 msgstr ""
 
 #: ../../../php/country.php:4
-msgid "ALGERIA"
+msgid "AG"
 msgstr ""
 
 #: ../../../php/country.php:5
-msgid "AMERICAN_SAMOA"
+msgid "AI"
 msgstr ""
 
 #: ../../../php/country.php:6
-msgid "ANDORRA"
+msgid "AL"
 msgstr ""
 
 #: ../../../php/country.php:7
-msgid "ANGOLA"
+msgid "AM"
 msgstr ""
 
 #: ../../../php/country.php:8
-msgid "ANGUILLA"
+msgid "AN"
 msgstr ""
 
 #: ../../../php/country.php:9
-msgid "ANTARCTICA"
+msgid "AO"
 msgstr ""
 
 #: ../../../php/country.php:10
-msgid "ANTIGUA_AND_BARBUDA"
+msgid "AQ"
 msgstr ""
 
 #: ../../../php/country.php:11
-msgid "ARGENTINA"
+msgid "AR"
 msgstr ""
 
 #: ../../../php/country.php:12
-msgid "ARMENIA"
+msgid "AS"
 msgstr ""
 
 #: ../../../php/country.php:13
-msgid "ARUBA"
+msgid "AT"
 msgstr ""
 
 #: ../../../php/country.php:14
-msgid "AUSTRALIA"
+msgid "AU"
 msgstr ""
 
 #: ../../../php/country.php:15
-msgid "AUSTRIA"
+msgid "AW"
 msgstr ""
 
 #: ../../../php/country.php:16
-msgid "AZERBAIJAN"
+msgid "AX"
 msgstr ""
 
 #: ../../../php/country.php:17
-msgid "BAHAMAS"
+msgid "AZ"
 msgstr ""
 
 #: ../../../php/country.php:18
-msgid "BAHRAIN"
+msgid "BA"
 msgstr ""
 
 #: ../../../php/country.php:19
-msgid "BANGLADESH"
+msgid "BB"
 msgstr ""
 
 #: ../../../php/country.php:20
-msgid "BARBADOS"
+msgid "BD"
 msgstr ""
 
 #: ../../../php/country.php:21
-msgid "BELARUS"
+msgid "BE"
 msgstr ""
 
 #: ../../../php/country.php:22
-msgid "BELGIUM"
+msgid "BF"
 msgstr ""
 
 #: ../../../php/country.php:23
-msgid "BELIZE"
+msgid "BG"
 msgstr ""
 
 #: ../../../php/country.php:24
-msgid "BENIN"
+msgid "BH"
 msgstr ""
 
 #: ../../../php/country.php:25
-msgid "BERMUDA"
+msgid "BI"
 msgstr ""
 
 #: ../../../php/country.php:26
-msgid "BHUTAN"
+msgid "BJ"
 msgstr ""
 
 #: ../../../php/country.php:27
-msgid "BOLIVIA"
+msgid "BL"
 msgstr ""
 
 #: ../../../php/country.php:28
-msgid "BOSNIA_AND_HERZEGOWINA"
+msgid "BM"
 msgstr ""
 
 #: ../../../php/country.php:29
-msgid "BOTSWANA"
+msgid "BN"
 msgstr ""
 
 #: ../../../php/country.php:30
-msgid "BOUVET_ISLAND"
+msgid "BO"
 msgstr ""
 
 #: ../../../php/country.php:31
-msgid "BRAZIL"
+msgid "BR"
 msgstr ""
 
 #: ../../../php/country.php:32
-msgid "BRITISH_INDIAN_OCEAN_TERRITORY"
+msgid "BS"
 msgstr ""
 
 #: ../../../php/country.php:33
-msgid "BRUNEI_DARUSSALAM"
+msgid "BT"
 msgstr ""
 
 #: ../../../php/country.php:34
-msgid "BULGARIA"
+msgid "BV"
 msgstr ""
 
 #: ../../../php/country.php:35
-msgid "BURKINA_FASO"
+msgid "BW"
 msgstr ""
 
 #: ../../../php/country.php:36
-msgid "BURUNDI"
+msgid "BY"
 msgstr ""
 
 #: ../../../php/country.php:37
-msgid "CAMBODIA"
+msgid "BZ"
 msgstr ""
 
 #: ../../../php/country.php:38
-msgid "CAMEROON"
+msgid "CA"
 msgstr ""
 
 #: ../../../php/country.php:39
-msgid "CANADA"
+msgid "CC"
 msgstr ""
 
 #: ../../../php/country.php:40
-msgid "CAPE_VERDE"
+msgid "CD"
 msgstr ""
 
 #: ../../../php/country.php:41
-msgid "CAYMAN_ISLANDS"
+msgid "CF"
 msgstr ""
 
 #: ../../../php/country.php:42
-msgid "CENTRAL_AFRICAN_REPUBLIC"
+msgid "CG"
 msgstr ""
 
 #: ../../../php/country.php:43
-msgid "CHAD"
+msgid "CH"
 msgstr ""
 
 #: ../../../php/country.php:44
-msgid "CHILE"
+msgid "CI"
 msgstr ""
 
 #: ../../../php/country.php:45
-msgid "CHINA"
+msgid "CK"
 msgstr ""
 
 #: ../../../php/country.php:46
-msgid "CHRISTMAS_ISLAND"
+msgid "CL"
 msgstr ""
 
 #: ../../../php/country.php:47
-msgid "COCOS_KEELING_ISLANDS"
+msgid "CM"
 msgstr ""
 
 #: ../../../php/country.php:48
-msgid "COLOMBIA"
+msgid "CN"
 msgstr ""
 
 #: ../../../php/country.php:49
-msgid "COMOROS"
+msgid "CO"
 msgstr ""
 
 #: ../../../php/country.php:50
-msgid "CONGO"
+msgid "CR"
 msgstr ""
 
 #: ../../../php/country.php:51
-msgid "COOK_ISLANDS"
+msgid "CU"
 msgstr ""
 
 #: ../../../php/country.php:52
-msgid "COSTA_RICA"
+msgid "CV"
 msgstr ""
 
 #: ../../../php/country.php:53
-msgid "COTE_DIVOIRE"
+msgid "CX"
 msgstr ""
 
 #: ../../../php/country.php:54
-msgid "CROATIA"
+msgid "CY"
 msgstr ""
 
 #: ../../../php/country.php:55
-msgid "CUBA"
+msgid "CZ"
 msgstr ""
 
 #: ../../../php/country.php:56
-msgid "CYPRUS"
+msgid "DE"
 msgstr ""
 
 #: ../../../php/country.php:57
-msgid "CZECH_REPUBLIC"
+msgid "DJ"
 msgstr ""
 
 #: ../../../php/country.php:58
-msgid "DENMARK"
+msgid "DK"
 msgstr ""
 
 #: ../../../php/country.php:59
-msgid "DJIBOUTI"
+msgid "DM"
 msgstr ""
 
 #: ../../../php/country.php:60
-msgid "DOMINICA"
+msgid "DO"
 msgstr ""
 
 #: ../../../php/country.php:61
-msgid "DOMINICAN_REPUBLIC"
+msgid "DZ"
 msgstr ""
 
 #: ../../../php/country.php:62
-msgid "EAST_TIMOR"
+msgid "EC"
 msgstr ""
 
 #: ../../../php/country.php:63
-msgid "ECUADOR"
+msgid "EE"
 msgstr ""
 
 #: ../../../php/country.php:64
-msgid "EGYPT"
+msgid "EG"
 msgstr ""
 
 #: ../../../php/country.php:65
-msgid "EL_SALVADOR"
+msgid "EH"
 msgstr ""
 
 #: ../../../php/country.php:66
-msgid "EQUATORIAL_GUINEA"
+msgid "ER"
 msgstr ""
 
 #: ../../../php/country.php:67
-msgid "ERITREA"
+msgid "ES"
 msgstr ""
 
 #: ../../../php/country.php:68
-msgid "ESTONIA"
+msgid "ET"
 msgstr ""
 
 #: ../../../php/country.php:69
-msgid "ETHIOPIA"
+msgid "FI"
 msgstr ""
 
 #: ../../../php/country.php:70
-msgid "FALKLAND_ISLANDS"
+msgid "FJ"
 msgstr ""
 
 #: ../../../php/country.php:71
-msgid "FAROE_ISLANDS"
+msgid "FK"
 msgstr ""
 
 #: ../../../php/country.php:72
-msgid "FIJI"
+msgid "FM"
 msgstr ""
 
 #: ../../../php/country.php:73
-msgid "FINLAND"
+msgid "FO"
 msgstr ""
 
 #: ../../../php/country.php:74
-msgid "FRANCE"
+msgid "FR"
 msgstr ""
 
 #: ../../../php/country.php:75
-msgid "FRANCE_METROPOLITAN"
+msgid "GA"
 msgstr ""
 
 #: ../../../php/country.php:76
-msgid "FRENCH_GUIANA"
+msgid "GB"
 msgstr ""
 
 #: ../../../php/country.php:77
-msgid "FRENCH_POLYNESIA"
+msgid "GD"
 msgstr ""
 
 #: ../../../php/country.php:78
-msgid "FRENCH_SOUTHERN_TERRITORIES"
+msgid "GE"
 msgstr ""
 
 #: ../../../php/country.php:79
-msgid "GABON"
+msgid "GF"
 msgstr ""
 
 #: ../../../php/country.php:80
-msgid "GAMBIA"
+msgid "GG"
 msgstr ""
 
 #: ../../../php/country.php:81
-msgid "GEORGIA"
+msgid "GH"
 msgstr ""
 
 #: ../../../php/country.php:82
-msgid "GERMANY"
+msgid "GI"
 msgstr ""
 
 #: ../../../php/country.php:83
-msgid "GHANA"
+msgid "GL"
 msgstr ""
 
 #: ../../../php/country.php:84
-msgid "GIBRALTAR"
+msgid "GM"
 msgstr ""
 
 #: ../../../php/country.php:85
-msgid "GREECE"
+msgid "GN"
 msgstr ""
 
 #: ../../../php/country.php:86
-msgid "GREENLAND"
+msgid "GP"
 msgstr ""
 
 #: ../../../php/country.php:87
-msgid "GRENADA"
+msgid "GQ"
 msgstr ""
 
 #: ../../../php/country.php:88
-msgid "GUADELOUPE"
+msgid "GR"
 msgstr ""
 
 #: ../../../php/country.php:89
-msgid "GUAM"
+msgid "GS"
 msgstr ""
 
 #: ../../../php/country.php:90
-msgid "GUATEMALA"
+msgid "GT"
 msgstr ""
 
 #: ../../../php/country.php:91
-msgid "GUINEA"
+msgid "GU"
 msgstr ""
 
 #: ../../../php/country.php:92
-msgid "GUINEA_BISSAU"
+msgid "GW"
 msgstr ""
 
 #: ../../../php/country.php:93
-msgid "GUYANA"
+msgid "GY"
 msgstr ""
 
 #: ../../../php/country.php:94
-msgid "HAITI"
+msgid "HK"
 msgstr ""
 
 #: ../../../php/country.php:95
-msgid "HEARD_AND_MC_DONALD_ISLANDS"
+msgid "HM"
 msgstr ""
 
 #: ../../../php/country.php:96
-msgid "HONDURAS"
+msgid "HN"
 msgstr ""
 
 #: ../../../php/country.php:97
-msgid "HONG_KONG"
+msgid "HR"
 msgstr ""
 
 #: ../../../php/country.php:98
-msgid "HUNGARY"
+msgid "HT"
 msgstr ""
 
 #: ../../../php/country.php:99
-msgid "ICELAND"
+msgid "HU"
 msgstr ""
 
 #: ../../../php/country.php:100
-msgid "INDIA"
+msgid "ID"
 msgstr ""
 
 #: ../../../php/country.php:101
-msgid "INDONESIA"
+msgid "IE"
 msgstr ""
 
 #: ../../../php/country.php:102
-msgid "IRAN_ISLAMIC_REPUBLIC_OF"
+msgid "IL"
 msgstr ""
 
 #: ../../../php/country.php:103
-msgid "IRAQ"
+msgid "IM"
 msgstr ""
 
 #: ../../../php/country.php:104
-msgid "IRELAND"
+msgid "IN"
 msgstr ""
 
 #: ../../../php/country.php:105
-msgid "ITALY"
+msgid "IO"
 msgstr ""
 
 #: ../../../php/country.php:106
-msgid "JAMAICA"
+msgid "IQ"
 msgstr ""
 
 #: ../../../php/country.php:107
-msgid "JAPAN"
+msgid "IR"
 msgstr ""
 
 #: ../../../php/country.php:108
-msgid "JORDAN"
+msgid "IS"
 msgstr ""
 
 #: ../../../php/country.php:109
-msgid "KAZAKHSTAN"
+msgid "IT"
 msgstr ""
 
 #: ../../../php/country.php:110
-msgid "KENYA"
+msgid "JE"
 msgstr ""
 
 #: ../../../php/country.php:111
-msgid "KIRIBATI"
+msgid "JM"
 msgstr ""
 
 #: ../../../php/country.php:112
-msgid "KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF"
+msgid "JO"
 msgstr ""
 
 #: ../../../php/country.php:113
-msgid "KOREA_REPUBLIC_OF"
+msgid "JP"
 msgstr ""
 
 #: ../../../php/country.php:114
-msgid "KUWAIT"
+msgid "KE"
 msgstr ""
 
 #: ../../../php/country.php:115
-msgid "KYRGYZSTAN"
+msgid "KG"
 msgstr ""
 
 #: ../../../php/country.php:116
-msgid "LAO_PEOPLES_DEMOCRATIC_REPUBLIC"
+msgid "KH"
 msgstr ""
 
 #: ../../../php/country.php:117
-msgid "LATVIA"
+msgid "KI"
 msgstr ""
 
 #: ../../../php/country.php:118
-msgid "LEBANON"
+msgid "KM"
 msgstr ""
 
 #: ../../../php/country.php:119
-msgid "LESOTHO"
+msgid "KN"
 msgstr ""
 
 #: ../../../php/country.php:120
-msgid "LIBERIA"
+msgid "KP"
 msgstr ""
 
 #: ../../../php/country.php:121
-msgid "LIBYAN_ARAB_JAMAHIRIYA"
+msgid "KR"
 msgstr ""
 
 #: ../../../php/country.php:122
-msgid "LIECHTENSTEIN"
+msgid "KW"
 msgstr ""
 
 #: ../../../php/country.php:123
-msgid "LITHUANIA"
+msgid "KY"
 msgstr ""
 
 #: ../../../php/country.php:124
-msgid "LUXEMBOURG"
+msgid "KZ"
 msgstr ""
 
 #: ../../../php/country.php:125
-msgid "MACAU"
+msgid "LA"
 msgstr ""
 
 #: ../../../php/country.php:126
-msgid "MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF"
+msgid "LB"
 msgstr ""
 
 #: ../../../php/country.php:127
-msgid "MADAGASCAR"
+msgid "LC"
 msgstr ""
 
 #: ../../../php/country.php:128
-msgid "MALAWI"
+msgid "LI"
 msgstr ""
 
 #: ../../../php/country.php:129
-msgid "MALAYSIA"
+msgid "LK"
 msgstr ""
 
 #: ../../../php/country.php:130
-msgid "MALDIVES"
+msgid "LR"
 msgstr ""
 
 #: ../../../php/country.php:131
-msgid "MALI"
+msgid "LS"
 msgstr ""
 
 #: ../../../php/country.php:132
-msgid "MALTA"
+msgid "LT"
 msgstr ""
 
 #: ../../../php/country.php:133
-msgid "MARSHALL_ISLANDS"
+msgid "LU"
 msgstr ""
 
 #: ../../../php/country.php:134
-msgid "MARTINIQUE"
+msgid "LV"
 msgstr ""
 
 #: ../../../php/country.php:135
-msgid "MAURITANIA"
+msgid "LY"
 msgstr ""
 
 #: ../../../php/country.php:136
-msgid "MAURITIUS"
+msgid "MA"
 msgstr ""
 
 #: ../../../php/country.php:137
-msgid "MAYOTTE"
+msgid "MC"
 msgstr ""
 
 #: ../../../php/country.php:138
-msgid "MEXICO"
+msgid "MD"
 msgstr ""
 
 #: ../../../php/country.php:139
-msgid "MICRONESIA_FEDERATED_STATES_OF"
+msgid "ME"
 msgstr ""
 
 #: ../../../php/country.php:140
-msgid "MOLDOVA_REPUBLIC_OF"
+msgid "MF"
 msgstr ""
 
 #: ../../../php/country.php:141
-msgid "MONACO"
+msgid "MG"
 msgstr ""
 
 #: ../../../php/country.php:142
-msgid "MONGOLIA"
+msgid "MH"
 msgstr ""
 
 #: ../../../php/country.php:143
-msgid "MONTSERRAT"
+msgid "MK"
 msgstr ""
 
 #: ../../../php/country.php:144
-msgid "MOROCCO"
+msgid "ML"
 msgstr ""
 
 #: ../../../php/country.php:145
-msgid "MOZAMBIQUE"
+msgid "MM"
 msgstr ""
 
 #: ../../../php/country.php:146
-msgid "MYANMAR"
+msgid "MN"
 msgstr ""
 
 #: ../../../php/country.php:147
-msgid "NAMIBIA"
+msgid "MO"
 msgstr ""
 
 #: ../../../php/country.php:148
-msgid "NAURU"
+msgid "MP"
 msgstr ""
 
 #: ../../../php/country.php:149
-msgid "NEPAL"
+msgid "MQ"
 msgstr ""
 
 #: ../../../php/country.php:150
-msgid "NETHERLANDS"
+msgid "MR"
 msgstr ""
 
 #: ../../../php/country.php:151
-msgid "NETHERLANDS_ANTILLES"
+msgid "MS"
 msgstr ""
 
 #: ../../../php/country.php:152
-msgid "NEW_CALEDONIA"
+msgid "MT"
 msgstr ""
 
 #: ../../../php/country.php:153
-msgid "NEW_ZEALAND"
+msgid "MU"
 msgstr ""
 
 #: ../../../php/country.php:154
-msgid "NICARAGUA"
+msgid "MV"
 msgstr ""
 
 #: ../../../php/country.php:155
-msgid "NIGER"
+msgid "MW"
 msgstr ""
 
 #: ../../../php/country.php:156
-msgid "NIGERIA"
+msgid "MX"
 msgstr ""
 
 #: ../../../php/country.php:157
-msgid "NIUE"
+msgid "MY"
 msgstr ""
 
 #: ../../../php/country.php:158
-msgid "NORFOLK_ISLAND"
+msgid "MZ"
 msgstr ""
 
 #: ../../../php/country.php:159
-msgid "NORTHERN_MARIANA_ISLANDS"
+msgid "NA"
 msgstr ""
 
 #: ../../../php/country.php:160
-msgid "NORWAY"
+msgid "NC"
 msgstr ""
 
 #: ../../../php/country.php:161
-msgid "OMAN"
+msgid "NE"
 msgstr ""
 
 #: ../../../php/country.php:162
-msgid "PAKISTAN"
+msgid "NF"
 msgstr ""
 
 #: ../../../php/country.php:163
-msgid "PALAU"
+msgid "NG"
 msgstr ""
 
 #: ../../../php/country.php:164
-msgid "PANAMA"
+msgid "NI"
 msgstr ""
 
 #: ../../../php/country.php:165
-msgid "PAPUA_NEW_GUINEA"
+msgid "NL"
 msgstr ""
 
 #: ../../../php/country.php:166
-msgid "PARAGUAY"
+msgid "NO"
 msgstr ""
 
 #: ../../../php/country.php:167
-msgid "PERU"
+msgid "NP"
 msgstr ""
 
 #: ../../../php/country.php:168
-msgid "PHILIPPINES"
+msgid "NR"
 msgstr ""
 
 #: ../../../php/country.php:169
-msgid "PITCAIRN"
+msgid "NU"
 msgstr ""
 
 #: ../../../php/country.php:170
-msgid "POLAND"
+msgid "NZ"
 msgstr ""
 
 #: ../../../php/country.php:171
-msgid "PORTUGAL"
+msgid "OM"
 msgstr ""
 
-#: ../../../php/country.php:172 ../../../php/state.php:40
-msgid "PUERTO_RICO"
+#: ../../../php/country.php:172
+msgid "PA"
 msgstr ""
 
 #: ../../../php/country.php:173
-msgid "QATAR"
+msgid "PE"
 msgstr ""
 
 #: ../../../php/country.php:174
-msgid "REUNION"
+msgid "PF"
 msgstr ""
 
 #: ../../../php/country.php:175
-msgid "ROMANIA"
+msgid "PG"
 msgstr ""
 
 #: ../../../php/country.php:176
-msgid "RUSSIAN_FEDERATION"
+msgid "PH"
 msgstr ""
 
 #: ../../../php/country.php:177
-msgid "RWANDA"
+msgid "PK"
 msgstr ""
 
 #: ../../../php/country.php:178
-msgid "SAINT_KITTS_AND_NEVIS"
+msgid "PL"
 msgstr ""
 
 #: ../../../php/country.php:179
-msgid "SAINT_LUCIA"
+msgid "PM"
 msgstr ""
 
 #: ../../../php/country.php:180
-msgid "SAINT_VINCENT_AND_THE_GRENADINES"
+msgid "PN"
 msgstr ""
 
 #: ../../../php/country.php:181
-msgid "SAMOA"
+msgid "PR"
 msgstr ""
 
 #: ../../../php/country.php:182
-msgid "SAN_MARINO"
+msgid "PS"
 msgstr ""
 
 #: ../../../php/country.php:183
-msgid "SAO_TOME_AND_PRINCIPE"
+msgid "PT"
 msgstr ""
 
 #: ../../../php/country.php:184
-msgid "SAUDI_ARABIA"
+msgid "PW"
 msgstr ""
 
 #: ../../../php/country.php:185
-msgid "SENEGAL"
+msgid "PY"
 msgstr ""
 
 #: ../../../php/country.php:186
-msgid "SEYCHELLES"
+msgid "QA"
 msgstr ""
 
 #: ../../../php/country.php:187
-msgid "SIERRA_LEONE"
+msgid "RE"
 msgstr ""
 
 #: ../../../php/country.php:188
-msgid "SINGAPORE"
+msgid "RO"
 msgstr ""
 
 #: ../../../php/country.php:189
-msgid "SLOVAKIA"
+msgid "RS"
 msgstr ""
 
 #: ../../../php/country.php:190
-msgid "SLOVENIA"
+msgid "RU"
 msgstr ""
 
 #: ../../../php/country.php:191
-msgid "SOLOMON_ISLANDS"
+msgid "RW"
 msgstr ""
 
 #: ../../../php/country.php:192
-msgid "SOMALIA"
+msgid "SA"
 msgstr ""
 
 #: ../../../php/country.php:193
-msgid "SOUTH_AFRICA"
+msgid "SB"
 msgstr ""
 
 #: ../../../php/country.php:194
-msgid "SPAIN"
+msgid "SC"
 msgstr ""
 
 #: ../../../php/country.php:195
-msgid "SRI_LANKA"
+msgid "SD"
 msgstr ""
 
 #: ../../../php/country.php:196
-msgid "ST_HELENA"
+msgid "SE"
 msgstr ""
 
 #: ../../../php/country.php:197
-msgid "ST_PIERRE_AND_MIQUELON"
+msgid "SG"
 msgstr ""
 
 #: ../../../php/country.php:198
-msgid "SUDAN"
+msgid "SH"
 msgstr ""
 
 #: ../../../php/country.php:199
-msgid "SURINAME"
+msgid "SI"
 msgstr ""
 
 #: ../../../php/country.php:200
-msgid "SVALBARD_AND_JAN_MAYEN_ISLANDS"
+msgid "SJ"
 msgstr ""
 
 #: ../../../php/country.php:201
-msgid "SWAZILAND"
+msgid "SK"
 msgstr ""
 
 #: ../../../php/country.php:202
-msgid "SWEDEN"
+msgid "SL"
 msgstr ""
 
 #: ../../../php/country.php:203
-msgid "SWITZERLAND"
+msgid "SM"
 msgstr ""
 
 #: ../../../php/country.php:204
-msgid "SYRIAN_ARAB_REPUBLIC"
+msgid "SN"
 msgstr ""
 
 #: ../../../php/country.php:205
-msgid "TAIWAN_PROVINCE_OF_CHINA"
+msgid "SO"
 msgstr ""
 
 #: ../../../php/country.php:206
-msgid "TAJIKISTAN"
+msgid "SR"
 msgstr ""
 
 #: ../../../php/country.php:207
-msgid "TANZANIA_UNITED_REPUBLIC_OF"
+msgid "ST"
 msgstr ""
 
 #: ../../../php/country.php:208
-msgid "THAILAND"
+msgid "SV"
 msgstr ""
 
 #: ../../../php/country.php:209
-msgid "TOGO"
+msgid "SY"
 msgstr ""
 
 #: ../../../php/country.php:210
-msgid "TOKELAU"
+msgid "SZ"
 msgstr ""
 
 #: ../../../php/country.php:211
-msgid "TONGA"
+msgid "TC"
 msgstr ""
 
 #: ../../../php/country.php:212
-msgid "TRINIDAD_AND_TOBAGO"
+msgid "TD"
 msgstr ""
 
 #: ../../../php/country.php:213
-msgid "TUNISIA"
+msgid "TF"
 msgstr ""
 
 #: ../../../php/country.php:214
-msgid "TURKEY"
+msgid "TG"
 msgstr ""
 
 #: ../../../php/country.php:215
-msgid "TURKMENISTAN"
+msgid "TH"
 msgstr ""
 
 #: ../../../php/country.php:216
-msgid "TURKS_AND_CAICOS_ISLANDS"
+msgid "TJ"
 msgstr ""
 
 #: ../../../php/country.php:217
-msgid "TUVALU"
+msgid "TK"
 msgstr ""
 
 #: ../../../php/country.php:218
-msgid "UGANDA"
+msgid "TL"
 msgstr ""
 
 #: ../../../php/country.php:219
-msgid "UKRAINE"
+msgid "TM"
 msgstr ""
 
 #: ../../../php/country.php:220
-msgid "UNITED_ARAB_EMIRATES"
+msgid "TN"
 msgstr ""
 
 #: ../../../php/country.php:221
-msgid "UNITED_KINGDOM"
+msgid "TO"
 msgstr ""
 
 #: ../../../php/country.php:222
-msgid "UNITED_STATES"
+msgid "TR"
 msgstr ""
 
 #: ../../../php/country.php:223
-msgid "UNITED_STATES_MINOR_OUTLYING_ISLANDS"
+msgid "TT"
 msgstr ""
 
 #: ../../../php/country.php:224
-msgid "URUGUAY"
+msgid "TV"
 msgstr ""
 
 #: ../../../php/country.php:225
-msgid "UZBEKISTAN"
+msgid "TW"
 msgstr ""
 
 #: ../../../php/country.php:226
-msgid "VANUATU"
+msgid "TZ"
 msgstr ""
 
 #: ../../../php/country.php:227
-msgid "VATICAN_CITY_STATE"
+msgid "UA"
 msgstr ""
 
 #: ../../../php/country.php:228
-msgid "VENEZUELA"
+msgid "UG"
 msgstr ""
 
 #: ../../../php/country.php:229
-msgid "VIETNAM"
+msgid "UM"
 msgstr ""
 
 #: ../../../php/country.php:230
-msgid "VIRGIN_ISLANDS_BRITISH"
+msgid "US"
 msgstr ""
 
 #: ../../../php/country.php:231
-msgid "VIRGIN_ISLANDS_US"
+msgid "UY"
 msgstr ""
 
 #: ../../../php/country.php:232
-msgid "WALLIS_AND_FUTUNA_ISLANDS"
+msgid "UZ"
 msgstr ""
 
 #: ../../../php/country.php:233
-msgid "WESTERN_SAHARA"
+msgid "VA"
 msgstr ""
 
 #: ../../../php/country.php:234
-msgid "YEMEN"
+msgid "VC"
 msgstr ""
 
 #: ../../../php/country.php:235
-msgid "ZAIRE"
+msgid "VE"
 msgstr ""
 
 #: ../../../php/country.php:236
-msgid "ZAMBIA"
+msgid "VG"
 msgstr ""
 
 #: ../../../php/country.php:237
-msgid "ZIMBABWE"
+msgid "VI"
+msgstr ""
+
+#: ../../../php/country.php:238
+msgid "VN"
+msgstr ""
+
+#: ../../../php/country.php:239
+msgid "VU"
+msgstr ""
+
+#: ../../../php/country.php:240
+msgid "WF"
+msgstr ""
+
+#: ../../../php/country.php:241
+msgid "WS"
+msgstr ""
+
+#: ../../../php/country.php:242
+msgid "YE"
+msgstr ""
+
+#: ../../../php/country.php:243
+msgid "YT"
+msgstr ""
+
+#: ../../../php/country.php:244
+msgid "ZA"
+msgstr ""
+
+#: ../../../php/country.php:245
+msgid "ZM"
+msgstr ""
+
+#: ../../../php/country.php:246
+msgid "ZW"
 msgstr ""
 
 #: ../../../php/state.php:1
@@ -1474,6 +1552,10 @@ msgstr ""
 msgid "PENNSYLVANIA"
 msgstr ""
 
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr ""
+
 #: ../../../php/state.php:41
 msgid "RHODE_ISLAND"
 msgstr ""
@@ -1521,3 +1603,6 @@ msgstr ""
 #: ../../../php/state.php:52
 msgid "WYOMING"
 msgstr ""
+
+#~ msgid "AFGHANISTAN"
+#~ msgstr "asdf"

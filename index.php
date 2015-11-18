@@ -267,25 +267,56 @@ require("php/setup.php")
                         <p class="profile-description"><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FORTH_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-04.jpg" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_FORTH_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_FORTH_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FIFTH_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-05.jpg" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_FIFTH_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_FIFTH_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                    <div class="span4 profile">
+                        <div class="image-wrap">
+                            <div class="hover-wrap">
+                                <span class="overlay-img"></span>
+                                <span class="overlay-text-thumb"><?php echo gettext("ABOUT_SIXTH_OVERLAY_THUMB")?></span>
+                            </div>
+                            <img src="img/profile/profile-06.jpg" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
+                        </div>
+                        <h3 class="profile-name"><?php echo gettext("ABOUT_SIXTH_PROFILE_NAME")?></h3>
+                        <p class="profile-description"><?php echo gettext("ABOUT_SIXTH_PROFILE_DESCRIPTION")?></p>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="contact" class="page">
             <div class="container">
                 <div class="row">
                     <div class="span12">
-                        <div class="title-page">
-                            <h2 class="title"><?php echo gettext("CONTACT_TITLE")?></h2>
-                            <h3 class="title-description"><?php echo gettext("CONTACT_TITLE_DESCRIPTION")?></h3>
+                        <div class="title-page" id="contact-title-page">
+                            <h2 class="title" id="contact-title"><?php echo gettext("CONTACT_TITLE")?></h2>
+                            <h3 class="title-description" id="contact-title-description"><?php echo gettext("CONTACT_TITLE_DESCRIPTION_1")?></h3>
+                            <h3 class="title-description" id="contact-title-description"><?php echo gettext("CONTACT_TITLE_DESCRIPTION_2")?></h3>
+                            <a href="#"><?php echo gettext("CONTACT_DETAIL_EMAIL")?></a>
                         </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="span12">
                         <div class="contact-details">
                             <h3><?php echo gettext("CONTACT_DETAILS")?></h3>
                             <ul>
-                                <li><a href="#"><?php echo gettext("CONTACT_DETAIL_EMAIL")?></a></li>
-                                <li><?php echo gettext("CONTACT_DETAIL_PHONE")?></li>
                                 <li>
                                     <?php echo gettext("CONTACT_DETAIL_ADDRESS_LINE_1")?>
                                     <br>
@@ -300,9 +331,10 @@ require("php/setup.php")
             </div>
         </div>
         <footer>
-            <!-- TODO add actual link -->
-            <p class="credits"><?php echo gettext("FOOTER_FIRST")?> <a href="<?php echo gettext("FOOTER_FIRST_LINK")?>"
-                                                      title="<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>"><?php echo gettext("FOOTER_SECOND")?></a></p>
+            <p class="credits"><?php echo gettext("FOOTER_FIRST")?>
+                <a href="<?php echo gettext("FOOTER_FIRST_LINK")?>"
+                   title="<?php echo gettext("FOOTER_FIRST_LINK_TITLE")?>" class="color-text">
+                    <?php echo gettext("FOOTER_SECOND")?></a></p>
         </footer>
     </body>
 </html>

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-17 18:29+0300\n"
-"PO-Revision-Date: 2015-11-17 18:30+0300\n"
+"POT-Creation-Date: 2015-11-18 15:57+0300\n"
+"PO-Revision-Date: 2015-11-18 17:35+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 
 #: ../../../index.php:24
 msgid "TITLE"
-msgstr "Oxygen Forensic Invite"
+msgstr "Мобильный криминалист - Приглашение"
 
 #: ../../../index.php:88
 msgid "STICKY_NAV_GO_UP_LINK_TITLE"
@@ -113,7 +113,7 @@ msgstr "Email"
 
 #: ../../../index.php:159
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
-msgstr "someone@something.com"
+msgstr "myname@email.com"
 
 #: ../../../index.php:162
 msgid "REGISTRATION_LABEL_PHONE"
@@ -121,7 +121,7 @@ msgstr "Телефон"
 
 #: ../../../index.php:163
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
-msgstr "+7 999 999 99 99"
+msgstr "+7 (999) 999 99 99"
 
 #: ../../../index.php:168
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
@@ -185,7 +185,7 @@ msgstr "Внутренняя ошибка"
 
 #: ../../../index.php:214
 msgid "YOU_ARE_LOCKED_OUT"
-msgstr "Вы заблокированы на 5 минут"
+msgstr "Вы заблокированы на 10 минут"
 
 #: ../../../index.php:215
 msgid "INVITE_INCORRECT"
@@ -201,15 +201,25 @@ msgstr "Срок действия инвайта истек"
 
 #: ../../../index.php:230
 msgid "ABOUT_TITLE"
-msgstr "О нас"
+msgstr "О Мобильном Криминалисте"
 
 #: ../../../index.php:231
 msgid "ABOUT_TITLE_DESCRIPTION"
-msgstr "Спешите узнать"
+msgstr ""
+"Мобильный Криминалист - универсальный программный комплекс для исследования "
+"мобильных устройств, извлечения данных из облачных хранилищ и анализа "
+"биллингов операторов сотовой связи. Программа позволяет обходить блокировку "
+"экрана, находит пароли за зашифрованные резервные копии, извлекает данные из "
+"самых надежных приложений, а также восстанавливает удаленную информацию. "
+"Данные из мобильных устройств, облачных хранилищ и биллинги операторов "
+"показаны вместе в удобном для использования интерфейсе с возможностью их "
+"глубокого анализа во встроенных аналитических секциях программы."
 
 #: ../../../index.php:240
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
-msgstr "Thumbnails первого продукта"
+msgstr ""
+"Извлекаются все данные: контакты, сообщения, звонки, файлы, приложения. "
+"Автоматически восстанвливается удаленная информация."
 
 #: ../../../index.php:242
 msgid "ABOUT_FIRST_IMG_ALT"
@@ -217,15 +227,20 @@ msgstr "Замещающий текст первой картинки \"О на�
 
 #: ../../../index.php:244
 msgid "ABOUT_FIRST_PROFILE_NAME"
-msgstr "Название первого продукта"
+msgstr "Данные из устройства"
 
 #: ../../../index.php:245
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
-msgstr "Описание первого продукта"
+msgstr ""
+"Мобильный Криминалист извлекает данные из более 11 000 устройств под "
+"управлением Apple iOS, Android OS, Windows Phone, BlackBerry, Symbian, а "
+"также простых мобильных телефонов"
 
 #: ../../../index.php:251
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
-msgstr "Thumbnails второго продукта"
+msgstr ""
+"После извлечения из облака данные можно проанализировать в специальных "
+"аналитических разделах: Лента Событий, Граф Связей, Объединенные Контакты."
 
 #: ../../../index.php:253
 msgid "ABOUT_SECOND_IMG_ALT"
@@ -233,15 +248,21 @@ msgstr "Замещающий текст второй картинки \"О на�
 
 #: ../../../index.php:255
 msgid "ABOUT_SECOND_PROFILE_NAME"
-msgstr "Название второго продукта"
+msgstr "Данные из облака"
 
 #: ../../../index.php:256
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
-msgstr "Описание второго продукта"
+msgstr ""
+"Мобильный Криминалист извлекает данные из более 15 облачных хранилищ: "
+"контакты и календари iCloud, Google Disk, Google Почта, контакты и календари "
+"Microsoft Live, OneDrive, Dropbox, Twitter, Instagram, WhatsApp и многое "
+"другое."
 
 #: ../../../index.php:262
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
-msgstr "Thumbnails третьего продукта"
+msgstr ""
+"Для каждого абонента доступна детальная статистика соединений, возможна "
+"фильтрация данных по времени и абонентам"
 
 #: ../../../index.php:264
 msgid "ABOUT_THIRD_IMG_ALT"
@@ -249,67 +270,112 @@ msgstr "Замещающий текст второй картинки \"О на�
 
 #: ../../../index.php:266
 msgid "ABOUT_THIRD_PROFILE_NAME"
-msgstr "Название третьего продукта"
+msgstr "Биллинги операторов"
 
 #: ../../../index.php:267
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
-msgstr "Описание третьего продукта"
+msgstr ""
+"Мобильный Криминалист позволяет импортировать биллинги, полученные от "
+"операторов сотовой связи, в независимости от их стркутуры и анализировать "
+"прямые и косвенные связи между звонившими на графе."
+
+#: ../../../index.php:275
+msgid "ABOUT_FORTH_OVERLAY_THUMB"
+msgstr ""
+"Для каждого абонента доступна детальная статистика соединений, возможна "
+"фильтрация данных по времени и абонентам"
 
 #: ../../../index.php:277
+msgid "ABOUT_FORTH_IMG_ALT"
+msgstr "Замещающий текст первой картинки \"О нас\""
+
+#: ../../../index.php:279
+msgid "ABOUT_FORTH_PROFILE_NAME"
+msgstr "Название первого продукта"
+
+#: ../../../index.php:280
+msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
+msgstr "Описание первого продукта"
+
+#: ../../../index.php:286
+msgid "ABOUT_FIFTH_OVERLAY_THUMB"
+msgstr "Thumbnails первого продукта"
+
+#: ../../../index.php:288
+msgid "ABOUT_FIFTH_IMG_ALT"
+msgstr "Замещающий текст первой картинки \"О нас\""
+
+#: ../../../index.php:290
+msgid "ABOUT_FIFTH_PROFILE_NAME"
+msgstr "Название первого продукта"
+
+#: ../../../index.php:291
+msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
+msgstr "Описание первого продукта"
+
+#: ../../../index.php:297
+msgid "ABOUT_SIXTH_OVERLAY_THUMB"
+msgstr "Thumbnails первого продукта"
+
+#: ../../../index.php:299
+msgid "ABOUT_SIXTH_IMG_ALT"
+msgstr "Замещающий текст первой картинки \"О нас\""
+
+#: ../../../index.php:301
+msgid "ABOUT_SIXTH_PROFILE_NAME"
+msgstr "Название первого продукта"
+
+#: ../../../index.php:302
+msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
+msgstr "Описание первого продукта"
+
+#: ../../../index.php:312
 msgid "CONTACT_TITLE"
 msgstr "Контакты"
 
-#: ../../../index.php:278
-msgid "CONTACT_TITLE_DESCRIPTION"
-msgstr "Описание контактов"
+#: ../../../index.php:313
+msgid "CONTACT_TITLE_DESCRIPTION_1"
+msgstr "Отдел продаж: +7-495-222-9277"
 
-#: ../../../index.php:285
-msgid "CONTACT_DETAILS"
-msgstr "Детали контактов"
+#: ../../../index.php:314
+msgid "CONTACT_TITLE_DESCRIPTION_2"
+msgstr "Техподдержка: +7-495-222-9278"
 
-#: ../../../index.php:287
+#: ../../../index.php:315
 msgid "CONTACT_DETAIL_EMAIL"
-msgstr "email@forcontact.com"
+msgstr "support@oxygensoftware.ru"
 
-#: ../../../index.php:288
-msgid "CONTACT_DETAIL_PHONE"
-msgstr "+7(999)999-99-99"
+#: ../../../index.php:318
+msgid "CONTACT_DETAILS"
+msgstr "Наш адрес"
 
-#: ../../../index.php:290
+#: ../../../index.php:321
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
-msgstr "Адрес - первая линия"
+msgstr "Российская Федерация"
 
-#: ../../../index.php:292
+#: ../../../index.php:323
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
-msgstr "Адрес - вторая линия"
+msgstr "Москва, 109029"
 
-#: ../../../index.php:294
+#: ../../../index.php:325
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
-msgstr "Адрес - третья линия"
+msgstr "ул. Нижегородская, д. 32, стр. 5"
 
-#: ../../../index.php:304
+#: ../../../index.php:335
 msgid "FOOTER_FIRST"
-msgstr "Первая часть футера"
+msgstr "© 2015 ООО \"Оксиджен Софтвер\" "
 
-#: ../../../index.php:305
+#: ../../../index.php:336
+msgid "FOOTER_FIRST_LINK"
+msgstr "http://www.oxygensoftware.ru"
+
+#: ../../../index.php:337
 msgid "FOOTER_FIRST_LINK_TITLE"
-msgstr "Заголовок первой ссылки футера"
+msgstr "www.oxygensoftware.ru"
 
-#: ../../../index.php:305
+#: ../../../index.php:338
 msgid "FOOTER_SECOND"
-msgstr "вторая часть футера"
-
-#: ../../../index.php:305
-msgid "FOOTER_THIRD"
-msgstr "третья часть футера"
-
-#: ../../../index.php:306
-msgid "FOOTER_SECOND_LINK_TITLE"
-msgstr "Заголовок второй ссылки футера"
-
-#: ../../../index.php:306
-msgid "FOOTER_FORTH"
-msgstr "четвертая часть футера"
+msgstr "www.oxygensoftware.ru"
 
 #: ../../../php/province.php:1
 msgid "ALBERTA"
@@ -364,952 +430,988 @@ msgid "YUKON"
 msgstr "Юкон"
 
 #: ../../../php/country.php:1
-msgid "AALAND_ISLANDS"
-msgstr "Аландские острова"
+msgid "AD"
+msgstr ""
 
 #: ../../../php/country.php:2
-msgid "AFGHANISTAN"
-msgstr "Афганистан"
+msgid "AE"
+msgstr ""
 
 #: ../../../php/country.php:3
-msgid "ALBANIA"
-msgstr "Албания"
+msgid "AF"
+msgstr ""
 
 #: ../../../php/country.php:4
-msgid "ALGERIA"
-msgstr "Алжир"
+msgid "AG"
+msgstr ""
 
 #: ../../../php/country.php:5
-msgid "AMERICAN_SAMOA"
-msgstr "Американсое Самоа"
+msgid "AI"
+msgstr ""
 
 #: ../../../php/country.php:6
-msgid "ANDORRA"
-msgstr "Андорра"
+msgid "AL"
+msgstr ""
 
 #: ../../../php/country.php:7
-msgid "ANGOLA"
-msgstr "Ангола"
+msgid "AM"
+msgstr ""
 
 #: ../../../php/country.php:8
-msgid "ANGUILLA"
-msgstr "Ангилья"
+msgid "AN"
+msgstr ""
 
 #: ../../../php/country.php:9
-msgid "ANTARCTICA"
-msgstr "Антарктида"
+msgid "AO"
+msgstr ""
 
 #: ../../../php/country.php:10
-msgid "ANTIGUA_AND_BARBUDA"
-msgstr "Антигуа и Барбуда"
+msgid "AQ"
+msgstr ""
 
 #: ../../../php/country.php:11
-msgid "ARGENTINA"
-msgstr "Аргентина"
+msgid "AR"
+msgstr ""
 
 #: ../../../php/country.php:12
-msgid "ARMENIA"
-msgstr "Армения"
+msgid "AS"
+msgstr ""
 
 #: ../../../php/country.php:13
-msgid "ARUBA"
-msgstr "Аруба"
+msgid "AT"
+msgstr ""
 
 #: ../../../php/country.php:14
-msgid "AUSTRALIA"
-msgstr "Австралия"
+msgid "AU"
+msgstr ""
 
 #: ../../../php/country.php:15
-msgid "AUSTRIA"
-msgstr "Австрия"
+msgid "AW"
+msgstr ""
 
 #: ../../../php/country.php:16
-msgid "AZERBAIJAN"
-msgstr "Азербайджан"
+msgid "AX"
+msgstr ""
 
 #: ../../../php/country.php:17
-msgid "BAHAMAS"
-msgstr "Багамские Острова"
+msgid "AZ"
+msgstr ""
 
 #: ../../../php/country.php:18
-msgid "BAHRAIN"
-msgstr "Бахрейн"
+msgid "BA"
+msgstr ""
 
 #: ../../../php/country.php:19
-msgid "BANGLADESH"
-msgstr "Бангладеш"
+msgid "BB"
+msgstr ""
 
 #: ../../../php/country.php:20
-msgid "BARBADOS"
-msgstr "Барбадос"
+msgid "BD"
+msgstr ""
 
 #: ../../../php/country.php:21
-msgid "BELARUS"
-msgstr "Белоруссия"
+msgid "BE"
+msgstr ""
 
 #: ../../../php/country.php:22
-msgid "BELGIUM"
-msgstr "Бельгия"
+msgid "BF"
+msgstr ""
 
 #: ../../../php/country.php:23
-msgid "BELIZE"
-msgstr "Белиз"
+msgid "BG"
+msgstr ""
 
 #: ../../../php/country.php:24
-msgid "BENIN"
-msgstr "Бенин"
+msgid "BH"
+msgstr ""
 
 #: ../../../php/country.php:25
-msgid "BERMUDA"
-msgstr "Бермуды"
+msgid "BI"
+msgstr ""
 
 #: ../../../php/country.php:26
-msgid "BHUTAN"
-msgstr "Бутан"
+msgid "BJ"
+msgstr ""
 
 #: ../../../php/country.php:27
-msgid "BOLIVIA"
-msgstr "Боливия"
+msgid "BL"
+msgstr ""
 
 #: ../../../php/country.php:28
-msgid "BOSNIA_AND_HERZEGOWINA"
-msgstr "Босния и Герцеговина"
+msgid "BM"
+msgstr ""
 
 #: ../../../php/country.php:29
-msgid "BOTSWANA"
-msgstr "Ботсвана"
+msgid "BN"
+msgstr ""
 
 #: ../../../php/country.php:30
-msgid "BOUVET_ISLAND"
-msgstr "Остров Буве"
+msgid "BO"
+msgstr ""
 
 #: ../../../php/country.php:31
-msgid "BRAZIL"
-msgstr "Бразилия"
+msgid "BR"
+msgstr ""
 
 #: ../../../php/country.php:32
-msgid "BRITISH_INDIAN_OCEAN_TERRITORY"
-msgstr "Британская территория в Индийском океане"
+msgid "BS"
+msgstr ""
 
 #: ../../../php/country.php:33
-msgid "BRUNEI_DARUSSALAM"
-msgstr "Бруней"
+msgid "BT"
+msgstr ""
 
 #: ../../../php/country.php:34
-msgid "BULGARIA"
-msgstr "Болгария"
+msgid "BV"
+msgstr ""
 
 #: ../../../php/country.php:35
-msgid "BURKINA_FASO"
-msgstr "Буркина Фасо"
+msgid "BW"
+msgstr ""
 
 #: ../../../php/country.php:36
-msgid "BURUNDI"
-msgstr "Бурунди"
+msgid "BY"
+msgstr ""
 
 #: ../../../php/country.php:37
-msgid "CAMBODIA"
-msgstr "Камбоджа"
+msgid "BZ"
+msgstr ""
 
 #: ../../../php/country.php:38
-msgid "CAMEROON"
-msgstr "Камерун"
+msgid "CA"
+msgstr ""
 
 #: ../../../php/country.php:39
-msgid "CANADA"
-msgstr "Канада"
+msgid "CC"
+msgstr ""
 
 #: ../../../php/country.php:40
-msgid "CAPE_VERDE"
-msgstr "Кабо-Верде"
+msgid "CD"
+msgstr ""
 
 #: ../../../php/country.php:41
-msgid "CAYMAN_ISLANDS"
-msgstr "Острова Кайман"
+msgid "CF"
+msgstr ""
 
 #: ../../../php/country.php:42
-msgid "CENTRAL_AFRICAN_REPUBLIC"
-msgstr "Центральноафриканская Республика"
+msgid "CG"
+msgstr ""
 
 #: ../../../php/country.php:43
-msgid "CHAD"
-msgstr "Чад"
+msgid "CH"
+msgstr ""
 
 #: ../../../php/country.php:44
-msgid "CHILE"
-msgstr "Чили"
+msgid "CI"
+msgstr ""
 
 #: ../../../php/country.php:45
-msgid "CHINA"
-msgstr "Китай"
+msgid "CK"
+msgstr ""
 
 #: ../../../php/country.php:46
-msgid "CHRISTMAS_ISLAND"
-msgstr "Остров Рождества"
+msgid "CL"
+msgstr ""
 
 #: ../../../php/country.php:47
-msgid "COCOS_KEELING_ISLANDS"
-msgstr "Кокосовые острова"
+msgid "CM"
+msgstr ""
 
 #: ../../../php/country.php:48
-msgid "COLOMBIA"
-msgstr "Колумбия"
+msgid "CN"
+msgstr ""
 
 #: ../../../php/country.php:49
-msgid "COMOROS"
-msgstr "Коморы"
+msgid "CO"
+msgstr ""
 
 #: ../../../php/country.php:50
-msgid "CONGO"
-msgstr "Демократическая Республика Конго"
+msgid "CR"
+msgstr ""
 
 #: ../../../php/country.php:51
-msgid "COOK_ISLANDS"
-msgstr "Острова Кука"
+msgid "CU"
+msgstr ""
 
 #: ../../../php/country.php:52
-msgid "COSTA_RICA"
-msgstr "Коста-Рика"
+msgid "CV"
+msgstr ""
 
 #: ../../../php/country.php:53
-msgid "COTE_DIVOIRE"
-msgstr "Кот-д’Ивуар"
+msgid "CX"
+msgstr ""
 
 #: ../../../php/country.php:54
-msgid "CROATIA"
-msgstr "Хорватия"
+msgid "CY"
+msgstr ""
 
 #: ../../../php/country.php:55
-msgid "CUBA"
-msgstr "Куба"
+msgid "CZ"
+msgstr ""
 
 #: ../../../php/country.php:56
-msgid "CYPRUS"
-msgstr "Кипр"
+msgid "DE"
+msgstr ""
 
 #: ../../../php/country.php:57
-msgid "CZECH_REPUBLIC"
-msgstr "Чехия"
+msgid "DJ"
+msgstr ""
 
 #: ../../../php/country.php:58
-msgid "DENMARK"
-msgstr "Дания"
+msgid "DK"
+msgstr ""
 
 #: ../../../php/country.php:59
-msgid "DJIBOUTI"
-msgstr "Джибути"
+msgid "DM"
+msgstr ""
 
 #: ../../../php/country.php:60
-msgid "DOMINICA"
-msgstr "Доминика"
+msgid "DO"
+msgstr ""
 
 #: ../../../php/country.php:61
-msgid "DOMINICAN_REPUBLIC"
-msgstr "Доминиканская Республика"
+msgid "DZ"
+msgstr ""
 
 #: ../../../php/country.php:62
-msgid "EAST_TIMOR"
-msgstr "Восточный Тимор"
+msgid "EC"
+msgstr ""
 
 #: ../../../php/country.php:63
-msgid "ECUADOR"
-msgstr "Эквадор"
+msgid "EE"
+msgstr ""
 
 #: ../../../php/country.php:64
-msgid "EGYPT"
-msgstr "Египт"
+msgid "EG"
+msgstr ""
 
 #: ../../../php/country.php:65
-msgid "EL_SALVADOR"
-msgstr "Сальвадор"
+msgid "EH"
+msgstr ""
 
 #: ../../../php/country.php:66
-msgid "EQUATORIAL_GUINEA"
-msgstr "Экваториальная Гвинея"
+msgid "ER"
+msgstr ""
 
 #: ../../../php/country.php:67
-msgid "ERITREA"
-msgstr "Эритрея"
+msgid "ES"
+msgstr ""
 
 #: ../../../php/country.php:68
-msgid "ESTONIA"
-msgstr "Эстония"
+msgid "ET"
+msgstr ""
 
 #: ../../../php/country.php:69
-msgid "ETHIOPIA"
-msgstr "Эфиопия"
+msgid "FI"
+msgstr ""
 
 #: ../../../php/country.php:70
-msgid "FALKLAND_ISLANDS"
-msgstr "Фолклендские острова"
+msgid "FJ"
+msgstr ""
 
 #: ../../../php/country.php:71
-msgid "FAROE_ISLANDS"
-msgstr "Фарерские острова"
+msgid "FK"
+msgstr ""
 
 #: ../../../php/country.php:72
-msgid "FIJI"
-msgstr "Фиджи"
+msgid "FM"
+msgstr ""
 
 #: ../../../php/country.php:73
-msgid "FINLAND"
-msgstr "Финляндия"
+msgid "FO"
+msgstr ""
 
 #: ../../../php/country.php:74
-msgid "FRANCE"
-msgstr "Франция"
+msgid "FR"
+msgstr ""
 
 #: ../../../php/country.php:75
-msgid "FRANCE_METROPOLITAN"
-msgstr "Метрополия Франции"
+msgid "GA"
+msgstr ""
 
 #: ../../../php/country.php:76
-msgid "FRENCH_GUIANA"
-msgstr "Французская Гвиана"
+msgid "GB"
+msgstr ""
 
 #: ../../../php/country.php:77
-msgid "FRENCH_POLYNESIA"
-msgstr "Французская Полинезия"
+msgid "GD"
+msgstr ""
 
 #: ../../../php/country.php:78
-msgid "FRENCH_SOUTHERN_TERRITORIES"
-msgstr "Французские Южные и Антарктические территории"
+msgid "GE"
+msgstr ""
 
 #: ../../../php/country.php:79
-msgid "GABON"
-msgstr "Габон"
+msgid "GF"
+msgstr ""
 
 #: ../../../php/country.php:80
-msgid "GAMBIA"
-msgstr "Гамбия"
+msgid "GG"
+msgstr ""
 
 #: ../../../php/country.php:81
-msgid "GEORGIA"
-msgstr "Грузия"
+msgid "GH"
+msgstr ""
 
 #: ../../../php/country.php:82
-msgid "GERMANY"
-msgstr "Германия"
+msgid "GI"
+msgstr ""
 
 #: ../../../php/country.php:83
-msgid "GHANA"
-msgstr "Гана"
+msgid "GL"
+msgstr ""
 
 #: ../../../php/country.php:84
-msgid "GIBRALTAR"
-msgstr "Гибралтар"
+msgid "GM"
+msgstr ""
 
 #: ../../../php/country.php:85
-msgid "GREECE"
-msgstr "Греция"
+msgid "GN"
+msgstr ""
 
 #: ../../../php/country.php:86
-msgid "GREENLAND"
-msgstr "Гренландия"
+msgid "GP"
+msgstr ""
 
 #: ../../../php/country.php:87
-msgid "GRENADA"
-msgstr "Гренада"
+msgid "GQ"
+msgstr ""
 
 #: ../../../php/country.php:88
-msgid "GUADELOUPE"
-msgstr "Гваделупа"
+msgid "GR"
+msgstr ""
 
 #: ../../../php/country.php:89
-msgid "GUAM"
-msgstr "Гуам"
+msgid "GS"
+msgstr ""
 
 #: ../../../php/country.php:90
-msgid "GUATEMALA"
-msgstr "Гватемала"
+msgid "GT"
+msgstr ""
 
 #: ../../../php/country.php:91
-msgid "GUINEA"
-msgstr "Гвинея"
+msgid "GU"
+msgstr ""
 
 #: ../../../php/country.php:92
-msgid "GUINEA_BISSAU"
-msgstr "Гвинея-Бисау"
+msgid "GW"
+msgstr ""
 
 #: ../../../php/country.php:93
-msgid "GUYANA"
-msgstr "Гайана"
+msgid "GY"
+msgstr ""
 
 #: ../../../php/country.php:94
-msgid "HAITI"
-msgstr "Гаити"
+msgid "HK"
+msgstr ""
 
 #: ../../../php/country.php:95
-msgid "HEARD_AND_MC_DONALD_ISLANDS"
-msgstr "Остров Херд и острова Макдональд"
+msgid "HM"
+msgstr ""
 
 #: ../../../php/country.php:96
-msgid "HONDURAS"
-msgstr "Гондурас"
+msgid "HN"
+msgstr ""
 
 #: ../../../php/country.php:97
-msgid "HONG_KONG"
-msgstr "Гонконг"
+msgid "HR"
+msgstr ""
 
 #: ../../../php/country.php:98
-msgid "HUNGARY"
-msgstr "Венгрия"
+msgid "HT"
+msgstr ""
 
 #: ../../../php/country.php:99
-msgid "ICELAND"
-msgstr "Исландия"
+msgid "HU"
+msgstr ""
 
 #: ../../../php/country.php:100
-msgid "INDIA"
-msgstr "Индия"
+msgid "ID"
+msgstr ""
 
 #: ../../../php/country.php:101
-msgid "INDONESIA"
-msgstr "Индонезия"
+msgid "IE"
+msgstr ""
 
 #: ../../../php/country.php:102
-msgid "IRAN_ISLAMIC_REPUBLIC_OF"
-msgstr "Иран"
+msgid "IL"
+msgstr ""
 
 #: ../../../php/country.php:103
-msgid "IRAQ"
-msgstr "Ирак"
+msgid "IM"
+msgstr ""
 
 #: ../../../php/country.php:104
-msgid "IRELAND"
-msgstr "Ирландия"
+msgid "IN"
+msgstr ""
 
 #: ../../../php/country.php:105
-msgid "ITALY"
-msgstr "Италия"
+msgid "IO"
+msgstr ""
 
 #: ../../../php/country.php:106
-msgid "JAMAICA"
-msgstr "Ямайка"
+msgid "IQ"
+msgstr ""
 
 #: ../../../php/country.php:107
-msgid "JAPAN"
-msgstr "Япония"
+msgid "IR"
+msgstr ""
 
 #: ../../../php/country.php:108
-msgid "JORDAN"
-msgstr "Иордания"
+msgid "IS"
+msgstr ""
 
 #: ../../../php/country.php:109
-msgid "KAZAKHSTAN"
-msgstr "Казахстан"
+msgid "IT"
+msgstr ""
 
 #: ../../../php/country.php:110
-msgid "KENYA"
-msgstr "Кения"
+msgid "JE"
+msgstr ""
 
 #: ../../../php/country.php:111
-msgid "KIRIBATI"
-msgstr "Кирибати"
+msgid "JM"
+msgstr ""
 
 #: ../../../php/country.php:112
-msgid "KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF"
-msgstr "Корейская Народно-Демократическая Республика"
+msgid "JO"
+msgstr ""
 
 #: ../../../php/country.php:113
-msgid "KOREA_REPUBLIC_OF"
-msgstr "Республика Корея"
+msgid "JP"
+msgstr ""
 
 #: ../../../php/country.php:114
-msgid "KUWAIT"
-msgstr "Кувейт"
+msgid "KE"
+msgstr ""
 
 #: ../../../php/country.php:115
-msgid "KYRGYZSTAN"
-msgstr "Киргизия"
+msgid "KG"
+msgstr ""
 
 #: ../../../php/country.php:116
-msgid "LAO_PEOPLES_DEMOCRATIC_REPUBLIC"
-msgstr "Лаос"
+msgid "KH"
+msgstr ""
 
 #: ../../../php/country.php:117
-msgid "LATVIA"
-msgstr "Латвия"
+msgid "KI"
+msgstr ""
 
 #: ../../../php/country.php:118
-msgid "LEBANON"
-msgstr "Ливан"
+msgid "KM"
+msgstr ""
 
 #: ../../../php/country.php:119
-msgid "LESOTHO"
-msgstr "Лесото"
+msgid "KN"
+msgstr ""
 
 #: ../../../php/country.php:120
-msgid "LIBERIA"
-msgstr "Либерия"
+msgid "KP"
+msgstr ""
 
 #: ../../../php/country.php:121
-msgid "LIBYAN_ARAB_JAMAHIRIYA"
-msgstr "Ливия"
+msgid "KR"
+msgstr ""
 
 #: ../../../php/country.php:122
-msgid "LIECHTENSTEIN"
-msgstr "Лихтенштейн"
+msgid "KW"
+msgstr ""
 
 #: ../../../php/country.php:123
-msgid "LITHUANIA"
-msgstr "Литва"
+msgid "KY"
+msgstr ""
 
 #: ../../../php/country.php:124
-msgid "LUXEMBOURG"
-msgstr "Люксембург"
+msgid "KZ"
+msgstr ""
 
 #: ../../../php/country.php:125
-msgid "MACAU"
-msgstr "Макао"
+msgid "LA"
+msgstr ""
 
 #: ../../../php/country.php:126
-msgid "MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF"
-msgstr "Республика Македония"
+msgid "LB"
+msgstr ""
 
 #: ../../../php/country.php:127
-msgid "MADAGASCAR"
-msgstr "Мадагаскар"
+msgid "LC"
+msgstr ""
 
 #: ../../../php/country.php:128
-msgid "MALAWI"
-msgstr "Малави"
+msgid "LI"
+msgstr ""
 
 #: ../../../php/country.php:129
-msgid "MALAYSIA"
-msgstr "Малайзия"
+msgid "LK"
+msgstr ""
 
 #: ../../../php/country.php:130
-msgid "MALDIVES"
-msgstr "Мальдивы"
+msgid "LR"
+msgstr ""
 
 #: ../../../php/country.php:131
-msgid "MALI"
-msgstr "Мали"
+msgid "LS"
+msgstr ""
 
 #: ../../../php/country.php:132
-msgid "MALTA"
-msgstr "Мальта"
+msgid "LT"
+msgstr ""
 
 #: ../../../php/country.php:133
-msgid "MARSHALL_ISLANDS"
-msgstr "Маршалловы Острова"
+msgid "LU"
+msgstr ""
 
 #: ../../../php/country.php:134
-msgid "MARTINIQUE"
-msgstr "Мартиника"
+msgid "LV"
+msgstr ""
 
 #: ../../../php/country.php:135
-msgid "MAURITANIA"
-msgstr "Мавритания"
+msgid "LY"
+msgstr ""
 
 #: ../../../php/country.php:136
-msgid "MAURITIUS"
-msgstr "Маврикий"
+msgid "MA"
+msgstr ""
 
 #: ../../../php/country.php:137
-msgid "MAYOTTE"
-msgstr "Майотта"
+msgid "MC"
+msgstr ""
 
 #: ../../../php/country.php:138
-msgid "MEXICO"
-msgstr "Мексика"
+msgid "MD"
+msgstr ""
 
 #: ../../../php/country.php:139
-msgid "MICRONESIA_FEDERATED_STATES_OF"
-msgstr "Федеративные Штаты Микронезии"
+msgid "ME"
+msgstr ""
 
 #: ../../../php/country.php:140
-msgid "MOLDOVA_REPUBLIC_OF"
-msgstr "Молдавия"
+msgid "MF"
+msgstr ""
 
 #: ../../../php/country.php:141
-msgid "MONACO"
-msgstr "Монако"
+msgid "MG"
+msgstr ""
 
 #: ../../../php/country.php:142
-msgid "MONGOLIA"
-msgstr "Монголия"
+msgid "MH"
+msgstr ""
 
 #: ../../../php/country.php:143
-msgid "MONTSERRAT"
-msgstr "Монтсеррат"
+msgid "MK"
+msgstr ""
 
 #: ../../../php/country.php:144
-msgid "MOROCCO"
-msgstr "Марокко"
+msgid "ML"
+msgstr ""
 
 #: ../../../php/country.php:145
-msgid "MOZAMBIQUE"
-msgstr "Мозамбик"
+msgid "MM"
+msgstr ""
 
 #: ../../../php/country.php:146
-msgid "MYANMAR"
-msgstr "Мьянма"
+msgid "MN"
+msgstr ""
 
 #: ../../../php/country.php:147
-msgid "NAMIBIA"
-msgstr "Намибия"
+msgid "MO"
+msgstr ""
 
 #: ../../../php/country.php:148
-msgid "NAURU"
-msgstr "Науру"
+msgid "MP"
+msgstr ""
 
 #: ../../../php/country.php:149
-msgid "NEPAL"
-msgstr "Непал"
+msgid "MQ"
+msgstr ""
 
 #: ../../../php/country.php:150
-msgid "NETHERLANDS"
-msgstr "Голландия"
+msgid "MR"
+msgstr ""
 
 #: ../../../php/country.php:151
-msgid "NETHERLANDS_ANTILLES"
-msgstr "Нидерландские Антильские острова"
+msgid "MS"
+msgstr ""
 
 #: ../../../php/country.php:152
-msgid "NEW_CALEDONIA"
-msgstr "Новая Каледония"
+msgid "MT"
+msgstr ""
 
 #: ../../../php/country.php:153
-msgid "NEW_ZEALAND"
-msgstr "Новая Зеландия"
+msgid "MU"
+msgstr ""
 
 #: ../../../php/country.php:154
-msgid "NICARAGUA"
-msgstr "Никарагуа"
+msgid "MV"
+msgstr ""
 
 #: ../../../php/country.php:155
-msgid "NIGER"
-msgstr "Нигер"
+msgid "MW"
+msgstr ""
 
 #: ../../../php/country.php:156
-msgid "NIGERIA"
-msgstr "Нигерия"
+msgid "MX"
+msgstr ""
 
 #: ../../../php/country.php:157
-msgid "NIUE"
-msgstr "Ниуэ"
+msgid "MY"
+msgstr ""
 
 #: ../../../php/country.php:158
-msgid "NORFOLK_ISLAND"
-msgstr "Норфолк"
+msgid "MZ"
+msgstr ""
 
 #: ../../../php/country.php:159
-msgid "NORTHERN_MARIANA_ISLANDS"
-msgstr "Северные Марианские острова"
+msgid "NA"
+msgstr ""
 
 #: ../../../php/country.php:160
-msgid "NORWAY"
-msgstr "Норвегия"
+msgid "NC"
+msgstr ""
 
 #: ../../../php/country.php:161
-msgid "OMAN"
-msgstr "Оман"
+msgid "NE"
+msgstr ""
 
 #: ../../../php/country.php:162
-msgid "PAKISTAN"
-msgstr "Пакистан"
+msgid "NF"
+msgstr ""
 
 #: ../../../php/country.php:163
-msgid "PALAU"
-msgstr "Палау"
+msgid "NG"
+msgstr ""
 
 #: ../../../php/country.php:164
-msgid "PANAMA"
-msgstr "Панама"
+msgid "NI"
+msgstr ""
 
 #: ../../../php/country.php:165
-msgid "PAPUA_NEW_GUINEA"
-msgstr "Папуа — Новая Гвинея"
+msgid "NL"
+msgstr ""
 
 #: ../../../php/country.php:166
-msgid "PARAGUAY"
-msgstr "Парагвай"
+msgid "NO"
+msgstr ""
 
 #: ../../../php/country.php:167
-msgid "PERU"
-msgstr "Перу"
+msgid "NP"
+msgstr ""
 
 #: ../../../php/country.php:168
-msgid "PHILIPPINES"
-msgstr "Филиппины"
+msgid "NR"
+msgstr ""
 
 #: ../../../php/country.php:169
-msgid "PITCAIRN"
-msgstr "Острова Питкэрн"
+msgid "NU"
+msgstr ""
 
 #: ../../../php/country.php:170
-msgid "POLAND"
-msgstr "Польша"
+msgid "NZ"
+msgstr ""
 
 #: ../../../php/country.php:171
-msgid "PORTUGAL"
-msgstr "Португалия"
+msgid "OM"
+msgstr ""
 
-#: ../../../php/country.php:172 ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr "Пуэрто-Рико"
+#: ../../../php/country.php:172
+msgid "PA"
+msgstr ""
 
 #: ../../../php/country.php:173
-msgid "QATAR"
-msgstr "Катар"
+msgid "PE"
+msgstr ""
 
 #: ../../../php/country.php:174
-msgid "REUNION"
-msgstr "Реюньон"
+msgid "PF"
+msgstr ""
 
 #: ../../../php/country.php:175
-msgid "ROMANIA"
-msgstr "Румыния"
+msgid "PG"
+msgstr ""
 
 #: ../../../php/country.php:176
-msgid "RUSSIAN_FEDERATION"
-msgstr "Россия"
+msgid "PH"
+msgstr ""
 
 #: ../../../php/country.php:177
-msgid "RWANDA"
-msgstr "Руанда"
+msgid "PK"
+msgstr ""
 
 #: ../../../php/country.php:178
-msgid "SAINT_KITTS_AND_NEVIS"
-msgstr "Сент-Китс и Невис"
+msgid "PL"
+msgstr ""
 
 #: ../../../php/country.php:179
-msgid "SAINT_LUCIA"
-msgstr "Сент-Люсия"
+msgid "PM"
+msgstr ""
 
 #: ../../../php/country.php:180
-msgid "SAINT_VINCENT_AND_THE_GRENADINES"
-msgstr "Сент-Винсент и Гренадины"
+msgid "PN"
+msgstr ""
 
 #: ../../../php/country.php:181
-msgid "SAMOA"
-msgstr "Самоа"
+msgid "PR"
+msgstr ""
 
 #: ../../../php/country.php:182
-msgid "SAN_MARINO"
-msgstr "Сан-Марино"
+msgid "PS"
+msgstr ""
 
 #: ../../../php/country.php:183
-msgid "SAO_TOME_AND_PRINCIPE"
-msgstr "Сан-Томе и Принсипи"
+msgid "PT"
+msgstr ""
 
 #: ../../../php/country.php:184
-msgid "SAUDI_ARABIA"
-msgstr "Саудовская Аравия"
+msgid "PW"
+msgstr ""
 
 #: ../../../php/country.php:185
-msgid "SENEGAL"
-msgstr "Сенегал"
+msgid "PY"
+msgstr ""
 
 #: ../../../php/country.php:186
-msgid "SEYCHELLES"
-msgstr "Сейшельские Острова"
+msgid "QA"
+msgstr ""
 
 #: ../../../php/country.php:187
-msgid "SIERRA_LEONE"
-msgstr "Сьерра-Леоне"
+msgid "RE"
+msgstr ""
 
 #: ../../../php/country.php:188
-msgid "SINGAPORE"
-msgstr "Сингапур"
+msgid "RO"
+msgstr ""
 
 #: ../../../php/country.php:189
-msgid "SLOVAKIA"
-msgstr "Словакия"
+msgid "RS"
+msgstr ""
 
 #: ../../../php/country.php:190
-msgid "SLOVENIA"
-msgstr "Словения"
+msgid "RU"
+msgstr "Россия"
 
 #: ../../../php/country.php:191
-msgid "SOLOMON_ISLANDS"
-msgstr "Соломоновы Острова"
+msgid "RW"
+msgstr ""
 
 #: ../../../php/country.php:192
-msgid "SOMALIA"
-msgstr "Сомали"
+msgid "SA"
+msgstr ""
 
 #: ../../../php/country.php:193
-msgid "SOUTH_AFRICA"
-msgstr "Южно-Африканская Республика"
+msgid "SB"
+msgstr ""
 
 #: ../../../php/country.php:194
-msgid "SPAIN"
-msgstr "Испания"
+msgid "SC"
+msgstr ""
 
 #: ../../../php/country.php:195
-msgid "SRI_LANKA"
-msgstr "Шри-Ланка"
+msgid "SD"
+msgstr ""
 
 #: ../../../php/country.php:196
-msgid "ST_HELENA"
-msgstr "Остров Святой Елены"
+msgid "SE"
+msgstr ""
 
 #: ../../../php/country.php:197
-msgid "ST_PIERRE_AND_MIQUELON"
-msgstr "Сен-Пьер и Микелон"
+msgid "SG"
+msgstr ""
 
 #: ../../../php/country.php:198
-msgid "SUDAN"
-msgstr "Судан"
+msgid "SH"
+msgstr ""
 
 #: ../../../php/country.php:199
-msgid "SURINAME"
-msgstr "Суринам"
+msgid "SI"
+msgstr ""
 
 #: ../../../php/country.php:200
-msgid "SVALBARD_AND_JAN_MAYEN_ISLANDS"
-msgstr "Шпицберген и Ян-Майен"
+msgid "SJ"
+msgstr ""
 
 #: ../../../php/country.php:201
-msgid "SWAZILAND"
-msgstr "Свазиленд"
+msgid "SK"
+msgstr ""
 
 #: ../../../php/country.php:202
-msgid "SWEDEN"
-msgstr "Швеция"
+msgid "SL"
+msgstr ""
 
 #: ../../../php/country.php:203
-msgid "SWITZERLAND"
-msgstr "Швейцария"
+msgid "SM"
+msgstr ""
 
 #: ../../../php/country.php:204
-msgid "SYRIAN_ARAB_REPUBLIC"
-msgstr "Сирия"
+msgid "SN"
+msgstr ""
 
 #: ../../../php/country.php:205
-msgid "TAIWAN_PROVINCE_OF_CHINA"
-msgstr "Тайвань"
+msgid "SO"
+msgstr ""
 
 #: ../../../php/country.php:206
-msgid "TAJIKISTAN"
-msgstr "Таджикистан"
+msgid "SR"
+msgstr ""
 
 #: ../../../php/country.php:207
-msgid "TANZANIA_UNITED_REPUBLIC_OF"
-msgstr "Танзания"
+msgid "ST"
+msgstr ""
 
 #: ../../../php/country.php:208
-msgid "THAILAND"
-msgstr "Таиланд"
+msgid "SV"
+msgstr ""
 
 #: ../../../php/country.php:209
-msgid "TOGO"
-msgstr "Того"
+msgid "SY"
+msgstr ""
 
 #: ../../../php/country.php:210
-msgid "TOKELAU"
-msgstr "Токелау"
+msgid "SZ"
+msgstr ""
 
 #: ../../../php/country.php:211
-msgid "TONGA"
-msgstr "Тонга"
+msgid "TC"
+msgstr ""
 
 #: ../../../php/country.php:212
-msgid "TRINIDAD_AND_TOBAGO"
-msgstr "Тринидад и Тобаго"
+msgid "TD"
+msgstr ""
 
 #: ../../../php/country.php:213
-msgid "TUNISIA"
-msgstr "Тунис"
+msgid "TF"
+msgstr ""
 
 #: ../../../php/country.php:214
-msgid "TURKEY"
-msgstr "Турция"
+msgid "TG"
+msgstr ""
 
 #: ../../../php/country.php:215
-msgid "TURKMENISTAN"
-msgstr "Туркмения"
+msgid "TH"
+msgstr ""
 
 #: ../../../php/country.php:216
-msgid "TURKS_AND_CAICOS_ISLANDS"
-msgstr "Теркс и Кайкос"
+msgid "TJ"
+msgstr ""
 
 #: ../../../php/country.php:217
-msgid "TUVALU"
-msgstr "Тувалу"
+msgid "TK"
+msgstr ""
 
 #: ../../../php/country.php:218
-msgid "UGANDA"
-msgstr "Уганда"
+msgid "TL"
+msgstr ""
 
 #: ../../../php/country.php:219
-msgid "UKRAINE"
-msgstr "Украина"
+msgid "TM"
+msgstr ""
 
 #: ../../../php/country.php:220
-msgid "UNITED_ARAB_EMIRATES"
-msgstr "ОАЭ"
+msgid "TN"
+msgstr ""
 
 #: ../../../php/country.php:221
-msgid "UNITED_KINGDOM"
-msgstr "Великобритания"
+msgid "TO"
+msgstr ""
 
 #: ../../../php/country.php:222
-msgid "UNITED_STATES"
-msgstr "США"
+msgid "TR"
+msgstr ""
 
 #: ../../../php/country.php:223
-msgid "UNITED_STATES_MINOR_OUTLYING_ISLANDS"
-msgstr "Внешние малые острова США"
+msgid "TT"
+msgstr ""
 
 #: ../../../php/country.php:224
-msgid "URUGUAY"
-msgstr "Уругвай"
+msgid "TV"
+msgstr ""
 
 #: ../../../php/country.php:225
-msgid "UZBEKISTAN"
-msgstr "Узбекистан"
+msgid "TW"
+msgstr ""
 
 #: ../../../php/country.php:226
-msgid "VANUATU"
-msgstr "Вануату"
+msgid "TZ"
+msgstr ""
 
 #: ../../../php/country.php:227
-msgid "VATICAN_CITY_STATE"
-msgstr "Ватикан"
+msgid "UA"
+msgstr ""
 
 #: ../../../php/country.php:228
-msgid "VENEZUELA"
-msgstr "Венесуэла"
+msgid "UG"
+msgstr ""
 
 #: ../../../php/country.php:229
-msgid "VIETNAM"
-msgstr "Вьетнам"
+msgid "UM"
+msgstr ""
 
 #: ../../../php/country.php:230
-msgid "VIRGIN_ISLANDS_BRITISH"
-msgstr "Британские Виргинские острова"
+msgid "US"
+msgstr ""
 
 #: ../../../php/country.php:231
-msgid "VIRGIN_ISLANDS_US"
-msgstr "Виргинские Острова"
+msgid "UY"
+msgstr ""
 
 #: ../../../php/country.php:232
-msgid "WALLIS_AND_FUTUNA_ISLANDS"
-msgstr "Уоллис и Футуна"
+msgid "UZ"
+msgstr ""
 
 #: ../../../php/country.php:233
-msgid "WESTERN_SAHARA"
-msgstr "Западная Сахара"
+msgid "VA"
+msgstr ""
 
 #: ../../../php/country.php:234
-msgid "YEMEN"
-msgstr "Йемен"
+msgid "VC"
+msgstr ""
 
 #: ../../../php/country.php:235
-msgid "ZAIRE"
-msgstr "Заир"
+msgid "VE"
+msgstr ""
 
 #: ../../../php/country.php:236
-msgid "ZAMBIA"
-msgstr "Замбия"
+msgid "VG"
+msgstr ""
 
 #: ../../../php/country.php:237
-msgid "ZIMBABWE"
-msgstr "Зимбабве"
+msgid "VI"
+msgstr ""
+
+#: ../../../php/country.php:238
+msgid "VN"
+msgstr ""
+
+#: ../../../php/country.php:239
+msgid "VU"
+msgstr ""
+
+#: ../../../php/country.php:240
+msgid "WF"
+msgstr ""
+
+#: ../../../php/country.php:241
+msgid "WS"
+msgstr ""
+
+#: ../../../php/country.php:242
+msgid "YE"
+msgstr ""
+
+#: ../../../php/country.php:243
+msgid "YT"
+msgstr ""
+
+#: ../../../php/country.php:244
+msgid "ZA"
+msgstr ""
+
+#: ../../../php/country.php:245
+msgid "ZM"
+msgstr ""
+
+#: ../../../php/country.php:246
+msgid "ZW"
+msgstr ""
 
 #: ../../../php/state.php:1
 msgid "ALABAMA"
@@ -1467,6 +1569,10 @@ msgstr "Орегон"
 msgid "PENNSYLVANIA"
 msgstr "Пенсильвания"
 
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr "Пуэрто-Рико"
+
 #: ../../../php/state.php:41
 msgid "RHODE_ISLAND"
 msgstr "Род-Айленд"
@@ -1514,6 +1620,696 @@ msgstr "Висконсин"
 #: ../../../php/state.php:52
 msgid "WYOMING"
 msgstr "Вайоминг"
+
+#~ msgid "AALAND_ISLANDS"
+#~ msgstr "Аландские острова"
+
+#~ msgid "AFGHANISTAN"
+#~ msgstr "Афганистан"
+
+#~ msgid "ALBANIA"
+#~ msgstr "Албания"
+
+#~ msgid "ALGERIA"
+#~ msgstr "Алжир"
+
+#~ msgid "AMERICAN_SAMOA"
+#~ msgstr "Американсое Самоа"
+
+#~ msgid "ANDORRA"
+#~ msgstr "Андорра"
+
+#~ msgid "ANGOLA"
+#~ msgstr "Ангола"
+
+#~ msgid "ANGUILLA"
+#~ msgstr "Ангилья"
+
+#~ msgid "ANTARCTICA"
+#~ msgstr "Антарктида"
+
+#~ msgid "ANTIGUA_AND_BARBUDA"
+#~ msgstr "Антигуа и Барбуда"
+
+#~ msgid "ARGENTINA"
+#~ msgstr "Аргентина"
+
+#~ msgid "ARMENIA"
+#~ msgstr "Армения"
+
+#~ msgid "ARUBA"
+#~ msgstr "Аруба"
+
+#~ msgid "AUSTRALIA"
+#~ msgstr "Австралия"
+
+#~ msgid "AUSTRIA"
+#~ msgstr "Австрия"
+
+#~ msgid "AZERBAIJAN"
+#~ msgstr "Азербайджан"
+
+#~ msgid "BAHAMAS"
+#~ msgstr "Багамские Острова"
+
+#~ msgid "BAHRAIN"
+#~ msgstr "Бахрейн"
+
+#~ msgid "BANGLADESH"
+#~ msgstr "Бангладеш"
+
+#~ msgid "BARBADOS"
+#~ msgstr "Барбадос"
+
+#~ msgid "BELARUS"
+#~ msgstr "Белоруссия"
+
+#~ msgid "BELGIUM"
+#~ msgstr "Бельгия"
+
+#~ msgid "BELIZE"
+#~ msgstr "Белиз"
+
+#~ msgid "BENIN"
+#~ msgstr "Бенин"
+
+#~ msgid "BERMUDA"
+#~ msgstr "Бермуды"
+
+#~ msgid "BHUTAN"
+#~ msgstr "Бутан"
+
+#~ msgid "BOLIVIA"
+#~ msgstr "Боливия"
+
+#~ msgid "BOSNIA_AND_HERZEGOWINA"
+#~ msgstr "Босния и Герцеговина"
+
+#~ msgid "BOTSWANA"
+#~ msgstr "Ботсвана"
+
+#~ msgid "BOUVET_ISLAND"
+#~ msgstr "Остров Буве"
+
+#~ msgid "BRAZIL"
+#~ msgstr "Бразилия"
+
+#~ msgid "BRITISH_INDIAN_OCEAN_TERRITORY"
+#~ msgstr "Британская территория в Индийском океане"
+
+#~ msgid "BRUNEI_DARUSSALAM"
+#~ msgstr "Бруней"
+
+#~ msgid "BULGARIA"
+#~ msgstr "Болгария"
+
+#~ msgid "BURKINA_FASO"
+#~ msgstr "Буркина Фасо"
+
+#~ msgid "BURUNDI"
+#~ msgstr "Бурунди"
+
+#~ msgid "CAMBODIA"
+#~ msgstr "Камбоджа"
+
+#~ msgid "CAMEROON"
+#~ msgstr "Камерун"
+
+#~ msgid "CANADA"
+#~ msgstr "Канада"
+
+#~ msgid "CAPE_VERDE"
+#~ msgstr "Кабо-Верде"
+
+#~ msgid "CAYMAN_ISLANDS"
+#~ msgstr "Острова Кайман"
+
+#~ msgid "CENTRAL_AFRICAN_REPUBLIC"
+#~ msgstr "Центральноафриканская Республика"
+
+#~ msgid "CHILE"
+#~ msgstr "Чили"
+
+#~ msgid "CHINA"
+#~ msgstr "Китай"
+
+#~ msgid "CHRISTMAS_ISLAND"
+#~ msgstr "Остров Рождества"
+
+#~ msgid "COCOS_KEELING_ISLANDS"
+#~ msgstr "Кокосовые острова"
+
+#~ msgid "COLOMBIA"
+#~ msgstr "Колумбия"
+
+#~ msgid "COMOROS"
+#~ msgstr "Коморы"
+
+#~ msgid "CONGO"
+#~ msgstr "Демократическая Республика Конго"
+
+#~ msgid "COOK_ISLANDS"
+#~ msgstr "Острова Кука"
+
+#~ msgid "COSTA_RICA"
+#~ msgstr "Коста-Рика"
+
+#~ msgid "COTE_DIVOIRE"
+#~ msgstr "Кот-д’Ивуар"
+
+#~ msgid "CROATIA"
+#~ msgstr "Хорватия"
+
+#~ msgid "CYPRUS"
+#~ msgstr "Кипр"
+
+#~ msgid "CZECH_REPUBLIC"
+#~ msgstr "Чехия"
+
+#~ msgid "DENMARK"
+#~ msgstr "Дания"
+
+#~ msgid "DJIBOUTI"
+#~ msgstr "Джибути"
+
+#~ msgid "DOMINICA"
+#~ msgstr "Доминика"
+
+#~ msgid "DOMINICAN_REPUBLIC"
+#~ msgstr "Доминиканская Республика"
+
+#~ msgid "EAST_TIMOR"
+#~ msgstr "Восточный Тимор"
+
+#~ msgid "ECUADOR"
+#~ msgstr "Эквадор"
+
+#~ msgid "EGYPT"
+#~ msgstr "Египт"
+
+#~ msgid "EL_SALVADOR"
+#~ msgstr "Сальвадор"
+
+#~ msgid "EQUATORIAL_GUINEA"
+#~ msgstr "Экваториальная Гвинея"
+
+#~ msgid "ERITREA"
+#~ msgstr "Эритрея"
+
+#~ msgid "ESTONIA"
+#~ msgstr "Эстония"
+
+#~ msgid "ETHIOPIA"
+#~ msgstr "Эфиопия"
+
+#~ msgid "FALKLAND_ISLANDS"
+#~ msgstr "Фолклендские острова"
+
+#~ msgid "FAROE_ISLANDS"
+#~ msgstr "Фарерские острова"
+
+#~ msgid "FINLAND"
+#~ msgstr "Финляндия"
+
+#~ msgid "FRANCE"
+#~ msgstr "Франция"
+
+#~ msgid "FRANCE_METROPOLITAN"
+#~ msgstr "Метрополия Франции"
+
+#~ msgid "FRENCH_GUIANA"
+#~ msgstr "Французская Гвиана"
+
+#~ msgid "FRENCH_POLYNESIA"
+#~ msgstr "Французская Полинезия"
+
+#~ msgid "FRENCH_SOUTHERN_TERRITORIES"
+#~ msgstr "Французские Южные и Антарктические территории"
+
+#~ msgid "GABON"
+#~ msgstr "Габон"
+
+#~ msgid "GAMBIA"
+#~ msgstr "Гамбия"
+
+#~ msgid "GEORGIA"
+#~ msgstr "Грузия"
+
+#~ msgid "GERMANY"
+#~ msgstr "Германия"
+
+#~ msgid "GHANA"
+#~ msgstr "Гана"
+
+#~ msgid "GIBRALTAR"
+#~ msgstr "Гибралтар"
+
+#~ msgid "GREECE"
+#~ msgstr "Греция"
+
+#~ msgid "GREENLAND"
+#~ msgstr "Гренландия"
+
+#~ msgid "GRENADA"
+#~ msgstr "Гренада"
+
+#~ msgid "GUADELOUPE"
+#~ msgstr "Гваделупа"
+
+#~ msgid "GUATEMALA"
+#~ msgstr "Гватемала"
+
+#~ msgid "GUINEA"
+#~ msgstr "Гвинея"
+
+#~ msgid "GUINEA_BISSAU"
+#~ msgstr "Гвинея-Бисау"
+
+#~ msgid "GUYANA"
+#~ msgstr "Гайана"
+
+#~ msgid "HAITI"
+#~ msgstr "Гаити"
+
+#~ msgid "HEARD_AND_MC_DONALD_ISLANDS"
+#~ msgstr "Остров Херд и острова Макдональд"
+
+#~ msgid "HONDURAS"
+#~ msgstr "Гондурас"
+
+#~ msgid "HONG_KONG"
+#~ msgstr "Гонконг"
+
+#~ msgid "HUNGARY"
+#~ msgstr "Венгрия"
+
+#~ msgid "ICELAND"
+#~ msgstr "Исландия"
+
+#~ msgid "INDIA"
+#~ msgstr "Индия"
+
+#~ msgid "INDONESIA"
+#~ msgstr "Индонезия"
+
+#~ msgid "IRAN_ISLAMIC_REPUBLIC_OF"
+#~ msgstr "Иран"
+
+#~ msgid "IRELAND"
+#~ msgstr "Ирландия"
+
+#~ msgid "ITALY"
+#~ msgstr "Италия"
+
+#~ msgid "JAMAICA"
+#~ msgstr "Ямайка"
+
+#~ msgid "JAPAN"
+#~ msgstr "Япония"
+
+#~ msgid "JORDAN"
+#~ msgstr "Иордания"
+
+#~ msgid "KAZAKHSTAN"
+#~ msgstr "Казахстан"
+
+#~ msgid "KENYA"
+#~ msgstr "Кения"
+
+#~ msgid "KIRIBATI"
+#~ msgstr "Кирибати"
+
+#~ msgid "KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF"
+#~ msgstr "Корейская Народно-Демократическая Республика"
+
+#~ msgid "KOREA_REPUBLIC_OF"
+#~ msgstr "Республика Корея"
+
+#~ msgid "KUWAIT"
+#~ msgstr "Кувейт"
+
+#~ msgid "KYRGYZSTAN"
+#~ msgstr "Киргизия"
+
+#~ msgid "LAO_PEOPLES_DEMOCRATIC_REPUBLIC"
+#~ msgstr "Лаос"
+
+#~ msgid "LATVIA"
+#~ msgstr "Латвия"
+
+#~ msgid "LEBANON"
+#~ msgstr "Ливан"
+
+#~ msgid "LESOTHO"
+#~ msgstr "Лесото"
+
+#~ msgid "LIBERIA"
+#~ msgstr "Либерия"
+
+#~ msgid "LIBYAN_ARAB_JAMAHIRIYA"
+#~ msgstr "Ливия"
+
+#~ msgid "LIECHTENSTEIN"
+#~ msgstr "Лихтенштейн"
+
+#~ msgid "LITHUANIA"
+#~ msgstr "Литва"
+
+#~ msgid "LUXEMBOURG"
+#~ msgstr "Люксембург"
+
+#~ msgid "MACAU"
+#~ msgstr "Макао"
+
+#~ msgid "MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF"
+#~ msgstr "Республика Македония"
+
+#~ msgid "MADAGASCAR"
+#~ msgstr "Мадагаскар"
+
+#~ msgid "MALAWI"
+#~ msgstr "Малави"
+
+#~ msgid "MALAYSIA"
+#~ msgstr "Малайзия"
+
+#~ msgid "MALDIVES"
+#~ msgstr "Мальдивы"
+
+#~ msgid "MALTA"
+#~ msgstr "Мальта"
+
+#~ msgid "MARSHALL_ISLANDS"
+#~ msgstr "Маршалловы Острова"
+
+#~ msgid "MARTINIQUE"
+#~ msgstr "Мартиника"
+
+#~ msgid "MAURITANIA"
+#~ msgstr "Мавритания"
+
+#~ msgid "MAURITIUS"
+#~ msgstr "Маврикий"
+
+#~ msgid "MAYOTTE"
+#~ msgstr "Майотта"
+
+#~ msgid "MEXICO"
+#~ msgstr "Мексика"
+
+#~ msgid "MICRONESIA_FEDERATED_STATES_OF"
+#~ msgstr "Федеративные Штаты Микронезии"
+
+#~ msgid "MOLDOVA_REPUBLIC_OF"
+#~ msgstr "Молдавия"
+
+#~ msgid "MONACO"
+#~ msgstr "Монако"
+
+#~ msgid "MONGOLIA"
+#~ msgstr "Монголия"
+
+#~ msgid "MONTSERRAT"
+#~ msgstr "Монтсеррат"
+
+#~ msgid "MOROCCO"
+#~ msgstr "Марокко"
+
+#~ msgid "MOZAMBIQUE"
+#~ msgstr "Мозамбик"
+
+#~ msgid "MYANMAR"
+#~ msgstr "Мьянма"
+
+#~ msgid "NAMIBIA"
+#~ msgstr "Намибия"
+
+#~ msgid "NAURU"
+#~ msgstr "Науру"
+
+#~ msgid "NEPAL"
+#~ msgstr "Непал"
+
+#~ msgid "NETHERLANDS"
+#~ msgstr "Голландия"
+
+#~ msgid "NETHERLANDS_ANTILLES"
+#~ msgstr "Нидерландские Антильские острова"
+
+#~ msgid "NEW_CALEDONIA"
+#~ msgstr "Новая Каледония"
+
+#~ msgid "NEW_ZEALAND"
+#~ msgstr "Новая Зеландия"
+
+#~ msgid "NICARAGUA"
+#~ msgstr "Никарагуа"
+
+#~ msgid "NIGER"
+#~ msgstr "Нигер"
+
+#~ msgid "NIGERIA"
+#~ msgstr "Нигерия"
+
+#~ msgid "NORFOLK_ISLAND"
+#~ msgstr "Норфолк"
+
+#~ msgid "NORTHERN_MARIANA_ISLANDS"
+#~ msgstr "Северные Марианские острова"
+
+#~ msgid "NORWAY"
+#~ msgstr "Норвегия"
+
+#~ msgid "PAKISTAN"
+#~ msgstr "Пакистан"
+
+#~ msgid "PALAU"
+#~ msgstr "Палау"
+
+#~ msgid "PANAMA"
+#~ msgstr "Панама"
+
+#~ msgid "PAPUA_NEW_GUINEA"
+#~ msgstr "Папуа — Новая Гвинея"
+
+#~ msgid "PARAGUAY"
+#~ msgstr "Парагвай"
+
+#~ msgid "PHILIPPINES"
+#~ msgstr "Филиппины"
+
+#~ msgid "PITCAIRN"
+#~ msgstr "Острова Питкэрн"
+
+#~ msgid "POLAND"
+#~ msgstr "Польша"
+
+#~ msgid "PORTUGAL"
+#~ msgstr "Португалия"
+
+#~ msgid "QATAR"
+#~ msgstr "Катар"
+
+#~ msgid "REUNION"
+#~ msgstr "Реюньон"
+
+#~ msgid "ROMANIA"
+#~ msgstr "Румыния"
+
+#~ msgid "RUSSIAN_FEDERATION"
+#~ msgstr "Россия"
+
+#~ msgid "RWANDA"
+#~ msgstr "Руанда"
+
+#~ msgid "SAINT_KITTS_AND_NEVIS"
+#~ msgstr "Сент-Китс и Невис"
+
+#~ msgid "SAINT_LUCIA"
+#~ msgstr "Сент-Люсия"
+
+#~ msgid "SAINT_VINCENT_AND_THE_GRENADINES"
+#~ msgstr "Сент-Винсент и Гренадины"
+
+#~ msgid "SAMOA"
+#~ msgstr "Самоа"
+
+#~ msgid "SAN_MARINO"
+#~ msgstr "Сан-Марино"
+
+#~ msgid "SAO_TOME_AND_PRINCIPE"
+#~ msgstr "Сан-Томе и Принсипи"
+
+#~ msgid "SAUDI_ARABIA"
+#~ msgstr "Саудовская Аравия"
+
+#~ msgid "SENEGAL"
+#~ msgstr "Сенегал"
+
+#~ msgid "SEYCHELLES"
+#~ msgstr "Сейшельские Острова"
+
+#~ msgid "SIERRA_LEONE"
+#~ msgstr "Сьерра-Леоне"
+
+#~ msgid "SINGAPORE"
+#~ msgstr "Сингапур"
+
+#~ msgid "SLOVAKIA"
+#~ msgstr "Словакия"
+
+#~ msgid "SLOVENIA"
+#~ msgstr "Словения"
+
+#~ msgid "SOLOMON_ISLANDS"
+#~ msgstr "Соломоновы Острова"
+
+#~ msgid "SOMALIA"
+#~ msgstr "Сомали"
+
+#~ msgid "SOUTH_AFRICA"
+#~ msgstr "Южно-Африканская Республика"
+
+#~ msgid "SPAIN"
+#~ msgstr "Испания"
+
+#~ msgid "SRI_LANKA"
+#~ msgstr "Шри-Ланка"
+
+#~ msgid "ST_HELENA"
+#~ msgstr "Остров Святой Елены"
+
+#~ msgid "ST_PIERRE_AND_MIQUELON"
+#~ msgstr "Сен-Пьер и Микелон"
+
+#~ msgid "SUDAN"
+#~ msgstr "Судан"
+
+#~ msgid "SURINAME"
+#~ msgstr "Суринам"
+
+#~ msgid "SVALBARD_AND_JAN_MAYEN_ISLANDS"
+#~ msgstr "Шпицберген и Ян-Майен"
+
+#~ msgid "SWAZILAND"
+#~ msgstr "Свазиленд"
+
+#~ msgid "SWEDEN"
+#~ msgstr "Швеция"
+
+#~ msgid "SWITZERLAND"
+#~ msgstr "Швейцария"
+
+#~ msgid "SYRIAN_ARAB_REPUBLIC"
+#~ msgstr "Сирия"
+
+#~ msgid "TAIWAN_PROVINCE_OF_CHINA"
+#~ msgstr "Тайвань"
+
+#~ msgid "TAJIKISTAN"
+#~ msgstr "Таджикистан"
+
+#~ msgid "TANZANIA_UNITED_REPUBLIC_OF"
+#~ msgstr "Танзания"
+
+#~ msgid "THAILAND"
+#~ msgstr "Таиланд"
+
+#~ msgid "TOKELAU"
+#~ msgstr "Токелау"
+
+#~ msgid "TONGA"
+#~ msgstr "Тонга"
+
+#~ msgid "TRINIDAD_AND_TOBAGO"
+#~ msgstr "Тринидад и Тобаго"
+
+#~ msgid "TUNISIA"
+#~ msgstr "Тунис"
+
+#~ msgid "TURKEY"
+#~ msgstr "Турция"
+
+#~ msgid "TURKMENISTAN"
+#~ msgstr "Туркмения"
+
+#~ msgid "TURKS_AND_CAICOS_ISLANDS"
+#~ msgstr "Теркс и Кайкос"
+
+#~ msgid "TUVALU"
+#~ msgstr "Тувалу"
+
+#~ msgid "UGANDA"
+#~ msgstr "Уганда"
+
+#~ msgid "UKRAINE"
+#~ msgstr "Украина"
+
+#~ msgid "UNITED_ARAB_EMIRATES"
+#~ msgstr "ОАЭ"
+
+#~ msgid "UNITED_KINGDOM"
+#~ msgstr "Великобритания"
+
+#~ msgid "UNITED_STATES"
+#~ msgstr "США"
+
+#~ msgid "UNITED_STATES_MINOR_OUTLYING_ISLANDS"
+#~ msgstr "Внешние малые острова США"
+
+#~ msgid "URUGUAY"
+#~ msgstr "Уругвай"
+
+#~ msgid "UZBEKISTAN"
+#~ msgstr "Узбекистан"
+
+#~ msgid "VANUATU"
+#~ msgstr "Вануату"
+
+#~ msgid "VATICAN_CITY_STATE"
+#~ msgstr "Ватикан"
+
+#~ msgid "VENEZUELA"
+#~ msgstr "Венесуэла"
+
+#~ msgid "VIETNAM"
+#~ msgstr "Вьетнам"
+
+#~ msgid "VIRGIN_ISLANDS_BRITISH"
+#~ msgstr "Британские Виргинские острова"
+
+#~ msgid "VIRGIN_ISLANDS_US"
+#~ msgstr "Виргинские Острова"
+
+#~ msgid "WALLIS_AND_FUTUNA_ISLANDS"
+#~ msgstr "Уоллис и Футуна"
+
+#~ msgid "WESTERN_SAHARA"
+#~ msgstr "Западная Сахара"
+
+#~ msgid "YEMEN"
+#~ msgstr "Йемен"
+
+#~ msgid "ZAIRE"
+#~ msgstr "Заир"
+
+#~ msgid "ZAMBIA"
+#~ msgstr "Замбия"
+
+#~ msgid "ZIMBABWE"
+#~ msgstr "Зимбабве"
+
+#~ msgid "CONTACT_DETAIL_PHONE"
+#~ msgstr "+7-495-222-9277"
+
+#~ msgid "FOOTER_THIRD"
+#~ msgstr "третья часть футера"
+
+#~ msgid "FOOTER_SECOND_LINK_TITLE"
+#~ msgstr "Заголовок второй ссылки футера"
+
+#~ msgid "FOOTER_FORTH"
+#~ msgstr "четвертая часть футера"
 
 #~ msgid "YUGOSLAVIA"
 #~ msgstr "Югославия"

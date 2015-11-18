@@ -131,7 +131,6 @@ jQuery(function ($) {
                     if (response.status) {
                         $(location).attr('href', 'thankyou.html');
                     }
-                    //$('#response').empty().html(response.html);
                     $("#response").find("p").hide();
                     $("#response_".concat(response.html)).show();
                 }
@@ -182,10 +181,10 @@ jQuery(function ($) {
         province.hide();
         $("#registration_country").change(function() {
             var id = $(this).find(":selected").attr("id");
-            if (id == 'UNITED_STATES') {
+            if (id == 'US') {
                 state.show();
                 province.hide();
-            } else if (id == 'CANADA') {
+            } else if (id == 'CA') {
                 state.hide();
                 province.show();
             } else {
@@ -359,9 +358,26 @@ jQuery(function ($) {
     $('.select-option').click(function() {
         var locale = $(this).find('input').attr('id');
         $.cookie("locale", locale);
+        $('.select-option').find('input').prop('checked', false);
+        $(this).find('input').prop('checked', true);
+        $('#toggle').prop('checked', false);
         location.reload();
     });
 
+    $(document).ready(function() {
+        var select = $('#registration_country');
+        select.val(function() {
+            var locale = $.cookie('locale');
+            if (locale == 'en_US') {
+                return 'US'
+            } else if (locale == 'ru_RU') {
+                return 'RU';
+            } else {
+                return $('#registration_country').find("option:first").attr("id");
+            }
+        });
+        select.trigger('change');
+    });
 
     /* ==================================================
      Init
@@ -370,22 +386,22 @@ jQuery(function ($) {
     BRUSHED.slider();
 
     $(document).ready(function () {
-        Modernizr.load([
-            {
-                test: Modernizr.placeholder,
-                nope: 'js/placeholder.js',
-                complete: function () {
-                    if (!Modernizr.placeholder) {
-                        Placeholders.init({
-                            live: true,
-                            hideOnFocus: false,
-                            className: "yourClass",
-                            textColor: "#999"
-                        });
-                    }
-                }
-            }
-        ]);
+        //Modernizr.load([
+        //    {
+        //        test: Modernizr.placeholder,
+        //        nope: 'js/placeholder.js',
+        //        complete: function () {
+        //            if (!Modernizr.placeholder) {
+        //                Placeholders.init({
+        //                    live: true,
+        //                    hideOnFocus: false,
+        //                    className: "yourClass",
+        //                    textColor: "#999"
+        //                });
+        //            }
+        //        }
+        //    }
+        //]);
 
         // Preload the page with jPreLoader
         $('body').jpreLoader({
