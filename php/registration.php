@@ -129,7 +129,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 1;
+                $lockout_time = 600;
                 $first_failed_invite_time = 0;
                 $first_failed_captcha_time = 0;
                 $failed_invite_count = 0;
