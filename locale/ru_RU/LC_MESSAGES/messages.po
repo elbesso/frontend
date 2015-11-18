@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-18 15:57+0300\n"
-"PO-Revision-Date: 2015-11-18 17:35+0300\n"
+"POT-Creation-Date: 2015-11-18 18:17+0300\n"
+"PO-Revision-Date: 2015-11-18 19:17+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: ru_RU\n"
@@ -19,191 +19,191 @@ msgstr ""
 msgid "TITLE"
 msgstr "Мобильный криминалист - Приглашение"
 
-#: ../../../index.php:88
+#: ../../../index.php:89
 msgid "STICKY_NAV_GO_UP_LINK_TITLE"
 msgstr "Заголовок наверх"
 
-#: ../../../index.php:88
+#: ../../../index.php:89
 msgid "STICKY_NAV_GO_UP"
 msgstr "Наверх"
 
-#: ../../../index.php:92
+#: ../../../index.php:93
 msgid "STICKY_NAV_LANGUAGE"
 msgstr "Язык"
 
-#: ../../../index.php:96
+#: ../../../index.php:97
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
 msgstr "Английский"
 
-#: ../../../index.php:100
+#: ../../../index.php:101
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
 msgstr "Русский"
 
-#: ../../../index.php:104
+#: ../../../index.php:105
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
 msgstr "Испанский"
 
-#: ../../../index.php:110
+#: ../../../index.php:111
 msgid "MENU_INVITE"
 msgstr "Инвайт"
 
-#: ../../../index.php:111
+#: ../../../index.php:112
 msgid "MENU_REGISTRATION"
 msgstr "Регистрация"
 
-#: ../../../index.php:112
+#: ../../../index.php:113
 msgid "MENU_ABOUT"
 msgstr "О нас"
 
-#: ../../../index.php:113
+#: ../../../index.php:114
 msgid "MENU_CONTACT"
 msgstr "Контакты"
 
-#: ../../../index.php:122
+#: ../../../index.php:123
 msgid "INVITE_MAIN_TITLE"
 msgstr "Для регистрации"
 
-#: ../../../index.php:123
+#: ../../../index.php:124
 msgid "INVITE_MAIN_TITLE_DESCRIPTION "
 msgstr "Введите ваш инвайт"
 
-#: ../../../index.php:124
+#: ../../../index.php:125
 msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
 msgstr "АААА-АААА-АААА-АААА"
 
-#: ../../../index.php:128
+#: ../../../index.php:129
 msgid "INVITE_MAIN_INVITE_BUTTON"
 msgstr " Начать"
 
-#: ../../../index.php:142
+#: ../../../index.php:143
 msgid "REGISTRATION_LABEL_NAME"
 msgstr "Имя"
 
-#: ../../../index.php:143
+#: ../../../index.php:144
 msgid "REGISTRATION_PLACEHOLDER_NAME"
 msgstr "Ваше имя"
 
-#: ../../../index.php:146
+#: ../../../index.php:147
 msgid "REGISTRATION_LABEL_SURNAME"
 msgstr "Фамилия"
 
-#: ../../../index.php:147
+#: ../../../index.php:148
 msgid "REGISTRATION_PLACEHOLDER_SURNAME"
 msgstr "Ваша фамилия"
 
-#: ../../../index.php:150
+#: ../../../index.php:151
 msgid "REGISTRATION_LABEL_ORGANIZATION"
 msgstr "Организация"
 
-#: ../../../index.php:151
+#: ../../../index.php:152
 msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
 msgstr "Ваша организация"
 
-#: ../../../index.php:154
+#: ../../../index.php:155
 msgid "REGISTRATION_LABEL_POSITION"
 msgstr "Должность"
 
-#: ../../../index.php:155
+#: ../../../index.php:156
 msgid "REGISTRATION_PLACEHOLDER_POSITION"
 msgstr "Ваша должность"
 
-#: ../../../index.php:158
+#: ../../../index.php:159
 msgid "REGISTRATION_LABEL_EMAIL"
 msgstr "Email"
 
-#: ../../../index.php:159
+#: ../../../index.php:160
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
 msgstr "myname@email.com"
 
-#: ../../../index.php:162
+#: ../../../index.php:163
 msgid "REGISTRATION_LABEL_PHONE"
 msgstr "Телефон"
 
-#: ../../../index.php:163
+#: ../../../index.php:164
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
 msgstr "+7 (999) 999 99 99"
 
-#: ../../../index.php:168
+#: ../../../index.php:169
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
 msgstr "Адрес 1"
 
-#: ../../../index.php:169
+#: ../../../index.php:170
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
 msgstr "Ваш адрес"
 
-#: ../../../index.php:172
+#: ../../../index.php:173
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
 msgstr "Адрес 2"
 
-#: ../../../index.php:173
+#: ../../../index.php:174
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
 msgstr "Ваш адрес"
 
-#: ../../../index.php:176
+#: ../../../index.php:177
 msgid "REGISTRATION_LABEL_CITY"
 msgstr "Город"
 
-#: ../../../index.php:177
+#: ../../../index.php:178
 msgid "REGISTRATION_PLACEHOLDER_CITY"
 msgstr "Ваш город"
 
-#: ../../../index.php:180
+#: ../../../index.php:181
 msgid "REGISTRATION_LABEL_POSTCODE"
 msgstr "Почтовый индекс"
 
-#: ../../../index.php:181
+#: ../../../index.php:182
 msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
 msgstr "Ваш почтовый индекс"
 
-#: ../../../index.php:184
+#: ../../../index.php:185
 msgid "REGISTRATION_LABEL_COUNTRY"
 msgstr "Страна"
 
-#: ../../../index.php:190
+#: ../../../index.php:191
 msgid "REGISTRATION_LABEL_STATE"
 msgstr "Штат"
 
-#: ../../../index.php:196
+#: ../../../index.php:197
 msgid "REGISTRATION_LABEL_PROVINCE"
 msgstr "Провинция"
 
-#: ../../../index.php:202
+#: ../../../index.php:203
 msgid "REGISTRATION_LABEL_INVITE"
 msgstr "Инвайт"
 
-#: ../../../index.php:203
+#: ../../../index.php:204
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
 msgstr "AAAA-AAAA-AAAA-AAAA"
 
-#: ../../../index.php:210
+#: ../../../index.php:211
 msgid "REGISTRATION_SUBMIT"
 msgstr "Отправить"
 
-#: ../../../index.php:213
+#: ../../../index.php:214
 msgid "INTERNAL_ERROR"
 msgstr "Внутренняя ошибка"
 
-#: ../../../index.php:214
+#: ../../../index.php:215
 msgid "YOU_ARE_LOCKED_OUT"
 msgstr "Вы заблокированы на 10 минут"
 
-#: ../../../index.php:215
+#: ../../../index.php:216
 msgid "INVITE_INCORRECT"
 msgstr "Неверный инвайт"
 
-#: ../../../index.php:216
+#: ../../../index.php:217
 msgid "INVITE_USED"
 msgstr "Ивайт уже был использован"
 
-#: ../../../index.php:217
+#: ../../../index.php:218
 msgid "INVITE_EXPIRED"
 msgstr "Срок действия инвайта истек"
 
-#: ../../../index.php:230
+#: ../../../index.php:234
 msgid "ABOUT_TITLE"
 msgstr "О Мобильном Криминалисте"
 
-#: ../../../index.php:231
+#: ../../../index.php:235
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист - универсальный программный комплекс для исследования "
@@ -215,42 +215,42 @@ msgstr ""
 "показаны вместе в удобном для использования интерфейсе с возможностью их "
 "глубокого анализа во встроенных аналитических секциях программы."
 
-#: ../../../index.php:240
+#: ../../../index.php:244
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr ""
 "Извлекаются все данные: контакты, сообщения, звонки, файлы, приложения. "
 "Автоматически восстанвливается удаленная информация."
 
-#: ../../../index.php:242
+#: ../../../index.php:246
 msgid "ABOUT_FIRST_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:244
+#: ../../../index.php:248
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr "Данные из устройства"
 
-#: ../../../index.php:245
+#: ../../../index.php:249
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист извлекает данные из более 11 000 устройств под "
 "управлением Apple iOS, Android OS, Windows Phone, BlackBerry, Symbian, а "
 "также простых мобильных телефонов"
 
-#: ../../../index.php:251
+#: ../../../index.php:255
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr ""
 "После извлечения из облака данные можно проанализировать в специальных "
 "аналитических разделах: Лента Событий, Граф Связей, Объединенные Контакты."
 
-#: ../../../index.php:253
+#: ../../../index.php:257
 msgid "ABOUT_SECOND_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:255
+#: ../../../index.php:259
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr "Данные из облака"
 
-#: ../../../index.php:256
+#: ../../../index.php:260
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист извлекает данные из более 15 облачных хранилищ: "
@@ -258,122 +258,122 @@ msgstr ""
 "Microsoft Live, OneDrive, Dropbox, Twitter, Instagram, WhatsApp и многое "
 "другое."
 
-#: ../../../index.php:262
+#: ../../../index.php:266
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr ""
 "Для каждого абонента доступна детальная статистика соединений, возможна "
 "фильтрация данных по времени и абонентам"
 
-#: ../../../index.php:264
+#: ../../../index.php:268
 msgid "ABOUT_THIRD_IMG_ALT"
 msgstr "Замещающий текст второй картинки \"О нас\""
 
-#: ../../../index.php:266
+#: ../../../index.php:270
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr "Биллинги операторов"
 
-#: ../../../index.php:267
+#: ../../../index.php:271
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист позволяет импортировать биллинги, полученные от "
 "операторов сотовой связи, в независимости от их стркутуры и анализировать "
 "прямые и косвенные связи между звонившими на графе."
 
-#: ../../../index.php:275
+#: ../../../index.php:279
 msgid "ABOUT_FORTH_OVERLAY_THUMB"
 msgstr ""
 "Для каждого абонента доступна детальная статистика соединений, возможна "
 "фильтрация данных по времени и абонентам"
 
-#: ../../../index.php:277
+#: ../../../index.php:281
 msgid "ABOUT_FORTH_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:279
+#: ../../../index.php:283
 msgid "ABOUT_FORTH_PROFILE_NAME"
 msgstr "Название первого продукта"
 
-#: ../../../index.php:280
+#: ../../../index.php:284
 msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
 msgstr "Описание первого продукта"
 
-#: ../../../index.php:286
+#: ../../../index.php:290
 msgid "ABOUT_FIFTH_OVERLAY_THUMB"
 msgstr "Thumbnails первого продукта"
 
-#: ../../../index.php:288
+#: ../../../index.php:292
 msgid "ABOUT_FIFTH_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:290
+#: ../../../index.php:294
 msgid "ABOUT_FIFTH_PROFILE_NAME"
 msgstr "Название первого продукта"
 
-#: ../../../index.php:291
+#: ../../../index.php:295
 msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
 msgstr "Описание первого продукта"
 
-#: ../../../index.php:297
+#: ../../../index.php:301
 msgid "ABOUT_SIXTH_OVERLAY_THUMB"
 msgstr "Thumbnails первого продукта"
 
-#: ../../../index.php:299
+#: ../../../index.php:303
 msgid "ABOUT_SIXTH_IMG_ALT"
 msgstr "Замещающий текст первой картинки \"О нас\""
 
-#: ../../../index.php:301
+#: ../../../index.php:305
 msgid "ABOUT_SIXTH_PROFILE_NAME"
 msgstr "Название первого продукта"
 
-#: ../../../index.php:302
+#: ../../../index.php:306
 msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
 msgstr "Описание первого продукта"
 
-#: ../../../index.php:312
+#: ../../../index.php:316
 msgid "CONTACT_TITLE"
 msgstr "Контакты"
 
-#: ../../../index.php:313
+#: ../../../index.php:317
 msgid "CONTACT_TITLE_DESCRIPTION_1"
 msgstr "Отдел продаж: +7-495-222-9277"
 
-#: ../../../index.php:314
+#: ../../../index.php:318
 msgid "CONTACT_TITLE_DESCRIPTION_2"
 msgstr "Техподдержка: +7-495-222-9278"
 
-#: ../../../index.php:315
+#: ../../../index.php:319
 msgid "CONTACT_DETAIL_EMAIL"
 msgstr "support@oxygensoftware.ru"
 
-#: ../../../index.php:318
+#: ../../../index.php:322
 msgid "CONTACT_DETAILS"
 msgstr "Наш адрес"
 
-#: ../../../index.php:321
+#: ../../../index.php:325
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr "Российская Федерация"
 
-#: ../../../index.php:323
+#: ../../../index.php:327
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr "Москва, 109029"
 
-#: ../../../index.php:325
+#: ../../../index.php:329
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr "ул. Нижегородская, д. 32, стр. 5"
 
-#: ../../../index.php:335
+#: ../../../index.php:338
 msgid "FOOTER_FIRST"
 msgstr "© 2015 ООО \"Оксиджен Софтвер\" "
 
-#: ../../../index.php:336
+#: ../../../index.php:339
 msgid "FOOTER_FIRST_LINK"
 msgstr "http://www.oxygensoftware.ru"
 
-#: ../../../index.php:337
+#: ../../../index.php:340
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr "www.oxygensoftware.ru"
 
-#: ../../../index.php:338
+#: ../../../index.php:341
 msgid "FOOTER_SECOND"
 msgstr "www.oxygensoftware.ru"
 

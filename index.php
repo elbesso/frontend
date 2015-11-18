@@ -69,11 +69,12 @@ require("php/setup.php")
         <script src="js/jquery.fancybox-media.js"></script>
         <script src="js/jquery.tweet.js"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
         <script src="js/jquery.validate.js"></script>
         <script src="<?php echo $localized_validation?>"></script>
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=<?php echo $localized_recaptcha?>"></script>
         <script src="js/jquery.masked.input.js"></script>
         <script src="js/jquery.cookie.js"></script>
+        <script src="js/main.js"></script>
     </head>
     <body>
         <div class="ole">
@@ -205,7 +206,7 @@ require("php/setup.php")
                         </div>
                     </div>
                     <div class="row">
-                        <div class="span12">
+                        <div class="span6">
                             <p class="registration-submit">
                                 <a id="registration-submit" class="submit" href="#registration"><?php echo gettext("REGISTRATION_SUBMIT")?></a>
                             </p>
@@ -216,6 +217,9 @@ require("php/setup.php")
                                 <p id="response_invite_used"><?php echo gettext("INVITE_USED")?></p>
                                 <p id="response_invite_expired"><?php echo gettext("INVITE_EXPIRED")?></p>
                             </div>
+                        </div>
+                        <div class="span6">
+                            <div class="g-recaptcha" data-sitekey="6LfbOxETAAAAAC6QqIcCWyV9oz6TF48_cm1DYmCB" data-theme="dark"></div>
                         </div>
                     </div>
                 </form>

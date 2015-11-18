@@ -5,6 +5,7 @@
  * Date: 05.11.15
  * Time: 18:09
  */
+require_once 'autoload.php';
 
 class Registration_Form {
     private $connection;
@@ -53,6 +54,10 @@ class Registration_Form {
         $this->address = $_POST['registration_address_line_1'].' '.$_POST['registration_address_line_2'];
         $this->phone_number = $_POST['registration_phone_number'];
         $this->invite = $_POST['registration_invite'];
+
+        $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
+        $reCaptcha = new \ReCaptcha\ReCaptcha($secret);
+        $this->recaptcha_resp = $reCaptcha->verify($this->client_ip, $_POST['g-recaptcha-response']);
 
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
@@ -128,72 +133,98 @@ class Registration_Form {
                 $bad_captcha_limit = 3;
                 $lockout_time = 1;
                 $first_failed_invite_time = 0;
-                $failed_count = 0;
-                $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
+                $first_failed_captcha_time = 0;
+                $failed_invite_count = 0;
+                $failed_captcha_count = 0;
+
+                $res = $this->connection->query("SELECT * FROM captcha_lockout WHERE ip = '$this->client_ip'");
                 if ($res->num_rows == 0) {
-                    $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', 0, 0)");
+                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', 0, 0");
                 } else {
                     $row = $res->fetch_assoc();
-                    $first_failed_invite_time = strtotime($row['first_failed_time']);
-                    $failed_count = $row['failed_count'];
+                    $first_failed_captcha_time = strtotime($row['first_failed_time']);
+                    $failed_captcha_count = $row['failed_count'];
                 }
-                if (($failed_count >= $bad_invite_limit) && (time() - $first_failed_invite_time < $lockout_time)) {
+                if (($first_failed_captcha_time >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
                     $this->response_html = "locked";
                 } else {
-                    if (!$this->stmt_select_inv->execute()) {
-                        error_log("Execute failed(select invite): " . $this->connection->error);
-                    } else {
-                        if (!$res = $this->stmt_select_inv->get_result()) {
-                            error_log("Get result failed(select invite): " . $this->connection->error);
+                    if ($this->recaptcha_resp == null || !$this->recaptcha_resp->isSuccess()) {
+                        $failed_captcha_count++;
+                        if (time() - $first_failed_captcha_time > $lockout_time) {
+                            $this->connection->query("UPDATE captcha_lockout SET first_failed_time = now(),
+                            failed_count = 1 WHERE ip = '$this->client_ip'");
                         } else {
-                            if ($res->num_rows == 0) {
-                                $this->response_html = "invite_incorrect";
-                                $failed_count++;
-                                if (time() - $first_failed_invite_time > $lockout_time) {
-                                    $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
-                                        failed_count = 1 WHERE ip = '$this->client_ip'");
-                                } else {
-                                    $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_count
-                                        WHERE ip = '$this->client_ip'");
-                                }
+                            $this->connection->query("UPDATE captcha_lockout SET failed_count = $failed_captcha_count
+                            WHERE ip = '$this->client_ip");
+                        }
+                    } else {
+                        $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
+                        if ($res->num_rows == 0) {
+                            $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', 0, 0)");
+                        } else {
+                            $row = $res->fetch_assoc();
+                            $first_failed_invite_time = strtotime($row['first_failed_time']);
+                            $failed_invite_count = $row['failed_count'];
+                        }
+                        if (($failed_invite_count >= $bad_invite_limit) && (time() - $first_failed_invite_time < $lockout_time)) {
+                            $this->response_html = "locked";
+                        } else {
+                            if (!$this->stmt_select_inv->execute()) {
+                                error_log("Execute failed(select invite): " . $this->connection->error);
                             } else {
-                                $row = $res->fetch_assoc();
-                                if ($row["date_activated"] != null or $row["user_id"] != null or (strtotime($row["date_expire"]) < time())) {
-                                    if ($row["date_activated"] != null or $row["user_id"] != null) {
-                                        $this->response_html = "invite_used";
-                                    } else if (strtotime($row["date_expire"]) < time()) {
-                                        $this->response_html = "invite_expired";
-                                    }
-                                    $failed_count++;
-                                    if (time() - $first_failed_invite_time > $lockout_time) {
-                                        $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
-                                        failed_count = 1 WHERE ip = '$this->client_ip'");
-                                    } else {
-                                        $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_count
-                                        WHERE ip = '$this->client_ip'");
-                                    }
+                                if (!$res = $this->stmt_select_inv->get_result()) {
+                                    error_log("Get result failed(select invite): " . $this->connection->error);
                                 } else {
-                                    if (!$this->stmt_select_usr->execute()) {
-                                        error_log("Execute failed(select user): " . $this->connection->error);
-                                    } else {
-                                        if (!$res = $this->stmt_select_usr->get_result()) {
-                                            error_log("Get result failed(select user): " . $this->connection->error);
+                                    if ($res->num_rows == 0) {
+                                        $this->response_html = "invite_incorrect";
+                                        $failed_invite_count++;
+                                        if (time() - $first_failed_invite_time > $lockout_time) {
+                                            $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
+                                        failed_count = 1 WHERE ip = '$this->client_ip'");
                                         } else {
-                                            if ($res->num_rows == 0) {
-                                                if (!$this->stmt_insert->execute()) {
-                                                    error_log("Execute failed(insert): " . $this->connection->error);
-                                                } else {
-                                                    $this->user_id = $this->stmt_insert->insert_id;
-                                                }
-                                            } else {
-                                                $row = $res->fetch_assoc();
-                                                $this->user_id = $row['id'];
+                                            $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
+                                        WHERE ip = '$this->client_ip'");
+                                        }
+                                    } else {
+                                        $row = $res->fetch_assoc();
+                                        if ($row["date_activated"] != null or $row["user_id"] != null or (strtotime($row["date_expire"]) < time())) {
+                                            if ($row["date_activated"] != null or $row["user_id"] != null) {
+                                                $this->response_html = "invite_used";
+                                            } else if (strtotime($row["date_expire"]) < time()) {
+                                                $this->response_html = "invite_expired";
                                             }
-                                            if (!$this->stmt_update->execute()) {
-                                                error_log("Execute failed(update): " . $this->connection->error);
+                                            $failed_invite_count++;
+                                            if (time() - $first_failed_invite_time > $lockout_time) {
+                                                $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
+                                        failed_count = 1 WHERE ip = '$this->client_ip'");
                                             } else {
-                                                $this->response_html = "WELCOME";
-                                                $this->response_status = 1;
+                                                $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
+                                        WHERE ip = '$this->client_ip'");
+                                            }
+                                        } else {
+                                            if (!$this->stmt_select_usr->execute()) {
+                                                error_log("Execute failed(select user): " . $this->connection->error);
+                                            } else {
+                                                if (!$res = $this->stmt_select_usr->get_result()) {
+                                                    error_log("Get result failed(select user): " . $this->connection->error);
+                                                } else {
+                                                    if ($res->num_rows == 0) {
+                                                        if (!$this->stmt_insert->execute()) {
+                                                            error_log("Execute failed(insert): " . $this->connection->error);
+                                                        } else {
+                                                            $this->user_id = $this->stmt_insert->insert_id;
+                                                        }
+                                                    } else {
+                                                        $row = $res->fetch_assoc();
+                                                        $this->user_id = $row['id'];
+                                                    }
+                                                    if (!$this->stmt_update->execute()) {
+                                                        error_log("Execute failed(update): " . $this->connection->error);
+                                                    } else {
+                                                        $this->response_html = "WELCOME";
+                                                        $this->response_status = 1;
+                                                    }
+                                                }
                                             }
                                         }
                                     }

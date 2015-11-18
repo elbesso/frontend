@@ -121,7 +121,7 @@ jQuery(function ($) {
     $("#registration-submit").on('click', function () {
         var $registration_form = $('#registration-form');
         if ($registration_form.valid()) {
-            var fields = $registration_form.find(":not(:hidden)").serialize();
+            var fields = $registration_form.serialize();
             $.ajax({
                 type: "POST",
                 url: "php/registration.php",
@@ -133,6 +133,7 @@ jQuery(function ($) {
                     }
                     $("#response").find("p").hide();
                     $("#response_".concat(response.html)).show();
+                    grecaptcha.reset()
                 }
             });
             return false;

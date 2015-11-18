@@ -1014,7 +1014,7 @@ nav#menu #menu-nav li a:hover {
     margin-top: 20px;
     color: #DE5E60;
     font-size: 2em;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 /* ==================================================
@@ -1490,6 +1490,6 @@ footer .credits {
     text-align: center;
 }
 
-.registration-submit {
-    text-align: center;
+.g-recaptcha {
+    margin-top: 30px;
 }

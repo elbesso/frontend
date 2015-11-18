@@ -20,3 +20,5 @@ bind_textdomain_codeset($domain, $encoding);
 textdomain($domain);
 $js_validate_name = preg_split('/\./', $locale);
 $localized_validation = "js/form_validation_" . $js_validate_name[0] . ".js";
+$js_recaptcha = preg_split('/_/', $locale);
+$localized_recaptcha = "https://www.google.com/recaptcha/api.js?hl=" . $js_recaptcha[0];
