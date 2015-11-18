@@ -6,7 +6,7 @@
  * Time: 18:09
  */
 require_once 'autoload.php';
-
+error_reporting(E_ALL);
 class Registration_Form {
     private $connection;
     private $stmt_select_inv;
@@ -57,8 +57,8 @@ class Registration_Form {
 
         $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
         $reCaptcha = new \ReCaptcha\ReCaptcha($secret);
-        $this->recaptcha_resp = $reCaptcha->verify($this->client_ip, $_POST['g-recaptcha-response']);
-
+        $this->captcha_resp = $reCaptcha->verify($this->client_ip, $_POST['g-recaptcha-response']);
+        var_dump($this->captcha_resp);
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
         } else {
@@ -131,7 +131,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 1;
+                $lockout_time = 600;
                 $first_failed_invite_time = 0;
                 $first_failed_captcha_time = 0;
                 $failed_invite_count = 0;
@@ -139,23 +139,24 @@ class Registration_Form {
 
                 $res = $this->connection->query("SELECT * FROM captcha_lockout WHERE ip = '$this->client_ip'");
                 if ($res->num_rows == 0) {
-                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', 0, 0");
+                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', 0, 0)");
                 } else {
                     $row = $res->fetch_assoc();
                     $first_failed_captcha_time = strtotime($row['first_failed_time']);
                     $failed_captcha_count = $row['failed_count'];
                 }
-                if (($first_failed_captcha_time >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
+                if (($failed_captcha_count >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
                     $this->response_html = "locked";
                 } else {
-                    if ($this->recaptcha_resp == null || !$this->recaptcha_resp->isSuccess()) {
+                    if ($this->captcha_resp == null || !$this->captcha_resp->isSuccess()) {
                         $failed_captcha_count++;
+                        $this->response_html = "bad_captcha";
                         if (time() - $first_failed_captcha_time > $lockout_time) {
                             $this->connection->query("UPDATE captcha_lockout SET first_failed_time = now(),
                             failed_count = 1 WHERE ip = '$this->client_ip'");
                         } else {
                             $this->connection->query("UPDATE captcha_lockout SET failed_count = $failed_captcha_count
-                            WHERE ip = '$this->client_ip");
+                            WHERE ip = '$this->client_ip'");
                         }
                     } else {
                         $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");

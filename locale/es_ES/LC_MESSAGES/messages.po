@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-18 15:57+0300\n"
-"PO-Revision-Date: 2015-11-18 15:57+0300\n"
+"POT-Creation-Date: 2015-11-18 22:23+0300\n"
+"PO-Revision-Date: 2015-11-18 22:23+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
 "Language: es_ES\n"
@@ -19,344 +19,348 @@ msgstr ""
 msgid "TITLE"
 msgstr ""
 
-#: ../../../index.php:88
+#: ../../../index.php:89
 msgid "STICKY_NAV_GO_UP_LINK_TITLE"
 msgstr ""
 
-#: ../../../index.php:88
+#: ../../../index.php:89
 msgid "STICKY_NAV_GO_UP"
 msgstr ""
 
-#: ../../../index.php:92
+#: ../../../index.php:93
 msgid "STICKY_NAV_LANGUAGE"
 msgstr ""
 
-#: ../../../index.php:96
+#: ../../../index.php:97
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
 msgstr ""
 
-#: ../../../index.php:100
+#: ../../../index.php:101
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
 msgstr ""
 
-#: ../../../index.php:104
+#: ../../../index.php:105
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
 msgstr ""
 
-#: ../../../index.php:110
+#: ../../../index.php:111
 msgid "MENU_INVITE"
 msgstr ""
 
-#: ../../../index.php:111
+#: ../../../index.php:112
 msgid "MENU_REGISTRATION"
 msgstr ""
 
-#: ../../../index.php:112
+#: ../../../index.php:113
 msgid "MENU_ABOUT"
 msgstr ""
 
-#: ../../../index.php:113
+#: ../../../index.php:114
 msgid "MENU_CONTACT"
 msgstr ""
 
-#: ../../../index.php:122
+#: ../../../index.php:123
 msgid "INVITE_MAIN_TITLE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:123
+#: ../../../index.php:124
 msgid "INVITE_MAIN_TITLE_DESCRIPTION "
 msgstr ""
 
-#: ../../../index.php:124
+#: ../../../index.php:125
 #, fuzzy
 msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:128
+#: ../../../index.php:129
 msgid "INVITE_MAIN_INVITE_BUTTON"
 msgstr ""
 
-#: ../../../index.php:142
+#: ../../../index.php:143
 msgid "REGISTRATION_LABEL_NAME"
 msgstr ""
 
-#: ../../../index.php:143
+#: ../../../index.php:144
 msgid "REGISTRATION_PLACEHOLDER_NAME"
 msgstr ""
 
-#: ../../../index.php:146
+#: ../../../index.php:147
 msgid "REGISTRATION_LABEL_SURNAME"
 msgstr ""
 
-#: ../../../index.php:147
+#: ../../../index.php:148
 msgid "REGISTRATION_PLACEHOLDER_SURNAME"
 msgstr ""
 
-#: ../../../index.php:150
+#: ../../../index.php:151
 msgid "REGISTRATION_LABEL_ORGANIZATION"
 msgstr ""
 
-#: ../../../index.php:151
+#: ../../../index.php:152
 msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
 msgstr ""
 
-#: ../../../index.php:154
+#: ../../../index.php:155
 msgid "REGISTRATION_LABEL_POSITION"
 msgstr ""
 
-#: ../../../index.php:155
+#: ../../../index.php:156
 msgid "REGISTRATION_PLACEHOLDER_POSITION"
 msgstr ""
 
-#: ../../../index.php:158
+#: ../../../index.php:159
 msgid "REGISTRATION_LABEL_EMAIL"
 msgstr ""
 
-#: ../../../index.php:159
+#: ../../../index.php:160
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
 msgstr ""
 
-#: ../../../index.php:162
+#: ../../../index.php:163
 msgid "REGISTRATION_LABEL_PHONE"
 msgstr ""
 
-#: ../../../index.php:163
+#: ../../../index.php:164
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
 msgstr ""
 
-#: ../../../index.php:168
+#: ../../../index.php:169
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
 msgstr ""
 
-#: ../../../index.php:169
+#: ../../../index.php:170
 #, fuzzy
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:172
+#: ../../../index.php:173
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
 msgstr ""
 
-#: ../../../index.php:173
+#: ../../../index.php:174
 #, fuzzy
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:176
+#: ../../../index.php:177
 msgid "REGISTRATION_LABEL_CITY"
 msgstr ""
 
-#: ../../../index.php:177
+#: ../../../index.php:178
 msgid "REGISTRATION_PLACEHOLDER_CITY"
 msgstr ""
 
-#: ../../../index.php:180
+#: ../../../index.php:181
 msgid "REGISTRATION_LABEL_POSTCODE"
 msgstr ""
 
-#: ../../../index.php:181
+#: ../../../index.php:182
 msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
 msgstr ""
 
-#: ../../../index.php:184
+#: ../../../index.php:185
 msgid "REGISTRATION_LABEL_COUNTRY"
 msgstr ""
 
-#: ../../../index.php:190
+#: ../../../index.php:191
 msgid "REGISTRATION_LABEL_STATE"
 msgstr ""
 
-#: ../../../index.php:196
+#: ../../../index.php:197
 #, fuzzy
 msgid "REGISTRATION_LABEL_PROVINCE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:202
+#: ../../../index.php:203
 msgid "REGISTRATION_LABEL_INVITE"
 msgstr ""
 
-#: ../../../index.php:203
+#: ../../../index.php:204
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
 msgstr ""
 
-#: ../../../index.php:210
+#: ../../../index.php:211
 msgid "REGISTRATION_SUBMIT"
 msgstr ""
 
-#: ../../../index.php:213
+#: ../../../index.php:214
 msgid "INTERNAL_ERROR"
 msgstr ""
 
-#: ../../../index.php:214
+#: ../../../index.php:215
 msgid "YOU_ARE_LOCKED_OUT"
 msgstr ""
 
-#: ../../../index.php:215
+#: ../../../index.php:216
 #, fuzzy
 msgid "INVITE_INCORRECT"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:216
+#: ../../../index.php:217
 msgid "INVITE_USED"
 msgstr ""
 
-#: ../../../index.php:217
+#: ../../../index.php:218
 msgid "INVITE_EXPIRED"
 msgstr ""
 
-#: ../../../index.php:230
+#: ../../../index.php:219
+msgid "BAD_CAPTCHA"
+msgstr ""
+
+#: ../../../index.php:235
 msgid "ABOUT_TITLE"
 msgstr ""
 
-#: ../../../index.php:231
+#: ../../../index.php:236
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:240
+#: ../../../index.php:245
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:242
+#: ../../../index.php:247
 msgid "ABOUT_FIRST_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:244
+#: ../../../index.php:249
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:245
+#: ../../../index.php:250
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:251
+#: ../../../index.php:256
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:253
+#: ../../../index.php:258
 msgid "ABOUT_SECOND_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:255
+#: ../../../index.php:260
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:256
+#: ../../../index.php:261
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:262
+#: ../../../index.php:267
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:264
+#: ../../../index.php:269
 msgid "ABOUT_THIRD_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:266
+#: ../../../index.php:271
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:267
+#: ../../../index.php:272
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:275
+#: ../../../index.php:280
 msgid "ABOUT_FORTH_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:277
+#: ../../../index.php:282
 msgid "ABOUT_FORTH_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:279
+#: ../../../index.php:284
 msgid "ABOUT_FORTH_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:280
+#: ../../../index.php:285
 msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:286
+#: ../../../index.php:291
 msgid "ABOUT_FIFTH_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:288
+#: ../../../index.php:293
 msgid "ABOUT_FIFTH_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:290
+#: ../../../index.php:295
 msgid "ABOUT_FIFTH_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:291
+#: ../../../index.php:296
 msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:297
+#: ../../../index.php:302
 msgid "ABOUT_SIXTH_OVERLAY_THUMB"
 msgstr ""
 
-#: ../../../index.php:299
+#: ../../../index.php:304
 msgid "ABOUT_SIXTH_IMG_ALT"
 msgstr ""
 
-#: ../../../index.php:301
+#: ../../../index.php:306
 msgid "ABOUT_SIXTH_PROFILE_NAME"
 msgstr ""
 
-#: ../../../index.php:302
+#: ../../../index.php:307
 msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
 msgstr ""
 
-#: ../../../index.php:312
+#: ../../../index.php:317
 #, fuzzy
 msgid "CONTACT_TITLE"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:313
+#: ../../../index.php:318
 #, fuzzy
 msgid "CONTACT_TITLE_DESCRIPTION_1"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:314
+#: ../../../index.php:319
 #, fuzzy
 msgid "CONTACT_TITLE_DESCRIPTION_2"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:315
+#: ../../../index.php:320
 msgid "CONTACT_DETAIL_EMAIL"
 msgstr ""
 
-#: ../../../index.php:318
+#: ../../../index.php:323
 #, fuzzy
 msgid "CONTACT_DETAILS"
 msgstr "SPANHISH TEXT"
 
-#: ../../../index.php:321
+#: ../../../index.php:326
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr ""
 
-#: ../../../index.php:323
+#: ../../../index.php:328
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr ""
 
-#: ../../../index.php:325
+#: ../../../index.php:330
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr ""
 
-#: ../../../index.php:335
+#: ../../../index.php:339
 msgid "FOOTER_FIRST"
 msgstr ""
 
-#: ../../../index.php:336
+#: ../../../index.php:340
 msgid "FOOTER_FIRST_LINK"
 msgstr ""
 
-#: ../../../index.php:337
+#: ../../../index.php:341
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr ""
 
-#: ../../../index.php:338
+#: ../../../index.php:342
 msgid "FOOTER_SECOND"
 msgstr ""
 
@@ -410,6 +414,214 @@ msgstr ""
 
 #: ../../../php/province.php:13
 msgid "YUKON"
+msgstr ""
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr ""
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr ""
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr ""
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr ""
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr ""
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr ""
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr ""
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr ""
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr ""
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr ""
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr ""
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr ""
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr ""
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr ""
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr ""
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr ""
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr ""
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr ""
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr ""
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr ""
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr ""
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr ""
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr ""
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr ""
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr ""
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr ""
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr ""
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr ""
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr ""
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr ""
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr ""
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr ""
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr ""
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr ""
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr ""
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr ""
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr ""
+
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr ""
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr ""
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr ""
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr ""
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr ""
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr ""
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr ""
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr ""
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
 msgstr ""
 
 #: ../../../php/country.php:1
@@ -1394,212 +1606,4 @@ msgstr ""
 
 #: ../../../php/country.php:246
 msgid "ZW"
-msgstr ""
-
-#: ../../../php/state.php:1
-msgid "ALABAMA"
-msgstr ""
-
-#: ../../../php/state.php:2
-msgid "ALASKA"
-msgstr ""
-
-#: ../../../php/state.php:3
-msgid "ARIZONA"
-msgstr ""
-
-#: ../../../php/state.php:4
-msgid "ARKANSAS"
-msgstr ""
-
-#: ../../../php/state.php:5
-msgid "CALIFORNIA"
-msgstr ""
-
-#: ../../../php/state.php:6
-msgid "COLORADO"
-msgstr ""
-
-#: ../../../php/state.php:7
-msgid "CONNECTICUT"
-msgstr ""
-
-#: ../../../php/state.php:8
-msgid "DELAWARE"
-msgstr ""
-
-#: ../../../php/state.php:9
-msgid "DISTRICT_OF_COLUMBIA"
-msgstr ""
-
-#: ../../../php/state.php:10
-msgid "FLORIDA"
-msgstr ""
-
-#: ../../../php/state.php:11
-msgid "GEORGIA_STATE"
-msgstr ""
-
-#: ../../../php/state.php:12
-msgid "HAWAII"
-msgstr ""
-
-#: ../../../php/state.php:13
-msgid "IDAHO"
-msgstr ""
-
-#: ../../../php/state.php:14
-msgid "ILLINOIS"
-msgstr ""
-
-#: ../../../php/state.php:15
-msgid "INDIANA"
-msgstr ""
-
-#: ../../../php/state.php:16
-msgid "IOWA"
-msgstr ""
-
-#: ../../../php/state.php:17
-msgid "KANSAS"
-msgstr ""
-
-#: ../../../php/state.php:18
-msgid "KENTUCKY"
-msgstr ""
-
-#: ../../../php/state.php:19
-msgid "LOUISIANA"
-msgstr ""
-
-#: ../../../php/state.php:20
-msgid "MAINE"
-msgstr ""
-
-#: ../../../php/state.php:21
-msgid "MARYLAND"
-msgstr ""
-
-#: ../../../php/state.php:22
-msgid "MASSACHUSETTS"
-msgstr ""
-
-#: ../../../php/state.php:23
-msgid "MICHIGAN"
-msgstr ""
-
-#: ../../../php/state.php:24
-msgid "MINNESOTA"
-msgstr ""
-
-#: ../../../php/state.php:25
-msgid "MISSISSIPPI"
-msgstr ""
-
-#: ../../../php/state.php:26
-msgid "MISSOURI"
-msgstr ""
-
-#: ../../../php/state.php:27
-msgid "MONTANA"
-msgstr ""
-
-#: ../../../php/state.php:28
-msgid "NEBRASKA"
-msgstr ""
-
-#: ../../../php/state.php:29
-msgid "NEVADA"
-msgstr ""
-
-#: ../../../php/state.php:30
-msgid "NEW_HAMPSHIRE"
-msgstr ""
-
-#: ../../../php/state.php:31
-msgid "NEW_JERSEY"
-msgstr ""
-
-#: ../../../php/state.php:32
-msgid "NEW_MEXICO"
-msgstr ""
-
-#: ../../../php/state.php:33
-msgid "NEW_YORK"
-msgstr ""
-
-#: ../../../php/state.php:34
-msgid "NORTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:35
-msgid "NORTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:36
-msgid "OHIO"
-msgstr ""
-
-#: ../../../php/state.php:37
-msgid "OKLAHOMA"
-msgstr ""
-
-#: ../../../php/state.php:38
-msgid "OREGON"
-msgstr ""
-
-#: ../../../php/state.php:39
-msgid "PENNSYLVANIA"
-msgstr ""
-
-#: ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr ""
-
-#: ../../../php/state.php:41
-msgid "RHODE_ISLAND"
-msgstr ""
-
-#: ../../../php/state.php:42
-msgid "SOUTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:43
-msgid "SOUTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:44
-msgid "TENNESSEE"
-msgstr ""
-
-#: ../../../php/state.php:45
-msgid "TEXAS"
-msgstr ""
-
-#: ../../../php/state.php:46
-msgid "UTAH"
-msgstr ""
-
-#: ../../../php/state.php:47
-msgid "VERMONT"
-msgstr ""
-
-#: ../../../php/state.php:48
-msgid "VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:49
-msgid "WASHINGTON"
-msgstr ""
-
-#: ../../../php/state.php:50
-msgid "WEST_VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:51
-msgid "WISCONSIN"
-msgstr ""
-
-#: ../../../php/state.php:52
-msgid "WYOMING"
 msgstr ""

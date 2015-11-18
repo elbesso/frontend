@@ -27,7 +27,6 @@ spl_autoload_register(function ($class) {
     if (is_readable($path)) {
         require_once $path;
     }
-    var_dump(is_readable($path));
 
     /* If we didn't find what we're looking for already, maybe it's
      * a test class?

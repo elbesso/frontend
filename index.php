@@ -216,6 +216,7 @@ require("php/setup.php")
                                 <p id="response_invite_incorrect"><?php echo gettext("INVITE_INCORRECT")?></p>
                                 <p id="response_invite_used"><?php echo gettext("INVITE_USED")?></p>
                                 <p id="response_invite_expired"><?php echo gettext("INVITE_EXPIRED")?></p>
+                                <p id="response_bad_captcha"><?php echo gettext("BAD_CAPTCHA")?></p>
                             </div>
                         </div>
                         <div class="span6">
