@@ -12,7 +12,7 @@ $file = "./country.php";
 $current = '';
 $res = $connection->query("SELECT * FROM country");
 while ($row = $res->fetch_assoc()) {
-    $current .= "<option id=\"" . $row['id'] . "\" class=\"country\" value=\"" . $row['id'] . "\"><?php echo gettext(\"" . $row['id'] . "\")?></option>\n";
+    $current .= "<option id=\"" . $row['id'] . "\" class=\"country\" value=\"" . $row['id'] . "\"><?php echo gettext(\"COUNTRY_" . $row['id'] . "\")?></option>\n";
 }
 file_put_contents($file, $current);
 

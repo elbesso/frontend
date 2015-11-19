@@ -71,7 +71,7 @@ require("php/setup.php")
         <script src="js/plugins.js"></script>
         <script src="js/jquery.validate.js"></script>
         <script src="<?php echo $localized_validation?>"></script>
-        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=<?php echo $localized_recaptcha?>"></script>
+        <script type="text/javascript" src="<?php echo $localized_recaptcha?>"></script>
         <script src="js/jquery.masked.input.js"></script>
         <script src="js/jquery.cookie.js"></script>
         <script src="js/main.js"></script>
@@ -82,52 +82,54 @@ require("php/setup.php")
                 <div id="circle"></div>
             </section>
         </div>
-        <header>
-            <div class="sticky-nav">
-                <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-                <div id="logo">
-                    <a id="goUp" href="#invite_main" title="<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>"><?php echo gettext("STICKY_NAV_GO_UP")?></a>
+        <div class="page" id="test-wrap">
+            <header>
+                <div class="sticky-nav">
+                    <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+                    <div id="logo">
+                        <a id="goUp" href="#invite_main" title="<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>"><?php echo gettext("STICKY_NAV_GO_UP")?></a>
+                    </div>
+                    <div class="select">
+                        <input type="checkbox" id="toggle" class="toggle">
+                        <label for="toggle"><?php echo gettext("STICKY_NAV_LANGUAGE")?></label>
+                        <ul>
+                            <li class="select-option">
+                                <input type="radio" id="en_US" class="language">
+                                <label for="en_US"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></label>
+                            </li>
+                            <li class="select-option">
+                                <input type="radio" id="ru_RU" class="language">
+                                <label for="ru_RU"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></label>
+                            </li>
+                            <li class="select-option">
+                                <input type="radio" id="es_ES" class="language">
+                                <label for="es_ES"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav id="menu">
+                        <ul id="menu-nav">
+                            <li class="current"><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
+                            <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
+                            <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
+                            <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="select">
-                    <input type="checkbox" id="toggle" class="toggle">
-                    <label for="toggle"><?php echo gettext("STICKY_NAV_LANGUAGE")?></label>
-                    <ul>
-                        <li class="select-option">
-                            <input type="radio" id="en_US" class="language">
-                            <label for="en_US"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></label>
-                        </li>
-                        <li class="select-option">
-                            <input type="radio" id="ru_RU" class="language">
-                            <label for="ru_RU"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></label>
-                        </li>
-                        <li class="select-option">
-                            <input type="radio" id="es_ES" class="language">
-                            <label for="es_ES"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></label>
-                        </li>
-                    </ul>
-                </div>
-                <nav id="menu">
-                    <ul id="menu-nav">
-                        <li class="current"><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
-                        <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
-                        <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
-                        <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div id="invite_main" class="page">
-            <div class="container">
-                <div class="row">
-                    <div class="span12">
-                        <h2 class="title"><?php echo gettext("INVITE_MAIN_TITLE")?></h2>
-                        <h3 class="title-description"><?php echo gettext("INVITE_MAIN_TITLE_DESCRIPTION ")?></h3>
-                        <input type="text" id="invite-main" class="invite-main" placeholder="<?php echo gettext("INVITE_MAIN_PLACEHOLDER_INVITE")?>">
-                        <div class="row">
-                            <div class="span12">
-                                <p class="invite-button">
-                                    <a id="invite-button" class="submit" href="#registration"><?php echo gettext("INVITE_MAIN_INVITE_BUTTON")?></a>
-                                </p>
+            </header>
+            <div id="invite_main" class="page">
+                <div class="container">
+                    <div class="row">
+                        <div class="span12">
+                            <h2 class="title"><?php echo gettext("INVITE_MAIN_TITLE")?></h2>
+                            <h3 class="title-description"><?php echo gettext("INVITE_MAIN_TITLE_DESCRIPTION ")?></h3>
+                            <input type="text" id="invite-main" class="invite-main" placeholder="<?php echo gettext("INVITE_MAIN_PLACEHOLDER_INVITE")?>">
+                            <div class="row">
+                                <div class="span12">
+                                    <p class="invite-button">
+                                        <a id="invite-button" class="submit" href="#registration"><?php echo gettext("INVITE_MAIN_INVITE_BUTTON")?></a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
