@@ -1344,7 +1344,7 @@ footer .credits {
     display: inline-block;
     padding-top: 15px;
     margin-left: 15px;
-    height: 2em;
+    height: 2rem;
 
 }
 
@@ -1355,7 +1355,7 @@ footer .credits {
 
 .toggle + label {
     z-index: 2;
-    width: 200px;
+    width: 10em;
     background: #F0BF00;
     line-height: 2em;
     text-indent: 5px;
@@ -1425,7 +1425,7 @@ footer .credits {
     -o-transition: all linear;
     transition: all linear;
     background:#E3E7E4;
-    width: 200px;
+    /*width: 10rem;*/
     border-radius: 0 0 5px 5px;
 }
 
