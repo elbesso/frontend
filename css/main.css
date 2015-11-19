@@ -963,7 +963,7 @@ nav#menu #menu-nav li a:hover {
 
 #invite_main {
     text-align: center;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 #registration-form textarea {
@@ -1492,4 +1492,13 @@ footer .credits {
 
 .g-recaptcha {
     margin-top: 30px;
+}
+
+#test-wrap {
+    padding: 0;
+    height: 100%;
+}
+
+#invite_main {
+    background: none;
 }
