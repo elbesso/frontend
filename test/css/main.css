@@ -1,0 +1,41 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#my_navigation {
+    border-bottom: 1px solid #F0BF00;
+}
+
+.brown-background {
+    background: #312A1E;
+}
+
+.yellow-background {
+    background: #F0BF00;
+}
+
+#slider_first {
+    background-image: url('../../img/overlay.png'), url('../../img/slider-images/OFA_1200.png');
+}
+
+#slider_second {
+    background-image: url('../../img/overlay.png'), url('../../img/slider-images/OFD_1200.png');
+}
+
+#slider_third {
+    background-image: url('../../img/overlay.png'), url('../../img/slider-images/OFPA_1200.png');
+}
+
+.gridded-slider {
+    background: repeat fixed center, no-repeat fixed center;
+    background-size: auto, cover;
+}
+
+#invite_main {
+    position: absolute;
+    top: 45%;
+}
+
+#invite_main input {
+    /*width: 13em;*/
+}

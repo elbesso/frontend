@@ -5,7 +5,7 @@
  * Date: 05.11.15
  * Time: 18:09
  */
-require_once 'autoload.php';
+
 error_reporting(E_ALL);
 class Registration_Form {
     private $connection;
