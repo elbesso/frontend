@@ -82,7 +82,7 @@ require("php/setup.php")
                 <div id="circle"></div>
             </section>
         </div>
-        <header>
+        <header id="header">
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">

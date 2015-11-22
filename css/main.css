@@ -1468,6 +1468,7 @@ footer .credits {
 
 #invite_main {
     background: none;
+    align-self: center;
 }
 
 #contact-title-page a:not(:hover) {
@@ -1478,4 +1479,9 @@ header {
     height: 100%;
     background: url("../img/overlay.png") fixed;
     z-index: 99;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
 }
