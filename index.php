@@ -82,41 +82,39 @@ require("php/setup.php")
                 <div id="circle"></div>
             </section>
         </div>
-        <div class="page" id="test-wrap">
-            <header>
-                <div class="sticky-nav">
-                    <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
-                    <div id="logo">
-                        <a id="goUp" href="#invite_main" title="<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>"><?php echo gettext("STICKY_NAV_GO_UP")?></a>
-                    </div>
-                    <div class="select">
-                        <input type="checkbox" id="toggle" class="toggle">
-                        <label for="toggle"><?php echo gettext("STICKY_NAV_LANGUAGE")?></label>
-                        <ul>
-                            <li class="select-option">
-                                <input type="radio" id="en_US" class="language">
-                                <label for="en_US"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></label>
-                            </li>
-                            <li class="select-option">
-                                <input type="radio" id="ru_RU" class="language">
-                                <label for="ru_RU"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></label>
-                            </li>
-                            <li class="select-option">
-                                <input type="radio" id="es_ES" class="language">
-                                <label for="es_ES"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></label>
-                            </li>
-                        </ul>
-                    </div>
-                    <nav id="menu">
-                        <ul id="menu-nav">
-                            <li class="current"><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
-                            <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
-                            <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
-                            <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
-                        </ul>
-                    </nav>
+        <header>
+            <div class="sticky-nav">
+                <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+                <div id="logo">
+                    <a id="goUp" href="#invite_main" title="<?php echo gettext("STICKY_NAV_GO_UP_LINK_TITLE")?>"><?php echo gettext("STICKY_NAV_GO_UP")?></a>
                 </div>
-            </header>
+                <div class="select">
+                    <input type="checkbox" id="toggle" class="toggle">
+                    <label for="toggle"><?php echo gettext("STICKY_NAV_LANGUAGE")?></label>
+                    <ul>
+                        <li class="select-option">
+                            <input type="radio" id="en_US" class="language">
+                            <label for="en_US"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></label>
+                        </li>
+                        <li class="select-option">
+                            <input type="radio" id="ru_RU" class="language">
+                            <label for="ru_RU"><?php echo gettext("STICKY_NAV_LANGUAGE_RUSSIAN")?></label>
+                        </li>
+                        <li class="select-option">
+                            <input type="radio" id="es_ES" class="language">
+                            <label for="es_ES"><?php echo gettext("STICKY_NAV_LANGUAGE_SPANISH")?></label>
+                        </li>
+                    </ul>
+                </div>
+                <nav id="menu">
+                    <ul id="menu-nav">
+                        <li class="current"><a href="#invite_main"><?php echo gettext("MENU_INVITE")?></a></li>
+                        <li><a href="#registration"><?php echo gettext("MENU_REGISTRATION")?></a></li>
+                        <li><a href="#about"><?php echo gettext("MENU_ABOUT")?></a></li>
+                        <li><a href="#contact"><?php echo gettext("MENU_CONTACT")?></a></li>
+                    </ul>
+                </nav>
+            </div>
             <div id="invite_main" class="page">
                 <div class="container">
                     <div class="row">
@@ -135,7 +133,7 @@ require("php/setup.php")
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
         <div id="registration" class="page">
             <div class="container">
                 <form id="registration-form" class="registration-form" action="#">
@@ -246,7 +244,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FIRST_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-01.jpg" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_FIRST_IMG")?>" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_FIRST_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_FIRST_PROFILE_DESCRIPTION")?></p>
@@ -257,7 +255,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_SECOND_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-02.jpg" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_SECOND_IMG")?>" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_SECOND_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_SECOND_PROFILE_DESCRIPTION")?></p>
@@ -268,7 +266,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_THIRD_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-03.jpg" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_THIRD_IMG")?>" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_THIRD_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
@@ -281,7 +279,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FORTH_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-04.jpg" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_FORTH_IMG")?>" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_FORTH_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_FORTH_PROFILE_DESCRIPTION")?></p>
@@ -292,7 +290,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_FIFTH_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-05.jpg" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_FIFTH_IMG")?>" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_FIFTH_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_FIFTH_PROFILE_DESCRIPTION")?></p>
@@ -303,7 +301,7 @@ require("php/setup.php")
                                 <span class="overlay-img"></span>
                                 <span class="overlay-text-thumb"><?php echo gettext("ABOUT_SIXTH_OVERLAY_THUMB")?></span>
                             </div>
-                            <img src="img/profile/profile-06.jpg" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
+                            <img src="<?php echo gettext("ABOUT_SIXTH_IMG")?>" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
                         </div>
                         <h3 class="profile-name"><?php echo gettext("ABOUT_SIXTH_PROFILE_NAME")?></h3>
                         <p class="profile-description"><?php echo gettext("ABOUT_SIXTH_PROFILE_DESCRIPTION")?></p>

@@ -111,11 +111,11 @@ class Registration_Form {
     }
 
     function send_email() {
-        $to = 'test@gmail.com';
+        $to = 'hellomylittleboy@gmail.com';
         $subject = "An invite has been activated";
         $message = "Hello";
-        $headers = 'From: test@gmail.com' . "\r\n" .
-            'Reply-To: test@gmail.com' . "\r\n" .
+        $headers = 'From: test@forensicsuite.com' . "\r\n" .
+            'Reply-To: hellomylittleboy@gmail.com' . "\r\n" .
             'X-Mailer: PHP/' . phpversion();
         $mail = mail($to, $subject, $message, $headers);
         if (!$mail) {

@@ -1,368 +1,459 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-19 12:00+0300\n"
-"PO-Revision-Date: 2015-11-19 12:00+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-22 16:35+0300\n"
+"PO-Revision-Date: 2015-11-22 16:35+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
-"Language: es_ES\n"
+"Language: Spanish (Spain)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: es_ES\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: es_ES\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../index.php:24
+#: ../../../thankyou.php:24 ../../../index.php:24
 msgid "TITLE"
-msgstr ""
+msgstr "Oxygen Forensic® Invite"
 
-#: ../../../index.php:89
+#: ../../../thankyou.php:89 ../../../index.php:89
 msgid "STICKY_NAV_GO_UP_LINK_TITLE"
-msgstr ""
+msgstr "Start"
 
-#: ../../../index.php:89
+#: ../../../thankyou.php:89 ../../../index.php:89
 msgid "STICKY_NAV_GO_UP"
-msgstr ""
+msgstr "Start"
 
-#: ../../../index.php:93
+#: ../../../thankyou.php:93 ../../../index.php:93
 msgid "STICKY_NAV_LANGUAGE"
-msgstr ""
+msgstr "Switch language"
 
-#: ../../../index.php:97
+#: ../../../thankyou.php:97 ../../../index.php:97
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
-msgstr ""
+msgstr "English"
 
-#: ../../../index.php:101
+#: ../../../thankyou.php:101 ../../../index.php:101
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
-msgstr ""
+msgstr "Русский"
 
-#: ../../../index.php:105
+#: ../../../thankyou.php:105 ../../../index.php:105
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
+msgstr "Español"
+
+#: ../../../thankyou.php:111
+#, fuzzy
+msgid "MENU_THANK_YOU"
+msgstr "About"
+
+#: ../../../thankyou.php:112 ../../../index.php:113
+msgid "MENU_ABOUT"
+msgstr "About"
+
+#: ../../../thankyou.php:113 ../../../index.php:114
+msgid "MENU_CONTACT"
+msgstr "Contact"
+
+#: ../../../thankyou.php:121
+#, fuzzy
+msgid "THANK_YOU_MAIN_TITLE"
+msgstr "Enter received invite"
+
+#: ../../../thankyou.php:122
+#, fuzzy
+msgid "THANK_YOU_MAIN_TITLE_DESCRIPTION "
+msgstr "to obtain license for Oxygen Forensic&reg; product "
+
+#: ../../../thankyou.php:134 ../../../index.php:235
+msgid "ABOUT_TITLE"
+msgstr "About Oxygen Forensic® Detective"
+
+#: ../../../thankyou.php:135 ../../../index.php:236
+msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr ""
+"Oxygen Forensic® Detective is all-in-one forensic software to extract and "
+"analyze data from multiple sources: mobile devices, their backups, cloud "
+"services and call data records. Leading edge technologies deployed by Oxygen "
+"Forensics allow the bypass of screen lock passcodes, locate passwords to "
+"encrypted backups, extract data from secure applications as well as recover "
+"deleted information. Mobile device, cloud and CDR extractions are merged "
+"together in a single intuitive GUI with rich analytical capabilities: "
+"determine common locations and contacts for several devices, view all events "
+"in a chronological order and much more."
+
+#: ../../../thankyou.php:144 ../../../index.php:245
+msgid "ABOUT_FIRST_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic® Detective acquires the complete evidence set from devices "
+"and backups: contacts, messages, calls, calendar, file system, data from "
+"applications and recovers deleted data."
+
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG"
+msgstr "img/screenshot/es_ES/profile-01.jpg"
+
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG_ALT"
+msgstr "Mobile Data Extraction"
+
+#: ../../../thankyou.php:148 ../../../index.php:249
+msgid "ABOUT_FIRST_PROFILE_NAME"
+msgstr "Mobile Data Extraction"
+
+#: ../../../thankyou.php:149 ../../../index.php:250
+msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen  Forensic®    Detective  offers  live  data  extraction from over "
+"11,000 unique devices running iOS, Android OS, Windows Phone OS, BlackBerry "
+"OS as well as Chinese and feature phones. Device backups and images can be "
+"decoded: iTunes, Android and BlackBerry backups, Android and Windows Phone "
+"JTAG images, Blackberry 10 Chip-off image, etc"
+
+#: ../../../thankyou.php:155 ../../../index.php:256
+msgid "ABOUT_SECOND_OVERLAY_THUMB"
+msgstr ""
+"Forensic experts may utilize either account credentials or token to enter "
+"the cloud account to acquire the cloud data. Extracted credentials and "
+"tokens from a mobile device are organized and displayed in the Passwords "
+"section of Oxygen Forensic® Detective"
+
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG"
+msgstr "img/screenshot/es_ES/profile-02.jpg"
+
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG_ALT"
+msgstr "Cloud Data Extraction"
+
+#: ../../../thankyou.php:159 ../../../index.php:260
+msgid "ABOUT_SECOND_PROFILE_NAME"
+msgstr "Cloud Data Extraction"
+
+#: ../../../thankyou.php:160 ../../../index.php:261
+msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective acquires data from more than 15  cloud  storages: "
+"iCloud contacts and  calendar, Google Drive, Google Location History, Live "
+"contacts and calendar, OneDrive, Dropbox and Box as well as from a wide "
+"range of social media including Twitter, Instagram and WhatsApp"
+
+#: ../../../thankyou.php:166 ../../../index.php:267
+msgid "ABOUT_THIRD_OVERLAY_THUMB"
+msgstr ""
+"Once converted, Oxygen Forensic® Detective allows forensic experts to "
+"analyze the processed CDR files and easily determine direct and indirect "
+"links between selected callers in a visual graph. The processed results can "
+"be saved as evidence for further analysis"
+
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG"
+msgstr "img/screenshot/es_ES/profile-03.jpg"
+
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG_ALT"
+msgstr "Call Data Records import"
+
+#: ../../../thankyou.php:170 ../../../index.php:271
+msgid "ABOUT_THIRD_PROFILE_NAME"
+msgstr "Call Data Records import"
+
+#: ../../../thankyou.php:171 ../../../index.php:272
+msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective allows the import of call data records of any "
+"format received from wireless providers and conveniently guides the expert "
+"through the process of CDR importing and field mapping, easily converting "
+"the data to Oxygen Forensic® Detective’s unified format."
+
+#: ../../../thankyou.php:179 ../../../index.php:280
+msgid "ABOUT_FORTH_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic® Maps allows to identify device owner’s frequently visited "
+"places; visualize user’s movements within specified period of time; Pinpoint "
+"common locations of several device users"
+
+#: ../../../thankyou.php:181 ../../../index.php:282
+msgid "ABOUT_FORTH_IMG"
+msgstr "img/screenshot/es_ES/profile-04.jpg"
+
+#: ../../../thankyou.php:181 ../../../index.php:282
+msgid "ABOUT_FORTH_IMG_ALT"
+msgstr "Geo mapping"
+
+#: ../../../thankyou.php:183 ../../../index.php:284
+msgid "ABOUT_FORTH_PROFILE_NAME"
+msgstr "Geo mapping"
+
+#: ../../../thankyou.php:184 ../../../index.php:285
+msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective acquires geo coordinates from all possible "
+"sources including mobile devices, cloud storage, media cards, and imported "
+"images. Once analyzed, the data can be viewed within both online or offline "
+"maps"
+
+#: ../../../thankyou.php:190 ../../../index.php:291
+msgid "ABOUT_FIFTH_OVERLAY_THUMB"
+msgstr ""
+"Use Social Graph and Links and Stats sections to reveal users’ social "
+"connections and common contacts."
+
+#: ../../../thankyou.php:192 ../../../index.php:293
+msgid "ABOUT_FIFTH_IMG"
+msgstr "img/screenshot/es_ES/profile-05.jpg"
+
+#: ../../../thankyou.php:192 ../../../index.php:293
+msgid "ABOUT_FIFTH_IMG_ALT"
+msgstr "Data Analysis"
+
+#: ../../../thankyou.php:194 ../../../index.php:295
+msgid "ABOUT_FIFTH_PROFILE_NAME"
+msgstr "Data Analysis"
+
+#: ../../../thankyou.php:195 ../../../index.php:296
+msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective includes a wide range of built-in analytical "
+"tools like Timeline, Social Graph, Aggregated Contacts, Watch Lists and "
+"Global Search, Key Evidence, Links and Stats and more."
+
+#: ../../../thankyou.php:201 ../../../index.php:302
+msgid "ABOUT_SIXTH_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic SQLite Viewer offers built-in converter for dates and texts, "
+"deleted records recovery, searching of the database, execute SQL queries and "
+"much more."
+
+#: ../../../thankyou.php:203 ../../../index.php:304
+msgid "ABOUT_SIXTH_IMG"
+msgstr "img/screenshot/es_ES/profile-06.jpg"
+
+#: ../../../thankyou.php:203 ../../../index.php:304
+msgid "ABOUT_SIXTH_IMG_ALT"
+msgstr "Built-in Viewers"
+
+#: ../../../thankyou.php:205 ../../../index.php:306
+msgid "ABOUT_SIXTH_PROFILE_NAME"
+msgstr "Built-in Viewers"
+
+#: ../../../thankyou.php:206 ../../../index.php:307
+msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective offers several included built-in data viewers: "
+"Oxygen Forensic® Detective for sharing collected data with other "
+"investigators; SQLite Viewer to analyze databases and recoved deleted "
+"records, media player, Hex-viewer, EXIF-viewer, Plist-viewer and much more."
+
+#: ../../../thankyou.php:216 ../../../index.php:317
+msgid "CONTACT_TITLE"
+msgstr "Contacts"
+
+#: ../../../thankyou.php:217 ../../../index.php:318
+msgid "CONTACT_TITLE_DESCRIPTION_1"
+msgstr "Sales: +1 (844) 537-2-537 "
+
+#: ../../../thankyou.php:218 ../../../index.php:319
+msgid "CONTACT_TITLE_DESCRIPTION_2"
+msgstr "Tech. Support: +1 (877) 969-9436"
+
+#: ../../../thankyou.php:219 ../../../index.php:320
+msgid "CONTACT_DETAIL_EMAIL"
+msgstr ""
+"<a href=\"http://www.oxygen-forensic.com/en/company/contacts\" target=\"BLANK"
+"\">Got a question?</a>"
+
+#: ../../../thankyou.php:222 ../../../index.php:323
+msgid "CONTACT_DETAILS"
+msgstr "Address"
+
+#: ../../../thankyou.php:225 ../../../index.php:326
+msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
+msgstr "901 N. Pitt St, Suite 320"
+
+#: ../../../thankyou.php:227 ../../../index.php:328
+msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
+msgstr "Alexandria, VA 22314"
+
+#: ../../../thankyou.php:229 ../../../index.php:330
+msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
+msgstr "United States"
+
+#: ../../../thankyou.php:238 ../../../index.php:339
+msgid "FOOTER_FIRST"
+msgstr "© 2015 Oxygen Forensics, Inc."
+
+#: ../../../thankyou.php:239 ../../../index.php:340
+msgid "FOOTER_FIRST_LINK"
+msgstr "http://www.oxygen-forensic.com"
+
+#: ../../../thankyou.php:240 ../../../index.php:341
+msgid "FOOTER_FIRST_LINK_TITLE"
+msgstr "www.oxygen-forensic.com"
+
+#: ../../../thankyou.php:241 ../../../index.php:342
+msgid "FOOTER_SECOND"
+msgstr "www.oxygen-forensic.com"
 
 #: ../../../index.php:111
 msgid "MENU_INVITE"
-msgstr ""
+msgstr "Invite"
 
 #: ../../../index.php:112
 msgid "MENU_REGISTRATION"
-msgstr ""
+msgstr "Registration"
 
-#: ../../../index.php:113
-msgid "MENU_ABOUT"
-msgstr ""
-
-#: ../../../index.php:114
-msgid "MENU_CONTACT"
-msgstr ""
-
-#: ../../../index.php:123
+#: ../../../index.php:122 ../../../test/index.php:80
 msgid "INVITE_MAIN_TITLE"
-msgstr "SPANHISH TEXT"
+msgstr "Enter received invite"
 
-#: ../../../index.php:124
+#: ../../../index.php:123 ../../../test/index.php:85
 msgid "INVITE_MAIN_TITLE_DESCRIPTION "
-msgstr ""
+msgstr "to obtain license for Oxygen Forensic&reg; product "
 
-#: ../../../index.php:125
-#, fuzzy
+#: ../../../index.php:124 ../../../test/index.php:92
 msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
-msgstr "SPANHISH TEXT"
+msgstr "AAAA-AAAA-AAAA-AAAA"
 
-#: ../../../index.php:129
+#: ../../../index.php:128
 msgid "INVITE_MAIN_INVITE_BUTTON"
-msgstr ""
+msgstr "Start"
 
-#: ../../../index.php:143
+#: ../../../index.php:143 ../../../test/index.php:104
 msgid "REGISTRATION_LABEL_NAME"
-msgstr ""
+msgstr "First name"
 
-#: ../../../index.php:144
+#: ../../../index.php:144 ../../../test/index.php:105
 msgid "REGISTRATION_PLACEHOLDER_NAME"
-msgstr ""
+msgstr "Your first name"
 
-#: ../../../index.php:147
+#: ../../../index.php:147 ../../../test/index.php:108
 msgid "REGISTRATION_LABEL_SURNAME"
-msgstr ""
+msgstr "Last name"
 
-#: ../../../index.php:148
+#: ../../../index.php:148 ../../../test/index.php:109
 msgid "REGISTRATION_PLACEHOLDER_SURNAME"
-msgstr ""
+msgstr "Your last name"
 
-#: ../../../index.php:151
+#: ../../../index.php:151 ../../../test/index.php:112
 msgid "REGISTRATION_LABEL_ORGANIZATION"
-msgstr ""
+msgstr "Organization"
 
-#: ../../../index.php:152
+#: ../../../index.php:152 ../../../test/index.php:113
 msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
-msgstr ""
+msgstr "Your organization name"
 
-#: ../../../index.php:155
+#: ../../../index.php:155 ../../../test/index.php:116
 msgid "REGISTRATION_LABEL_POSITION"
-msgstr ""
+msgstr "Job title"
 
-#: ../../../index.php:156
+#: ../../../index.php:156 ../../../test/index.php:117
 msgid "REGISTRATION_PLACEHOLDER_POSITION"
-msgstr ""
+msgstr "Your job title"
 
-#: ../../../index.php:159
+#: ../../../index.php:159 ../../../test/index.php:120
 msgid "REGISTRATION_LABEL_EMAIL"
-msgstr ""
+msgstr "E-Mail"
 
-#: ../../../index.php:160
+#: ../../../index.php:160 ../../../test/index.php:121
 msgid "REGISTRATION_PLACEHOLDER_EMAIL"
-msgstr ""
+msgstr "email@domain.com"
 
-#: ../../../index.php:163
+#: ../../../index.php:163 ../../../test/index.php:124
 msgid "REGISTRATION_LABEL_PHONE"
-msgstr ""
+msgstr "Phone number"
 
-#: ../../../index.php:164
+#: ../../../index.php:164 ../../../test/index.php:125
 msgid "REGISTRATION_PLACEHOLDER_PHONE"
-msgstr ""
+msgstr "+ 1 (999) 999-9999"
 
-#: ../../../index.php:169
+#: ../../../index.php:169 ../../../test/index.php:130
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
-msgstr ""
+msgstr "Address"
 
-#: ../../../index.php:170
-#, fuzzy
+#: ../../../index.php:170 ../../../test/index.php:131
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
-msgstr "SPANHISH TEXT"
+msgstr "Your address"
 
-#: ../../../index.php:173
+#: ../../../index.php:173 ../../../test/index.php:134
 msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
-msgstr ""
+msgstr "Address (Line 2)"
 
-#: ../../../index.php:174
-#, fuzzy
+#: ../../../index.php:174 ../../../test/index.php:135
 msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
-msgstr "SPANHISH TEXT"
+msgstr "Your Address (Line 2)"
 
-#: ../../../index.php:177
+#: ../../../index.php:177 ../../../test/index.php:138
 msgid "REGISTRATION_LABEL_CITY"
-msgstr ""
+msgstr "City"
 
-#: ../../../index.php:178
+#: ../../../index.php:178 ../../../test/index.php:139
 msgid "REGISTRATION_PLACEHOLDER_CITY"
-msgstr ""
+msgstr "Your city"
 
-#: ../../../index.php:181
+#: ../../../index.php:181 ../../../test/index.php:142
 msgid "REGISTRATION_LABEL_POSTCODE"
-msgstr ""
+msgstr "ZIP"
 
-#: ../../../index.php:182
+#: ../../../index.php:182 ../../../test/index.php:143
 msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
-msgstr ""
+msgstr "Your ZIP postal code"
 
-#: ../../../index.php:185
+#: ../../../index.php:185 ../../../test/index.php:146
 msgid "REGISTRATION_LABEL_COUNTRY"
-msgstr ""
+msgstr "Country"
 
-#: ../../../index.php:191
+#: ../../../index.php:191 ../../../test/index.php:152
 msgid "REGISTRATION_LABEL_STATE"
-msgstr ""
+msgstr "State"
 
-#: ../../../index.php:197
-#, fuzzy
+#: ../../../index.php:197 ../../../test/index.php:158
 msgid "REGISTRATION_LABEL_PROVINCE"
-msgstr "SPANHISH TEXT"
+msgstr "Province"
 
-#: ../../../index.php:203
+#: ../../../index.php:203 ../../../test/index.php:164
 msgid "REGISTRATION_LABEL_INVITE"
-msgstr ""
+msgstr "Invite"
 
-#: ../../../index.php:204
+#: ../../../index.php:204 ../../../test/index.php:165
 msgid "REGISTRATION_PLACEHOLDER_INVITE"
-msgstr ""
+msgstr "AAAA-AAAA-AAAA-AAAA"
 
-#: ../../../index.php:211
+#: ../../../index.php:211 ../../../test/index.php:172
 msgid "REGISTRATION_SUBMIT"
-msgstr ""
+msgstr "Activate"
 
-#: ../../../index.php:214
+#: ../../../index.php:214 ../../../test/index.php:175
 msgid "INTERNAL_ERROR"
 msgstr ""
+"Internal error occurred. Please, find our contact details at the bottom of "
+"the page."
 
-#: ../../../index.php:215
+#: ../../../index.php:215 ../../../test/index.php:176
 msgid "YOU_ARE_LOCKED_OUT"
-msgstr ""
+msgstr "You access is blocked for 10 minutes. Please, get back later."
 
-#: ../../../index.php:216
-#, fuzzy
+#: ../../../index.php:216 ../../../test/index.php:177
 msgid "INVITE_INCORRECT"
-msgstr "SPANHISH TEXT"
+msgstr "Sorry, you provided wrong invite code. Please, try again."
 
-#: ../../../index.php:217
+#: ../../../index.php:217 ../../../test/index.php:178
 msgid "INVITE_USED"
-msgstr ""
+msgstr "Unfortunately, your invite is already used by someone else."
 
-#: ../../../index.php:218
+#: ../../../index.php:218 ../../../test/index.php:179
 msgid "INVITE_EXPIRED"
-msgstr ""
+msgstr "Unfortunately, your invite has expired."
 
-#: ../../../index.php:219
+#: ../../../index.php:219 ../../../test/index.php:180
 msgid "BAD_CAPTCHA"
-msgstr ""
-
-#: ../../../index.php:235
-msgid "ABOUT_TITLE"
-msgstr ""
-
-#: ../../../index.php:236
-msgid "ABOUT_TITLE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:245
-msgid "ABOUT_FIRST_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:247
-msgid "ABOUT_FIRST_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:249
-msgid "ABOUT_FIRST_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:250
-msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:256
-msgid "ABOUT_SECOND_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:258
-msgid "ABOUT_SECOND_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:260
-msgid "ABOUT_SECOND_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:261
-msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:267
-msgid "ABOUT_THIRD_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:269
-msgid "ABOUT_THIRD_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:271
-msgid "ABOUT_THIRD_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:272
-msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:280
-msgid "ABOUT_FORTH_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:282
-msgid "ABOUT_FORTH_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:284
-msgid "ABOUT_FORTH_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:285
-msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:291
-msgid "ABOUT_FIFTH_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:293
-msgid "ABOUT_FIFTH_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:295
-msgid "ABOUT_FIFTH_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:296
-msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:302
-msgid "ABOUT_SIXTH_OVERLAY_THUMB"
-msgstr ""
-
-#: ../../../index.php:304
-msgid "ABOUT_SIXTH_IMG_ALT"
-msgstr ""
-
-#: ../../../index.php:306
-msgid "ABOUT_SIXTH_PROFILE_NAME"
-msgstr ""
-
-#: ../../../index.php:307
-msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
-msgstr ""
-
-#: ../../../index.php:317
-#, fuzzy
-msgid "CONTACT_TITLE"
-msgstr "SPANHISH TEXT"
-
-#: ../../../index.php:318
-#, fuzzy
-msgid "CONTACT_TITLE_DESCRIPTION_1"
-msgstr "SPANHISH TEXT"
-
-#: ../../../index.php:319
-#, fuzzy
-msgid "CONTACT_TITLE_DESCRIPTION_2"
-msgstr "SPANHISH TEXT"
-
-#: ../../../index.php:320
-msgid "CONTACT_DETAIL_EMAIL"
-msgstr ""
-
-#: ../../../index.php:323
-#, fuzzy
-msgid "CONTACT_DETAILS"
-msgstr "SPANHISH TEXT"
-
-#: ../../../index.php:326
-msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
-msgstr ""
-
-#: ../../../index.php:328
-msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
-msgstr ""
-
-#: ../../../index.php:330
-msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
-msgstr ""
-
-#: ../../../index.php:339
-msgid "FOOTER_FIRST"
-msgstr ""
-
-#: ../../../index.php:340
-msgid "FOOTER_FIRST_LINK"
-msgstr ""
-
-#: ../../../index.php:341
-msgid "FOOTER_FIRST_LINK_TITLE"
-msgstr ""
-
-#: ../../../index.php:342
-msgid "FOOTER_SECOND"
-msgstr ""
+msgstr "Wrong CAPTCHA input. Please, try again."
 
 #: ../../../php/province.php:1
 msgid "ALBERTA"
@@ -414,6 +505,214 @@ msgstr ""
 
 #: ../../../php/province.php:13
 msgid "YUKON"
+msgstr ""
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr ""
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr ""
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr ""
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr ""
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr ""
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr ""
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr ""
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr ""
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr ""
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr ""
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr ""
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr ""
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr ""
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr ""
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr ""
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr ""
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr ""
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr ""
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr ""
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr ""
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr ""
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr ""
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr ""
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr ""
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr ""
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr ""
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr ""
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr ""
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr ""
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr ""
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr ""
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr ""
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr ""
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr ""
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr ""
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr ""
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr ""
+
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr ""
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr ""
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr ""
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr ""
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr ""
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr ""
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr ""
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr ""
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
 msgstr ""
 
 #: ../../../php/country.php:1
@@ -1398,212 +1697,4 @@ msgstr ""
 
 #: ../../../php/country.php:246
 msgid "COUNTRY_ZW"
-msgstr ""
-
-#: ../../../php/state.php:1
-msgid "ALABAMA"
-msgstr ""
-
-#: ../../../php/state.php:2
-msgid "ALASKA"
-msgstr ""
-
-#: ../../../php/state.php:3
-msgid "ARIZONA"
-msgstr ""
-
-#: ../../../php/state.php:4
-msgid "ARKANSAS"
-msgstr ""
-
-#: ../../../php/state.php:5
-msgid "CALIFORNIA"
-msgstr ""
-
-#: ../../../php/state.php:6
-msgid "COLORADO"
-msgstr ""
-
-#: ../../../php/state.php:7
-msgid "CONNECTICUT"
-msgstr ""
-
-#: ../../../php/state.php:8
-msgid "DELAWARE"
-msgstr ""
-
-#: ../../../php/state.php:9
-msgid "DISTRICT_OF_COLUMBIA"
-msgstr ""
-
-#: ../../../php/state.php:10
-msgid "FLORIDA"
-msgstr ""
-
-#: ../../../php/state.php:11
-msgid "GEORGIA_STATE"
-msgstr ""
-
-#: ../../../php/state.php:12
-msgid "HAWAII"
-msgstr ""
-
-#: ../../../php/state.php:13
-msgid "IDAHO"
-msgstr ""
-
-#: ../../../php/state.php:14
-msgid "ILLINOIS"
-msgstr ""
-
-#: ../../../php/state.php:15
-msgid "INDIANA"
-msgstr ""
-
-#: ../../../php/state.php:16
-msgid "IOWA"
-msgstr ""
-
-#: ../../../php/state.php:17
-msgid "KANSAS"
-msgstr ""
-
-#: ../../../php/state.php:18
-msgid "KENTUCKY"
-msgstr ""
-
-#: ../../../php/state.php:19
-msgid "LOUISIANA"
-msgstr ""
-
-#: ../../../php/state.php:20
-msgid "MAINE"
-msgstr ""
-
-#: ../../../php/state.php:21
-msgid "MARYLAND"
-msgstr ""
-
-#: ../../../php/state.php:22
-msgid "MASSACHUSETTS"
-msgstr ""
-
-#: ../../../php/state.php:23
-msgid "MICHIGAN"
-msgstr ""
-
-#: ../../../php/state.php:24
-msgid "MINNESOTA"
-msgstr ""
-
-#: ../../../php/state.php:25
-msgid "MISSISSIPPI"
-msgstr ""
-
-#: ../../../php/state.php:26
-msgid "MISSOURI"
-msgstr ""
-
-#: ../../../php/state.php:27
-msgid "MONTANA"
-msgstr ""
-
-#: ../../../php/state.php:28
-msgid "NEBRASKA"
-msgstr ""
-
-#: ../../../php/state.php:29
-msgid "NEVADA"
-msgstr ""
-
-#: ../../../php/state.php:30
-msgid "NEW_HAMPSHIRE"
-msgstr ""
-
-#: ../../../php/state.php:31
-msgid "NEW_JERSEY"
-msgstr ""
-
-#: ../../../php/state.php:32
-msgid "NEW_MEXICO"
-msgstr ""
-
-#: ../../../php/state.php:33
-msgid "NEW_YORK"
-msgstr ""
-
-#: ../../../php/state.php:34
-msgid "NORTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:35
-msgid "NORTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:36
-msgid "OHIO"
-msgstr ""
-
-#: ../../../php/state.php:37
-msgid "OKLAHOMA"
-msgstr ""
-
-#: ../../../php/state.php:38
-msgid "OREGON"
-msgstr ""
-
-#: ../../../php/state.php:39
-msgid "PENNSYLVANIA"
-msgstr ""
-
-#: ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr ""
-
-#: ../../../php/state.php:41
-msgid "RHODE_ISLAND"
-msgstr ""
-
-#: ../../../php/state.php:42
-msgid "SOUTH_CAROLINA"
-msgstr ""
-
-#: ../../../php/state.php:43
-msgid "SOUTH_DAKOTA"
-msgstr ""
-
-#: ../../../php/state.php:44
-msgid "TENNESSEE"
-msgstr ""
-
-#: ../../../php/state.php:45
-msgid "TEXAS"
-msgstr ""
-
-#: ../../../php/state.php:46
-msgid "UTAH"
-msgstr ""
-
-#: ../../../php/state.php:47
-msgid "VERMONT"
-msgstr ""
-
-#: ../../../php/state.php:48
-msgid "VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:49
-msgid "WASHINGTON"
-msgstr ""
-
-#: ../../../php/state.php:50
-msgid "WEST_VIRGINIA"
-msgstr ""
-
-#: ../../../php/state.php:51
-msgid "WISCONSIN"
-msgstr ""
-
-#: ../../../php/state.php:52
-msgid "WYOMING"
 msgstr ""

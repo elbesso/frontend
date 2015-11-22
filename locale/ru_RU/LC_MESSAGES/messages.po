@@ -1,213 +1,79 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: invite\n"
-"POT-Creation-Date: 2015-11-19 11:54+0300\n"
-"PO-Revision-Date: 2015-11-19 12:00+0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-22 16:34+0300\n"
+"PO-Revision-Date: 2015-11-22 16:36+0300\n"
 "Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
 "Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
-"Language: ru_RU\n"
+"Language: Russian (Russia)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: en_RU\n"
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: ru_RU\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../index.php:24
+#: ../../../thankyou.php:24 ../../../index.php:24
 msgid "TITLE"
-msgstr "Мобильный криминалист - Приглашение"
+msgstr "Мобильный Криминалист - Приглашение"
 
-#: ../../../index.php:89
+#: ../../../thankyou.php:89 ../../../index.php:89
 msgid "STICKY_NAV_GO_UP_LINK_TITLE"
-msgstr "Заголовок наверх"
+msgstr "Наверх"
 
-#: ../../../index.php:89
+#: ../../../thankyou.php:89 ../../../index.php:89
 msgid "STICKY_NAV_GO_UP"
 msgstr "Наверх"
 
-#: ../../../index.php:93
+#: ../../../thankyou.php:93 ../../../index.php:93
 msgid "STICKY_NAV_LANGUAGE"
-msgstr "Язык"
+msgstr "Выберите язык"
 
-#: ../../../index.php:97
+#: ../../../thankyou.php:97 ../../../index.php:97
 msgid "STICKY_NAV_LANGUAGE_ENGLISH"
-msgstr "Английский"
+msgstr "English"
 
-#: ../../../index.php:101
+#: ../../../thankyou.php:101 ../../../index.php:101
 msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
 msgstr "Русский"
 
-#: ../../../index.php:105
+#: ../../../thankyou.php:105 ../../../index.php:105
 msgid "STICKY_NAV_LANGUAGE_SPANISH"
-msgstr "Испанский"
+msgstr "Español"
 
-#: ../../../index.php:111
-msgid "MENU_INVITE"
-msgstr "Инвайт"
+#: ../../../thankyou.php:111
+msgid "MENU_THANK_YOU"
+msgstr "Спасибо"
 
-#: ../../../index.php:112
-msgid "MENU_REGISTRATION"
-msgstr "Регистрация"
-
-#: ../../../index.php:113
+#: ../../../thankyou.php:112 ../../../index.php:113
 msgid "MENU_ABOUT"
 msgstr "О нас"
 
-#: ../../../index.php:114
+#: ../../../thankyou.php:113 ../../../index.php:114
 msgid "MENU_CONTACT"
 msgstr "Контакты"
 
-#: ../../../index.php:123
-msgid "INVITE_MAIN_TITLE"
-msgstr "Для регистрации"
+#: ../../../thankyou.php:121
+msgid "THANK_YOU_MAIN_TITLE"
+msgstr "Спасибо"
 
-#: ../../../index.php:124
-msgid "INVITE_MAIN_TITLE_DESCRIPTION "
-msgstr "Введите ваш инвайт"
+#: ../../../thankyou.php:122
+msgid "THANK_YOU_MAIN_TITLE_DESCRIPTION "
+msgstr "Ожидайте ключ"
 
-#: ../../../index.php:125
-msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
-msgstr "АААА-АААА-АААА-АААА"
-
-#: ../../../index.php:129
-msgid "INVITE_MAIN_INVITE_BUTTON"
-msgstr " Начать"
-
-#: ../../../index.php:143
-msgid "REGISTRATION_LABEL_NAME"
-msgstr "Имя"
-
-#: ../../../index.php:144
-msgid "REGISTRATION_PLACEHOLDER_NAME"
-msgstr "Ваше имя"
-
-#: ../../../index.php:147
-msgid "REGISTRATION_LABEL_SURNAME"
-msgstr "Фамилия"
-
-#: ../../../index.php:148
-msgid "REGISTRATION_PLACEHOLDER_SURNAME"
-msgstr "Ваша фамилия"
-
-#: ../../../index.php:151
-msgid "REGISTRATION_LABEL_ORGANIZATION"
-msgstr "Организация"
-
-#: ../../../index.php:152
-msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
-msgstr "Ваша организация"
-
-#: ../../../index.php:155
-msgid "REGISTRATION_LABEL_POSITION"
-msgstr "Должность"
-
-#: ../../../index.php:156
-msgid "REGISTRATION_PLACEHOLDER_POSITION"
-msgstr "Ваша должность"
-
-#: ../../../index.php:159
-msgid "REGISTRATION_LABEL_EMAIL"
-msgstr "Email"
-
-#: ../../../index.php:160
-msgid "REGISTRATION_PLACEHOLDER_EMAIL"
-msgstr "myname@email.com"
-
-#: ../../../index.php:163
-msgid "REGISTRATION_LABEL_PHONE"
-msgstr "Телефон"
-
-#: ../../../index.php:164
-msgid "REGISTRATION_PLACEHOLDER_PHONE"
-msgstr "+7 (999) 999 99 99"
-
-#: ../../../index.php:169
-msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
-msgstr "Адрес 1"
-
-#: ../../../index.php:170
-msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
-msgstr "Ваш адрес"
-
-#: ../../../index.php:173
-msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
-msgstr "Адрес 2"
-
-#: ../../../index.php:174
-msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
-msgstr "Ваш адрес"
-
-#: ../../../index.php:177
-msgid "REGISTRATION_LABEL_CITY"
-msgstr "Город"
-
-#: ../../../index.php:178
-msgid "REGISTRATION_PLACEHOLDER_CITY"
-msgstr "Ваш город"
-
-#: ../../../index.php:181
-msgid "REGISTRATION_LABEL_POSTCODE"
-msgstr "Почтовый индекс"
-
-#: ../../../index.php:182
-msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
-msgstr "Ваш почтовый индекс"
-
-#: ../../../index.php:185
-msgid "REGISTRATION_LABEL_COUNTRY"
-msgstr "Страна"
-
-#: ../../../index.php:191
-msgid "REGISTRATION_LABEL_STATE"
-msgstr "Штат"
-
-#: ../../../index.php:197
-msgid "REGISTRATION_LABEL_PROVINCE"
-msgstr "Провинция"
-
-#: ../../../index.php:203
-msgid "REGISTRATION_LABEL_INVITE"
-msgstr "Инвайт"
-
-#: ../../../index.php:204
-msgid "REGISTRATION_PLACEHOLDER_INVITE"
-msgstr "AAAA-AAAA-AAAA-AAAA"
-
-#: ../../../index.php:211
-msgid "REGISTRATION_SUBMIT"
-msgstr "Отправить"
-
-#: ../../../index.php:214
-msgid "INTERNAL_ERROR"
-msgstr "Внутренняя ошибка"
-
-#: ../../../index.php:215
-msgid "YOU_ARE_LOCKED_OUT"
-msgstr "Вы заблокированы на 10 минут"
-
-#: ../../../index.php:216
-msgid "INVITE_INCORRECT"
-msgstr "Неверный инвайт"
-
-#: ../../../index.php:217
-msgid "INVITE_USED"
-msgstr "Ивайт уже был использован"
-
-#: ../../../index.php:218
-msgid "INVITE_EXPIRED"
-msgstr "Срок действия инвайта истек"
-
-#: ../../../index.php:219
-msgid "BAD_CAPTCHA"
-msgstr "Ошибка при проверке каптчи"
-
-#: ../../../index.php:235
+#: ../../../thankyou.php:134 ../../../index.php:235
 msgid "ABOUT_TITLE"
 msgstr "О Мобильном Криминалисте"
 
-#: ../../../index.php:236
+#: ../../../thankyou.php:135 ../../../index.php:236
 msgid "ABOUT_TITLE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист - универсальный программный комплекс для исследования "
@@ -219,42 +85,50 @@ msgstr ""
 "показаны вместе в удобном для использования интерфейсе с возможностью их "
 "глубокого анализа во встроенных аналитических секциях программы."
 
-#: ../../../index.php:245
+#: ../../../thankyou.php:144 ../../../index.php:245
 msgid "ABOUT_FIRST_OVERLAY_THUMB"
 msgstr ""
 "Извлекаются все данные: контакты, сообщения, звонки, файлы, приложения. "
 "Автоматически восстанвливается удаленная информация."
 
-#: ../../../index.php:247
-msgid "ABOUT_FIRST_IMG_ALT"
-msgstr "Замещающий текст первой картинки \"О нас\""
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG"
+msgstr "img/screenshot/ru_RU/profile-01.jpg"
 
-#: ../../../index.php:249
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG_ALT"
+msgstr "Данные из устройства"
+
+#: ../../../thankyou.php:148 ../../../index.php:249
 msgid "ABOUT_FIRST_PROFILE_NAME"
 msgstr "Данные из устройства"
 
-#: ../../../index.php:250
+#: ../../../thankyou.php:149 ../../../index.php:250
 msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист извлекает данные из более 11 000 устройств под "
 "управлением Apple iOS, Android OS, Windows Phone, BlackBerry, Symbian, а "
 "также простых мобильных телефонов"
 
-#: ../../../index.php:256
+#: ../../../thankyou.php:155 ../../../index.php:256
 msgid "ABOUT_SECOND_OVERLAY_THUMB"
 msgstr ""
 "После извлечения из облака данные можно проанализировать в специальных "
 "аналитических разделах: Лента Событий, Граф Связей, Объединенные Контакты."
 
-#: ../../../index.php:258
-msgid "ABOUT_SECOND_IMG_ALT"
-msgstr "Замещающий текст второй картинки \"О нас\""
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG"
+msgstr "img/screenshot/ru_RU/profile-02.jpg"
 
-#: ../../../index.php:260
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG_ALT"
+msgstr "Данные из облака"
+
+#: ../../../thankyou.php:159 ../../../index.php:260
 msgid "ABOUT_SECOND_PROFILE_NAME"
 msgstr "Данные из облака"
 
-#: ../../../index.php:261
+#: ../../../thankyou.php:160 ../../../index.php:261
 msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист извлекает данные из более 15 облачных хранилищ: "
@@ -262,124 +136,310 @@ msgstr ""
 "Microsoft Live, OneDrive, Dropbox, Twitter, Instagram, WhatsApp и многое "
 "другое."
 
-#: ../../../index.php:267
+#: ../../../thankyou.php:166 ../../../index.php:267
 msgid "ABOUT_THIRD_OVERLAY_THUMB"
 msgstr ""
 "Для каждого абонента доступна детальная статистика соединений, возможна "
 "фильтрация данных по времени и абонентам"
 
-#: ../../../index.php:269
-msgid "ABOUT_THIRD_IMG_ALT"
-msgstr "Замещающий текст второй картинки \"О нас\""
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG"
+msgstr "img/screenshot/ru_RU/profile-03.jpg"
 
-#: ../../../index.php:271
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG_ALT"
+msgstr "Биллинги операторов"
+
+#: ../../../thankyou.php:170 ../../../index.php:271
 msgid "ABOUT_THIRD_PROFILE_NAME"
 msgstr "Биллинги операторов"
 
-#: ../../../index.php:272
+#: ../../../thankyou.php:171 ../../../index.php:272
 msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
 msgstr ""
 "Мобильный Криминалист позволяет импортировать биллинги, полученные от "
 "операторов сотовой связи, в независимости от их стркутуры и анализировать "
 "прямые и косвенные связи между звонившими на графе."
 
-#: ../../../index.php:280
+#: ../../../thankyou.php:179 ../../../index.php:280
 msgid "ABOUT_FORTH_OVERLAY_THUMB"
 msgstr ""
-"Для каждого абонента доступна детальная статистика соединений, возможна "
-"фильтрация данных по времени и абонентам"
+"Программа извлекает гео-данные из различных источников: мобильные "
+"устройства, облачные сервисы, карты памяти и.т.д."
 
-#: ../../../index.php:282
+#: ../../../thankyou.php:181 ../../../index.php:282
+msgid "ABOUT_FORTH_IMG"
+msgstr "img/screenshot/ru_RU/profile-04.jpg"
+
+#: ../../../thankyou.php:181 ../../../index.php:282
 msgid "ABOUT_FORTH_IMG_ALT"
-msgstr "Замещающий текст первой картинки \"О нас\""
+msgstr "Анализ местоположений"
 
-#: ../../../index.php:284
+#: ../../../thankyou.php:183 ../../../index.php:284
 msgid "ABOUT_FORTH_PROFILE_NAME"
-msgstr "Название первого продукта"
+msgstr "Анализ местоположений"
 
-#: ../../../index.php:285
+#: ../../../thankyou.php:184 ../../../index.php:285
 msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
-msgstr "Описание первого продукта"
+msgstr ""
+"Встроенный модуль карт позволяет просмотреть посещенные пользователем места; "
+"построить маршруты передвижения пользователя; найти общие места пребывания "
+"нескольких пользователей"
 
-#: ../../../index.php:291
+#: ../../../thankyou.php:190 ../../../index.php:291
 msgid "ABOUT_FIFTH_OVERLAY_THUMB"
-msgstr "Thumbnails первого продукта"
+msgstr ""
+"Используйте инструмент Статистика и Связи, чтобы отобразить круги общения "
+"владельцев одного или нескольких исследуемых мобильных устройств"
 
-#: ../../../index.php:293
+#: ../../../thankyou.php:192 ../../../index.php:293
+msgid "ABOUT_FIFTH_IMG"
+msgstr "img/screenshot/ru_RU/profile-05.jpg"
+
+#: ../../../thankyou.php:192 ../../../index.php:293
 msgid "ABOUT_FIFTH_IMG_ALT"
-msgstr "Замещающий текст первой картинки \"О нас\""
+msgstr "Анализ данных"
 
-#: ../../../index.php:295
+#: ../../../thankyou.php:194 ../../../index.php:295
 msgid "ABOUT_FIFTH_PROFILE_NAME"
-msgstr "Название первого продукта"
+msgstr "Анализ данных"
 
-#: ../../../index.php:296
+#: ../../../thankyou.php:195 ../../../index.php:296
 msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
-msgstr "Описание первого продукта"
+msgstr ""
+"В Мобильном Криминалисте Вы найдете следующие инстументы для анализа и "
+"представления данных: Лента Событий, Граф Связей, Объединенные Контакты, "
+"Глобальный Поиск, Важные Улики, Мастер Отчетов."
 
-#: ../../../index.php:302
+#: ../../../thankyou.php:201 ../../../index.php:302
 msgid "ABOUT_SIXTH_OVERLAY_THUMB"
-msgstr "Thumbnails первого продукта"
+msgstr ""
+"Программа содержит инструмент анализа и восстановления удаленной информации "
+"из баз данных SQLite, hex-просмотрщик, медиа-проигрыватель, анализатор EXIF "
+"и многое другое"
 
-#: ../../../index.php:304
+#: ../../../thankyou.php:203 ../../../index.php:304
+msgid "ABOUT_SIXTH_IMG"
+msgstr "img/screenshot/ru_RU/profile-06.jpg"
+
+#: ../../../thankyou.php:203 ../../../index.php:304
 msgid "ABOUT_SIXTH_IMG_ALT"
-msgstr "Замещающий текст первой картинки \"О нас\""
+msgstr "Бесплатный просмотрщик"
 
-#: ../../../index.php:306
+#: ../../../thankyou.php:205 ../../../index.php:306
 msgid "ABOUT_SIXTH_PROFILE_NAME"
-msgstr "Название первого продукта"
+msgstr "Бесплатный просмотрщик"
 
-#: ../../../index.php:307
+#: ../../../thankyou.php:206 ../../../index.php:307
 msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
-msgstr "Описание первого продукта"
+msgstr ""
+"Посмотрщик данных - это отдельная программа доступная каждому "
+"зарегистрированному пользователю, позволяющая просматривать извлеченные "
+"данные на другом компьютере"
 
-#: ../../../index.php:317
+#: ../../../thankyou.php:216 ../../../index.php:317
 msgid "CONTACT_TITLE"
 msgstr "Контакты"
 
-#: ../../../index.php:318
+#: ../../../thankyou.php:217 ../../../index.php:318
 msgid "CONTACT_TITLE_DESCRIPTION_1"
 msgstr "Отдел продаж: +7-495-222-9277"
 
-#: ../../../index.php:319
+#: ../../../thankyou.php:218 ../../../index.php:319
 msgid "CONTACT_TITLE_DESCRIPTION_2"
 msgstr "Техподдержка: +7-495-222-9278"
 
-#: ../../../index.php:320
+#: ../../../thankyou.php:219 ../../../index.php:320
 msgid "CONTACT_DETAIL_EMAIL"
-msgstr "support@oxygensoftware.ru"
+msgstr ""
+"<a href=\"http://www.oxygensoftware.ru/ru/company/contacts\" target=\"BLANK"
+"\">Задать вопрос</a>"
 
-#: ../../../index.php:323
+#: ../../../thankyou.php:222 ../../../index.php:323
 msgid "CONTACT_DETAILS"
 msgstr "Наш адрес"
 
-#: ../../../index.php:326
+#: ../../../thankyou.php:225 ../../../index.php:326
 msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
 msgstr "Российская Федерация"
 
-#: ../../../index.php:328
+#: ../../../thankyou.php:227 ../../../index.php:328
 msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
 msgstr "Москва, 109029"
 
-#: ../../../index.php:330
+#: ../../../thankyou.php:229 ../../../index.php:330
 msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
 msgstr "ул. Нижегородская, д. 32, стр. 5"
 
-#: ../../../index.php:339
+#: ../../../thankyou.php:238 ../../../index.php:339
 msgid "FOOTER_FIRST"
 msgstr "© 2015 ООО \"Оксиджен Софтвер\" "
 
-#: ../../../index.php:340
+#: ../../../thankyou.php:239 ../../../index.php:340
 msgid "FOOTER_FIRST_LINK"
 msgstr "http://www.oxygensoftware.ru"
 
-#: ../../../index.php:341
+#: ../../../thankyou.php:240 ../../../index.php:341
 msgid "FOOTER_FIRST_LINK_TITLE"
 msgstr "www.oxygensoftware.ru"
 
-#: ../../../index.php:342
+#: ../../../thankyou.php:241 ../../../index.php:342
 msgid "FOOTER_SECOND"
 msgstr "www.oxygensoftware.ru"
+
+#: ../../../index.php:111
+msgid "MENU_INVITE"
+msgstr "Инвайт"
+
+#: ../../../index.php:112
+msgid "MENU_REGISTRATION"
+msgstr "Регистрация"
+
+#: ../../../index.php:122 ../../../test/index.php:80
+msgid "INVITE_MAIN_TITLE"
+msgstr "Для регистрации"
+
+#: ../../../index.php:123 ../../../test/index.php:85
+msgid "INVITE_MAIN_TITLE_DESCRIPTION "
+msgstr "Введите ваш инвайт"
+
+#: ../../../index.php:124 ../../../test/index.php:92
+msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
+msgstr "АААА-АААА-АААА-АААА"
+
+#: ../../../index.php:128
+msgid "INVITE_MAIN_INVITE_BUTTON"
+msgstr " Начать"
+
+#: ../../../index.php:143 ../../../test/index.php:104
+msgid "REGISTRATION_LABEL_NAME"
+msgstr "Имя"
+
+#: ../../../index.php:144 ../../../test/index.php:105
+msgid "REGISTRATION_PLACEHOLDER_NAME"
+msgstr "Ваше имя"
+
+#: ../../../index.php:147 ../../../test/index.php:108
+msgid "REGISTRATION_LABEL_SURNAME"
+msgstr "Фамилия"
+
+#: ../../../index.php:148 ../../../test/index.php:109
+msgid "REGISTRATION_PLACEHOLDER_SURNAME"
+msgstr "Ваша фамилия"
+
+#: ../../../index.php:151 ../../../test/index.php:112
+msgid "REGISTRATION_LABEL_ORGANIZATION"
+msgstr "Организация"
+
+#: ../../../index.php:152 ../../../test/index.php:113
+msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
+msgstr "Ваша организация"
+
+#: ../../../index.php:155 ../../../test/index.php:116
+msgid "REGISTRATION_LABEL_POSITION"
+msgstr "Должность"
+
+#: ../../../index.php:156 ../../../test/index.php:117
+msgid "REGISTRATION_PLACEHOLDER_POSITION"
+msgstr "Ваша должность"
+
+#: ../../../index.php:159 ../../../test/index.php:120
+msgid "REGISTRATION_LABEL_EMAIL"
+msgstr "Email"
+
+#: ../../../index.php:160 ../../../test/index.php:121
+msgid "REGISTRATION_PLACEHOLDER_EMAIL"
+msgstr "myname@email.com"
+
+#: ../../../index.php:163 ../../../test/index.php:124
+msgid "REGISTRATION_LABEL_PHONE"
+msgstr "Телефон"
+
+#: ../../../index.php:164 ../../../test/index.php:125
+msgid "REGISTRATION_PLACEHOLDER_PHONE"
+msgstr "+7 (999) 999 99 99"
+
+#: ../../../index.php:169 ../../../test/index.php:130
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
+msgstr "Адрес 1"
+
+#: ../../../index.php:170 ../../../test/index.php:131
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
+msgstr "Ваш адрес"
+
+#: ../../../index.php:173 ../../../test/index.php:134
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
+msgstr "Адрес 2"
+
+#: ../../../index.php:174 ../../../test/index.php:135
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
+msgstr "Ваш адрес"
+
+#: ../../../index.php:177 ../../../test/index.php:138
+msgid "REGISTRATION_LABEL_CITY"
+msgstr "Город"
+
+#: ../../../index.php:178 ../../../test/index.php:139
+msgid "REGISTRATION_PLACEHOLDER_CITY"
+msgstr "Ваш город"
+
+#: ../../../index.php:181 ../../../test/index.php:142
+msgid "REGISTRATION_LABEL_POSTCODE"
+msgstr "Почтовый индекс"
+
+#: ../../../index.php:182 ../../../test/index.php:143
+msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
+msgstr "Ваш почтовый индекс"
+
+#: ../../../index.php:185 ../../../test/index.php:146
+msgid "REGISTRATION_LABEL_COUNTRY"
+msgstr "Страна"
+
+#: ../../../index.php:191 ../../../test/index.php:152
+msgid "REGISTRATION_LABEL_STATE"
+msgstr "Штат"
+
+#: ../../../index.php:197 ../../../test/index.php:158
+msgid "REGISTRATION_LABEL_PROVINCE"
+msgstr "Провинция"
+
+#: ../../../index.php:203 ../../../test/index.php:164
+msgid "REGISTRATION_LABEL_INVITE"
+msgstr "Инвайт"
+
+#: ../../../index.php:204 ../../../test/index.php:165
+msgid "REGISTRATION_PLACEHOLDER_INVITE"
+msgstr "AAAA-AAAA-AAAA-AAAA"
+
+#: ../../../index.php:211 ../../../test/index.php:172
+msgid "REGISTRATION_SUBMIT"
+msgstr "Отправить"
+
+#: ../../../index.php:214 ../../../test/index.php:175
+msgid "INTERNAL_ERROR"
+msgstr ""
+"Произошла внутренняя ошибка. Пожалуйста, обратитесь в службу поддержки внизу "
+"страницы."
+
+#: ../../../index.php:215 ../../../test/index.php:176
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr "Вы заблокированы на 10 минут"
+
+#: ../../../index.php:216 ../../../test/index.php:177
+msgid "INVITE_INCORRECT"
+msgstr "Неверный инвайт"
+
+#: ../../../index.php:217 ../../../test/index.php:178
+msgid "INVITE_USED"
+msgstr "Ивайт уже был использован"
+
+#: ../../../index.php:218 ../../../test/index.php:179
+msgid "INVITE_EXPIRED"
+msgstr "Срок действия инвайта истек"
+
+#: ../../../index.php:219 ../../../test/index.php:180
+msgid "BAD_CAPTCHA"
+msgstr "Ошибка при проверке каптчи"
 
 #: ../../../php/province.php:1
 msgid "ALBERTA"
@@ -432,6 +492,214 @@ msgstr "Саскачеван"
 #: ../../../php/province.php:13
 msgid "YUKON"
 msgstr "Юкон"
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr "Алабама"
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr "Аляска"
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr "Аризона"
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr "Арканзас"
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr "Калифорния"
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr "Колорадо"
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr "Коннектикут"
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr "Делавэр"
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr "Округ Колумбия"
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr "Флорида"
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr "Джорджия"
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr "Гавайи"
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr "Айдахо"
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr "Иллинойс"
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr "Индиана"
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr "Айова"
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr "Канзас"
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr "Кентукки"
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr "Луизиана"
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr "Мэн"
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr "Мэриленд"
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr "Массачусетс"
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr "Мичиган"
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr "Миннесота"
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr "Миссисипи"
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr "Миссури"
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr "Монтана"
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr "Небраска"
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr "Невада"
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr "Нью-Гэмпшир"
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr "Нью-Джерси"
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr "Нью-Мексико"
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr "Нью-Йорк"
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr "Северная Каролина"
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr "Северная Дакота"
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr "Огайо"
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr "Оклахома"
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr "Орегон"
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr "Пенсильвания"
+
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr "Пуэрто-Рико"
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr "Род-Айленд"
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr "Южная Каролина"
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr "Южная Дакота"
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr "Теннесси"
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr "Техас"
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr "Юта"
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr "Вермонт"
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr "Виргиния"
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr "Вашингтон"
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr "Западная Виргиния"
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr "Висконсин"
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
+msgstr "Вайоминг"
 
 #: ../../../php/country.php:1
 msgid "COUNTRY_AD"
@@ -1417,915 +1685,5 @@ msgstr ""
 msgid "COUNTRY_ZW"
 msgstr ""
 
-#: ../../../php/state.php:1
-msgid "ALABAMA"
-msgstr "Алабама"
-
-#: ../../../php/state.php:2
-msgid "ALASKA"
-msgstr "Аляска"
-
-#: ../../../php/state.php:3
-msgid "ARIZONA"
-msgstr "Аризона"
-
-#: ../../../php/state.php:4
-msgid "ARKANSAS"
-msgstr "Арканзас"
-
-#: ../../../php/state.php:5
-msgid "CALIFORNIA"
-msgstr "Калифорния"
-
-#: ../../../php/state.php:6
-msgid "COLORADO"
-msgstr "Колорадо"
-
-#: ../../../php/state.php:7
-msgid "CONNECTICUT"
-msgstr "Коннектикут"
-
-#: ../../../php/state.php:8
-msgid "DELAWARE"
-msgstr "Делавэр"
-
-#: ../../../php/state.php:9
-msgid "DISTRICT_OF_COLUMBIA"
-msgstr "Округ Колумбия"
-
-#: ../../../php/state.php:10
-msgid "FLORIDA"
-msgstr "Флорида"
-
-#: ../../../php/state.php:11
-msgid "GEORGIA_STATE"
-msgstr "Джорджия"
-
-#: ../../../php/state.php:12
-msgid "HAWAII"
-msgstr "Гавайи"
-
-#: ../../../php/state.php:13
-msgid "IDAHO"
-msgstr "Айдахо"
-
-#: ../../../php/state.php:14
-msgid "ILLINOIS"
-msgstr "Иллинойс"
-
-#: ../../../php/state.php:15
-msgid "INDIANA"
-msgstr "Индиана"
-
-#: ../../../php/state.php:16
-msgid "IOWA"
-msgstr "Айова"
-
-#: ../../../php/state.php:17
-msgid "KANSAS"
-msgstr "Канзас"
-
-#: ../../../php/state.php:18
-msgid "KENTUCKY"
-msgstr "Кентукки"
-
-#: ../../../php/state.php:19
-msgid "LOUISIANA"
-msgstr "Луизиана"
-
-#: ../../../php/state.php:20
-msgid "MAINE"
-msgstr "Мэн"
-
-#: ../../../php/state.php:21
-msgid "MARYLAND"
-msgstr "Мэриленд"
-
-#: ../../../php/state.php:22
-msgid "MASSACHUSETTS"
-msgstr "Массачусетс"
-
-#: ../../../php/state.php:23
-msgid "MICHIGAN"
-msgstr "Мичиган"
-
-#: ../../../php/state.php:24
-msgid "MINNESOTA"
-msgstr "Миннесота"
-
-#: ../../../php/state.php:25
-msgid "MISSISSIPPI"
-msgstr "Миссисипи"
-
-#: ../../../php/state.php:26
-msgid "MISSOURI"
-msgstr "Миссури"
-
-#: ../../../php/state.php:27
-msgid "MONTANA"
-msgstr "Монтана"
-
-#: ../../../php/state.php:28
-msgid "NEBRASKA"
-msgstr "Небраска"
-
-#: ../../../php/state.php:29
-msgid "NEVADA"
-msgstr "Невада"
-
-#: ../../../php/state.php:30
-msgid "NEW_HAMPSHIRE"
-msgstr "Нью-Гэмпшир"
-
-#: ../../../php/state.php:31
-msgid "NEW_JERSEY"
-msgstr "Нью-Джерси"
-
-#: ../../../php/state.php:32
-msgid "NEW_MEXICO"
-msgstr "Нью-Мексико"
-
-#: ../../../php/state.php:33
-msgid "NEW_YORK"
-msgstr "Нью-Йорк"
-
-#: ../../../php/state.php:34
-msgid "NORTH_CAROLINA"
-msgstr "Северная Каролина"
-
-#: ../../../php/state.php:35
-msgid "NORTH_DAKOTA"
-msgstr "Северная Дакота"
-
-#: ../../../php/state.php:36
-msgid "OHIO"
-msgstr "Огайо"
-
-#: ../../../php/state.php:37
-msgid "OKLAHOMA"
-msgstr "Оклахома"
-
-#: ../../../php/state.php:38
-msgid "OREGON"
-msgstr "Орегон"
-
-#: ../../../php/state.php:39
-msgid "PENNSYLVANIA"
-msgstr "Пенсильвания"
-
-#: ../../../php/state.php:40
-msgid "PUERTO_RICO"
-msgstr "Пуэрто-Рико"
-
-#: ../../../php/state.php:41
-msgid "RHODE_ISLAND"
-msgstr "Род-Айленд"
-
-#: ../../../php/state.php:42
-msgid "SOUTH_CAROLINA"
-msgstr "Южная Каролина"
-
-#: ../../../php/state.php:43
-msgid "SOUTH_DAKOTA"
-msgstr "Южная Дакота"
-
-#: ../../../php/state.php:44
-msgid "TENNESSEE"
-msgstr "Теннесси"
-
-#: ../../../php/state.php:45
-msgid "TEXAS"
-msgstr "Техас"
-
-#: ../../../php/state.php:46
-msgid "UTAH"
-msgstr "Юта"
-
-#: ../../../php/state.php:47
-msgid "VERMONT"
-msgstr "Вермонт"
-
-#: ../../../php/state.php:48
-msgid "VIRGINIA"
-msgstr "Виргиния"
-
-#: ../../../php/state.php:49
-msgid "WASHINGTON"
-msgstr "Вашингтон"
-
-#: ../../../php/state.php:50
-msgid "WEST_VIRGINIA"
-msgstr "Западная Виргиния"
-
-#: ../../../php/state.php:51
-msgid "WISCONSIN"
-msgstr "Висконсин"
-
-#: ../../../php/state.php:52
-msgid "WYOMING"
-msgstr "Вайоминг"
-
 #~ msgid "RU"
 #~ msgstr "Россия"
-
-#~ msgid "AALAND_ISLANDS"
-#~ msgstr "Аландские острова"
-
-#~ msgid "AFGHANISTAN"
-#~ msgstr "Афганистан"
-
-#~ msgid "ALBANIA"
-#~ msgstr "Албания"
-
-#~ msgid "ALGERIA"
-#~ msgstr "Алжир"
-
-#~ msgid "AMERICAN_SAMOA"
-#~ msgstr "Американсое Самоа"
-
-#~ msgid "ANDORRA"
-#~ msgstr "Андорра"
-
-#~ msgid "ANGOLA"
-#~ msgstr "Ангола"
-
-#~ msgid "ANGUILLA"
-#~ msgstr "Ангилья"
-
-#~ msgid "ANTARCTICA"
-#~ msgstr "Антарктида"
-
-#~ msgid "ANTIGUA_AND_BARBUDA"
-#~ msgstr "Антигуа и Барбуда"
-
-#~ msgid "ARGENTINA"
-#~ msgstr "Аргентина"
-
-#~ msgid "ARMENIA"
-#~ msgstr "Армения"
-
-#~ msgid "ARUBA"
-#~ msgstr "Аруба"
-
-#~ msgid "AUSTRALIA"
-#~ msgstr "Австралия"
-
-#~ msgid "AUSTRIA"
-#~ msgstr "Австрия"
-
-#~ msgid "AZERBAIJAN"
-#~ msgstr "Азербайджан"
-
-#~ msgid "BAHAMAS"
-#~ msgstr "Багамские Острова"
-
-#~ msgid "BAHRAIN"
-#~ msgstr "Бахрейн"
-
-#~ msgid "BANGLADESH"
-#~ msgstr "Бангладеш"
-
-#~ msgid "BARBADOS"
-#~ msgstr "Барбадос"
-
-#~ msgid "BELARUS"
-#~ msgstr "Белоруссия"
-
-#~ msgid "BELGIUM"
-#~ msgstr "Бельгия"
-
-#~ msgid "BELIZE"
-#~ msgstr "Белиз"
-
-#~ msgid "BENIN"
-#~ msgstr "Бенин"
-
-#~ msgid "BERMUDA"
-#~ msgstr "Бермуды"
-
-#~ msgid "BHUTAN"
-#~ msgstr "Бутан"
-
-#~ msgid "BOLIVIA"
-#~ msgstr "Боливия"
-
-#~ msgid "BOSNIA_AND_HERZEGOWINA"
-#~ msgstr "Босния и Герцеговина"
-
-#~ msgid "BOTSWANA"
-#~ msgstr "Ботсвана"
-
-#~ msgid "BOUVET_ISLAND"
-#~ msgstr "Остров Буве"
-
-#~ msgid "BRAZIL"
-#~ msgstr "Бразилия"
-
-#~ msgid "BRITISH_INDIAN_OCEAN_TERRITORY"
-#~ msgstr "Британская территория в Индийском океане"
-
-#~ msgid "BRUNEI_DARUSSALAM"
-#~ msgstr "Бруней"
-
-#~ msgid "BULGARIA"
-#~ msgstr "Болгария"
-
-#~ msgid "BURKINA_FASO"
-#~ msgstr "Буркина Фасо"
-
-#~ msgid "BURUNDI"
-#~ msgstr "Бурунди"
-
-#~ msgid "CAMBODIA"
-#~ msgstr "Камбоджа"
-
-#~ msgid "CAMEROON"
-#~ msgstr "Камерун"
-
-#~ msgid "CANADA"
-#~ msgstr "Канада"
-
-#~ msgid "CAPE_VERDE"
-#~ msgstr "Кабо-Верде"
-
-#~ msgid "CAYMAN_ISLANDS"
-#~ msgstr "Острова Кайман"
-
-#~ msgid "CENTRAL_AFRICAN_REPUBLIC"
-#~ msgstr "Центральноафриканская Республика"
-
-#~ msgid "CHILE"
-#~ msgstr "Чили"
-
-#~ msgid "CHINA"
-#~ msgstr "Китай"
-
-#~ msgid "CHRISTMAS_ISLAND"
-#~ msgstr "Остров Рождества"
-
-#~ msgid "COCOS_KEELING_ISLANDS"
-#~ msgstr "Кокосовые острова"
-
-#~ msgid "COLOMBIA"
-#~ msgstr "Колумбия"
-
-#~ msgid "COMOROS"
-#~ msgstr "Коморы"
-
-#~ msgid "CONGO"
-#~ msgstr "Демократическая Республика Конго"
-
-#~ msgid "COOK_ISLANDS"
-#~ msgstr "Острова Кука"
-
-#~ msgid "COSTA_RICA"
-#~ msgstr "Коста-Рика"
-
-#~ msgid "COTE_DIVOIRE"
-#~ msgstr "Кот-д’Ивуар"
-
-#~ msgid "CROATIA"
-#~ msgstr "Хорватия"
-
-#~ msgid "CYPRUS"
-#~ msgstr "Кипр"
-
-#~ msgid "CZECH_REPUBLIC"
-#~ msgstr "Чехия"
-
-#~ msgid "DENMARK"
-#~ msgstr "Дания"
-
-#~ msgid "DJIBOUTI"
-#~ msgstr "Джибути"
-
-#~ msgid "DOMINICA"
-#~ msgstr "Доминика"
-
-#~ msgid "DOMINICAN_REPUBLIC"
-#~ msgstr "Доминиканская Республика"
-
-#~ msgid "EAST_TIMOR"
-#~ msgstr "Восточный Тимор"
-
-#~ msgid "ECUADOR"
-#~ msgstr "Эквадор"
-
-#~ msgid "EGYPT"
-#~ msgstr "Египт"
-
-#~ msgid "EL_SALVADOR"
-#~ msgstr "Сальвадор"
-
-#~ msgid "EQUATORIAL_GUINEA"
-#~ msgstr "Экваториальная Гвинея"
-
-#~ msgid "ERITREA"
-#~ msgstr "Эритрея"
-
-#~ msgid "ESTONIA"
-#~ msgstr "Эстония"
-
-#~ msgid "ETHIOPIA"
-#~ msgstr "Эфиопия"
-
-#~ msgid "FALKLAND_ISLANDS"
-#~ msgstr "Фолклендские острова"
-
-#~ msgid "FAROE_ISLANDS"
-#~ msgstr "Фарерские острова"
-
-#~ msgid "FINLAND"
-#~ msgstr "Финляндия"
-
-#~ msgid "FRANCE"
-#~ msgstr "Франция"
-
-#~ msgid "FRANCE_METROPOLITAN"
-#~ msgstr "Метрополия Франции"
-
-#~ msgid "FRENCH_GUIANA"
-#~ msgstr "Французская Гвиана"
-
-#~ msgid "FRENCH_POLYNESIA"
-#~ msgstr "Французская Полинезия"
-
-#~ msgid "FRENCH_SOUTHERN_TERRITORIES"
-#~ msgstr "Французские Южные и Антарктические территории"
-
-#~ msgid "GABON"
-#~ msgstr "Габон"
-
-#~ msgid "GAMBIA"
-#~ msgstr "Гамбия"
-
-#~ msgid "GEORGIA"
-#~ msgstr "Грузия"
-
-#~ msgid "GERMANY"
-#~ msgstr "Германия"
-
-#~ msgid "GHANA"
-#~ msgstr "Гана"
-
-#~ msgid "GIBRALTAR"
-#~ msgstr "Гибралтар"
-
-#~ msgid "GREECE"
-#~ msgstr "Греция"
-
-#~ msgid "GREENLAND"
-#~ msgstr "Гренландия"
-
-#~ msgid "GRENADA"
-#~ msgstr "Гренада"
-
-#~ msgid "GUADELOUPE"
-#~ msgstr "Гваделупа"
-
-#~ msgid "GUATEMALA"
-#~ msgstr "Гватемала"
-
-#~ msgid "GUINEA"
-#~ msgstr "Гвинея"
-
-#~ msgid "GUINEA_BISSAU"
-#~ msgstr "Гвинея-Бисау"
-
-#~ msgid "GUYANA"
-#~ msgstr "Гайана"
-
-#~ msgid "HAITI"
-#~ msgstr "Гаити"
-
-#~ msgid "HEARD_AND_MC_DONALD_ISLANDS"
-#~ msgstr "Остров Херд и острова Макдональд"
-
-#~ msgid "HONDURAS"
-#~ msgstr "Гондурас"
-
-#~ msgid "HONG_KONG"
-#~ msgstr "Гонконг"
-
-#~ msgid "HUNGARY"
-#~ msgstr "Венгрия"
-
-#~ msgid "ICELAND"
-#~ msgstr "Исландия"
-
-#~ msgid "INDIA"
-#~ msgstr "Индия"
-
-#~ msgid "INDONESIA"
-#~ msgstr "Индонезия"
-
-#~ msgid "IRAN_ISLAMIC_REPUBLIC_OF"
-#~ msgstr "Иран"
-
-#~ msgid "IRELAND"
-#~ msgstr "Ирландия"
-
-#~ msgid "ITALY"
-#~ msgstr "Италия"
-
-#~ msgid "JAMAICA"
-#~ msgstr "Ямайка"
-
-#~ msgid "JAPAN"
-#~ msgstr "Япония"
-
-#~ msgid "JORDAN"
-#~ msgstr "Иордания"
-
-#~ msgid "KAZAKHSTAN"
-#~ msgstr "Казахстан"
-
-#~ msgid "KENYA"
-#~ msgstr "Кения"
-
-#~ msgid "KIRIBATI"
-#~ msgstr "Кирибати"
-
-#~ msgid "KOREA_DEMOCRATIC_PEOPLES_REPUBLIC_OF"
-#~ msgstr "Корейская Народно-Демократическая Республика"
-
-#~ msgid "KOREA_REPUBLIC_OF"
-#~ msgstr "Республика Корея"
-
-#~ msgid "KUWAIT"
-#~ msgstr "Кувейт"
-
-#~ msgid "KYRGYZSTAN"
-#~ msgstr "Киргизия"
-
-#~ msgid "LAO_PEOPLES_DEMOCRATIC_REPUBLIC"
-#~ msgstr "Лаос"
-
-#~ msgid "LATVIA"
-#~ msgstr "Латвия"
-
-#~ msgid "LEBANON"
-#~ msgstr "Ливан"
-
-#~ msgid "LESOTHO"
-#~ msgstr "Лесото"
-
-#~ msgid "LIBERIA"
-#~ msgstr "Либерия"
-
-#~ msgid "LIBYAN_ARAB_JAMAHIRIYA"
-#~ msgstr "Ливия"
-
-#~ msgid "LIECHTENSTEIN"
-#~ msgstr "Лихтенштейн"
-
-#~ msgid "LITHUANIA"
-#~ msgstr "Литва"
-
-#~ msgid "LUXEMBOURG"
-#~ msgstr "Люксембург"
-
-#~ msgid "MACAU"
-#~ msgstr "Макао"
-
-#~ msgid "MACEDONIA_THE_FORMER_YUGOSLAV_REPUBLIC_OF"
-#~ msgstr "Республика Македония"
-
-#~ msgid "MADAGASCAR"
-#~ msgstr "Мадагаскар"
-
-#~ msgid "MALAWI"
-#~ msgstr "Малави"
-
-#~ msgid "MALAYSIA"
-#~ msgstr "Малайзия"
-
-#~ msgid "MALDIVES"
-#~ msgstr "Мальдивы"
-
-#~ msgid "MALTA"
-#~ msgstr "Мальта"
-
-#~ msgid "MARSHALL_ISLANDS"
-#~ msgstr "Маршалловы Острова"
-
-#~ msgid "MARTINIQUE"
-#~ msgstr "Мартиника"
-
-#~ msgid "MAURITANIA"
-#~ msgstr "Мавритания"
-
-#~ msgid "MAURITIUS"
-#~ msgstr "Маврикий"
-
-#~ msgid "MAYOTTE"
-#~ msgstr "Майотта"
-
-#~ msgid "MEXICO"
-#~ msgstr "Мексика"
-
-#~ msgid "MICRONESIA_FEDERATED_STATES_OF"
-#~ msgstr "Федеративные Штаты Микронезии"
-
-#~ msgid "MOLDOVA_REPUBLIC_OF"
-#~ msgstr "Молдавия"
-
-#~ msgid "MONACO"
-#~ msgstr "Монако"
-
-#~ msgid "MONGOLIA"
-#~ msgstr "Монголия"
-
-#~ msgid "MONTSERRAT"
-#~ msgstr "Монтсеррат"
-
-#~ msgid "MOROCCO"
-#~ msgstr "Марокко"
-
-#~ msgid "MOZAMBIQUE"
-#~ msgstr "Мозамбик"
-
-#~ msgid "MYANMAR"
-#~ msgstr "Мьянма"
-
-#~ msgid "NAMIBIA"
-#~ msgstr "Намибия"
-
-#~ msgid "NAURU"
-#~ msgstr "Науру"
-
-#~ msgid "NEPAL"
-#~ msgstr "Непал"
-
-#~ msgid "NETHERLANDS"
-#~ msgstr "Голландия"
-
-#~ msgid "NETHERLANDS_ANTILLES"
-#~ msgstr "Нидерландские Антильские острова"
-
-#~ msgid "NEW_CALEDONIA"
-#~ msgstr "Новая Каледония"
-
-#~ msgid "NEW_ZEALAND"
-#~ msgstr "Новая Зеландия"
-
-#~ msgid "NICARAGUA"
-#~ msgstr "Никарагуа"
-
-#~ msgid "NIGER"
-#~ msgstr "Нигер"
-
-#~ msgid "NIGERIA"
-#~ msgstr "Нигерия"
-
-#~ msgid "NORFOLK_ISLAND"
-#~ msgstr "Норфолк"
-
-#~ msgid "NORTHERN_MARIANA_ISLANDS"
-#~ msgstr "Северные Марианские острова"
-
-#~ msgid "NORWAY"
-#~ msgstr "Норвегия"
-
-#~ msgid "PAKISTAN"
-#~ msgstr "Пакистан"
-
-#~ msgid "PALAU"
-#~ msgstr "Палау"
-
-#~ msgid "PANAMA"
-#~ msgstr "Панама"
-
-#~ msgid "PAPUA_NEW_GUINEA"
-#~ msgstr "Папуа — Новая Гвинея"
-
-#~ msgid "PARAGUAY"
-#~ msgstr "Парагвай"
-
-#~ msgid "PHILIPPINES"
-#~ msgstr "Филиппины"
-
-#~ msgid "PITCAIRN"
-#~ msgstr "Острова Питкэрн"
-
-#~ msgid "POLAND"
-#~ msgstr "Польша"
-
-#~ msgid "PORTUGAL"
-#~ msgstr "Португалия"
-
-#~ msgid "QATAR"
-#~ msgstr "Катар"
-
-#~ msgid "REUNION"
-#~ msgstr "Реюньон"
-
-#~ msgid "ROMANIA"
-#~ msgstr "Румыния"
-
-#~ msgid "RUSSIAN_FEDERATION"
-#~ msgstr "Россия"
-
-#~ msgid "RWANDA"
-#~ msgstr "Руанда"
-
-#~ msgid "SAINT_KITTS_AND_NEVIS"
-#~ msgstr "Сент-Китс и Невис"
-
-#~ msgid "SAINT_LUCIA"
-#~ msgstr "Сент-Люсия"
-
-#~ msgid "SAINT_VINCENT_AND_THE_GRENADINES"
-#~ msgstr "Сент-Винсент и Гренадины"
-
-#~ msgid "SAMOA"
-#~ msgstr "Самоа"
-
-#~ msgid "SAN_MARINO"
-#~ msgstr "Сан-Марино"
-
-#~ msgid "SAO_TOME_AND_PRINCIPE"
-#~ msgstr "Сан-Томе и Принсипи"
-
-#~ msgid "SAUDI_ARABIA"
-#~ msgstr "Саудовская Аравия"
-
-#~ msgid "SENEGAL"
-#~ msgstr "Сенегал"
-
-#~ msgid "SEYCHELLES"
-#~ msgstr "Сейшельские Острова"
-
-#~ msgid "SIERRA_LEONE"
-#~ msgstr "Сьерра-Леоне"
-
-#~ msgid "SINGAPORE"
-#~ msgstr "Сингапур"
-
-#~ msgid "SLOVAKIA"
-#~ msgstr "Словакия"
-
-#~ msgid "SLOVENIA"
-#~ msgstr "Словения"
-
-#~ msgid "SOLOMON_ISLANDS"
-#~ msgstr "Соломоновы Острова"
-
-#~ msgid "SOMALIA"
-#~ msgstr "Сомали"
-
-#~ msgid "SOUTH_AFRICA"
-#~ msgstr "Южно-Африканская Республика"
-
-#~ msgid "SPAIN"
-#~ msgstr "Испания"
-
-#~ msgid "SRI_LANKA"
-#~ msgstr "Шри-Ланка"
-
-#~ msgid "ST_HELENA"
-#~ msgstr "Остров Святой Елены"
-
-#~ msgid "ST_PIERRE_AND_MIQUELON"
-#~ msgstr "Сен-Пьер и Микелон"
-
-#~ msgid "SUDAN"
-#~ msgstr "Судан"
-
-#~ msgid "SURINAME"
-#~ msgstr "Суринам"
-
-#~ msgid "SVALBARD_AND_JAN_MAYEN_ISLANDS"
-#~ msgstr "Шпицберген и Ян-Майен"
-
-#~ msgid "SWAZILAND"
-#~ msgstr "Свазиленд"
-
-#~ msgid "SWEDEN"
-#~ msgstr "Швеция"
-
-#~ msgid "SWITZERLAND"
-#~ msgstr "Швейцария"
-
-#~ msgid "SYRIAN_ARAB_REPUBLIC"
-#~ msgstr "Сирия"
-
-#~ msgid "TAIWAN_PROVINCE_OF_CHINA"
-#~ msgstr "Тайвань"
-
-#~ msgid "TAJIKISTAN"
-#~ msgstr "Таджикистан"
-
-#~ msgid "TANZANIA_UNITED_REPUBLIC_OF"
-#~ msgstr "Танзания"
-
-#~ msgid "THAILAND"
-#~ msgstr "Таиланд"
-
-#~ msgid "TOKELAU"
-#~ msgstr "Токелау"
-
-#~ msgid "TONGA"
-#~ msgstr "Тонга"
-
-#~ msgid "TRINIDAD_AND_TOBAGO"
-#~ msgstr "Тринидад и Тобаго"
-
-#~ msgid "TUNISIA"
-#~ msgstr "Тунис"
-
-#~ msgid "TURKEY"
-#~ msgstr "Турция"
-
-#~ msgid "TURKMENISTAN"
-#~ msgstr "Туркмения"
-
-#~ msgid "TURKS_AND_CAICOS_ISLANDS"
-#~ msgstr "Теркс и Кайкос"
-
-#~ msgid "TUVALU"
-#~ msgstr "Тувалу"
-
-#~ msgid "UGANDA"
-#~ msgstr "Уганда"
-
-#~ msgid "UKRAINE"
-#~ msgstr "Украина"
-
-#~ msgid "UNITED_ARAB_EMIRATES"
-#~ msgstr "ОАЭ"
-
-#~ msgid "UNITED_KINGDOM"
-#~ msgstr "Великобритания"
-
-#~ msgid "UNITED_STATES"
-#~ msgstr "США"
-
-#~ msgid "UNITED_STATES_MINOR_OUTLYING_ISLANDS"
-#~ msgstr "Внешние малые острова США"
-
-#~ msgid "URUGUAY"
-#~ msgstr "Уругвай"
-
-#~ msgid "UZBEKISTAN"
-#~ msgstr "Узбекистан"
-
-#~ msgid "VANUATU"
-#~ msgstr "Вануату"
-
-#~ msgid "VATICAN_CITY_STATE"
-#~ msgstr "Ватикан"
-
-#~ msgid "VENEZUELA"
-#~ msgstr "Венесуэла"
-
-#~ msgid "VIETNAM"
-#~ msgstr "Вьетнам"
-
-#~ msgid "VIRGIN_ISLANDS_BRITISH"
-#~ msgstr "Британские Виргинские острова"
-
-#~ msgid "VIRGIN_ISLANDS_US"
-#~ msgstr "Виргинские Острова"
-
-#~ msgid "WALLIS_AND_FUTUNA_ISLANDS"
-#~ msgstr "Уоллис и Футуна"
-
-#~ msgid "WESTERN_SAHARA"
-#~ msgstr "Западная Сахара"
-
-#~ msgid "YEMEN"
-#~ msgstr "Йемен"
-
-#~ msgid "ZAIRE"
-#~ msgstr "Заир"
-
-#~ msgid "ZAMBIA"
-#~ msgstr "Замбия"
-
-#~ msgid "ZIMBABWE"
-#~ msgstr "Зимбабве"
-
-#~ msgid "CONTACT_DETAIL_PHONE"
-#~ msgstr "+7-495-222-9277"
-
-#~ msgid "FOOTER_THIRD"
-#~ msgstr "третья часть футера"
-
-#~ msgid "FOOTER_SECOND_LINK_TITLE"
-#~ msgstr "Заголовок второй ссылки футера"
-
-#~ msgid "FOOTER_FORTH"
-#~ msgstr "четвертая часть футера"
-
-#~ msgid "YUGOSLAVIA"
-#~ msgstr "Югославия"
-
-#~ msgid "SECONDS"
-#~ msgstr "с."
-
-#~ msgid "WELCOME"
-#~ msgstr "Добро пожаловать!"
-
-#~ msgid "MENU_HOME"
-#~ msgstr "Главная"
