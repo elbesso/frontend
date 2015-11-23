@@ -133,9 +133,9 @@ jQuery(function ($) {
                     }
                     $("#response").find("p").hide();
                     $("#response_".concat(response.html)).show();
-                    grecaptcha.reset()
                 }
             });
+            grecaptcha.reset();
             return false;
         }
     });
