@@ -129,7 +129,7 @@ jQuery(function ($) {
                 dataType: 'json',
                 success: function (response) {
                     if (response.status) {
-                        $(location).attr('href', 'thankyou.html');
+                        $(location).attr('href', 'thankyou.php');
                     }
                     $("#response").find("p").hide();
                     $("#response_".concat(response.html)).show();
