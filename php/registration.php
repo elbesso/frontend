@@ -33,6 +33,7 @@ class Registration_Form {
     public $response_html;
 
     function __construct($details) {
+        date_default_timezone_set('UTC');
         $this->response_status = 0;
         $this->response_html = "internal_error";
         $this->client_ip = $_SERVER['REMOTE_ADDR'];
