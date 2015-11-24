@@ -112,13 +112,24 @@ class Registration_Form {
     }
 
     function send_email() {
-        $to = 'hellomylittleboy@gmail.com';
-        $subj = 'An invite has been activated';
-        $unlckmsgtxt = 'test';
+        $to = 'nike@oxygensoftware.com';
+        $subj = 'INVITE REGISTRATION REQUEST';
+        $message = "Name: $this->name\n
+        Surname: $this->surname\n
+        Organization: $this->organization\n
+        Position: $this->position\n
+        Email: $this->email\n
+        Country: $this->country\n
+        State: $this->state\n
+        City: $this->city\n
+        Postcode: $this->postcode\n
+        Address: $this->address\n
+        Phone number: $this->phone_number\n
+        Invite: $this->invite";
         $MailHeader = 'From: support@oxygen-forensic.com'. "\r\n".
             'Subject: Request from web'."\r\n".
             'X-Mailer: oxygen-forensic.com web form';
-        $mail = mail($to, $subj, $unlckmsgtxt, $MailHeader, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
+        $mail = mail($to, $subj, $message, $MailHeader, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
         if (!$mail) {
             error_log("Unable to sent an email to the provided address");
         }
