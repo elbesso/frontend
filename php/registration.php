@@ -113,12 +113,12 @@ class Registration_Form {
 
     function send_email() {
         $to = 'hellomylittleboy@gmail.com';
-        $subject = "An invite has been activated";
-        $message = "Hello";
-        $headers = 'From: test@forensicsuite.com' . "\r\n" .
-            'Reply-To: hellomylittleboy@gmail.com' . "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
-        $mail = mail($to, $subject, $message, $headers);
+        $subj = 'An invite has been activated';
+        $unlckmsgtxt = 'test';
+        $MailHeader = 'From: support@oxygen-forensic.com'. "\r\n".
+            'Subject: Request from web'."\r\n".
+            'X-Mailer: oxygen-forensic.com web form';
+        $mail = mail($to, $subj, $unlckmsgtxt, $MailHeader, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
         if (!$mail) {
             error_log("Unable to sent an email to the provided address");
         }
