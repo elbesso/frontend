@@ -1,0 +1,1700 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: invite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-22 16:35+0300\n"
+"PO-Revision-Date: 2015-11-22 16:35+0300\n"
+"Last-Translator: Dmitry Raguzin <hellomylittleboy@gmail.com>\n"
+"Language-Team: raguzin <hellomylittleboy@gmail.com>\n"
+"Language: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Loco-Source-Locale: es_ES\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Loco-Parser: loco_parse_po\n"
+"X-Loco-Target-Locale: es_ES\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../thankyou.php:24 ../../../index.php:24
+msgid "TITLE"
+msgstr "Oxygen Forensic® Invite"
+
+#: ../../../thankyou.php:89 ../../../index.php:89
+msgid "STICKY_NAV_GO_UP_LINK_TITLE"
+msgstr "Start"
+
+#: ../../../thankyou.php:89 ../../../index.php:89
+msgid "STICKY_NAV_GO_UP"
+msgstr "Start"
+
+#: ../../../thankyou.php:93 ../../../index.php:93
+msgid "STICKY_NAV_LANGUAGE"
+msgstr "Switch language"
+
+#: ../../../thankyou.php:97 ../../../index.php:97
+msgid "STICKY_NAV_LANGUAGE_ENGLISH"
+msgstr "English"
+
+#: ../../../thankyou.php:101 ../../../index.php:101
+msgid "STICKY_NAV_LANGUAGE_RUSSIAN"
+msgstr "Русский"
+
+#: ../../../thankyou.php:105 ../../../index.php:105
+msgid "STICKY_NAV_LANGUAGE_SPANISH"
+msgstr "Español"
+
+#: ../../../thankyou.php:111
+#, fuzzy
+msgid "MENU_THANK_YOU"
+msgstr "About"
+
+#: ../../../thankyou.php:112 ../../../index.php:113
+msgid "MENU_ABOUT"
+msgstr "About"
+
+#: ../../../thankyou.php:113 ../../../index.php:114
+msgid "MENU_CONTACT"
+msgstr "Contact"
+
+#: ../../../thankyou.php:121
+#, fuzzy
+msgid "THANK_YOU_MAIN_TITLE"
+msgstr "Enter received invite"
+
+#: ../../../thankyou.php:122
+#, fuzzy
+msgid "THANK_YOU_MAIN_TITLE_DESCRIPTION "
+msgstr "to obtain license for Oxygen Forensic&reg; product "
+
+#: ../../../thankyou.php:134 ../../../index.php:235
+msgid "ABOUT_TITLE"
+msgstr "About Oxygen Forensic® Detective"
+
+#: ../../../thankyou.php:135 ../../../index.php:236
+msgid "ABOUT_TITLE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective is all-in-one forensic software to extract and "
+"analyze data from multiple sources: mobile devices, their backups, cloud "
+"services and call data records. Leading edge technologies deployed by Oxygen "
+"Forensics allow the bypass of screen lock passcodes, locate passwords to "
+"encrypted backups, extract data from secure applications as well as recover "
+"deleted information. Mobile device, cloud and CDR extractions are merged "
+"together in a single intuitive GUI with rich analytical capabilities: "
+"determine common locations and contacts for several devices, view all events "
+"in a chronological order and much more."
+
+#: ../../../thankyou.php:144 ../../../index.php:245
+msgid "ABOUT_FIRST_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic® Detective acquires the complete evidence set from devices "
+"and backups: contacts, messages, calls, calendar, file system, data from "
+"applications and recovers deleted data."
+
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG"
+msgstr "img/screenshot/es_ES/profile-01.jpg"
+
+#: ../../../thankyou.php:146 ../../../index.php:247
+msgid "ABOUT_FIRST_IMG_ALT"
+msgstr "Mobile Data Extraction"
+
+#: ../../../thankyou.php:148 ../../../index.php:249
+msgid "ABOUT_FIRST_PROFILE_NAME"
+msgstr "Mobile Data Extraction"
+
+#: ../../../thankyou.php:149 ../../../index.php:250
+msgid "ABOUT_FIRST_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen  Forensic®    Detective  offers  live  data  extraction from over "
+"11,000 unique devices running iOS, Android OS, Windows Phone OS, BlackBerry "
+"OS as well as Chinese and feature phones. Device backups and images can be "
+"decoded: iTunes, Android and BlackBerry backups, Android and Windows Phone "
+"JTAG images, Blackberry 10 Chip-off image, etc"
+
+#: ../../../thankyou.php:155 ../../../index.php:256
+msgid "ABOUT_SECOND_OVERLAY_THUMB"
+msgstr ""
+"Forensic experts may utilize either account credentials or token to enter "
+"the cloud account to acquire the cloud data. Extracted credentials and "
+"tokens from a mobile device are organized and displayed in the Passwords "
+"section of Oxygen Forensic® Detective"
+
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG"
+msgstr "img/screenshot/es_ES/profile-02.jpg"
+
+#: ../../../thankyou.php:157 ../../../index.php:258
+msgid "ABOUT_SECOND_IMG_ALT"
+msgstr "Cloud Data Extraction"
+
+#: ../../../thankyou.php:159 ../../../index.php:260
+msgid "ABOUT_SECOND_PROFILE_NAME"
+msgstr "Cloud Data Extraction"
+
+#: ../../../thankyou.php:160 ../../../index.php:261
+msgid "ABOUT_SECOND_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective acquires data from more than 15  cloud  storages: "
+"iCloud contacts and  calendar, Google Drive, Google Location History, Live "
+"contacts and calendar, OneDrive, Dropbox and Box as well as from a wide "
+"range of social media including Twitter, Instagram and WhatsApp"
+
+#: ../../../thankyou.php:166 ../../../index.php:267
+msgid "ABOUT_THIRD_OVERLAY_THUMB"
+msgstr ""
+"Once converted, Oxygen Forensic® Detective allows forensic experts to "
+"analyze the processed CDR files and easily determine direct and indirect "
+"links between selected callers in a visual graph. The processed results can "
+"be saved as evidence for further analysis"
+
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG"
+msgstr "img/screenshot/es_ES/profile-03.jpg"
+
+#: ../../../thankyou.php:168 ../../../index.php:269
+msgid "ABOUT_THIRD_IMG_ALT"
+msgstr "Call Data Records import"
+
+#: ../../../thankyou.php:170 ../../../index.php:271
+msgid "ABOUT_THIRD_PROFILE_NAME"
+msgstr "Call Data Records import"
+
+#: ../../../thankyou.php:171 ../../../index.php:272
+msgid "ABOUT_THIRD_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective allows the import of call data records of any "
+"format received from wireless providers and conveniently guides the expert "
+"through the process of CDR importing and field mapping, easily converting "
+"the data to Oxygen Forensic® Detective’s unified format."
+
+#: ../../../thankyou.php:179 ../../../index.php:280
+msgid "ABOUT_FORTH_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic® Maps allows to identify device owner’s frequently visited "
+"places; visualize user’s movements within specified period of time; Pinpoint "
+"common locations of several device users"
+
+#: ../../../thankyou.php:181 ../../../index.php:282
+msgid "ABOUT_FORTH_IMG"
+msgstr "img/screenshot/es_ES/profile-04.jpg"
+
+#: ../../../thankyou.php:181 ../../../index.php:282
+msgid "ABOUT_FORTH_IMG_ALT"
+msgstr "Geo mapping"
+
+#: ../../../thankyou.php:183 ../../../index.php:284
+msgid "ABOUT_FORTH_PROFILE_NAME"
+msgstr "Geo mapping"
+
+#: ../../../thankyou.php:184 ../../../index.php:285
+msgid "ABOUT_FORTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective acquires geo coordinates from all possible "
+"sources including mobile devices, cloud storage, media cards, and imported "
+"images. Once analyzed, the data can be viewed within both online or offline "
+"maps"
+
+#: ../../../thankyou.php:190 ../../../index.php:291
+msgid "ABOUT_FIFTH_OVERLAY_THUMB"
+msgstr ""
+"Use Social Graph and Links and Stats sections to reveal users’ social "
+"connections and common contacts."
+
+#: ../../../thankyou.php:192 ../../../index.php:293
+msgid "ABOUT_FIFTH_IMG"
+msgstr "img/screenshot/es_ES/profile-05.jpg"
+
+#: ../../../thankyou.php:192 ../../../index.php:293
+msgid "ABOUT_FIFTH_IMG_ALT"
+msgstr "Data Analysis"
+
+#: ../../../thankyou.php:194 ../../../index.php:295
+msgid "ABOUT_FIFTH_PROFILE_NAME"
+msgstr "Data Analysis"
+
+#: ../../../thankyou.php:195 ../../../index.php:296
+msgid "ABOUT_FIFTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective includes a wide range of built-in analytical "
+"tools like Timeline, Social Graph, Aggregated Contacts, Watch Lists and "
+"Global Search, Key Evidence, Links and Stats and more."
+
+#: ../../../thankyou.php:201 ../../../index.php:302
+msgid "ABOUT_SIXTH_OVERLAY_THUMB"
+msgstr ""
+"Oxygen Forensic SQLite Viewer offers built-in converter for dates and texts, "
+"deleted records recovery, searching of the database, execute SQL queries and "
+"much more."
+
+#: ../../../thankyou.php:203 ../../../index.php:304
+msgid "ABOUT_SIXTH_IMG"
+msgstr "img/screenshot/es_ES/profile-06.jpg"
+
+#: ../../../thankyou.php:203 ../../../index.php:304
+msgid "ABOUT_SIXTH_IMG_ALT"
+msgstr "Built-in Viewers"
+
+#: ../../../thankyou.php:205 ../../../index.php:306
+msgid "ABOUT_SIXTH_PROFILE_NAME"
+msgstr "Built-in Viewers"
+
+#: ../../../thankyou.php:206 ../../../index.php:307
+msgid "ABOUT_SIXTH_PROFILE_DESCRIPTION"
+msgstr ""
+"Oxygen Forensic® Detective offers several included built-in data viewers: "
+"Oxygen Forensic® Detective for sharing collected data with other "
+"investigators; SQLite Viewer to analyze databases and recoved deleted "
+"records, media player, Hex-viewer, EXIF-viewer, Plist-viewer and much more."
+
+#: ../../../thankyou.php:216 ../../../index.php:317
+msgid "CONTACT_TITLE"
+msgstr "Contacts"
+
+#: ../../../thankyou.php:217 ../../../index.php:318
+msgid "CONTACT_TITLE_DESCRIPTION_1"
+msgstr "Sales: +1 (844) 537-2-537 "
+
+#: ../../../thankyou.php:218 ../../../index.php:319
+msgid "CONTACT_TITLE_DESCRIPTION_2"
+msgstr "Tech. Support: +1 (877) 969-9436"
+
+#: ../../../thankyou.php:219 ../../../index.php:320
+msgid "CONTACT_DETAIL_EMAIL"
+msgstr ""
+"<a href=\"http://www.oxygen-forensic.com/en/company/contacts\" target=\"BLANK"
+"\">Got a question?</a>"
+
+#: ../../../thankyou.php:222 ../../../index.php:323
+msgid "CONTACT_DETAILS"
+msgstr "Address"
+
+#: ../../../thankyou.php:225 ../../../index.php:326
+msgid "CONTACT_DETAIL_ADDRESS_LINE_1"
+msgstr "901 N. Pitt St, Suite 320"
+
+#: ../../../thankyou.php:227 ../../../index.php:328
+msgid "CONTACT_DETAIL_ADDRESS_LINE_2"
+msgstr "Alexandria, VA 22314"
+
+#: ../../../thankyou.php:229 ../../../index.php:330
+msgid "CONTACT_DETAIL_ADDRESS_LINE_3"
+msgstr "United States"
+
+#: ../../../thankyou.php:238 ../../../index.php:339
+msgid "FOOTER_FIRST"
+msgstr "© 2015 Oxygen Forensics, Inc."
+
+#: ../../../thankyou.php:239 ../../../index.php:340
+msgid "FOOTER_FIRST_LINK"
+msgstr "http://www.oxygen-forensic.com"
+
+#: ../../../thankyou.php:240 ../../../index.php:341
+msgid "FOOTER_FIRST_LINK_TITLE"
+msgstr "www.oxygen-forensic.com"
+
+#: ../../../thankyou.php:241 ../../../index.php:342
+msgid "FOOTER_SECOND"
+msgstr "www.oxygen-forensic.com"
+
+#: ../../../index.php:111
+msgid "MENU_INVITE"
+msgstr "Invite"
+
+#: ../../../index.php:112
+msgid "MENU_REGISTRATION"
+msgstr "Registration"
+
+#: ../../../index.php:122 ../../../test/index.php:80
+msgid "INVITE_MAIN_TITLE"
+msgstr "Enter received invite"
+
+#: ../../../index.php:123 ../../../test/index.php:85
+msgid "INVITE_MAIN_TITLE_DESCRIPTION "
+msgstr "to obtain license for Oxygen Forensic&reg; product "
+
+#: ../../../index.php:124 ../../../test/index.php:92
+msgid "INVITE_MAIN_PLACEHOLDER_INVITE"
+msgstr "AAAA-AAAA-AAAA-AAAA"
+
+#: ../../../index.php:128
+msgid "INVITE_MAIN_INVITE_BUTTON"
+msgstr "Start"
+
+#: ../../../index.php:143 ../../../test/index.php:104
+msgid "REGISTRATION_LABEL_NAME"
+msgstr "First name"
+
+#: ../../../index.php:144 ../../../test/index.php:105
+msgid "REGISTRATION_PLACEHOLDER_NAME"
+msgstr "Your first name"
+
+#: ../../../index.php:147 ../../../test/index.php:108
+msgid "REGISTRATION_LABEL_SURNAME"
+msgstr "Last name"
+
+#: ../../../index.php:148 ../../../test/index.php:109
+msgid "REGISTRATION_PLACEHOLDER_SURNAME"
+msgstr "Your last name"
+
+#: ../../../index.php:151 ../../../test/index.php:112
+msgid "REGISTRATION_LABEL_ORGANIZATION"
+msgstr "Organization"
+
+#: ../../../index.php:152 ../../../test/index.php:113
+msgid "REGISTRATION_PLACEHOLDER_ORGANIZATION"
+msgstr "Your organization name"
+
+#: ../../../index.php:155 ../../../test/index.php:116
+msgid "REGISTRATION_LABEL_POSITION"
+msgstr "Job title"
+
+#: ../../../index.php:156 ../../../test/index.php:117
+msgid "REGISTRATION_PLACEHOLDER_POSITION"
+msgstr "Your job title"
+
+#: ../../../index.php:159 ../../../test/index.php:120
+msgid "REGISTRATION_LABEL_EMAIL"
+msgstr "E-Mail"
+
+#: ../../../index.php:160 ../../../test/index.php:121
+msgid "REGISTRATION_PLACEHOLDER_EMAIL"
+msgstr "email@domain.com"
+
+#: ../../../index.php:163 ../../../test/index.php:124
+msgid "REGISTRATION_LABEL_PHONE"
+msgstr "Phone number"
+
+#: ../../../index.php:164 ../../../test/index.php:125
+msgid "REGISTRATION_PLACEHOLDER_PHONE"
+msgstr "+ 1 (999) 999-9999"
+
+#: ../../../index.php:169 ../../../test/index.php:130
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_1"
+msgstr "Address"
+
+#: ../../../index.php:170 ../../../test/index.php:131
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_1"
+msgstr "Your address"
+
+#: ../../../index.php:173 ../../../test/index.php:134
+msgid "REGISTRATION_LABEL_ADDRESS_LINE_2"
+msgstr "Address (Line 2)"
+
+#: ../../../index.php:174 ../../../test/index.php:135
+msgid "REGISTRATION_PLACEHOLDER_ADDRESS_LINE_2"
+msgstr "Your Address (Line 2)"
+
+#: ../../../index.php:177 ../../../test/index.php:138
+msgid "REGISTRATION_LABEL_CITY"
+msgstr "City"
+
+#: ../../../index.php:178 ../../../test/index.php:139
+msgid "REGISTRATION_PLACEHOLDER_CITY"
+msgstr "Your city"
+
+#: ../../../index.php:181 ../../../test/index.php:142
+msgid "REGISTRATION_LABEL_POSTCODE"
+msgstr "ZIP"
+
+#: ../../../index.php:182 ../../../test/index.php:143
+msgid "REGISTRATION_PLACEHOLDER_POSTCODE"
+msgstr "Your ZIP postal code"
+
+#: ../../../index.php:185 ../../../test/index.php:146
+msgid "REGISTRATION_LABEL_COUNTRY"
+msgstr "Country"
+
+#: ../../../index.php:191 ../../../test/index.php:152
+msgid "REGISTRATION_LABEL_STATE"
+msgstr "State"
+
+#: ../../../index.php:197 ../../../test/index.php:158
+msgid "REGISTRATION_LABEL_PROVINCE"
+msgstr "Province"
+
+#: ../../../index.php:203 ../../../test/index.php:164
+msgid "REGISTRATION_LABEL_INVITE"
+msgstr "Invite"
+
+#: ../../../index.php:204 ../../../test/index.php:165
+msgid "REGISTRATION_PLACEHOLDER_INVITE"
+msgstr "AAAA-AAAA-AAAA-AAAA"
+
+#: ../../../index.php:211 ../../../test/index.php:172
+msgid "REGISTRATION_SUBMIT"
+msgstr "Activate"
+
+#: ../../../index.php:214 ../../../test/index.php:175
+msgid "INTERNAL_ERROR"
+msgstr ""
+"Internal error occurred. Please, find our contact details at the bottom of "
+"the page."
+
+#: ../../../index.php:215 ../../../test/index.php:176
+msgid "YOU_ARE_LOCKED_OUT"
+msgstr "You access is blocked for 10 minutes. Please, get back later."
+
+#: ../../../index.php:216 ../../../test/index.php:177
+msgid "INVITE_INCORRECT"
+msgstr "Sorry, you provided wrong invite code. Please, try again."
+
+#: ../../../index.php:217 ../../../test/index.php:178
+msgid "INVITE_USED"
+msgstr "Unfortunately, your invite is already used by someone else."
+
+#: ../../../index.php:218 ../../../test/index.php:179
+msgid "INVITE_EXPIRED"
+msgstr "Unfortunately, your invite has expired."
+
+#: ../../../index.php:219 ../../../test/index.php:180
+msgid "BAD_CAPTCHA"
+msgstr "Wrong CAPTCHA input. Please, try again."
+
+#: ../../../php/province.php:1
+msgid "ALBERTA"
+msgstr ""
+
+#: ../../../php/province.php:2
+msgid "BRITISH_COLUMBIA"
+msgstr ""
+
+#: ../../../php/province.php:3
+msgid "MANITOBA"
+msgstr ""
+
+#: ../../../php/province.php:4
+msgid "NEWFOUNDLAND_AND_LABRADOR"
+msgstr ""
+
+#: ../../../php/province.php:5
+msgid "NEW_BRUNSWICK"
+msgstr ""
+
+#: ../../../php/province.php:6
+msgid "NORTHWEST_TERRITORIES"
+msgstr ""
+
+#: ../../../php/province.php:7
+msgid "NOVA_SCOTIA"
+msgstr ""
+
+#: ../../../php/province.php:8
+msgid "NUNAVUT"
+msgstr ""
+
+#: ../../../php/province.php:9
+msgid "ONTARIO"
+msgstr ""
+
+#: ../../../php/province.php:10
+msgid "PRINCE_EDWARD_ISLAND"
+msgstr ""
+
+#: ../../../php/province.php:11
+msgid "QUEBEC"
+msgstr ""
+
+#: ../../../php/province.php:12
+msgid "SASKATCHEWAN"
+msgstr ""
+
+#: ../../../php/province.php:13
+msgid "YUKON"
+msgstr ""
+
+#: ../../../php/state.php:1
+msgid "ALABAMA"
+msgstr ""
+
+#: ../../../php/state.php:2
+msgid "ALASKA"
+msgstr ""
+
+#: ../../../php/state.php:3
+msgid "ARIZONA"
+msgstr ""
+
+#: ../../../php/state.php:4
+msgid "ARKANSAS"
+msgstr ""
+
+#: ../../../php/state.php:5
+msgid "CALIFORNIA"
+msgstr ""
+
+#: ../../../php/state.php:6
+msgid "COLORADO"
+msgstr ""
+
+#: ../../../php/state.php:7
+msgid "CONNECTICUT"
+msgstr ""
+
+#: ../../../php/state.php:8
+msgid "DELAWARE"
+msgstr ""
+
+#: ../../../php/state.php:9
+msgid "DISTRICT_OF_COLUMBIA"
+msgstr ""
+
+#: ../../../php/state.php:10
+msgid "FLORIDA"
+msgstr ""
+
+#: ../../../php/state.php:11
+msgid "GEORGIA_STATE"
+msgstr ""
+
+#: ../../../php/state.php:12
+msgid "HAWAII"
+msgstr ""
+
+#: ../../../php/state.php:13
+msgid "IDAHO"
+msgstr ""
+
+#: ../../../php/state.php:14
+msgid "ILLINOIS"
+msgstr ""
+
+#: ../../../php/state.php:15
+msgid "INDIANA"
+msgstr ""
+
+#: ../../../php/state.php:16
+msgid "IOWA"
+msgstr ""
+
+#: ../../../php/state.php:17
+msgid "KANSAS"
+msgstr ""
+
+#: ../../../php/state.php:18
+msgid "KENTUCKY"
+msgstr ""
+
+#: ../../../php/state.php:19
+msgid "LOUISIANA"
+msgstr ""
+
+#: ../../../php/state.php:20
+msgid "MAINE"
+msgstr ""
+
+#: ../../../php/state.php:21
+msgid "MARYLAND"
+msgstr ""
+
+#: ../../../php/state.php:22
+msgid "MASSACHUSETTS"
+msgstr ""
+
+#: ../../../php/state.php:23
+msgid "MICHIGAN"
+msgstr ""
+
+#: ../../../php/state.php:24
+msgid "MINNESOTA"
+msgstr ""
+
+#: ../../../php/state.php:25
+msgid "MISSISSIPPI"
+msgstr ""
+
+#: ../../../php/state.php:26
+msgid "MISSOURI"
+msgstr ""
+
+#: ../../../php/state.php:27
+msgid "MONTANA"
+msgstr ""
+
+#: ../../../php/state.php:28
+msgid "NEBRASKA"
+msgstr ""
+
+#: ../../../php/state.php:29
+msgid "NEVADA"
+msgstr ""
+
+#: ../../../php/state.php:30
+msgid "NEW_HAMPSHIRE"
+msgstr ""
+
+#: ../../../php/state.php:31
+msgid "NEW_JERSEY"
+msgstr ""
+
+#: ../../../php/state.php:32
+msgid "NEW_MEXICO"
+msgstr ""
+
+#: ../../../php/state.php:33
+msgid "NEW_YORK"
+msgstr ""
+
+#: ../../../php/state.php:34
+msgid "NORTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:35
+msgid "NORTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:36
+msgid "OHIO"
+msgstr ""
+
+#: ../../../php/state.php:37
+msgid "OKLAHOMA"
+msgstr ""
+
+#: ../../../php/state.php:38
+msgid "OREGON"
+msgstr ""
+
+#: ../../../php/state.php:39
+msgid "PENNSYLVANIA"
+msgstr ""
+
+#: ../../../php/state.php:40
+msgid "PUERTO_RICO"
+msgstr ""
+
+#: ../../../php/state.php:41
+msgid "RHODE_ISLAND"
+msgstr ""
+
+#: ../../../php/state.php:42
+msgid "SOUTH_CAROLINA"
+msgstr ""
+
+#: ../../../php/state.php:43
+msgid "SOUTH_DAKOTA"
+msgstr ""
+
+#: ../../../php/state.php:44
+msgid "TENNESSEE"
+msgstr ""
+
+#: ../../../php/state.php:45
+msgid "TEXAS"
+msgstr ""
+
+#: ../../../php/state.php:46
+msgid "UTAH"
+msgstr ""
+
+#: ../../../php/state.php:47
+msgid "VERMONT"
+msgstr ""
+
+#: ../../../php/state.php:48
+msgid "VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:49
+msgid "WASHINGTON"
+msgstr ""
+
+#: ../../../php/state.php:50
+msgid "WEST_VIRGINIA"
+msgstr ""
+
+#: ../../../php/state.php:51
+msgid "WISCONSIN"
+msgstr ""
+
+#: ../../../php/state.php:52
+msgid "WYOMING"
+msgstr ""
+
+#: ../../../php/country.php:1
+msgid "COUNTRY_AD"
+msgstr ""
+
+#: ../../../php/country.php:2
+msgid "COUNTRY_AE"
+msgstr ""
+
+#: ../../../php/country.php:3
+msgid "COUNTRY_AF"
+msgstr ""
+
+#: ../../../php/country.php:4
+msgid "COUNTRY_AG"
+msgstr ""
+
+#: ../../../php/country.php:5
+msgid "COUNTRY_AI"
+msgstr ""
+
+#: ../../../php/country.php:6
+msgid "COUNTRY_AL"
+msgstr ""
+
+#: ../../../php/country.php:7
+msgid "COUNTRY_AM"
+msgstr ""
+
+#: ../../../php/country.php:8
+msgid "COUNTRY_AN"
+msgstr ""
+
+#: ../../../php/country.php:9
+msgid "COUNTRY_AO"
+msgstr ""
+
+#: ../../../php/country.php:10
+msgid "COUNTRY_AQ"
+msgstr ""
+
+#: ../../../php/country.php:11
+msgid "COUNTRY_AR"
+msgstr ""
+
+#: ../../../php/country.php:12
+msgid "COUNTRY_AS"
+msgstr ""
+
+#: ../../../php/country.php:13
+msgid "COUNTRY_AT"
+msgstr ""
+
+#: ../../../php/country.php:14
+msgid "COUNTRY_AU"
+msgstr ""
+
+#: ../../../php/country.php:15
+msgid "COUNTRY_AW"
+msgstr ""
+
+#: ../../../php/country.php:16
+msgid "COUNTRY_AX"
+msgstr ""
+
+#: ../../../php/country.php:17
+msgid "COUNTRY_AZ"
+msgstr ""
+
+#: ../../../php/country.php:18
+msgid "COUNTRY_BA"
+msgstr ""
+
+#: ../../../php/country.php:19
+msgid "COUNTRY_BB"
+msgstr ""
+
+#: ../../../php/country.php:20
+msgid "COUNTRY_BD"
+msgstr ""
+
+#: ../../../php/country.php:21
+msgid "COUNTRY_BE"
+msgstr ""
+
+#: ../../../php/country.php:22
+msgid "COUNTRY_BF"
+msgstr ""
+
+#: ../../../php/country.php:23
+msgid "COUNTRY_BG"
+msgstr ""
+
+#: ../../../php/country.php:24
+msgid "COUNTRY_BH"
+msgstr ""
+
+#: ../../../php/country.php:25
+msgid "COUNTRY_BI"
+msgstr ""
+
+#: ../../../php/country.php:26
+msgid "COUNTRY_BJ"
+msgstr ""
+
+#: ../../../php/country.php:27
+msgid "COUNTRY_BL"
+msgstr ""
+
+#: ../../../php/country.php:28
+msgid "COUNTRY_BM"
+msgstr ""
+
+#: ../../../php/country.php:29
+msgid "COUNTRY_BN"
+msgstr ""
+
+#: ../../../php/country.php:30
+msgid "COUNTRY_BO"
+msgstr ""
+
+#: ../../../php/country.php:31
+msgid "COUNTRY_BR"
+msgstr ""
+
+#: ../../../php/country.php:32
+msgid "COUNTRY_BS"
+msgstr ""
+
+#: ../../../php/country.php:33
+msgid "COUNTRY_BT"
+msgstr ""
+
+#: ../../../php/country.php:34
+msgid "COUNTRY_BV"
+msgstr ""
+
+#: ../../../php/country.php:35
+msgid "COUNTRY_BW"
+msgstr ""
+
+#: ../../../php/country.php:36
+msgid "COUNTRY_BY"
+msgstr ""
+
+#: ../../../php/country.php:37
+msgid "COUNTRY_BZ"
+msgstr ""
+
+#: ../../../php/country.php:38
+msgid "COUNTRY_CA"
+msgstr ""
+
+#: ../../../php/country.php:39
+msgid "COUNTRY_CC"
+msgstr ""
+
+#: ../../../php/country.php:40
+msgid "COUNTRY_CD"
+msgstr ""
+
+#: ../../../php/country.php:41
+msgid "COUNTRY_CF"
+msgstr ""
+
+#: ../../../php/country.php:42
+msgid "COUNTRY_CG"
+msgstr ""
+
+#: ../../../php/country.php:43
+msgid "COUNTRY_CH"
+msgstr ""
+
+#: ../../../php/country.php:44
+msgid "COUNTRY_CI"
+msgstr ""
+
+#: ../../../php/country.php:45
+msgid "COUNTRY_CK"
+msgstr ""
+
+#: ../../../php/country.php:46
+msgid "COUNTRY_CL"
+msgstr ""
+
+#: ../../../php/country.php:47
+msgid "COUNTRY_CM"
+msgstr ""
+
+#: ../../../php/country.php:48
+msgid "COUNTRY_CN"
+msgstr ""
+
+#: ../../../php/country.php:49
+msgid "COUNTRY_CO"
+msgstr ""
+
+#: ../../../php/country.php:50
+msgid "COUNTRY_CR"
+msgstr ""
+
+#: ../../../php/country.php:51
+msgid "COUNTRY_CU"
+msgstr ""
+
+#: ../../../php/country.php:52
+msgid "COUNTRY_CV"
+msgstr ""
+
+#: ../../../php/country.php:53
+msgid "COUNTRY_CX"
+msgstr ""
+
+#: ../../../php/country.php:54
+msgid "COUNTRY_CY"
+msgstr ""
+
+#: ../../../php/country.php:55
+msgid "COUNTRY_CZ"
+msgstr ""
+
+#: ../../../php/country.php:56
+msgid "COUNTRY_DE"
+msgstr ""
+
+#: ../../../php/country.php:57
+msgid "COUNTRY_DJ"
+msgstr ""
+
+#: ../../../php/country.php:58
+msgid "COUNTRY_DK"
+msgstr ""
+
+#: ../../../php/country.php:59
+msgid "COUNTRY_DM"
+msgstr ""
+
+#: ../../../php/country.php:60
+msgid "COUNTRY_DO"
+msgstr ""
+
+#: ../../../php/country.php:61
+msgid "COUNTRY_DZ"
+msgstr ""
+
+#: ../../../php/country.php:62
+msgid "COUNTRY_EC"
+msgstr ""
+
+#: ../../../php/country.php:63
+msgid "COUNTRY_EE"
+msgstr ""
+
+#: ../../../php/country.php:64
+msgid "COUNTRY_EG"
+msgstr ""
+
+#: ../../../php/country.php:65
+msgid "COUNTRY_EH"
+msgstr ""
+
+#: ../../../php/country.php:66
+msgid "COUNTRY_ER"
+msgstr ""
+
+#: ../../../php/country.php:67
+msgid "COUNTRY_ES"
+msgstr ""
+
+#: ../../../php/country.php:68
+msgid "COUNTRY_ET"
+msgstr ""
+
+#: ../../../php/country.php:69
+msgid "COUNTRY_FI"
+msgstr ""
+
+#: ../../../php/country.php:70
+msgid "COUNTRY_FJ"
+msgstr ""
+
+#: ../../../php/country.php:71
+msgid "COUNTRY_FK"
+msgstr ""
+
+#: ../../../php/country.php:72
+msgid "COUNTRY_FM"
+msgstr ""
+
+#: ../../../php/country.php:73
+msgid "COUNTRY_FO"
+msgstr ""
+
+#: ../../../php/country.php:74
+msgid "COUNTRY_FR"
+msgstr ""
+
+#: ../../../php/country.php:75
+msgid "COUNTRY_GA"
+msgstr ""
+
+#: ../../../php/country.php:76
+msgid "COUNTRY_GB"
+msgstr ""
+
+#: ../../../php/country.php:77
+msgid "COUNTRY_GD"
+msgstr ""
+
+#: ../../../php/country.php:78
+msgid "COUNTRY_GE"
+msgstr ""
+
+#: ../../../php/country.php:79
+msgid "COUNTRY_GF"
+msgstr ""
+
+#: ../../../php/country.php:80
+msgid "COUNTRY_GG"
+msgstr ""
+
+#: ../../../php/country.php:81
+msgid "COUNTRY_GH"
+msgstr ""
+
+#: ../../../php/country.php:82
+msgid "COUNTRY_GI"
+msgstr ""
+
+#: ../../../php/country.php:83
+msgid "COUNTRY_GL"
+msgstr ""
+
+#: ../../../php/country.php:84
+msgid "COUNTRY_GM"
+msgstr ""
+
+#: ../../../php/country.php:85
+msgid "COUNTRY_GN"
+msgstr ""
+
+#: ../../../php/country.php:86
+msgid "COUNTRY_GP"
+msgstr ""
+
+#: ../../../php/country.php:87
+msgid "COUNTRY_GQ"
+msgstr ""
+
+#: ../../../php/country.php:88
+msgid "COUNTRY_GR"
+msgstr ""
+
+#: ../../../php/country.php:89
+msgid "COUNTRY_GS"
+msgstr ""
+
+#: ../../../php/country.php:90
+msgid "COUNTRY_GT"
+msgstr ""
+
+#: ../../../php/country.php:91
+msgid "COUNTRY_GU"
+msgstr ""
+
+#: ../../../php/country.php:92
+msgid "COUNTRY_GW"
+msgstr ""
+
+#: ../../../php/country.php:93
+msgid "COUNTRY_GY"
+msgstr ""
+
+#: ../../../php/country.php:94
+msgid "COUNTRY_HK"
+msgstr ""
+
+#: ../../../php/country.php:95
+msgid "COUNTRY_HM"
+msgstr ""
+
+#: ../../../php/country.php:96
+msgid "COUNTRY_HN"
+msgstr ""
+
+#: ../../../php/country.php:97
+msgid "COUNTRY_HR"
+msgstr ""
+
+#: ../../../php/country.php:98
+msgid "COUNTRY_HT"
+msgstr ""
+
+#: ../../../php/country.php:99
+msgid "COUNTRY_HU"
+msgstr ""
+
+#: ../../../php/country.php:100
+msgid "COUNTRY_ID"
+msgstr ""
+
+#: ../../../php/country.php:101
+msgid "COUNTRY_IE"
+msgstr ""
+
+#: ../../../php/country.php:102
+msgid "COUNTRY_IL"
+msgstr ""
+
+#: ../../../php/country.php:103
+msgid "COUNTRY_IM"
+msgstr ""
+
+#: ../../../php/country.php:104
+msgid "COUNTRY_IN"
+msgstr ""
+
+#: ../../../php/country.php:105
+msgid "COUNTRY_IO"
+msgstr ""
+
+#: ../../../php/country.php:106
+msgid "COUNTRY_IQ"
+msgstr ""
+
+#: ../../../php/country.php:107
+msgid "COUNTRY_IR"
+msgstr ""
+
+#: ../../../php/country.php:108
+msgid "COUNTRY_IS"
+msgstr ""
+
+#: ../../../php/country.php:109
+msgid "COUNTRY_IT"
+msgstr ""
+
+#: ../../../php/country.php:110
+msgid "COUNTRY_JE"
+msgstr ""
+
+#: ../../../php/country.php:111
+msgid "COUNTRY_JM"
+msgstr ""
+
+#: ../../../php/country.php:112
+msgid "COUNTRY_JO"
+msgstr ""
+
+#: ../../../php/country.php:113
+msgid "COUNTRY_JP"
+msgstr ""
+
+#: ../../../php/country.php:114
+msgid "COUNTRY_KE"
+msgstr ""
+
+#: ../../../php/country.php:115
+msgid "COUNTRY_KG"
+msgstr ""
+
+#: ../../../php/country.php:116
+msgid "COUNTRY_KH"
+msgstr ""
+
+#: ../../../php/country.php:117
+msgid "COUNTRY_KI"
+msgstr ""
+
+#: ../../../php/country.php:118
+msgid "COUNTRY_KM"
+msgstr ""
+
+#: ../../../php/country.php:119
+msgid "COUNTRY_KN"
+msgstr ""
+
+#: ../../../php/country.php:120
+msgid "COUNTRY_KP"
+msgstr ""
+
+#: ../../../php/country.php:121
+msgid "COUNTRY_KR"
+msgstr ""
+
+#: ../../../php/country.php:122
+msgid "COUNTRY_KW"
+msgstr ""
+
+#: ../../../php/country.php:123
+msgid "COUNTRY_KY"
+msgstr ""
+
+#: ../../../php/country.php:124
+msgid "COUNTRY_KZ"
+msgstr ""
+
+#: ../../../php/country.php:125
+msgid "COUNTRY_LA"
+msgstr ""
+
+#: ../../../php/country.php:126
+msgid "COUNTRY_LB"
+msgstr ""
+
+#: ../../../php/country.php:127
+msgid "COUNTRY_LC"
+msgstr ""
+
+#: ../../../php/country.php:128
+msgid "COUNTRY_LI"
+msgstr ""
+
+#: ../../../php/country.php:129
+msgid "COUNTRY_LK"
+msgstr ""
+
+#: ../../../php/country.php:130
+msgid "COUNTRY_LR"
+msgstr ""
+
+#: ../../../php/country.php:131
+msgid "COUNTRY_LS"
+msgstr ""
+
+#: ../../../php/country.php:132
+msgid "COUNTRY_LT"
+msgstr ""
+
+#: ../../../php/country.php:133
+msgid "COUNTRY_LU"
+msgstr ""
+
+#: ../../../php/country.php:134
+msgid "COUNTRY_LV"
+msgstr ""
+
+#: ../../../php/country.php:135
+msgid "COUNTRY_LY"
+msgstr ""
+
+#: ../../../php/country.php:136
+msgid "COUNTRY_MA"
+msgstr ""
+
+#: ../../../php/country.php:137
+msgid "COUNTRY_MC"
+msgstr ""
+
+#: ../../../php/country.php:138
+msgid "COUNTRY_MD"
+msgstr ""
+
+#: ../../../php/country.php:139
+msgid "COUNTRY_ME"
+msgstr ""
+
+#: ../../../php/country.php:140
+msgid "COUNTRY_MF"
+msgstr ""
+
+#: ../../../php/country.php:141
+msgid "COUNTRY_MG"
+msgstr ""
+
+#: ../../../php/country.php:142
+msgid "COUNTRY_MH"
+msgstr ""
+
+#: ../../../php/country.php:143
+msgid "COUNTRY_MK"
+msgstr ""
+
+#: ../../../php/country.php:144
+msgid "COUNTRY_ML"
+msgstr ""
+
+#: ../../../php/country.php:145
+msgid "COUNTRY_MM"
+msgstr ""
+
+#: ../../../php/country.php:146
+msgid "COUNTRY_MN"
+msgstr ""
+
+#: ../../../php/country.php:147
+msgid "COUNTRY_MO"
+msgstr ""
+
+#: ../../../php/country.php:148
+msgid "COUNTRY_MP"
+msgstr ""
+
+#: ../../../php/country.php:149
+msgid "COUNTRY_MQ"
+msgstr ""
+
+#: ../../../php/country.php:150
+msgid "COUNTRY_MR"
+msgstr ""
+
+#: ../../../php/country.php:151
+msgid "COUNTRY_MS"
+msgstr ""
+
+#: ../../../php/country.php:152
+msgid "COUNTRY_MT"
+msgstr ""
+
+#: ../../../php/country.php:153
+msgid "COUNTRY_MU"
+msgstr ""
+
+#: ../../../php/country.php:154
+msgid "COUNTRY_MV"
+msgstr ""
+
+#: ../../../php/country.php:155
+msgid "COUNTRY_MW"
+msgstr ""
+
+#: ../../../php/country.php:156
+msgid "COUNTRY_MX"
+msgstr ""
+
+#: ../../../php/country.php:157
+msgid "COUNTRY_MY"
+msgstr ""
+
+#: ../../../php/country.php:158
+msgid "COUNTRY_MZ"
+msgstr ""
+
+#: ../../../php/country.php:159
+msgid "COUNTRY_NA"
+msgstr ""
+
+#: ../../../php/country.php:160
+msgid "COUNTRY_NC"
+msgstr ""
+
+#: ../../../php/country.php:161
+msgid "COUNTRY_NE"
+msgstr ""
+
+#: ../../../php/country.php:162
+msgid "COUNTRY_NF"
+msgstr ""
+
+#: ../../../php/country.php:163
+msgid "COUNTRY_NG"
+msgstr ""
+
+#: ../../../php/country.php:164
+msgid "COUNTRY_NI"
+msgstr ""
+
+#: ../../../php/country.php:165
+msgid "COUNTRY_NL"
+msgstr ""
+
+#: ../../../php/country.php:166
+msgid "COUNTRY_NO"
+msgstr ""
+
+#: ../../../php/country.php:167
+msgid "COUNTRY_NP"
+msgstr ""
+
+#: ../../../php/country.php:168
+msgid "COUNTRY_NR"
+msgstr ""
+
+#: ../../../php/country.php:169
+msgid "COUNTRY_NU"
+msgstr ""
+
+#: ../../../php/country.php:170
+msgid "COUNTRY_NZ"
+msgstr ""
+
+#: ../../../php/country.php:171
+msgid "COUNTRY_OM"
+msgstr ""
+
+#: ../../../php/country.php:172
+msgid "COUNTRY_PA"
+msgstr ""
+
+#: ../../../php/country.php:173
+msgid "COUNTRY_PE"
+msgstr ""
+
+#: ../../../php/country.php:174
+msgid "COUNTRY_PF"
+msgstr ""
+
+#: ../../../php/country.php:175
+msgid "COUNTRY_PG"
+msgstr ""
+
+#: ../../../php/country.php:176
+msgid "COUNTRY_PH"
+msgstr ""
+
+#: ../../../php/country.php:177
+msgid "COUNTRY_PK"
+msgstr ""
+
+#: ../../../php/country.php:178
+msgid "COUNTRY_PL"
+msgstr ""
+
+#: ../../../php/country.php:179
+msgid "COUNTRY_PM"
+msgstr ""
+
+#: ../../../php/country.php:180
+msgid "COUNTRY_PN"
+msgstr ""
+
+#: ../../../php/country.php:181
+msgid "COUNTRY_PR"
+msgstr ""
+
+#: ../../../php/country.php:182
+msgid "COUNTRY_PS"
+msgstr ""
+
+#: ../../../php/country.php:183
+msgid "COUNTRY_PT"
+msgstr ""
+
+#: ../../../php/country.php:184
+msgid "COUNTRY_PW"
+msgstr ""
+
+#: ../../../php/country.php:185
+msgid "COUNTRY_PY"
+msgstr ""
+
+#: ../../../php/country.php:186
+msgid "COUNTRY_QA"
+msgstr ""
+
+#: ../../../php/country.php:187
+msgid "COUNTRY_RE"
+msgstr ""
+
+#: ../../../php/country.php:188
+msgid "COUNTRY_RO"
+msgstr ""
+
+#: ../../../php/country.php:189
+msgid "COUNTRY_RS"
+msgstr ""
+
+#: ../../../php/country.php:190
+msgid "COUNTRY_RU"
+msgstr ""
+
+#: ../../../php/country.php:191
+msgid "COUNTRY_RW"
+msgstr ""
+
+#: ../../../php/country.php:192
+msgid "COUNTRY_SA"
+msgstr ""
+
+#: ../../../php/country.php:193
+msgid "COUNTRY_SB"
+msgstr ""
+
+#: ../../../php/country.php:194
+msgid "COUNTRY_SC"
+msgstr ""
+
+#: ../../../php/country.php:195
+msgid "COUNTRY_SD"
+msgstr ""
+
+#: ../../../php/country.php:196
+msgid "COUNTRY_SE"
+msgstr ""
+
+#: ../../../php/country.php:197
+msgid "COUNTRY_SG"
+msgstr ""
+
+#: ../../../php/country.php:198
+msgid "COUNTRY_SH"
+msgstr ""
+
+#: ../../../php/country.php:199
+msgid "COUNTRY_SI"
+msgstr ""
+
+#: ../../../php/country.php:200
+msgid "COUNTRY_SJ"
+msgstr ""
+
+#: ../../../php/country.php:201
+msgid "COUNTRY_SK"
+msgstr ""
+
+#: ../../../php/country.php:202
+msgid "COUNTRY_SL"
+msgstr ""
+
+#: ../../../php/country.php:203
+msgid "COUNTRY_SM"
+msgstr ""
+
+#: ../../../php/country.php:204
+msgid "COUNTRY_SN"
+msgstr ""
+
+#: ../../../php/country.php:205
+msgid "COUNTRY_SO"
+msgstr ""
+
+#: ../../../php/country.php:206
+msgid "COUNTRY_SR"
+msgstr ""
+
+#: ../../../php/country.php:207
+msgid "COUNTRY_ST"
+msgstr ""
+
+#: ../../../php/country.php:208
+msgid "COUNTRY_SV"
+msgstr ""
+
+#: ../../../php/country.php:209
+msgid "COUNTRY_SY"
+msgstr ""
+
+#: ../../../php/country.php:210
+msgid "COUNTRY_SZ"
+msgstr ""
+
+#: ../../../php/country.php:211
+msgid "COUNTRY_TC"
+msgstr ""
+
+#: ../../../php/country.php:212
+msgid "COUNTRY_TD"
+msgstr ""
+
+#: ../../../php/country.php:213
+msgid "COUNTRY_TF"
+msgstr ""
+
+#: ../../../php/country.php:214
+msgid "COUNTRY_TG"
+msgstr ""
+
+#: ../../../php/country.php:215
+msgid "COUNTRY_TH"
+msgstr ""
+
+#: ../../../php/country.php:216
+msgid "COUNTRY_TJ"
+msgstr ""
+
+#: ../../../php/country.php:217
+msgid "COUNTRY_TK"
+msgstr ""
+
+#: ../../../php/country.php:218
+msgid "COUNTRY_TL"
+msgstr ""
+
+#: ../../../php/country.php:219
+msgid "COUNTRY_TM"
+msgstr ""
+
+#: ../../../php/country.php:220
+msgid "COUNTRY_TN"
+msgstr ""
+
+#: ../../../php/country.php:221
+msgid "COUNTRY_TO"
+msgstr ""
+
+#: ../../../php/country.php:222
+msgid "COUNTRY_TR"
+msgstr ""
+
+#: ../../../php/country.php:223
+msgid "COUNTRY_TT"
+msgstr ""
+
+#: ../../../php/country.php:224
+msgid "COUNTRY_TV"
+msgstr ""
+
+#: ../../../php/country.php:225
+msgid "COUNTRY_TW"
+msgstr ""
+
+#: ../../../php/country.php:226
+msgid "COUNTRY_TZ"
+msgstr ""
+
+#: ../../../php/country.php:227
+msgid "COUNTRY_UA"
+msgstr ""
+
+#: ../../../php/country.php:228
+msgid "COUNTRY_UG"
+msgstr ""
+
+#: ../../../php/country.php:229
+msgid "COUNTRY_UM"
+msgstr ""
+
+#: ../../../php/country.php:230
+msgid "COUNTRY_US"
+msgstr ""
+
+#: ../../../php/country.php:231
+msgid "COUNTRY_UY"
+msgstr ""
+
+#: ../../../php/country.php:232
+msgid "COUNTRY_UZ"
+msgstr ""
+
+#: ../../../php/country.php:233
+msgid "COUNTRY_VA"
+msgstr ""
+
+#: ../../../php/country.php:234
+msgid "COUNTRY_VC"
+msgstr ""
+
+#: ../../../php/country.php:235
+msgid "COUNTRY_VE"
+msgstr ""
+
+#: ../../../php/country.php:236
+msgid "COUNTRY_VG"
+msgstr ""
+
+#: ../../../php/country.php:237
+msgid "COUNTRY_VI"
+msgstr ""
+
+#: ../../../php/country.php:238
+msgid "COUNTRY_VN"
+msgstr ""
+
+#: ../../../php/country.php:239
+msgid "COUNTRY_VU"
+msgstr ""
+
+#: ../../../php/country.php:240
+msgid "COUNTRY_WF"
+msgstr ""
+
+#: ../../../php/country.php:241
+msgid "COUNTRY_WS"
+msgstr ""
+
+#: ../../../php/country.php:242
+msgid "COUNTRY_YE"
+msgstr ""
+
+#: ../../../php/country.php:243
+msgid "COUNTRY_YT"
+msgstr ""
+
+#: ../../../php/country.php:244
+msgid "COUNTRY_ZA"
+msgstr ""
+
+#: ../../../php/country.php:245
+msgid "COUNTRY_ZM"
+msgstr ""
+
+#: ../../../php/country.php:246
+msgid "COUNTRY_ZW"
+msgstr ""
