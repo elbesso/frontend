@@ -10,7 +10,11 @@ error_reporting(E_ALL);
 class Registration_Form {
     private $connection;
     private $stmt_select_inv;
+    private $stmt_select_inv_date_activated;
+    private $stmt_select_inv_date_expire;
+    private $stmt_select_inv_user_id;
     private $stmt_select_usr;
+    private $stmt_select_usr_id;
     private $stmt_insert;
     private $stmt_update;
     private $user_id;
@@ -62,12 +66,12 @@ class Registration_Form {
             error_log("Connection failed: " . $this->connection->error);
         } else {
             $this->connection->set_charset("utf8");
-            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT * FROM invite WHERE invite = ?")) {
+            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT date_activated, date_expire, user_id FROM invite WHERE invite = ?")) {
                 error_log("Prepare failed(select invite): " . error_get_last());
             } else {
                 $this->stmt_select_inv->bind_param('s', $this->invite);
             }
-            if (!$this->stmt_select_usr = $this->connection->prepare("SELECT * FROM user WHERE name = ?
+            if (!$this->stmt_select_usr = $this->connection->prepare("SELECT id FROM user WHERE name = ?
                     AND surname = ? AND email = ?")) {
                 error_log("Prepare failed(select user): " . $this->connection->error);
             } else {
@@ -149,10 +153,10 @@ class Registration_Form {
 
                 $res = $this->connection->query("SELECT * FROM captcha_lockout WHERE ip = '$this->client_ip'");
                 if ($res->num_rows == 0) {
-                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', 0, 0)");
+                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', unix_timestamp(), 0)");
                 } else {
                     $row = $res->fetch_assoc();
-                    $first_failed_captcha_time = strtotime($row['first_failed_time']);
+                    $first_failed_captcha_time = $row['first_failed_time'];
                     $failed_captcha_count = $row['failed_count'];
                 }
                 if (($failed_captcha_count >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
@@ -162,7 +166,7 @@ class Registration_Form {
                         $failed_captcha_count++;
                         $this->response_html = "bad_captcha";
                         if (time() - $first_failed_captcha_time > $lockout_time) {
-                            $this->connection->query("UPDATE captcha_lockout SET first_failed_time = now(),
+                            $this->connection->query("UPDATE captcha_lockout SET first_failed_time = unix_timestamp(),
                             failed_count = 1 WHERE ip = '$this->client_ip'");
                         } else {
                             $this->connection->query("UPDATE captcha_lockout SET failed_count = $failed_captcha_count
@@ -171,10 +175,10 @@ class Registration_Form {
                     } else {
                         $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
                         if ($res->num_rows == 0) {
-                            $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', 0, 0)");
+                            $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', unix_timestamp(), 0)");
                         } else {
                             $row = $res->fetch_assoc();
-                            $first_failed_invite_time = strtotime($row['first_failed_time']);
+                            $first_failed_invite_time = $row['first_failed_time'];
                             $failed_invite_count = $row['failed_count'];
                         }
                         if (($failed_invite_count >= $bad_invite_limit) && (time() - $first_failed_invite_time < $lockout_time)) {
@@ -183,30 +187,34 @@ class Registration_Form {
                             if (!$this->stmt_select_inv->execute()) {
                                 error_log("Execute failed(select invite): " . $this->connection->error);
                             } else {
-                                if (!$res = $this->stmt_select_inv->get_result()) {
-                                    error_log("Get result failed(select invite): " . $this->connection->error);
+                                if (!$this->stmt_select_inv->store_result()) {
+                                    error_log("Store result failed(select invite): " . $this->connection->error);
                                 } else {
-                                    if ($res->num_rows == 0) {
+                                    if ($this->stmt_select_inv->num_rows == 0) {
                                         $this->response_html = "invite_incorrect";
                                         $failed_invite_count++;
                                         if (time() - $first_failed_invite_time > $lockout_time) {
-                                            $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
+                                            $this->connection->query("UPDATE invite_lockout SET first_failed_time = unix_timestamp(),
                                         failed_count = 1 WHERE ip = '$this->client_ip'");
                                         } else {
                                             $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
                                         WHERE ip = '$this->client_ip'");
                                         }
                                     } else {
-                                        $row = $res->fetch_assoc();
-                                        if ($row["date_activated"] != null or $row["user_id"] != null or (strtotime($row["date_expire"]) < time())) {
-                                            if ($row["date_activated"] != null or $row["user_id"] != null) {
+                                        $this->stmt_select_inv->bind_result($this->stmt_select_inv_date_activated,
+                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id);
+                                        $this->stmt_select_inv->fetch();
+                                        if ($this->stmt_select_inv_date_activated != null
+                                            or $this->stmt_select_inv_user_id != null
+                                            or (strtotime($this->stmt_select_inv_date_expire) < time())) {
+                                            if ($this->stmt_select_inv_date_activated != null or $this->stmt_select_inv_user_id != null) {
                                                 $this->response_html = "invite_used";
-                                            } else if (strtotime($row["date_expire"]) < time()) {
+                                            } else if (strtotime($this->stmt_select_inv_date_expire) < time()) {
                                                 $this->response_html = "invite_expired";
                                             }
                                             $failed_invite_count++;
                                             if (time() - $first_failed_invite_time > $lockout_time) {
-                                                $this->connection->query("UPDATE invite_lockout SET first_failed_time = now(),
+                                                $this->connection->query("UPDATE invite_lockout SET first_failed_time = unix_timestamp(),
                                         failed_count = 1 WHERE ip = '$this->client_ip'");
                                             } else {
                                                 $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
@@ -216,18 +224,19 @@ class Registration_Form {
                                             if (!$this->stmt_select_usr->execute()) {
                                                 error_log("Execute failed(select user): " . $this->connection->error);
                                             } else {
-                                                if (!$res = $this->stmt_select_usr->get_result()) {
-                                                    error_log("Get result failed(select user): " . $this->connection->error);
+                                                if (!$this->stmt_select_usr->store_result()) {
+                                                    error_log("Store result failed(select user): " . $this->connection->error);
                                                 } else {
-                                                    if ($res->num_rows == 0) {
+                                                    if ($this->stmt_select_usr->num_rows == 0) {
                                                         if (!$this->stmt_insert->execute()) {
                                                             error_log("Execute failed(insert): " . $this->connection->error);
                                                         } else {
                                                             $this->user_id = $this->stmt_insert->insert_id;
                                                         }
                                                     } else {
-                                                        $row = $res->fetch_assoc();
-                                                        $this->user_id = $row['id'];
+                                                        $this->stmt_select_usr->bind_result($this->stmt_select_usr_id);
+                                                        $this->stmt_select_usr->fetch();
+                                                        $this->user_id = $this->stmt_select_usr_id;
                                                     }
                                                     if (!$this->stmt_update->execute()) {
                                                         error_log("Execute failed(update): " . $this->connection->error);
