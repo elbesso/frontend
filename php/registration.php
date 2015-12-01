@@ -130,10 +130,10 @@ class Registration_Form {
         Address: $this->address\n
         Phone number: $this->phone_number\n
         Invite: $this->invite";
-        $MailHeader = 'From: support@oxygen-forensic.com'. "\r\n".
+        $headers = 'From: support@oxygen-forensic.com'. "\r\n".
             'Subject: Request from web'."\r\n".
             'X-Mailer: oxygen-forensic.com web form';
-        $mail = mail($to, $subj, $message, $MailHeader, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
+        $mail = mail($to, $subj, $message, $headers, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
         if (!$mail) {
             error_log("Unable to sent an email to the provided address");
         }
@@ -145,18 +145,19 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 600;
+                $lockout_time = 10;
                 $first_failed_invite_time = 0;
                 $first_failed_captcha_time = 0;
                 $failed_invite_count = 0;
                 $failed_captcha_count = 0;
+                $now = date('Y-m-d H:i:s', time());
 
                 $res = $this->connection->query("SELECT * FROM captcha_lockout WHERE ip = '$this->client_ip'");
                 if ($res->num_rows == 0) {
-                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', unix_timestamp(), 0)");
+                    $this->connection->query("INSERT INTO captcha_lockout VALUES ('$this->client_ip', 0, 0)");
                 } else {
                     $row = $res->fetch_assoc();
-                    $first_failed_captcha_time = $row['first_failed_time'];
+                    $first_failed_captcha_time = strtotime($row['first_failed_time']);
                     $failed_captcha_count = $row['failed_count'];
                 }
                 if (($failed_captcha_count >= $bad_captcha_limit) && (time() - $first_failed_captcha_time < $lockout_time)) {
@@ -166,7 +167,7 @@ class Registration_Form {
                         $failed_captcha_count++;
                         $this->response_html = "bad_captcha";
                         if (time() - $first_failed_captcha_time > $lockout_time) {
-                            $this->connection->query("UPDATE captcha_lockout SET first_failed_time = unix_timestamp(),
+                            $this->connection->query("UPDATE captcha_lockout SET first_failed_time = '$now',
                             failed_count = 1 WHERE ip = '$this->client_ip'");
                         } else {
                             $this->connection->query("UPDATE captcha_lockout SET failed_count = $failed_captcha_count
@@ -175,10 +176,10 @@ class Registration_Form {
                     } else {
                         $res = $this->connection->query("SELECT * FROM invite_lockout WHERE ip = '$this->client_ip'");
                         if ($res->num_rows == 0) {
-                            $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', unix_timestamp(), 0)");
+                            $this->connection->query("INSERT INTO invite_lockout VALUES ('$this->client_ip', 0, 0)");
                         } else {
                             $row = $res->fetch_assoc();
-                            $first_failed_invite_time = $row['first_failed_time'];
+                            $first_failed_invite_time = strtotime($row['first_failed_time']);
                             $failed_invite_count = $row['failed_count'];
                         }
                         if (($failed_invite_count >= $bad_invite_limit) && (time() - $first_failed_invite_time < $lockout_time)) {
@@ -194,7 +195,7 @@ class Registration_Form {
                                         $this->response_html = "invite_incorrect";
                                         $failed_invite_count++;
                                         if (time() - $first_failed_invite_time > $lockout_time) {
-                                            $this->connection->query("UPDATE invite_lockout SET first_failed_time = unix_timestamp(),
+                                            $this->connection->query("UPDATE invite_lockout SET first_failed_time = '$now',
                                         failed_count = 1 WHERE ip = '$this->client_ip'");
                                         } else {
                                             $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
@@ -214,7 +215,7 @@ class Registration_Form {
                                             }
                                             $failed_invite_count++;
                                             if (time() - $first_failed_invite_time > $lockout_time) {
-                                                $this->connection->query("UPDATE invite_lockout SET first_failed_time = unix_timestamp(),
+                                                $this->connection->query("UPDATE invite_lockout SET first_failed_time = '$now',
                                         failed_count = 1 WHERE ip = '$this->client_ip'");
                                             } else {
                                                 $this->connection->query("UPDATE invite_lockout SET failed_count = $failed_invite_count
