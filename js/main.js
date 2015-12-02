@@ -129,6 +129,7 @@ jQuery(function ($) {
                 dataType: 'json',
                 success: function (response) {
                     if (response.status) {
+                        ga('send', 'event', 'registration', 'success');
                         $(location).attr('href', 'thankyou.php');
                     }
                     $("#response").find("p").hide();
