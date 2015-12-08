@@ -117,21 +117,22 @@ class Registration_Form {
 
     function send_email() {
         $to = 'nike@oxygensoftware.com';
-        $subj = 'INVITE REGISTRATION REQUEST';
-        $message = "Name: $this->name\n
-        Surname: $this->surname\n
-        Organization: $this->organization\n
-        Position: $this->position\n
-        Email: $this->email\n
-        Country: $this->country\n
-        State: $this->state\n
-        City: $this->city\n
-        Postcode: $this->postcode\n
-        Address: $this->address\n
-        Phone number: $this->phone_number\n
-        Invite: $this->invite";
-        $headers = 'From: support@oxygen-forensic.com'. "\r\n".
-            'Subject: Request from web'."\r\n".
+        $subj = 'INVITE_REGISTRATION_REQUEST';
+        $message = "Product=OFDDemo\r\n".
+            "Firstname=$this->name\r\n".
+            "Lastname=$this->surname\r\n".
+            "Organization=$this->organization\r\n".
+            "Position=$this->position\r\n".
+            "Email=$this->email\r\n".
+            "Country=$this->country\r\n".
+            "State=$this->state\r\n".
+            "City=$this->city\r\n".
+            "Postcode=$this->postcode\r\n".
+            "Address=$this->address\r\n".
+            "PhoneNumber=$this->phone_number\r\n"/
+            "Invite=$this->invite";
+        $headers = 'From: invite@oxygen-forensic.com'. "\r\n".
+            'Subject: INVITE_REGISTRATION_REQUEST'."\r\n".
             'X-Mailer: oxygen-forensic.com web form';
         $mail = mail($to, $subj, $message, $headers, "/usr/sbin/sendmail -t -i -f''test@forensicsuite.com''");
         if (!$mail) {
