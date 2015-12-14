@@ -134,7 +134,7 @@ class Registration_Form {
             "City=$this->city\r\n".
             "Postcode=$this->postcode\r\n".
             "Address=$this->address\r\n".
-            "PhoneNumber=$this->phone_number\r\n"/
+            "PhoneNumber=$this->phone_number\r\n".
             "Invite=$this->invite";
         $headers = 'From: invite@oxygen-forensic.com'. "\r\n".
             'Subject: INVITE_REGISTRATION_REQUEST'."\r\n".
