@@ -71,10 +71,10 @@ require("php/setup.php")
         <div id="invite_main" class="container">
             <div class="row text-center">
                 <div class="form-group">
-                    <div class="col-lg-6 col-lg-offset-3">
+                    <div class="col-lg-4 col-lg-offset-4">
                         <h2 class="text-center"><?php echo gettext("INVITE_MAIN_TITLE") ?></h2>
                         <h3 class="text-center"><?php echo gettext("INVITE_MAIN_TITLE_DESCRIPTION ") ?></h3>
-                        <input type="text" class="form-control input-lg" id="invite_main_input"
+                        <input type="text" class="form-control input-lg text-center" id="invite_main_input"
                                placeholder="<?php echo gettext("INVITE_MAIN_PLACEHOLDER_INVITE") ?>">
                         <a id="invite_button" class="btn btn-default btn-lg my-btn" href="#registration">
                             <?php echo gettext("INVITE_MAIN_INVITE_BUTTON")?>
