@@ -42,7 +42,7 @@ require("php/setup.php")
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle yellow-background" data-toggle="dropdown" role="button"
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-haspopup="true" aria-expanded="false"><?php echo gettext("STICKY_NAV_LANGUAGE")?> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a id="en_US" href="#"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></a></li>
