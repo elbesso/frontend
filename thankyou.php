@@ -79,44 +79,44 @@ require("php/setup.php")
         </div>
     </header>
     <div id="about">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center"><?php echo gettext("ABOUT_TITLE")?></h2>
-                    <h3 class="text-center"><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
+                    <h2><?php echo gettext("ABOUT_TITLE")?></h2>
+                    <h3><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FIRST_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FIRST_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FIRST_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FIRST_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_SECOND_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_SECOND_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_SECOND_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_SECOND_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                        <img src="<?php echo gettext("ABOUT_THIRD_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_THIRD_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_THIRD_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FORTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FORTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FORTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FORTH_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FIFTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FIFTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FIFTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FIFTH_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_SIXTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_SIXTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_SIXTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_SIXTH_PROFILE_DESCRIPTION")?></p>
                 </div>
             </div>
