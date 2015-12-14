@@ -13,6 +13,7 @@ class Registration_Form {
     private $stmt_select_inv_date_activated;
     private $stmt_select_inv_date_expire;
     private $stmt_select_inv_user_id;
+    private $stmt_select_inv_product;
     private $stmt_select_usr;
     private $stmt_select_usr_id;
     private $stmt_insert;
@@ -35,6 +36,7 @@ class Registration_Form {
 
     public $response_status;
     public $response_html;
+    public $response_invite;
 
     function __construct($details) {
         date_default_timezone_set('UTC');
@@ -59,14 +61,17 @@ class Registration_Form {
         $this->address = $_POST['registration_address_line_1'].' '.$_POST['registration_address_line_2'];
         $this->phone_number = $_POST['registration_phone_number'];
         $this->invite = $_POST['registration_invite'];
+        $this->response_invite = $this->invite;
 
         $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
-        $this->captcha_resp = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=" . $secret . "&response=" . $_POST['g-recaptcha-response']), true);
+        $this->captcha_resp = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret="
+            . $secret . "&response=" . $_POST['g-recaptcha-response']), true);
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
         } else {
             $this->connection->set_charset("utf8");
-            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT date_activated, date_expire, user_id FROM invite WHERE invite = ?")) {
+            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT i.date_activated, i.date_expire, i.user_id, p.name
+            FROM invite i JOIN product p ON i.product_id = p.id WHERE invite = ?")) {
                 error_log("Prepare failed(select invite): " . error_get_last());
             } else {
                 $this->stmt_select_inv->bind_param('s', $this->invite);
@@ -118,7 +123,7 @@ class Registration_Form {
     function send_email() {
         $to = 'nike@oxygensoftware.com';
         $subj = 'INVITE_REGISTRATION_REQUEST';
-        $message = "Product=OFDDemo\r\n".
+        $message = "Product=$this->stmt_select_inv_product\r\n".
             "Firstname=$this->name\r\n".
             "Lastname=$this->surname\r\n".
             "Organization=$this->organization\r\n".
@@ -146,7 +151,7 @@ class Registration_Form {
                 && $this->stmt_update && $this->client_ip) {
                 $bad_invite_limit = 2;
                 $bad_captcha_limit = 3;
-                $lockout_time = 10;
+                $lockout_time = 600;
                 $first_failed_invite_time = 0;
                 $first_failed_captcha_time = 0;
                 $failed_invite_count = 0;
@@ -204,7 +209,7 @@ class Registration_Form {
                                         }
                                     } else {
                                         $this->stmt_select_inv->bind_result($this->stmt_select_inv_date_activated,
-                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id);
+                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id, $this->stmt_select_inv_product);
                                         $this->stmt_select_inv->fetch();
                                         if ($this->stmt_select_inv_date_activated != null
                                             or $this->stmt_select_inv_user_id != null
@@ -243,7 +248,8 @@ class Registration_Form {
                                                     if (!$this->stmt_update->execute()) {
                                                         error_log("Execute failed(update): " . $this->connection->error);
                                                     } else {
-                                                        $this->response_html = "WELCOME";
+                                                        $this->response_html = "success";
+                                                        $this->response_invite = $this->invite;
                                                         $this->response_status = 1;
                                                     }
                                                 }
@@ -259,6 +265,7 @@ class Registration_Form {
             $response = array();
             $response['status'] = $this->response_status;
             $response['html'] = $this->response_html;
+            $response['more'] = $this->response_invite;
             echo json_encode($response);
         }
     }
@@ -266,6 +273,6 @@ class Registration_Form {
 
 $registration_form = new Registration_Form($_POST);
 $registration_form->send_response();
-//if ($registration_form->response_status) {
-//    $registration_form->send_email();
-//}
+if ($registration_form->response_status) {
+    $registration_form->send_email();
+}

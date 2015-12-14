@@ -61,10 +61,14 @@ header {
 #my_navigation .nav .open>a,
 #my_navigation .nav .open>a:focus,
 #my_navigation .nav .open>a:hover,
-#my_navigation .nav>li>a:focus,
+#my_navigation .nav>li>a:focus:hover,
 #my_navigation .nav>li>a:hover,
 #my_navigation .dropdown-menu {
     background-color: #f89406;
+}
+
+#my_navigation .nav>li>a:focus {
+    background: #312A1E;
 }
 
 /* Slider */
@@ -136,10 +140,55 @@ header {
     -webkit-appearance: none;
 }
 
+#registration select.input-lg {
+    line-height: 1.42857143;
+}
+
+.glyphicon-refresh-animate {
+    -animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    -ms-animation: spin 2s infinite linear;
+    -moz-animation: spin 2s infinite linear;
+}
+
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+}
+
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+}
+
 /* About */
 #about {
     background-color: #F0F8FF;
     color: #312A1E;
+}
+
+#about h3 {
+    line-height: 1.5em;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5
+}
+
+#about .row {
+    margin-top: 1em;
+    margin-bottom: 1em
 }
 
 /* Contact */

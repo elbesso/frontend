@@ -26,18 +26,22 @@ jQuery(function ($) {
         fv.validate();
         if (fv.isValid()) {
             var fields = $registration_form.serialize();
+            var refresh_animation = $(this).find("#refresh_animation");
+            refresh_animation.show();
             $.ajax({
                 type: "POST",
                 url: "php/registration.php",
                 data: fields,
                 dataType: 'json',
                 success: function (response) {
-                    if (response.status) {
-                        ga('send', 'event', 'registration', 'success', $registration_form.find('#registration_invite').val());
-                        $(location).attr('href', 'thankyou.php');
-                    }
+                    refresh_animation.hide();
                     $("#response").find("p").hide();
-                    $("#response_".concat(response.html)).show();
+                    ga('send', 'event', 'registration', response.html, response.more);
+                    if (response.status) {
+                        $(location).attr('href', 'thankyou.php');
+                    } else {
+                        $("#response_".concat(response.html)).show();
+                    }
                 }
             });
             grecaptcha.reset();
@@ -47,6 +51,7 @@ jQuery(function ($) {
 
     $(document).ready(function() {
         $("#response").find("p").hide();
+        $("#refresh_animation").hide();
     });
 
     $('#invite_button').click(function () {

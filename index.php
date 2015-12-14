@@ -42,7 +42,7 @@ require("php/setup.php")
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle yellow-background" data-toggle="dropdown" role="button"
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
                            aria-haspopup="true" aria-expanded="false"><?php echo gettext("STICKY_NAV_LANGUAGE")?> <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a id="en_US" href="#"><?php echo gettext("STICKY_NAV_LANGUAGE_ENGLISH")?></a></li>
@@ -71,10 +71,10 @@ require("php/setup.php")
         <div id="invite_main" class="container">
             <div class="row text-center">
                 <div class="form-group">
-                    <div class="col-lg-8 col-lg-offset-2">
+                    <div class="col-lg-6 col-lg-offset-3">
                         <h2 class="text-center"><?php echo gettext("INVITE_MAIN_TITLE") ?></h2>
                         <h3 class="text-center"><?php echo gettext("INVITE_MAIN_TITLE_DESCRIPTION ") ?></h3>
-                        <input type="text" class="form-control input-lg " id="invite_main_input"
+                        <input type="text" class="form-control input-lg" id="invite_main_input"
                                placeholder="<?php echo gettext("INVITE_MAIN_PLACEHOLDER_INVITE") ?>">
                         <a id="invite_button" class="btn btn-default btn-lg my-btn" href="#registration">
                             <?php echo gettext("INVITE_MAIN_INVITE_BUTTON")?>
@@ -200,6 +200,7 @@ require("php/setup.php")
                     </div>
                     <div class="col-lg-6">
                         <a id="registration_submit" class="btn btn-default btn-lg my-btn" href="#registration">
+                            <span id="refresh_animation" class="glyphicon glyphicon-refresh glyphicon-refresh-animate"></span>
                             <?php echo gettext("REGISTRATION_SUBMIT")?>
                         </a>
                         <div id="response">
@@ -217,44 +218,44 @@ require("php/setup.php")
         </div>
     </div>
     <div id="about">
-        <div class="container">
+        <div class="container text-center">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="text-center"><?php echo gettext("ABOUT_TITLE")?></h2>
-                    <h3 class="text-center"><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
+                    <h2><?php echo gettext("ABOUT_TITLE")?></h2>
+                    <h3><?php echo gettext("ABOUT_TITLE_DESCRIPTION")?></h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FIRST_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FIRST_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FIRST_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FIRST_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FIRST_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_SECOND_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_SECOND_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_SECOND_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_SECOND_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_SECOND_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                        <img src="<?php echo gettext("ABOUT_THIRD_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_THIRD_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_THIRD_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_THIRD_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_THIRD_PROFILE_DESCRIPTION")?></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FORTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FORTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FORTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FORTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FORTH_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_FIFTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_FIFTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_FIFTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_FIFTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_FIFTH_PROFILE_DESCRIPTION")?></p>
                 </div>
-                <div class="col-lg-4">
-                    <img src="<?php echo gettext("ABOUT_SIXTH_IMG")?>" class="img-responsive" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
+                <div class="col-xs-12 col-sm-4">
                     <h3><?php echo gettext("ABOUT_SIXTH_PROFILE_NAME")?></h3>
+                    <img src="<?php echo gettext("ABOUT_SIXTH_IMG")?>" class="img-responsive center-block" alt="<?php echo gettext("ABOUT_SIXTH_IMG_ALT")?>">
                     <p><?php echo gettext("ABOUT_SIXTH_PROFILE_DESCRIPTION")?></p>
                 </div>
             </div>
