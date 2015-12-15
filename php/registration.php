@@ -13,7 +13,7 @@ class Registration_Form {
     private $stmt_select_inv_date_activated;
     private $stmt_select_inv_date_expire;
     private $stmt_select_inv_user_id;
-    private $stmt_select_inv_product;
+    private $stmt_select_inv_product_code;
     private $stmt_select_usr;
     private $stmt_select_usr_id;
     private $stmt_insert;
@@ -63,14 +63,22 @@ class Registration_Form {
         $this->invite = $_POST['registration_invite'];
         $this->response_invite = $this->invite;
 
+        $aContext = array(
+            'http' => array(
+                'proxy' => 'tcp://cache.jet.msk.su:8080',
+                'request_fulluri' => true,
+            ),
+        );
+        $cxContext = stream_context_create($aContext);
+
         $secret = "6LfbOxETAAAAAEJprF2vBWWdqE78G0bURcdPZ4YK";
         $this->captcha_resp = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret="
-            . $secret . "&response=" . $_POST['g-recaptcha-response']), true);
+            . $secret . "&response=" . $_POST['g-recaptcha-response'], false, $cxContext), true);
         if (!$this->connection = mysqli_connect("localhost", "backoffice", "backoffice", "backoffice")) {
             error_log("Connection failed: " . $this->connection->error);
         } else {
             $this->connection->set_charset("utf8");
-            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT i.date_activated, i.date_expire, i.user_id, p.name
+            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT i.date_activated, i.date_expire, i.user_id, p.product_code
             FROM invite i JOIN product p ON i.product_id = p.id WHERE invite = ?")) {
                 error_log("Prepare failed(select invite): " . error_get_last());
             } else {
@@ -123,7 +131,7 @@ class Registration_Form {
     function send_email() {
         $to = 'nike@oxygensoftware.com';
         $subj = 'INVITE_REGISTRATION_REQUEST';
-        $message = "Product=$this->stmt_select_inv_product\r\n".
+        $message = "Product=$this->stmt_select_inv_product_code\r\n".
             "Firstname=$this->name\r\n".
             "Lastname=$this->surname\r\n".
             "Organization=$this->organization\r\n".
@@ -209,7 +217,7 @@ class Registration_Form {
                                         }
                                     } else {
                                         $this->stmt_select_inv->bind_result($this->stmt_select_inv_date_activated,
-                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id, $this->stmt_select_inv_product);
+                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id, $this->stmt_select_inv_product_code);
                                         $this->stmt_select_inv->fetch();
                                         if ($this->stmt_select_inv_date_activated != null
                                             or $this->stmt_select_inv_user_id != null
