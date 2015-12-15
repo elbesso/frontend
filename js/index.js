@@ -10,9 +10,6 @@ jQuery(function ($) {
                 clearIfNotMatch: true
             };
             arguments[i].mask("AAAA-AAAA-AAAA-AAAA", options);
-            arguments[i].focusout(function () {
-                $(this).val($(this).val().toUpperCase());
-            })
         }
     }
 
