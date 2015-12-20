@@ -51,11 +51,7 @@ jQuery(function ($) {
         $("#refresh_animation").hide();
     });
 
-    $('#invite_button').click(function () {
-            var that = $('#invite_main_input');
-            $('#registration_invite').val(that.val());
-            $('body, html').animate({scrollTop: $('#registration').offset().top}, 750);
-    });
+
 
     function sortOptions(select) {
         var opt = select.find("option").sort(function (a,b) {
@@ -321,5 +317,13 @@ jQuery(function ($) {
         });
         var fv = form.data('formValidation');
         fv.setLocale($.cookie("locale"));
+    });
+
+    $('#invite_button').click(function () {
+        var that = $('#invite_main_input');
+        var inv = $('#registration_invite');
+        inv.val(that.val());
+        $('#registration_form').data('formValidation').revalidateField(inv);
+        $('body, html').animate({scrollTop: $('#registration').offset().top}, 750);
     });
 });
