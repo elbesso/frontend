@@ -287,11 +287,12 @@ jQuery(function ($) {
                             }
                         },
                         stringLength: {
+                            min: 16,
                             max: 255,
                             message: {
-                                en_US: 'hone number should not be longer than 255 characters',
-                                ru_RU: 'Телефон должен быть не длиннее 255 символов',
-                                es_ES: 'hone number should not be longer than 255 characters'
+                                en_US: 'Phone number should be 10 characters long',
+                                ru_RU: 'Телефонный номер должен состоять из 10 цифр',
+                                es_ES: 'Phone number should be 10 characters long'
                             }
                         }
                     }
@@ -306,11 +307,12 @@ jQuery(function ($) {
                             }
                         },
                         stringLength: {
+                            min: 19,
                             max: 19,
                             message: {
-                                en_US: 'Invite should not be longer than 16 characters',
-                                ru_RU: 'Инвайт должен быть не длиннее 16 символов',
-                                es_ES: 'Invite should not be longer than 16 characters'
+                                en_US: 'Invite should be 16 characters long',
+                                ru_RU: 'Инвайт должен быть 16 символов в длину',
+                                es_ES: 'Invite should be 16 characters long'
                             }
                         }
                     }
@@ -319,11 +321,5 @@ jQuery(function ($) {
         });
         var fv = form.data('formValidation');
         fv.setLocale($.cookie("locale"));
-        $("#registration_invite").focusout(function() {
-            fv.revalidateField($(this));
-        });
-        $("#registration_phone_number").focusout(function() {
-            fv.revalidateField($(this));
-        })
     });
 });

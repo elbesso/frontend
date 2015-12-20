@@ -99,6 +99,18 @@ header {
 
 }
 
+@media screen and (max-device-width: 1024px) {
+    #slider_first {
+        background-attachment: scroll;
+    }
+    #slider_second {
+        background-attachment: scroll;
+    }
+    #slider_third {
+        background-attachment: scroll;
+    }
+}
+
 /* Invite main */
 #invite_main {
     position: absolute;
