@@ -60,7 +60,7 @@ class Registration_Form {
         $this->postcode = $_POST['registration_postcode'];
         $this->address = $_POST['registration_address_line_1'].' '.$_POST['registration_address_line_2'];
         $this->phone_number = $_POST['registration_phone_number'];
-        $this->invite = $_POST['registration_invite'];
+        $this->invite = strtoupper($_POST['registration_invite']);
         $this->response_invite = $this->invite;
 
         $aContext = array(
