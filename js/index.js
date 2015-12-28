@@ -33,7 +33,7 @@ jQuery(function ($) {
                 success: function (response) {
                     refresh_animation.hide();
                     $("#response").find("p").hide();
-                    ga('send', 'event', 'registration', response.html, response.more);
+                    ga('send', 'event', response.html, response.comment, response.more);
                     if (response.status) {
                         $(location).attr('href', 'thankyou.php');
                     } else {

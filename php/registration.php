@@ -14,6 +14,7 @@ class Registration_Form {
     private $stmt_select_inv_date_expire;
     private $stmt_select_inv_user_id;
     private $stmt_select_inv_product_code;
+    private $stmt_select_inv_comment;
     private $stmt_select_usr;
     private $stmt_select_usr_id;
     private $stmt_insert;
@@ -78,7 +79,7 @@ class Registration_Form {
             error_log("Connection failed: " . $this->connection->error);
         } else {
             $this->connection->set_charset("utf8");
-            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT i.date_activated, i.date_expire, i.user_id, p.product_code
+            if (!$this->stmt_select_inv = $this->connection->prepare("SELECT i.date_activated, i.date_expire, i.user_id, i.comment, p.product_code
             FROM invite i JOIN product p ON i.product_id = p.id WHERE invite = ?")) {
                 error_log("Prepare failed(select invite): " . error_get_last());
             } else {
@@ -217,7 +218,7 @@ class Registration_Form {
                                         }
                                     } else {
                                         $this->stmt_select_inv->bind_result($this->stmt_select_inv_date_activated,
-                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id, $this->stmt_select_inv_product_code);
+                                            $this->stmt_select_inv_date_expire, $this->stmt_select_inv_user_id, $this->stmt_select_inv_comment, $this->stmt_select_inv_product_code);
                                         $this->stmt_select_inv->fetch();
                                         if ($this->stmt_select_inv_date_activated != null
                                             or $this->stmt_select_inv_user_id != null
@@ -272,6 +273,7 @@ class Registration_Form {
             }
             $response = array();
             $response['status'] = $this->response_status;
+            $response['comment'] = $this->response_status == 1 ? $this->stmt_select_inv_comment : 'N/A';
             $response['html'] = $this->response_html;
             $response['more'] = $this->response_invite;
             echo json_encode($response);
